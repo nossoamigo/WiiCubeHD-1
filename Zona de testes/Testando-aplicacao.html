@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes com aplicação backend</title>
+</head>
+<body>
+    <form action="https://api.staticforms.xyz/submit" method="POST">
+        <input type="hidden" name="accessKey" value="e44d061f-0323-4b54-b7c6-d694d524f35a">
+        <input type="hidden" name="redirectTo" value="https://www.youtube.com/watch?v=E5wp5bHi-4s&ab_channel=EdiCursos">
+
+        <label for="input-email-id">E-mail:</label>
+        <input type="email" name="email" id="input-email-id"> <br> <br>
+        <label for="input-nome-id">Nome:</label>
+        <input type="text" name="name" id="input-nome-id"> <br> <br>
+        <label for="text-area-id">Digite alguma observação:</label>
+        <textarea name="message" id="text-area-id" cols="30" rows="10" required maxlength="100"></textarea>
+
+        <button>Enviar mensagem</button>
+    </form>
+
+</body>
+</html>
