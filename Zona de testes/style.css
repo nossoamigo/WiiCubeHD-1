@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container-jogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightgray;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.jogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: lightgreen;
+    padding: 5px;
+    width: 200px;
+    margin: 5px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jogo:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.jogo > img {
+    max-height: 70px;
+}
