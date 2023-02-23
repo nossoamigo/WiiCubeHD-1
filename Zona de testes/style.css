@@ -33,3 +33,12 @@
 .jogo > img {
     max-height: 70px;
 }
+
+.tamanhoDoJogo {
+    display: inline-block;
+    font-size: 0.8em;
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    margin-top: 5px;
+}

@@ -8,6 +8,8 @@
     <title>Testes com aplicação backend</title>
 </head>
 <body>
+    <!-------Preencher formulário------->
+
     <form action="https://api.staticforms.xyz/submit" method="POST">
         <input type="hidden" name="accessKey" value="e44d061f-0323-4b54-b7c6-d694d524f35a">
         <input type="hidden" name="redirectTo" value="https://www.youtube.com/watch?v=E5wp5bHi-4s&ab_channel=EdiCursos">
@@ -22,15 +24,34 @@
         <button>Enviar mensagem</button>
     </form>
 
+    <!-------Selecionar HD------->
+    
+    <div class="tamanhoHd" id="seletorHd"> 
+        <label for="hd500gb">500 GB</label>
+        <input type="radio" name="radioTamanhoHd" id="hd500gb" onclick="selecionouHd500()">
+        <label for="hd1tb">1 TB</label>
+        <input type="radio" name="radioTamanhoHd" id="hd1tb" onclick="selecionouHd1tb()">
+        <label for="hd2tb">2 TB</label>
+        <input type="radio" name="radioTamanhoHd" id="hd2tb" onclick="selecionouHd2tb()">
+    </div>
+
+
+
+
+
+    <!-------Selecionar jogos------->
+
     <div class="container-jogo">
         <div class="jogo" id="SBLE5G" onclick="SBLE5G()">
             <img src="../imagens/US/front/SBLE5G.png" alt="A boy and his blob">
-            <p>A boy and his blob</p>
+            <p>A boy and his blob <br>
+            <span class="tamanhoDoJogo">1268 mb</span></p>
         </div>
 
         <div class="jogo" id="SDWP18" onclick="SDWP18()">
             <img src="../imagens/EN/front/SDWP18.png" alt="A shadow's Tale">
-            <p>A shadow's Tale</p>
+            <p>A boy and his blob <br>
+            <span class="tamanhoDoJogo">1276 mb</span></p>
         </div>
 
         <div class="jogo" id="R4LXUG" onclick="R4LXUG()">
@@ -54,7 +75,7 @@
         </div>
     </div>
 
-    <div class="res">
+    <div class="res" id="resultado">
         Resultado vai aqui
     </div>
 
