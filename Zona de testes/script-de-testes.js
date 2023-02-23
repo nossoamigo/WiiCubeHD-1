@@ -329,23 +329,22 @@ function S7DE52() {
     const jogo = '(S7DE52, Angry Birds Star Wars), ';
     const conteudoAtual = listaDeJogos.innerHTML;
     const ABSW = document.getElementById('S7DE52')
-
-    if (capacidadeAtual + 490000 > capacidadeMaxima) {
-      alert('Você excedeu o tamanho máximo!')
-    }else {
   
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
       ABSW.style.background = 'red'
-      capacidadeAtual = capacidadeAtual - 490000
+      capacidadeAtual = capacidadeAtual - 904
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
+      if (capacidadeAtual + 904 > capacidadeMaxima) {
+        alert('Você excedeu o tamanho máximo!')
+      }else {
       listaDeJogos.innerHTML = conteudoAtual + jogo + '';
       ABSW.style.background = 'green'
-      capacidadeAtual = capacidadeAtual + 490000
+      capacidadeAtual = capacidadeAtual + 904
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
+      }
     }
-  }
   } else {
     res.innerHTML = 'Selecione um HD'
   }
