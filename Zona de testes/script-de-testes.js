@@ -70,7 +70,7 @@ function SBLE5G() {
   
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      ABAHB.style.background = 'red'
+      ABAHB.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 1268
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -96,7 +96,7 @@ function SDWP18() {
   
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      AST.style.background = 'red'
+      AST.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 1276
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -122,7 +122,7 @@ function R4LXUG() {
   
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      APP.style.background = 'red'
+      APP.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 180
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -148,7 +148,7 @@ function R33E69() {
   
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      ACDC.style.background = 'red'
+      ACDC.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 2690
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -174,7 +174,7 @@ function R3HP6Z() {
   
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      AHHH.style.background = 'red'
+      AHHH.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 436
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -200,7 +200,7 @@ function RRKP70() {
   
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      AITD.style.background = 'red'
+      AITD.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 4194
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -226,7 +226,7 @@ function SALP4Q() {
   
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      AIW.style.background = 'red'
+      AIW.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 3896
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -252,7 +252,7 @@ function SFSPGT() {
 
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      ARH.style.background = 'red'
+      ARH.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 430
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -278,7 +278,7 @@ function RVBERS() {
 
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      ATC.style.background = 'red'
+      ATC.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 2156
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -305,7 +305,7 @@ function SAVE5G() {
 
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      ATCTS.style.background = 'red'
+      ATCTS.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 652
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -332,7 +332,7 @@ function S7DE52() {
   
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      ABSW.style.background = 'red'
+      ABSW.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - 904
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
