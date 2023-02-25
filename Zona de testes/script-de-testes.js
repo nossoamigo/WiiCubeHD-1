@@ -31,36 +31,6 @@ function selecionouHd2tb() {
 }
 
 
-/* Lista de jogos */
-
-  /*  MODELO BASE (APAGAR DEPOIS)
-
-  function XXXXX() {
-  if(hd500.checked || hd1tb.checked || hd2tb.checked) {
-    const jogo = '(XXXXX, XXXXXXXXXX), ';
-    const conteudoAtual = listaDeJogos.innerHTML;
-    const XXXXX = document.getElementById('XXXXX')
-  
-    if (conteudoAtual.indexOf(jogo) !== -1) {
-      listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      XXXXX.style.background = 'lightgreen'
-      capacidadeAtual = capacidadeAtual - XXXXX
-      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
-    } else {
-      if (capacidadeAtual + XXXXX > capacidadeMaxima) {
-      alert('Você excedeu o tamanho máximo!')
-      }else {
-      listaDeJogos.innerHTML = conteudoAtual + jogo + '';
-      XXXXX.style.background = 'green'
-      capacidadeAtual = capacidadeAtual + XXXXX
-      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
-      }
-    }
-  } else {
-    res.innerHTML = 'Selecione um HD'
-  }
-}
-*/
 
 function adicionarJogo(id, nome, tamanho) {
   if (hd500.checked || hd1tb.checked || hd2tb.checked) {
