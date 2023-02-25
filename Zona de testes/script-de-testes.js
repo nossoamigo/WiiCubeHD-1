@@ -10,7 +10,7 @@ var capacidadeMaxima = 0
 
 
 function selecionouHd500() {
-  capacidadeMaxima = 500000
+  capacidadeMaxima = 466000
   seletorHd.style.display = 'none'
   listaDeJogos.innerHTML = '**   HD de 500GB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
@@ -43,7 +43,7 @@ function selecionouHd2tb() {
   
     if (conteudoAtual.indexOf(jogo) !== -1) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
-      XXXXX.style.background = 'red'
+      XXXXX.style.background = 'lightgreen'
       capacidadeAtual = capacidadeAtual - XXXXX
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
     } else {
@@ -342,6 +342,84 @@ function S7DE52() {
       listaDeJogos.innerHTML = conteudoAtual + jogo + '';
       ABSW.style.background = 'green'
       capacidadeAtual = capacidadeAtual + 904
+      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
+      }
+    }
+  } else {
+    res.innerHTML = 'Selecione um HD'
+  }
+}
+
+function SAWE52() {
+  if(hd500.checked || hd1tb.checked || hd2tb.checked) {
+    const jogo = '(SAWE52, Angry Birds Trilogy), ';
+    const conteudoAtual = listaDeJogos.innerHTML;
+    const ABT = document.getElementById('SAWE52')
+  
+    if (conteudoAtual.indexOf(jogo) !== -1) {
+      listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
+      ABT.style.background = 'lightgreen'
+      capacidadeAtual = capacidadeAtual - 956
+      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
+    } else {
+      if (capacidadeAtual + 956 > capacidadeMaxima) {
+      alert('Você excedeu o tamanho máximo!')
+      }else {
+      listaDeJogos.innerHTML = conteudoAtual + jogo + '';
+      ABT.style.background = 'green'
+      capacidadeAtual = capacidadeAtual + 956
+      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
+      }
+    }
+  } else {
+    res.innerHTML = 'Selecione um HD'
+  }
+}
+
+function RUUE01() {
+  if(hd500.checked || hd1tb.checked || hd2tb.checked) {
+    const jogo = '(RUUE01, Animal Crossing Wii), ';
+    const conteudoAtual = listaDeJogos.innerHTML;
+    const ACWI = document.getElementById('RUUE01')
+  
+    if (conteudoAtual.indexOf(jogo) !== -1) {
+      listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
+      ACWI.style.background = 'lightgreen'
+      capacidadeAtual = capacidadeAtual - 324
+      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
+    } else {
+      if (capacidadeAtual + 324 > capacidadeMaxima) {
+      alert('Você excedeu o tamanho máximo!')
+      }else {
+      listaDeJogos.innerHTML = conteudoAtual + jogo + '';
+      ACWI.style.background = 'green'
+      capacidadeAtual = capacidadeAtual + 324
+      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
+      }
+    }
+  } else {
+    res.innerHTML = 'Selecione um HD'
+  }
+}
+
+function PDUE01() {
+  if(hd500.checked || hd1tb.checked || hd2tb.checked) {
+    const jogo = '(PDUE01, Another SUPER MARIO BROS), ';
+    const conteudoAtual = listaDeJogos.innerHTML;
+    const ASMB = document.getElementById('PDUE01')
+  
+    if (conteudoAtual.indexOf(jogo) !== -1) {
+      listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
+      ASMB.style.background = 'lightgreen'
+      capacidadeAtual = capacidadeAtual - 354
+      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
+    } else {
+      if (capacidadeAtual + 354 > capacidadeMaxima) {
+      alert('Você excedeu o tamanho máximo!')
+      }else {
+      listaDeJogos.innerHTML = conteudoAtual + jogo + '';
+      ASMB.style.background = 'green'
+      capacidadeAtual = capacidadeAtual + 354
       res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
       }
     }
