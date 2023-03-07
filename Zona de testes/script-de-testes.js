@@ -57,3 +57,4 @@ function adicionarJogo(id, nome, tamanho) {
     res.innerHTML = 'Selecione um HD';
   }
 }
+
