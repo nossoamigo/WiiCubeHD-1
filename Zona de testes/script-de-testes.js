@@ -32,6 +32,39 @@ function selecionouHd2tb() {
 
 
 
+fetch('arquivo.json')
+.then(response => response.json())
+.then(data => {
+  var container = document.getElementById("container-jogo");
+  data.itens.forEach(function(item) {
+      var div = document.createElement("div");
+      div.classList.add("jogo");
+      div.id = item.id;
+      div.onclick = function() {
+        adicionarJogo(item.id, item.nome, item.tamanho);
+      }
+    
+      var imagem = document.createElement("img");
+      imagem.src = item.imagem;
+      imagem.alt = item.nome;
+    
+      var nome = document.createElement("p");
+      nome.innerText = item.nome;
+    
+      var tamanho = document.createElement("span");
+      tamanho.classList.add("tamanhoDoJogo");
+      tamanho.innerText = item.tamanho + " mb";
+    
+      nome.appendChild(tamanho);
+      div.appendChild(imagem);
+      div.appendChild(nome);
+    
+      container.appendChild(div);
+    });
+  });
+
+
+
 function adicionarJogo(id, nome, tamanho) {
   if (hd500.checked || hd1tb.checked || hd2tb.checked) {
     const jogo = `(${id}, ${nome}), `;
@@ -57,4 +90,3 @@ function adicionarJogo(id, nome, tamanho) {
     res.innerHTML = 'Selecione um HD';
   }
 }
-
