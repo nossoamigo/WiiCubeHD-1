@@ -178,6 +178,120 @@
         "nome": "Ben 10 Omniverse 2",
         "tamanho": 618,
         "imagem": "../imagens/US/front/SVYEG9.png"
+        },
+        {
+        "id": "SBJEG9",
+        "nome": "Ben 10 Ultimate Alien: Cosmic Destruction",
+        "tamanho": 3430,
+        "imagem": "../imagens/US/front/SBJEG9.png"
+        },
+        {
+        "id": "SBBE18",
+        "nome": "BEYBLADE",
+        "tamanho": 236,
+        "imagem": "../imagens/US/front/SBBE18.png"
+        },
+        {
+        "id": "RN7P78",
+        "nome": "Big Family Games",
+        "tamanho": 600,
+        "imagem": "../imagens/EN/front/RN7P78.png"
+        },
+        {
+        "id": "RBHE08",
+        "nome": "biohazard0",
+        "tamanho": 3776,
+        "imagem": "../imagens/US/front/RBHE08.png"
+        },
+        {
+        "id": "R9BPMT",
+        "nome": "Bob the Builder",
+        "tamanho": 2406,
+        "imagem": "../imagens/EN/front/R9BPMT.png"
+        },
+        {
+        "id": "RLUX4Q",
+        "nome": "Bolt",
+        "tamanho": 3872,
+        "imagem": "../imagens/EN/front/RLUX4Q.png"
+        },
+        {
+        "id": "RBBE18",
+        "nome": "Bomberman Land",
+        "tamanho": 1512,
+        "imagem": "../imagens/US/front/RBBE18.png"
+        },
+        {
+        "id": "RYBE69",
+        "nome": "BOOM BLOX Bash Party",
+        "tamanho": 1146,
+        "imagem": "../imagens/US/front/RYBE69.png"
+        },
+        {
+        "id": "ST7P01",
+        "nome": "Boom Street",
+        "tamanho": 950,
+        "imagem": "../imagens/EN/front/ST7P01.png"
+        },
+        {
+        "id": "RWXES5",
+        "nome": "Brave",
+        "tamanho": 1880,
+        "imagem": "../imagens/US/front/RWXES5.png"
+        },
+        {
+        "id": "S6BE4Q",
+        "nome": "Brave",
+        "tamanho": 1404,
+        "imagem": "../imagens/US/front/S6BE4Q.png"
+        },
+        {
+        "id": "RB5E41",
+        "nome": "Brothers in Arms: Earned in Blood",
+        "tamanho": 2438,
+        "imagem": "../imagens/US/front/RB5E41.png"
+        },
+        {
+        "id": "RBPE4Z",
+        "nome": "Brunswick Pro Bowling",
+        "tamanho": 150,
+        "imagem": "../imagens/US/front/RBPE4Z.png"
+        },
+        {
+        "id": "RB7E54",
+        "nome": "Bully: Scholarship Edition",
+        "tamanho": 3372,
+        "imagem": "../imagens/US/front/RB7E54.png"
+        },
+        {
+        "id": "SB8EQH",
+        "nome": "Burger Bot",
+        "tamanho": 290,
+        "imagem": "../imagens/US/front/SB8EQH.png"
+        },
+        {
+        "id": "SC9P52",
+        "nome": "Cabela's Big Game Hunter 2010",
+        "tamanho": 2514,
+        "imagem": "../imagens/EN/front/SC9P52.png"
+        },
+        {
+        "id": "SH6E52",
+        "nome": "Cabela's Big Game Hunter 2012",
+        "tamanho": 1224,
+        "imagem": "../imagens/US/front/SH6E52.png"
+        },
+        {
+        "id": "SCDP52",
+        "nome": "Cabela's Dangerous Hunts 2011",
+        "tamanho": 1554,
+        "imagem": "../imagens/EN/front/SCDP52.png"
+        },
+        {
+        "id": "RJAE52",
+        "nome": "Call of Duty Modern Warfare Reflex",
+        "tamanho": 4028,
+        "imagem": "../imagens/US/front/RJAE52.png"
         }
     ]
  }
