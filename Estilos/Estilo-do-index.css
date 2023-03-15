@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background: url(../imagens/wallpaper/mario-kart.jpg);
+    background: url(../imagens/wallpaper/mario-kart.jpg) center no-repeat fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,15 +25,16 @@ body {
     height: 250px;
     border-radius: 50%;
     border: 2px solid white;
+    box-shadow: 0px 0px 9px 9px rgba(0, 0, 0, 0.3);
 }
 
 .botao:hover {
     width: 275px;
     height: 275px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
-.botao > a {
+a {
     text-decoration: none;
     color: white;
     font-size: 1.2em;

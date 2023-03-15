@@ -12,6 +12,7 @@ var capacidadeMaxima = 0
 function selecionouHd500() {
   capacidadeMaxima = 466000
   seletorHd.style.display = 'none'
+  res.style.display = 'block'
   listaDeJogos.innerHTML = '**   HD de 500GB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
 }
@@ -19,6 +20,7 @@ function selecionouHd500() {
 function selecionouHd1tb() {
   capacidadeMaxima = 1000000
   seletorHd.style.display = 'none'
+  res.style.display = 'block'
   listaDeJogos.innerHTML = '**   HD de 1TB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
 }
@@ -26,6 +28,7 @@ function selecionouHd1tb() {
 function selecionouHd2tb() {
   capacidadeMaxima = 2000000
   seletorHd.style.display = 'none'
+  res.style.display = 'block'
   listaDeJogos.innerHTML = '**   HD de 2TB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
 }
@@ -87,6 +90,6 @@ function adicionarJogo(id, nome, tamanho) {
       }
     }
   } else {
-    res.innerHTML = 'Selecione um HD';
+    alert('Selecione um HD');
   }
 }
