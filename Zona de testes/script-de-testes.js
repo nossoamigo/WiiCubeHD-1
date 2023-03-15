@@ -8,6 +8,7 @@ var capacidadeAtual = 0
 var capacidadeMaxima = 0
 
 
+// SELEÇÃO DE HD'S
 
 function selecionouHd500() {
   capacidadeMaxima = 466000
@@ -33,7 +34,25 @@ function selecionouHd2tb() {
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
 }
 
+//CONTROLE DE AUDIO
 
+var audio = new Audio('../Musicas/Super mario lofi.mp3');
+audio.volume = 0.3;
+audio.play();
+
+function muteAllAudios() {
+    if (audio.muted == false) {
+      audio.muted = true;
+      document.getElementById('idDoAudio').innerHTML = 'music_off'
+    } else {
+      if (audio.muted == true) {
+        audio.muted = false;
+        document.getElementById('idDoAudio').innerHTML = 'music_note'
+      }
+    }
+}
+
+//TRANSFORMANDO O JSON EM ITENS
 
 fetch('arquivo.json')
 .then(response => response.json())
@@ -66,7 +85,7 @@ fetch('arquivo.json')
     });
   });
 
-
+// VALIDANDO
 
 function adicionarJogo(id, nome, tamanho) {
   if (hd500.checked || hd1tb.checked || hd2tb.checked) {
