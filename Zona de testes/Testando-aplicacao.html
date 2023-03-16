@@ -40,10 +40,22 @@
     <!--Filtros-->
 
     <div id="filtrosContainer">
-        <div class="itensFiltro" onclick="filtroTodosOsMarios()">Todos os marios</div>
-        <div class="itensFiltro">2</div>
-        <div class="itensFiltro">3</div>
-        <div class="itensFiltro">4</div>
+        <div class="itensFiltro" id="filtroTodosOsMarios" onclick="filtroTodosOsMarios()">
+            <p>Todos os marios</p>
+            <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsMarios"></div>
+        </div>
+        <div class="itensFiltro" id="filtroTodosOsPopulares" onclick="filtroTodosOsPopulares()">
+            <p>Os mais populares</p>
+            <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsPopulares"></div>
+        </div>
+        <div class="itensFiltro" id="filtroTodosOsFifa" onclick="filtroTodosOsFifa()">
+            <p>Todos os FIFA</p>
+            <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsFifa"></div>
+        </div>
+        <div class="itensFiltro" id="filtroAutoCompletar" onclick="filtroAutoCompletar()">
+            <p>Autocompletar espaço vazio por conta do vendedor</p>
+            <div class="checkBoxDoFiltro" id="checkBoxFiltroAutoCompletar"></div>
+        </div>
     </div>
 
     <!-------Selecionar jogos------->

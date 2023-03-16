@@ -16,7 +16,7 @@ function selecionouPen60() {
   seletorHd.style.color = 'yellow'
 
   res.style.display = 'block'
-  listaDeJogos.innerHTML = '**   Pendrive de 60GB   **,' + '\n'
+  listaDeJogos.innerHTML += '**   Pendrive de 60GB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
 }
 
@@ -26,7 +26,7 @@ function selecionouHd500gb() {
   seletorHd.style.color = 'yellow'
 
   res.style.display = 'block'
-  listaDeJogos.innerHTML = '**   HD de 1TB   **,' + '\n'
+  listaDeJogos.innerHTML += '**   HD de 1TB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
 }
 
@@ -37,7 +37,7 @@ function selecionouHd1tb() {
 
 
   res.style.display = 'block'
-  listaDeJogos.innerHTML = '**   HD de 2TB   **,' + '\n'
+  listaDeJogos.innerHTML += '**   HD de 2TB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
 }
 
@@ -104,7 +104,7 @@ function adicionarJogo(id, nome, tamanho) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
       jogoElement.style.background = 'lightgreen';
       capacidadeAtual -= tamanho;
-      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`;
+      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`; 
     } else {
       if (capacidadeAtual + tamanho > capacidadeMaxima) {
         alert('Você excedeu o tamanho máximo!');
@@ -112,7 +112,7 @@ function adicionarJogo(id, nome, tamanho) {
         listaDeJogos.innerHTML = conteudoAtual + jogo + '';
         jogoElement.style.background = 'green';
         capacidadeAtual += tamanho;
-        res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`;
+        res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
       }
     }
   } else {
@@ -129,30 +129,119 @@ function adicionarJogo(id, nome, tamanho) {
 
 // FILTROS
 
+let todosOsMariosJaFoiClicado = false
 function filtroTodosOsMarios() {
-  if (pen60.checked || hd500.checked || hd1tb.checked) {
-    adicionarJogo('PDUE01', 'Another SUPER MARIO BROS', 354)
-    adicionarJogo('ROLE8P', 'Mario and Sonic at the Olympic Winter Games', 3464)
-    adicionarJogo('SIIE8P', 'Mario and Sonic LONDON', 4078)
-    adicionarJogo('CKBE88', 'Mario Kart Black', 3366)
-    adicionarJogo('RMCE91', 'Mario Kart Fusion Cris Style', 2514)
-    adicionarJogo('RM8E01', 'Mario Party 8', 1392)
-    adicionarJogo('SSQE01', 'Mario Party 9', 794)
-    adicionarJogo('RMKE01', 'MARIO SPORTS MIX', 2322)
-    adicionarJogo('R4QE01', 'Mario Strikers Charged', 1878)
-    adicionarJogo('RMBE01', 'Mario Super Sluggers', 1438)
-    adicionarJogo('RMCE01', 'MarioKartWii', 2646)
-    adicionarJogo('RMAE01', 'MarioTennisGC(Wii Version)', 1478)
-    adicionarJogo('SMNE01', 'New SUPER MARIO BROS. Wii', 348)
-    adicionarJogo('SMWP01', 'Newer Super Mario World U', 854)
-  } else {
-    alert('Selecione um HD/PENDRIVE');
-    window.scrollTo(0, 0);
-    setTimeout(function() {
-      seletorHd.style.backgroundColor = "yellow";
+  if (todosOsMariosJaFoiClicado == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + 27000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 27GB para selecionar todos os marios')
+      } else {
+      adicionarJogo('PDUE01', 'Another SUPER MARIO BROS', 354)
+      adicionarJogo('ROLE8P', 'Mario and Sonic at the Olympic Winter Games', 3464)
+      adicionarJogo('SIIE8P', 'Mario and Sonic LONDON', 4078)
+      adicionarJogo('CKBE88', 'Mario Kart Black', 3366)
+      adicionarJogo('RMCE91', 'Mario Kart Fusion Cris Style', 2514)
+      adicionarJogo('RM8E01', 'Mario Party 8', 1392)
+      adicionarJogo('SSQE01', 'Mario Party 9', 794)
+      adicionarJogo('RMKE01', 'MARIO SPORTS MIX', 2322)
+      adicionarJogo('R4QE01', 'Mario Strikers Charged', 1878)
+      adicionarJogo('RMBE01', 'Mario Super Sluggers', 1438)
+      adicionarJogo('RMCE01', 'MarioKartWii', 2646)
+      adicionarJogo('RMAE01', 'MarioTennisGC(Wii Version)', 1478)
+      adicionarJogo('SMNE01', 'New SUPER MARIO BROS. Wii', 348)
+      adicionarJogo('SMWP01', 'Newer Super Mario World U', 854)
+      document.getElementById('checkBoxFiltroTodosOsMarios').innerHTML = '<span class=\"material-icons\">check</span>'
+      todosOsMariosJaFoiClicado = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
       setTimeout(function() {
-        seletorHd.style.backgroundColor = "transparent";
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
       }, 500);
-    }, 500);
+    }
+  }
+}
+
+let todosOsPopularesJaFoiClicado = false
+function filtroTodosOsPopulares() {
+  if (todosOsPopularesJaFoiClicado == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + 57000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 57GB para selecionar todos os populares')
+      } else {
+      adicionarJogo('RYBE69', 'BOOM BLOX Bash Party', 1146)
+      adicionarJogo('SF8E01', 'Donkey Kong Country Returns', 3412)
+      adicionarJogo('R2GEXJ', 'FRAGILE DREAMS', 3928)
+      adicionarJogo('S72E01', 'Kirby\'s Dream Collection Special Edition', 1820)
+      adicionarJogo('RZZE8P', 'MadWorld', 3650)
+      adicionarJogo('RMCE01', 'Mario Kart Wii', 2646)
+      adicionarJogo('R3ME01', 'Metroid Prime Trilogy', 7780)
+      adicionarJogo('RSFE7U', 'MURAMASA: THE DEMON BLADE', 630)
+      adicionarJogo('RNHE41', 'NO MORE HEROES', 3360)
+      adicionarJogo('RUYE41', 'No More Heroes 2: Desperate Struggle', 3334)
+      adicionarJogo('R7PE01', 'Punch Out', 3726)
+      adicionarJogo('SOUE01', 'The Legend of Zelda Skyward Sword', 4214)
+      adicionarJogo('RZDE01', 'The Legend of Zelda Twilight Princess', 1100)
+      adicionarJogo('SK3EEB', 'TRAUMA TEAM', 3482)
+      adicionarJogo('SX4E01', 'Xenoblade Chronicles', 6464)
+      adicionarJogo('RTZE08', 'Zack and Wiki: Quest for Barbaros\' Treasure', 1992)
+      adicionarJogo('RB4E08', 'Resident Evil 4 Wii Edition', 4064)
+
+      document.getElementById('checkBoxFiltroTodosOsPopulares').innerHTML = '<span class=\"material-icons\">check</span>'
+      todosOsPopularesJaFoiClicado = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
+      }, 500);
+    }
+  }
+}
+
+let todosOsFifaJaFoiClicado = false
+function filtroTodosOsFifa() {
+  if (todosOsFifaJaFoiClicado == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + 15000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 15GB para selecionar todos os FIFA')
+      } else {
+      adicionarJogo('RF9P69', 'FIFA 09 All-Play', 3082)
+      adicionarJogo('SI3E69', 'FIFA 12', 3780)
+      adicionarJogo('SVHX69', 'FIFA 14', 4026)
+      adicionarJogo('SQVE69', 'FIFA 15', 4020)
+
+      document.getElementById('checkBoxFiltroTodosOsFifa').innerHTML = '<span class=\"material-icons\">check</span>'
+      todosOsFifaJaFoiClicado = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
+      }, 500);
+    }
+  }
+}
+
+let clicouAutoCompletar = false
+function filtroAutoCompletar() {
+  if (clicouAutoCompletar == true) {
+
+  } else {
+    document.getElementById('checkBoxFiltroAutoCompletar').innerHTML = '<span class=\"material-icons\">check</span>'
+    listaDeJogos.innerHTML += '*****AUTOCOMPLETAR POR CONTA DO VENDEDOR*****,' + '\n'
+    clicouAutoCompletar = true
   }
 }
