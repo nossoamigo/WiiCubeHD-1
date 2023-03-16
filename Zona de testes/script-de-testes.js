@@ -132,8 +132,8 @@ function adicionarJogo(id, nome, tamanho) {
 function filtroTodosOsMarios() {
   if (pen60.checked || hd500.checked || hd1tb.checked) {
     adicionarJogo('PDUE01', 'Another SUPER MARIO BROS', 354)
-    adicionarJogo('ROLE8P', 'Mario & Sonic at the Olympic Winter Games', 3464)
-    adicionarJogo('SIIE8P', 'Mario & Sonic LONDON', 4078)
+    adicionarJogo('ROLE8P', 'Mario and Sonic at the Olympic Winter Games', 3464)
+    adicionarJogo('SIIE8P', 'Mario and Sonic LONDON', 4078)
     adicionarJogo('CKBE88', 'Mario Kart Black', 3366)
     adicionarJogo('RMCE91', 'Mario Kart Fusion Cris Style', 2514)
     adicionarJogo('RM8E01', 'Mario Party 8', 1392)
