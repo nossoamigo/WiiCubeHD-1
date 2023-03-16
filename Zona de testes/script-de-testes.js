@@ -17,7 +17,7 @@ function selecionouPen60() {
 
   res.style.display = 'block'
   listaDeJogos.innerHTML += '**   Pendrive de 60GB   **,' + '\n'
-  res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
+  res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
 }
 
 function selecionouHd500gb() {
@@ -27,7 +27,7 @@ function selecionouHd500gb() {
 
   res.style.display = 'block'
   listaDeJogos.innerHTML += '**   HD de 1TB   **,' + '\n'
-  res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
+  res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
 }
 
 function selecionouHd1tb() {
@@ -38,7 +38,7 @@ function selecionouHd1tb() {
 
   res.style.display = 'block'
   listaDeJogos.innerHTML += '**   HD de 2TB   **,' + '\n'
-  res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
+  res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
 }
 
 //CONTROLE DE AUDIO
@@ -105,6 +105,10 @@ function adicionarJogo(id, nome, tamanho) {
       jogoElement.style.background = 'lightgreen';
       capacidadeAtual -= tamanho;
       res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
+
+      if (capacidadeAtual <= capacidadeMaxima / 2) {res.style.color = 'black'} // cores do res
+      if (capacidadeAtual >= capacidadeMaxima / 2) {res.style.color = '#ff9100'} // cores do res
+      if (capacidadeAtual >= (capacidadeMaxima - 0.2 * capacidadeMaxima)) {res.style.color = 'red'} // cores do res
     } else {
       if (capacidadeAtual + tamanho > capacidadeMaxima) {
         alert('Você excedeu o tamanho máximo!');
@@ -113,6 +117,10 @@ function adicionarJogo(id, nome, tamanho) {
         jogoElement.style.background = 'green';
         capacidadeAtual += tamanho;
         res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
+
+        if (capacidadeAtual <= capacidadeMaxima / 2) {res.style.color = 'black'} // cores do res
+        if (capacidadeAtual >= capacidadeMaxima / 2) {res.style.color = '#ff9100'} // cores do res
+        if (capacidadeAtual >= (capacidadeMaxima - 0.2 * capacidadeMaxima)) {res.style.color = 'red'} // cores do res
       }
     }
   } else {
