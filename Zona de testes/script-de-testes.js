@@ -104,7 +104,7 @@ function adicionarJogo(id, nome, tamanho) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
       jogoElement.style.background = 'lightgreen';
       capacidadeAtual -= tamanho;
-      res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`; 
+      res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
     } else {
       if (capacidadeAtual + tamanho > capacidadeMaxima) {
         alert('Você excedeu o tamanho máximo!');
