@@ -21,7 +21,6 @@
         <input type="email" name="email" id="input-email-id" required> <br> <br>
         <label for="input-nome-id">Nome:</label>
         <input type="text" name="name" id="input-nome-id" required> <br> <br>
-       <!-- <label for="text-area-id">Digite alguma observação:</label> -->
         <textarea name="message" id="text-area-id" cols="30" rows="10" required maxlength="100" readonly></textarea>
 
         <button id="botaoDeEnviar">Enviar pedido</button>
@@ -30,12 +29,12 @@
     <!-------Selecionar HD------->
     
     <div class="tamanhoHd" id="seletorHd"> 
-        <label for="hd500gb">500 GB</label>
-        <input type="radio" name="radioTamanhoHd" id="hd500gb" onclick="selecionouHd500()">
-        <label for="hd1tb">1 TB</label>
+        <label for="pen60gb">PENDRIVE 60 GB</label>
+        <input type="radio" name="radioTamanhoHd" id="pen60gb" onclick="selecionouPen60()">
+        <label for="hd500gb">HD 500 GB</label>
+        <input type="radio" name="radioTamanhoHd" id="hd500gb" onclick="selecionouHd500gb()">
+        <label for="hd1tb">HD 1 TB</label>
         <input type="radio" name="radioTamanhoHd" id="hd1tb" onclick="selecionouHd1tb()">
-        <label for="hd2tb">2 TB</label>
-        <input type="radio" name="radioTamanhoHd" id="hd2tb" onclick="selecionouHd2tb()">
     </div>
 
     <!-------Selecionar jogos------->

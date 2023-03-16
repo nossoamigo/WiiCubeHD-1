@@ -1,7 +1,7 @@
 const listaDeJogos = document.getElementById('text-area-id')
+const pen60 = document.getElementById('pen60gb')
 const hd500 = document.getElementById('hd500gb')
 const hd1tb = document.getElementById('hd1tb')
-const hd2tb = document.getElementById('hd2tb')
 const res = document.getElementById('resultado')
 const seletorHd = document.getElementById('seletorHd')
 var capacidadeAtual = 0
@@ -10,25 +10,35 @@ var capacidadeMaxima = 0
 
 // SELEÇÃO DE HD'S
 
-function selecionouHd500() {
-  capacidadeMaxima = 466000
-  seletorHd.style.display = 'none'
+function selecionouPen60() {
+  capacidadeMaxima = 57000
+  /*seletorHd.style.display = 'none'*/
+  seletorHd.innerHTML = 'O Pendrive de 60GB tem por padrão 57GB utilizáveis'
+  seletorHd.style.color = 'yellow'
+
   res.style.display = 'block'
-  listaDeJogos.innerHTML = '**   HD de 500GB   **,' + '\n'
+  listaDeJogos.innerHTML = '**   Pendrive de 60GB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
 }
 
-function selecionouHd1tb() {
-  capacidadeMaxima = 1000000
-  seletorHd.style.display = 'none'
+function selecionouHd500gb() {
+  capacidadeMaxima = 477000
+  /*seletorHd.style.display = 'none' */
+  seletorHd.innerHTML = 'O HD de 500GB tem por padrão 477GB utilizáveis'
+  seletorHd.style.color = 'yellow'
+
   res.style.display = 'block'
   listaDeJogos.innerHTML = '**   HD de 1TB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
 }
 
-function selecionouHd2tb() {
-  capacidadeMaxima = 2000000
-  seletorHd.style.display = 'none'
+function selecionouHd1tb() {
+  capacidadeMaxima = 977000
+  /*seletorHd.style.display = 'none'*/
+  seletorHd.innerHTML = 'O HD de 1 TB tem por padrão 977GB utilizáveis'
+  seletorHd.style.color = 'yellow'
+
+
   res.style.display = 'block'
   listaDeJogos.innerHTML = '**   HD de 2TB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual} / ${capacidadeMaxima}`
@@ -88,7 +98,7 @@ fetch('arquivo.json')
 // VALIDANDO
 
 function adicionarJogo(id, nome, tamanho) {
-  if (hd500.checked || hd1tb.checked || hd2tb.checked) {
+  if (pen60.checked || hd500.checked || hd1tb.checked) {
     const jogo = `(${id}, ${nome}), `;
     const conteudoAtual = listaDeJogos.innerHTML;
     const jogoElement = document.getElementById(id);
@@ -109,6 +119,13 @@ function adicionarJogo(id, nome, tamanho) {
       }
     }
   } else {
-    alert('Selecione um HD');
+    alert('Selecione um HD/PENDRIVE');
+    window.scrollTo(0, 0);
+    setTimeout(function() {
+      seletorHd.style.backgroundColor = "yellow";
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "transparent";
+      }, 500);
+    }, 500);
   }
 }
