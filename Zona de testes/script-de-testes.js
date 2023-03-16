@@ -126,3 +126,33 @@ function adicionarJogo(id, nome, tamanho) {
     }, 500);
   }
 }
+
+// FILTROS
+
+function filtroTodosOsMarios() {
+  if (pen60.checked || hd500.checked || hd1tb.checked) {
+    adicionarJogo('PDUE01', 'Another SUPER MARIO BROS', 354)
+    adicionarJogo('ROLE8P', 'Mario & Sonic at the Olympic Winter Games', 3464)
+    adicionarJogo('SIIE8P', 'Mario & Sonic LONDON', 4078)
+    adicionarJogo('CKBE88', 'Mario Kart Black', 3366)
+    adicionarJogo('RMCE91', 'Mario Kart Fusion Cris Style', 2514)
+    adicionarJogo('RM8E01', 'Mario Party 8', 1392)
+    adicionarJogo('SSQE01', 'Mario Party 9', 794)
+    adicionarJogo('RMKE01', 'MARIO SPORTS MIX', 2322)
+    adicionarJogo('R4QE01', 'Mario Strikers Charged', 1878)
+    adicionarJogo('RMBE01', 'Mario Super Sluggers', 1438)
+    adicionarJogo('RMCE01', 'MarioKartWii', 2646)
+    adicionarJogo('RMAE01', 'MarioTennisGC(Wii Version)', 1478)
+    adicionarJogo('SMNE01', 'New SUPER MARIO BROS. Wii', 348)
+    adicionarJogo('SMWP01', 'Newer Super Mario World U', 854)
+  } else {
+    alert('Selecione um HD/PENDRIVE');
+    window.scrollTo(0, 0);
+    setTimeout(function() {
+      seletorHd.style.backgroundColor = "yellow";
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "transparent";
+      }, 500);
+    }, 500);
+  }
+}
