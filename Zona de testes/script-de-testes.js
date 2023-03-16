@@ -12,7 +12,6 @@ var capacidadeMaxima = 0
 
 function selecionouPen60() {
   capacidadeMaxima = 57000
-  /*seletorHd.style.display = 'none'*/
   seletorHd.innerHTML = 'O Pendrive de 60GB tem por padrão 57GB utilizáveis'
   seletorHd.style.color = 'yellow'
 
@@ -23,7 +22,6 @@ function selecionouPen60() {
 
 function selecionouHd500gb() {
   capacidadeMaxima = 477000
-  /*seletorHd.style.display = 'none' */
   seletorHd.innerHTML = 'O HD de 500GB tem por padrão 477GB utilizáveis'
   seletorHd.style.color = 'yellow'
 
@@ -34,7 +32,6 @@ function selecionouHd500gb() {
 
 function selecionouHd1tb() {
   capacidadeMaxima = 977000
-  /*seletorHd.style.display = 'none'*/
   seletorHd.innerHTML = 'O HD de 1 TB tem por padrão 977GB utilizáveis'
   seletorHd.style.color = 'yellow'
 
