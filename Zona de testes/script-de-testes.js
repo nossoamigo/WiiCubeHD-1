@@ -429,7 +429,7 @@ window.addEventListener('scroll', function() {
   const pontoDeMudanca = 0.15 * document.documentElement.scrollHeight;
   
   if (posicao >= pontoDeMudanca) {
-    botaoVoltar.style.display = 'block';
+    botaoVoltar.style.display = 'flex';
   } else {
     botaoVoltar.style.display = 'none';
   }
