@@ -217,3 +217,10 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     cursor: pointer;
     border: 1px solid black;
  }
+
+ #imagemMaior {
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 0px 10px 2px;
+  }

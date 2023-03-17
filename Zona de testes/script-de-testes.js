@@ -21,8 +21,8 @@ function selecionouPen60() {
 }
 
 function selecionouHd500gb() {
-  capacidadeMaxima = 477000
-  seletorHd.innerHTML = 'O HD de 500GB tem por padrão 477GB utilizáveis'
+  capacidadeMaxima = 465000
+  seletorHd.innerHTML = 'O HD de 500GB tem por padrão 465GB utilizáveis'
   seletorHd.style.color = 'yellow'
 
   res.style.display = 'block'
@@ -72,6 +72,19 @@ fetch('arquivo.json')
       div.onclick = function() {
         adicionarJogo(item.id, item.nome, item.tamanho);
       }
+
+      div.onmouseenter = function() {
+        document.getElementById('imagemMaior').src = item.imagem; // Altera a imagem da div reservada para a imagem atual
+        document.getElementById('imagemMaior').style.display = 'block'
+        document.getElementById('imagemMaior').style.left = event.pageX + 'px';
+        document.getElementById('imagemMaior').style.top = event.pageY + 'px';
+      }
+
+      div.onmouseleave = function() {
+        document.getElementById('imagemMaior').style.display = 'none'
+      }
+
+
     
       var imagem = document.createElement("img");
       imagem.src = item.imagem;
