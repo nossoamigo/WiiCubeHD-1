@@ -137,12 +137,41 @@ function adicionarJogo(id, nome, tamanho) {
 
 // FILTROS
 
+/*
+let XXXXX = false
+function XXXXX() {
+  if (XXXXX == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + XXXXX > capacidadeMaxima) {
+        alert('Você precisa ao menos XXXXX para selecionar todos os XXXXX')
+      } else {
+      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+
+      document.getElementById('XXXXX').innerHTML = '<span class=\"material-icons\">check</span>'
+      XXXXX = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
+      }, 500);
+    }
+  }
+} */
+
 let todosOsMariosJaFoiClicado = false
 function filtroTodosOsMarios() {
   if (todosOsMariosJaFoiClicado == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
-      if (capacidadeAtual + 33000 > capacidadeMaxima) {
-        alert('Você precisa ao menos 33GB para selecionar todos os marios')
+      if (capacidadeAtual + 40000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 40GB para selecionar todos os marios')
       } else {
       adicionarJogo('PDUE01', 'Another SUPER MARIO BROS', 354)
       adicionarJogo('ROLE8P', 'Mario and Sonic at the Olympic Winter Games', 3464)
@@ -163,6 +192,7 @@ function filtroTodosOsMarios() {
       adicionarJogo('RMGE01', 'SUPER MARIO GALAXY', 3504)
       adicionarJogo('SB4E01', 'SUPER MARIO GALAXY MORE', 1322)
       adicionarJogo('R8PE01', 'Super Paper Mario', 406)
+      adicionarJogo('RSBE01', 'Super Smash Bros. Brawl', 7094)
 
       document.getElementById('checkBoxFiltroTodosOsMarios').innerHTML = '<span class=\"material-icons\">check</span>'
       todosOsMariosJaFoiClicado = true
@@ -184,8 +214,8 @@ let todosOsPopularesJaFoiClicado = false
 function filtroTodosOsPopulares() {
   if (todosOsPopularesJaFoiClicado == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
-      if (capacidadeAtual + 57000 > capacidadeMaxima) {
-        alert('Você precisa ao menos 57GB para selecionar todos os populares')
+      if (capacidadeAtual + 62000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 62GB para selecionar todos os populares')
       } else {
       adicionarJogo('RYBE69', 'BOOM BLOX Bash Party', 1146)
       adicionarJogo('SF8E01', 'Donkey Kong Country Returns', 3412)
@@ -204,6 +234,8 @@ function filtroTodosOsPopulares() {
       adicionarJogo('SX4E01', 'Xenoblade Chronicles', 6464)
       adicionarJogo('RTZE08', 'Zack and Wiki: Quest for Barbaros\' Treasure', 1992)
       adicionarJogo('RB4E08', 'Resident Evil 4 Wii Edition', 4064)
+      adicionarJogo('RMGE01', 'SUPER MARIO GALAXY', 3504)
+      adicionarJogo('SB4E01', 'SUPER MARIO GALAXY MORE', 1322)
 
       document.getElementById('checkBoxFiltroTodosOsPopulares').innerHTML = '<span class=\"material-icons\">check</span>'
       todosOsPopularesJaFoiClicado = true
@@ -260,34 +292,6 @@ function filtroAutoCompletar() {
     clicouAutoCompletar = true
   }
 }
-/*
-let XXXXX = false
-function XXXXX() {
-  if (XXXXX == false) {
-    if (pen60.checked || hd500.checked || hd1tb.checked) {
-      if (capacidadeAtual + XXXXX > capacidadeMaxima) {
-        alert('Você precisa ao menos XXXXX para selecionar todos os XXXXX')
-      } else {
-      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
-      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
-      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
-      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
-
-      document.getElementById('XXXXX').innerHTML = '<span class=\"material-icons\">check</span>'
-      XXXXX = true
-      }
-    } else {
-      alert('Selecione um HD/PENDRIVE');
-      window.scrollTo(0, 0);
-      setTimeout(function() {
-        seletorHd.style.backgroundColor = "yellow";
-        setTimeout(function() {
-          seletorHd.style.backgroundColor = "transparent";
-        }, 500);
-      }, 500);
-    }
-  }
-} */
 
 let clicouTodosOsLego = false
 function FiltroTodosOsLego() {
@@ -383,4 +387,54 @@ function FiltroTodosOsResidentEvil() {
       }, 500);
     }
   }
+}
+
+let ClicouTodosOsSonic = false
+function FiltroTodosOsSonic() {
+  if (ClicouTodosOsSonic == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + 28500 > capacidadeMaxima) {
+        alert('Você precisa ao menos 28.5GB para selecionar todos os Sonic')
+      } else {
+      adicionarJogo('ROLE8P', 'Mario and Sonic at the Olympic Winter Games', 3464)
+      adicionarJogo('SIIE8P', 'Mario and Sonic LONDON', 4078)
+      adicionarJogo('R3RE8P', 'Sonic and SEGA All-Stars Racing', 2596)
+      adicionarJogo('RENE8P', 'Sonic and the Black Knight', 3478)
+      adicionarJogo('RSRE8P', 'Sonic and the Secret Rings', 3662)
+      adicionarJogo('SNCE8P', 'Sonic Colors', 3764)
+      adicionarJogo('RS9E8P', 'Sonic Riders: Zero Gravity', 3648)
+      adicionarJogo('RSVE8P', 'Sonic Unleashed', 3726)
+
+      document.getElementById('CheckBoxFiltroTodosOsSonic').innerHTML = '<span class=\"material-icons\">check</span>'
+      ClicouTodosOsSonic = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
+      }, 500);
+    }
+  }
+}
+
+// Botão de voltar ao topo da pagina
+
+window.addEventListener('scroll', function() {
+  let botaoVoltar = document.getElementById('botaoVoltarAoInicio')
+  const posicao = window.pageYOffset + document.documentElement.clientHeight;
+  const pontoDeMudanca = 0.15 * document.documentElement.scrollHeight;
+  
+  if (posicao >= pontoDeMudanca) {
+    botaoVoltar.style.display = 'block';
+  } else {
+    botaoVoltar.style.display = 'none';
+  }
+});
+
+function clicouVoltar() {
+  window.scrollTo(0, 0);
 }

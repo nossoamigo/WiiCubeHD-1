@@ -176,3 +176,30 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     width: 45px;
     margin-right: 5px;
 }
+ /* NAVEGAÇÃO */
+
+ .container-navegacao {
+    display: flex;
+    background: rgba(255, 255, 255, 0.582);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 1100px;
+    margin: 10px auto;
+    color: blue;
+ }
+
+ .container-navegacao *:hover {
+    text-decoration: underline;
+    cursor: pointer;
+ }
+
+ .container-botao-voltar-ao-inicio {
+    display: none;
+    position: fixed;
+    left: 85%;
+    top: 85%;
+    background: blue;
+    height: 100px;
+    width: 100px;
+ }
