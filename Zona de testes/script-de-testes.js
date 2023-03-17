@@ -74,7 +74,7 @@ fetch('arquivo.json')
       }
 
       div.onmouseenter = function() {
-        document.getElementById('imagemMaior').src = item.imagem; // Altera a imagem da div reservada para a imagem atual
+        document.getElementById('imagemMaior').src = item.imagem;
         document.getElementById('imagemMaior').style.display = 'block'
         document.getElementById('imagemMaior').style.left = event.pageX + 'px';
         document.getElementById('imagemMaior').style.top = event.pageY + 'px';
@@ -84,8 +84,6 @@ fetch('arquivo.json')
         document.getElementById('imagemMaior').style.display = 'none'
       }
 
-
-    
       var imagem = document.createElement("img");
       imagem.src = item.imagem;
       imagem.alt = item.nome;
