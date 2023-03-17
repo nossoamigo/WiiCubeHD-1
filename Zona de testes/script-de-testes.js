@@ -249,6 +249,7 @@ function filtroAutoCompletar() {
 
   } else {
     document.getElementById('checkBoxFiltroAutoCompletar').innerHTML = '<span class=\"material-icons\">check</span>'
+    document.getElementById('checkBoxFiltroAutoCompletar').style.width = '22px'
     listaDeJogos.innerHTML += '*****AUTOCOMPLETAR POR CONTA DO VENDEDOR*****,' + '\n'
     clicouAutoCompletar = true
   }
@@ -335,6 +336,35 @@ function filtroTodosOsJustDance() {
 
       document.getElementById('checkBoxFiltroTodosOsJustDance').innerHTML = '<span class=\"material-icons\">check</span>'
       ClicouTodosOsJustDance = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
+      }, 500);
+    }
+  }
+}
+
+let ClicouTodosOsResidentEvil = false
+function FiltroTodosOsResidentEvil() {
+  if (ClicouTodosOsResidentEvil == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + 17000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 17GB para selecionar todos os Resident Evil')
+      } else {
+      adicionarJogo('RE4E08', 'Resident Evil', 3810)
+      adicionarJogo('RB4E08', 'Resident Evil 4 Wii Edition', 4064)
+      adicionarJogo('RMVE69', 'Resident Evil Archives: Resident Evil', 1224)
+      adicionarJogo('SBDE08', 'Resident Evil: The Darkside Chronicles', 3816)
+      adicionarJogo('RBUE08', 'Resident Evil: The Umbrella Chronicles', 3982)
+
+      document.getElementById('checkBoxFiltroTodosOsResidentEvil').innerHTML = '<span class=\"material-icons\">check</span>'
+      ClicouTodosOsResidentEvil = true
       }
     } else {
       alert('Selecione um HD/PENDRIVE');
