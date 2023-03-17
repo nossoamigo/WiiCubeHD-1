@@ -1860,12 +1860,6 @@
         "imagem": "../imagens/US/front/SO3EE9.png"
         },
         {
-        "id": "R64E01",
-        "nome": "Wii Music",
-        "tamanho": 314,
-        "imagem": "../imagens/US/front/R64E01.png"
-        },
-        {
         "id": "SAKENS",
         "nome": "Sakura Wars: So Long, My Love",
         "tamanho": 6156,
@@ -2052,6 +2046,84 @@
         "imagem": "../imagens/US/front/SFUE64.png"
         },
         {
+        "id": "SM3E01",
+        "nome": "Super Mario Bros. 3+",
+        "tamanho": 350,
+        "imagem": "../imagens/US/front/SM3E01.png"
+        },
+        {
+        "id": "SVME01",
+        "nome": "super mario collection",
+        "tamanho": 196,
+        "imagem": "../imagens/US/front/SVME01.png"
+        },
+        {
+        "id": "RMGE01",
+        "nome": "SUPER MARIO GALAXY",
+        "tamanho": 3504,
+        "imagem": "../imagens/US/front/RMGE01.png"
+        },
+        {
+        "id": "SB4E01",
+        "nome": "SUPER MARIO GALAXY MORE",
+        "tamanho": 1322,
+        "imagem": "../imagens/US/front/SB4E01.png"
+        },
+        {
+        "id": "R8PE01",
+        "nome": "Super Paper Mario",
+        "tamanho": 406,
+        "imagem": "../imagens/US/front/R8PE01.png"
+        },
+        {
+        "id": "RSBE01",
+        "nome": "Super Smash Bros. Brawl",
+        "tamanho": 7094,
+        "imagem": "../imagens/US/front/RSBE01.png"
+        },
+        {
+        "id": "RT4EAF",
+        "nome": "Tales of Symphonia: Dawn of the New World",
+        "tamanho": 3796,
+        "imagem": "../imagens/US/front/RT4EAF.png"
+        },
+        {
+        "id": "STKE08",
+        "nome": "TATSUNOKO VS. CAPCOM ULTIMATE ALL-STARS",
+        "tamanho": 1436,
+        "imagem": "../imagens/US/front/STKE08.png"
+        },
+        {
+        "id": "SX7E52",
+        "nome": "Teenage Mutant Ninja Turtles",
+        "tamanho": 624,
+        "imagem": "../imagens/US/front/SX7E52.png"
+        },
+        {
+        "id": "STEETR",
+        "nome": "Tetris Party Deluxe",
+        "tamanho": 56,
+        "imagem": "../imagens/US/front/STEETR.png"
+        },
+        {
+        "id": "SAZE52",
+        "nome": "The Amazing Spider-Man",
+        "tamanho": 1752,
+        "imagem": "../imagens/US/front/SAZE52.png"
+        },
+        {
+        "id": "RCJE8P",
+        "nome": "The Conduit",
+        "tamanho": 2748,
+        "imagem": "../imagens/US/front/RCJE8P.png"
+        },
+        {
+        "id": "RGFP69",
+        "nome": "The Godfather(R) Blackhand Edition",
+        "tamanho": 3118,
+        "imagem": "../imagens/EN/front/RGFP69.png"
+        },
+        {
         "id": "SUOP41",
         "nome": "The Hip Hop Dance Experience",
         "tamanho": 7848,
@@ -2206,6 +2278,12 @@
         "nome": "WarioWare: Smooth Moves",
         "tamanho": 3340,
         "imagem": "../imagens/US/front/RODE01.png"
+        },
+        {
+        "id": "R64E01",
+        "nome": "Wii Music",
+        "tamanho": 314,
+        "imagem": "../imagens/US/front/R64E01.png"
         },
         {
         "id": "SUPE01",

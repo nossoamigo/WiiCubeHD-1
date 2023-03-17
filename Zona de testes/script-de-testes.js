@@ -12,11 +12,11 @@ var capacidadeMaxima = 0
 
 function selecionouPen60() {
   capacidadeMaxima = 57000
-  seletorHd.innerHTML = 'O Pendrive de 60GB tem por padrão 57GB utilizáveis'
+  seletorHd.innerHTML = 'O Pendrive de 64GB tem por padrão 57GB utilizáveis'
   seletorHd.style.color = 'yellow'
 
   res.style.display = 'block'
-  listaDeJogos.innerHTML += '**   Pendrive de 60GB   **,' + '\n'
+  listaDeJogos.innerHTML += '**   Pendrive de 64GB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
 }
 
@@ -141,8 +141,8 @@ let todosOsMariosJaFoiClicado = false
 function filtroTodosOsMarios() {
   if (todosOsMariosJaFoiClicado == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
-      if (capacidadeAtual + 27000 > capacidadeMaxima) {
-        alert('Você precisa ao menos 27GB para selecionar todos os marios')
+      if (capacidadeAtual + 33000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 33GB para selecionar todos os marios')
       } else {
       adicionarJogo('PDUE01', 'Another SUPER MARIO BROS', 354)
       adicionarJogo('ROLE8P', 'Mario and Sonic at the Olympic Winter Games', 3464)
@@ -158,6 +158,12 @@ function filtroTodosOsMarios() {
       adicionarJogo('RMAE01', 'MarioTennisGC(Wii Version)', 1478)
       adicionarJogo('SMNE01', 'New SUPER MARIO BROS. Wii', 348)
       adicionarJogo('SMWP01', 'Newer Super Mario World U', 854)
+      adicionarJogo('SM3E01', 'Super Mario Bros. 3+', 350)
+      adicionarJogo('SVME01', 'super mario collection', 196)
+      adicionarJogo('RMGE01', 'SUPER MARIO GALAXY', 3504)
+      adicionarJogo('SB4E01', 'SUPER MARIO GALAXY MORE', 1322)
+      adicionarJogo('R8PE01', 'Super Paper Mario', 406)
+
       document.getElementById('checkBoxFiltroTodosOsMarios').innerHTML = '<span class=\"material-icons\">check</span>'
       todosOsMariosJaFoiClicado = true
       }
