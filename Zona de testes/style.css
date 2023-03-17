@@ -81,6 +81,7 @@ form {
     font-size: 1em;
     text-align: center;
     padding: 10px;
+    height: 40px;
 }
 
 input[name="radioTamanhoHd"]:hover {
@@ -127,23 +128,24 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
 
 #filtrosContainer {
     display: flex;
+    flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.644);
     margin-bottom: 20px;
     max-width: 1100px;
-    height: 75px;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     align-items: center;
 }
 
 .itensFiltro {
     display: flex;
-    width: 150px;
-    height: 50px;
+    padding: 5px;
+    height: 60px;
     background-color: lightgrey;
-    margin: 0 5px;
+    margin: 10px 20px;
     justify-content: center;
     align-items: center;
     border: 1px solid black;

@@ -253,3 +253,98 @@ function filtroAutoCompletar() {
     clicouAutoCompletar = true
   }
 }
+/*
+let XXXXX = false
+function XXXXX() {
+  if (XXXXX == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + XXXXX > capacidadeMaxima) {
+        alert('Você precisa ao menos XXXXX para selecionar todos os XXXXX')
+      } else {
+      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+
+      document.getElementById('XXXXX').innerHTML = '<span class=\"material-icons\">check</span>'
+      XXXXX = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
+      }, 500);
+    }
+  }
+} */
+
+let clicouTodosOsLego = false
+function FiltroTodosOsLego() {
+  if (clicouTodosOsLego == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + 23500 > capacidadeMaxima) {
+        alert('Você precisa ao menos 23.5GB para selecionar todos os LEGO')
+      } else {
+      adicionarJogo('RLBEWR', 'LEGO Batman', 2542)
+      adicionarJogo('R25EWR', 'LEGO Harry Potter', 3282)
+      adicionarJogo('SLHEWR', 'LEGO Harry2', 3348)
+      adicionarJogo('RLIE64', 'LEGO Indiana Jones: The Original Adventures', 2020)
+      adicionarJogo('SLREWR', 'LEGO LOTR', 3524)
+      adicionarJogo('SCJE4Q', 'LEGO Pirates', 1958)
+      adicionarJogo('R6LEWR', 'LEGO Rock Band', 3728)
+      adicionarJogo('RLGE64', 'LEGO Star Wars', 3040)
+
+      document.getElementById('checkBoxFiltroTodosOsLego').innerHTML = '<span class=\"material-icons\">check</span>'
+      clicouTodosOsLego = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
+      }, 500);
+    }
+  }
+}
+
+let ClicouTodosOsJustDance = false
+function filtroTodosOsJustDance() {
+  if (ClicouTodosOsJustDance == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + 37200 > capacidadeMaxima) {
+        alert('Você precisa ao menos 37.2GB para selecionar todos os JUST DANCE')
+      } else {
+      adicionarJogo('SD2E41', 'Just Dance 2', 3090)
+      adicionarJogo('SE3E41', 'Just Dance 2015', 3420)
+      adicionarJogo('SE8P41', 'Just Dance 2018', 4278)
+      adicionarJogo('S5EE41', 'Just Dance 2019', 4360)
+      adicionarJogo('SJDE41', 'Just Dance 3', 3762)
+      adicionarJogo('SJXE41', 'Just Dance 4', 4104)
+      adicionarJogo('SJ6E41', 'Just Dance Disney Party', 4122)
+      adicionarJogo('SJHE41', 'Just Dance Greatest Hits', 3164)
+      adicionarJogo('SJZE41', 'Just Dance Kids 2', 3012)
+      adicionarJogo('SJ9E41', 'Just Dance Summer Party', 1544)
+      adicionarJogo('SD2J01', 'Just Dance Wii', 2258)
+
+      document.getElementById('checkBoxFiltroTodosOsJustDance').innerHTML = '<span class=\"material-icons\">check</span>'
+      ClicouTodosOsJustDance = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
+      }, 500);
+    }
+  }
+}
