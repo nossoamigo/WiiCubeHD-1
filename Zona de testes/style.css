@@ -219,6 +219,7 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
  }
 
  #imagemMaior {
+    display: none;
     position: absolute;
     left: 0;
     top: 0;
