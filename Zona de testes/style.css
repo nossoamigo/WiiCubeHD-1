@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     background-color: #0B88FF; 
     background-image: url("../imagens/wallpaper/fundo-background-ampliado.png");
@@ -152,7 +154,7 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
 }
 
 .itensFiltro:hover {
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .checkBoxDoFiltro {
