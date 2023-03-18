@@ -206,6 +206,7 @@ function filtroTodosOsMarios() {
       adicionarJogo('RSBE01', 'Super Smash Bros. Brawl', 7094)
 
       document.getElementById('checkBoxFiltroTodosOsMarios').innerHTML = '<span class=\"material-icons\">check</span>'
+      document.getElementById('filtroTodosOsMarios').style.opacity = '100%'
       todosOsMariosJaFoiClicado = true
       }
     } else {
