@@ -139,7 +139,7 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     margin-right: auto;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .itensFiltro {
@@ -227,3 +227,4 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     top: 0;
     box-shadow: 0px 0px 10px 2px;
   }
+  
