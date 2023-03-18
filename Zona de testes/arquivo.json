@@ -12,6 +12,18 @@
         "imagem": "../imagens/US/front/SBLE5G.png"
         },
         {
+        "id": "SALE4Q",
+        "nome": "Alice In Wonderland",
+        "tamanho": 3896,
+        "imagem": "../imagens/US/front/SALE4Q.png"
+        },
+        {
+        "id": "SFSPGT",
+        "nome": "ALL ROUND HUNTER",
+        "tamanho": 430,
+        "imagem": "../imagens/US/front/SFSPGT.png"
+        },
+        {
         "id": "SDWP18",
         "nome": "A Shadow's Tale",
         "tamanho": 1276,
@@ -438,6 +450,12 @@
         "imagem": "../imagens/EN/front/SECP69.png"
         },
         {
+        "id": "SVVEG9",
+        "nome": "Croods",
+        "tamanho": 1076,
+        "imagem": "../imagens/US/front/SVVEG9.png"
+        },
+        {
         "id": "RCIP41",
         "nome": "CSI: Hard Evidence",
         "tamanho": 1622,
@@ -504,16 +522,16 @@
         "imagem": "../imagens/US/front/RZJE69.png"
         },
         {
-        "id": "S3DP18",
-        "nome": "DECA SPORTS 3",
-        "tamanho": 666,
-        "imagem": "../imagens/EN/front/S3DP18.png"
-        },
-        {
         "id": "RDXE18",
         "nome": "DECA SPORTS",
         "tamanho": 202,
         "imagem": "../imagens/US/front/RDXE18.png"
+        },
+        {
+        "id": "S3DP18",
+        "nome": "DECA SPORTS 3",
+        "tamanho": 666,
+        "imagem": "../imagens/EN/front/S3DP18.png"
         },
         {
         "id": "SJREA4",
@@ -616,6 +634,12 @@
         "nome": "Dragon Ball Z Sparking! METEOR",
         "tamanho": 3062,
         "imagem": "../imagens/JA/front/RDSJAF.png"
+        },
+        {
+        "id": "RDQEGD",
+        "nome": "DRAGON QUEST SWORDS",
+        "tamanho": 2552,
+        "imagem": "../imagens/US/front/RDQEGD.png"
         },
         {
         "id": "SDRPNG",
@@ -1044,6 +1068,18 @@
         "imagem": "../imagens/JA/front/S5SJHF.png"
         },
         {
+        "id": "STQP01",
+        "nome": "Inazuma Eleven Strikers",
+        "tamanho": 4006,
+        "imagem": "../imagens/US/front/STQP01.png"
+        },
+        {
+        "id": "SEZJHF",
+        "nome": "Inazuma ElevenStrikers 2012 Xtreme",
+        "tamanho": 2576,
+        "imagem": "../imagens/US/front/SEZJHF.png"
+        },
+        {
         "id": "S2IE8P",
         "nome": "Iron Man 2",
         "tamanho": 3494,
@@ -1150,6 +1186,12 @@
         "nome": "Karaoke Revolution Glee Volume 2",
         "tamanho": 1378,
         "imagem": "../imagens/US/front/SKGEA4.png"
+        },
+        {
+        "id": "SKREG9",
+        "nome": "Kamen Rider Dragon Knight",
+        "tamanho": 506,
+        "imagem": "../imagens/US/front/SKREG9.png"
         },
         {
         "id": "SSTEG9",
@@ -1716,6 +1758,12 @@
         "imagem": "../imagens/EN/front/S2LP01.png"
         },
         {
+        "id": "RWEEA4",
+        "nome": "Pro Evolution Soccer 2008",
+        "tamanho": 2826,
+        "imagem": "../imagens/US/front/RWEEA4.png"
+        },
+        {
         "id": "SPVYA4",
         "nome": "Pro Evolution Soccer 2011",
         "tamanho": 3238,
@@ -1873,9 +1921,15 @@
         },
         {
         "id": "R3BE8P",
-        "nome": "SambaDeAmigo",
+        "nome": "Samba De Amigo",
         "tamanho": 3124,
         "imagem": "../imagens/US/front/R3BE8P.png"
+        },
+        {
+        "id": "RSSEH4",
+        "nome": "SAMURAI SHODOWN Anthology",
+        "tamanho": 2484,
+        "imagem": "../imagens/US/front/RSSEH4.png"
         },
         {
         "id": "RSCE7D",
@@ -1986,6 +2040,18 @@
         "imagem": "../imagens/EN/front/RSLPAF.png"
         },
         {
+        "id": "SQME52",
+        "nome": "Spider-Man: Edge of Time",
+        "tamanho": 1590,
+        "imagem": "../imagens/US/front/SQME52.png"
+        },
+        {
+        "id": "RFOE52",
+        "nome": "Spider-Man: Friend or Foe",
+        "tamanho": 3324,
+        "imagem": "../imagens/US/front/RFOE52.png"
+        },
+        {
         "id": "SPDE52",
         "nome": "Spider-Man: Shattered Dimensions",
         "tamanho": 3024,
@@ -2088,6 +2154,12 @@
         "imagem": "../imagens/US/front/RT4EAF.png"
         },
         {
+        "id": "RDTEAF",
+        "nome": "tamagotchi partyon",
+        "tamanho": 650,
+        "imagem": "../imagens/US/front/RDTEAF.png"
+        },
+        {
         "id": "STKE08",
         "nome": "TATSUNOKO VS. CAPCOM ULTIMATE ALL-STARS",
         "tamanho": 1436,
@@ -2098,6 +2170,12 @@
         "nome": "Teenage Mutant Ninja Turtles",
         "tamanho": 624,
         "imagem": "../imagens/US/front/SX7E52.png"
+        },
+        {
+        "id": "RLEEFS",
+        "nome": "Ten Pin Alley 2",
+        "tamanho": 526,
+        "imagem": "../imagens/US/front/RLEEFS.png"
         },
         {
         "id": "STEETR",
@@ -2112,16 +2190,34 @@
         "imagem": "../imagens/US/front/SAZE52.png"
         },
         {
+        "id": "RI3E5D",
+        "nome": "The Ant Bully",
+        "tamanho": 1352,
+        "imagem": "../imagens/US/front/RI3E5D.png"
+        },
+        {
         "id": "RCJE8P",
         "nome": "The Conduit",
         "tamanho": 2748,
         "imagem": "../imagens/US/front/RCJE8P.png"
         },
         {
+        "id": "RDIE41",
+        "nome": "THE DOG ISLAND       a a folow",
+        "tamanho": 624,
+        "imagem": "../imagens/US/front/RDIE41.png"
+        },
+        {
         "id": "RGFP69",
         "nome": "The Godfather(R) Blackhand Edition",
         "tamanho": 3118,
         "imagem": "../imagens/EN/front/RGFP69.png"
+        },
+        {
+        "id": "RGME5D",
+        "nome": "The Grim Adventures of Billy & Mandy",
+        "tamanho": 894,
+        "imagem": "../imagens/US/front/RGME5D.png"
         },
         {
         "id": "SUOP41",

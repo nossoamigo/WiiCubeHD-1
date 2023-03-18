@@ -76,8 +76,8 @@ fetch('arquivo.json')
       div.onmouseenter = function() {
         document.getElementById('imagemMaior').src = item.imagem;
         document.getElementById('imagemMaior').style.display = 'block'
-        document.getElementById('imagemMaior').style.left = event.pageX + 'px';
-        document.getElementById('imagemMaior').style.top = event.pageY + 'px';
+        document.getElementById('imagemMaior').style.left = event.pageX + 15 + 'px';
+        document.getElementById('imagemMaior').style.top = event.pageY + 15 + 'px';
       }
 
       div.onmouseleave = function() {
