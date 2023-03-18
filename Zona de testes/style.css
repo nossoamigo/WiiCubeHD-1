@@ -189,12 +189,12 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     max-width: 1100px;
     margin: 10px auto;
     color: blue;
- }
+}
 
  .container-navegacao *:hover {
     text-decoration: underline;
     cursor: pointer;
- }
+}
 
  .container-botao-voltar-ao-inicio {
     display: none;
@@ -203,7 +203,7 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     top: 85%;
     height: 100px;
     width: 100px;
- }
+}
 
  #idDoBotaoDeVoltarAoTopo {
     width: 100%;
@@ -213,12 +213,12 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     font-size: 6em;
     border-radius: 50%;
     box-shadow: 0px 0px 8px 0px;
- }
+}
 
  #idDoBotaoDeVoltarAoTopo:hover {
     cursor: pointer;
     border: 1px solid black;
- }
+}
 
  #imagemMaior {
     display: none;
@@ -226,5 +226,4 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     left: 0;
     top: 0;
     box-shadow: 0px 0px 10px 2px;
-  }
-  
+}
