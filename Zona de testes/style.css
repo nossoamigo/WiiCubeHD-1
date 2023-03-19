@@ -285,6 +285,17 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     opacity: 100%;
 }
 
+#FiltroTodosOsJogos {
+    background: url(../imagens/fundosfiltros/wiiLogo.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#FiltroTodosOsJogos:hover {
+    opacity: 100%;
+}
+
  /* NAVEGAÇÃO */
 
 .container-navegacao {
@@ -333,4 +344,30 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     left: 0;
     top: 0;
     box-shadow: 0px 0px 10px 2px;
+}
+
+/* FOOTER */
+
+.footer {
+    margin: 200px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > p {
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p > a > img {
+    max-width: 20px;
+    max-height: 20px;
+    background-color: black;
 }

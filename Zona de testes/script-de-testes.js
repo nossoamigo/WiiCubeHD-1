@@ -28,19 +28,19 @@ function selecionouHd500gb() {
   seletorHd.style.textShadow = '0 0 12px black'
 
   res.style.display = 'block'
-  listaDeJogos.innerHTML += '**   HD de 1TB   **,' + '\n'
+  listaDeJogos.innerHTML += '**   HD de 500GB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
 }
 
 function selecionouHd1tb() {
-  capacidadeMaxima = 977000
-  seletorHd.innerHTML = 'O HD de 1 TB tem por padrão 977GB utilizáveis'
+  capacidadeMaxima = 931000
+  seletorHd.innerHTML = 'O HD de 1 TB tem por padrão 931GB utilizáveis'
   seletorHd.style.color = 'yellow'
   seletorHd.style.textShadow = '0 0 12px black'
 
 
   res.style.display = 'block'
-  listaDeJogos.innerHTML += '**   HD de 2TB   **,' + '\n'
+  listaDeJogos.innerHTML += '**   HD de 1TB   **,' + '\n'
   res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
 }
 
@@ -474,6 +474,40 @@ function FiltroTodosOsSpiderMan() {
         document.getElementById('CheckBoxFiltroTodosOsSpiderMan').style.textShadow = 'black 0px 0px 7px'
         document.getElementById('FiltroTodosOsSpiderMan').style.opacity = '100%'
         clicouTodosOsSpiderMan = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
+      }, 500);
+    }
+  }
+}
+
+let clicouTodosOsJogos = false;
+function FiltroTodosOsJogos() {
+  if (clicouTodosOsJogos == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + 917000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 917GB para selecionar todos os jogos')
+      } else {
+        fetch('arquivo.json')
+          .then(response => response.json())
+          .then(data => {
+            for (let item of data.itens) {
+              adicionarJogo(item.id, item.nome, item.tamanho);
+            }
+          })
+          .catch(error => console.error(error));
+
+        document.getElementById('CheckBoxFiltroTodosOsJogos').innerHTML = '<span class=\"material-icons\">check</span>'
+        document.getElementById('CheckBoxFiltroTodosOsJogos').style.textShadow = 'black 0px 0px 7px'
+        document.getElementById('FiltroTodosOsJogos').style.opacity = '100%'
+        clicouTodosOsJogos = true
       }
     } else {
       alert('Selecione um HD/PENDRIVE');
