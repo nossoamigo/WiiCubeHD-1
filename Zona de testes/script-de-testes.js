@@ -14,6 +14,7 @@ function selecionouPen60() {
   capacidadeMaxima = 57000
   seletorHd.innerHTML = 'O Pendrive de 64GB tem por padrão 57GB utilizáveis'
   seletorHd.style.color = 'yellow'
+  seletorHd.style.textShadow = '0 0 12px black'
 
   res.style.display = 'block'
   listaDeJogos.innerHTML += '**   Pendrive de 64GB   **,' + '\n'
@@ -24,6 +25,7 @@ function selecionouHd500gb() {
   capacidadeMaxima = 465000
   seletorHd.innerHTML = 'O HD de 500GB tem por padrão 465GB utilizáveis'
   seletorHd.style.color = 'yellow'
+  seletorHd.style.textShadow = '0 0 12px black'
 
   res.style.display = 'block'
   listaDeJogos.innerHTML += '**   HD de 1TB   **,' + '\n'
@@ -34,6 +36,7 @@ function selecionouHd1tb() {
   capacidadeMaxima = 977000
   seletorHd.innerHTML = 'O HD de 1 TB tem por padrão 977GB utilizáveis'
   seletorHd.style.color = 'yellow'
+  seletorHd.style.textShadow = '0 0 12px black'
 
 
   res.style.display = 'block'
@@ -154,15 +157,18 @@ function XXXXX() {
   if (XXXXX == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
       if (capacidadeAtual + XXXXX > capacidadeMaxima) {
-        alert('Você precisa ao menos XXXXX para selecionar todos os XXXXX')
+        alert('Você precisa ao menos XXXXX para selecionar XXXXX')
       } else {
-      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
-      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
-      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
-      adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+        adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+        adicionarJogo('XXXXX', 'XXXXX', XXXXX)
+        adicionarJogo('XXXXX', 'XXXXX', XXXXX)
 
-      document.getElementById('XXXXX').innerHTML = '<span class=\"material-icons\">check</span>'
-      XXXXX = true
+
+
+        document.getElementById('XXXXX').innerHTML = '<span class=\"material-icons\">check</span>'
+        document.getElementById('XXXXX').style.textShadow = 'black 0px 0px 7px'
+        document.getElementById('XXXXX').style.opacity = '100%'
+        XXXXX = true
       }
     } else {
       alert('Selecione um HD/PENDRIVE');
@@ -181,8 +187,8 @@ let todosOsMariosJaFoiClicado = false
 function filtroTodosOsMarios() {
   if (todosOsMariosJaFoiClicado == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
-      if (capacidadeAtual + 40000 > capacidadeMaxima) {
-        alert('Você precisa ao menos 40GB para selecionar todos os marios')
+      if (capacidadeAtual + 42000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 42GB para selecionar todos os marios')
       } else {
       adicionarJogo('PDUE01', 'Another SUPER MARIO BROS', 354)
       adicionarJogo('ROLE8P', 'Mario and Sonic at the Olympic Winter Games', 3464)
@@ -204,8 +210,10 @@ function filtroTodosOsMarios() {
       adicionarJogo('SB4E01', 'SUPER MARIO GALAXY MORE', 1322)
       adicionarJogo('R8PE01', 'Super Paper Mario', 406)
       adicionarJogo('RSBE01', 'Super Smash Bros. Brawl', 7094)
+      adicionarJogo('RMCE26', 'Wiimms Mario Kart Fun', 1618)
 
       document.getElementById('checkBoxFiltroTodosOsMarios').innerHTML = '<span class=\"material-icons\">check</span>'
+      document.getElementById('checkBoxFiltroTodosOsMarios').style.textShadow = 'black 0px 0px 7px'
       document.getElementById('filtroTodosOsMarios').style.opacity = '100%'
       todosOsMariosJaFoiClicado = true
       }
@@ -250,6 +258,8 @@ function filtroTodosOsPopulares() {
       adicionarJogo('SB4E01', 'SUPER MARIO GALAXY MORE', 1322)
 
       document.getElementById('checkBoxFiltroTodosOsPopulares').innerHTML = '<span class=\"material-icons\">check</span>'
+      document.getElementById('checkBoxFiltroTodosOsPopulares').style.textShadow = 'black 0px 0px 7px'
+      document.getElementById('filtroTodosOsPopulares').style.opacity = '100%'
       todosOsPopularesJaFoiClicado = true
       }
     } else {
@@ -269,15 +279,20 @@ let todosOsFifaJaFoiClicado = false
 function filtroTodosOsFifa() {
   if (todosOsFifaJaFoiClicado == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
-      if (capacidadeAtual + 15000 > capacidadeMaxima) {
-        alert('Você precisa ao menos 15GB para selecionar todos os FIFA')
+      if (capacidadeAtual + 24000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 24GB para selecionar todos os FIFA/PES')
       } else {
       adicionarJogo('RF9P69', 'FIFA 09 All-Play', 3082)
       adicionarJogo('SI3E69', 'FIFA 12', 3780)
       adicionarJogo('SVHX69', 'FIFA 14', 4026)
       adicionarJogo('SQVE69', 'FIFA 15', 4020)
+      adicionarJogo('RWEEA4', 'Pro Evolution Soccer 2008', 2826)
+      adicionarJogo('SPVYA4', 'Pro Evolution Soccer 2011', 3238)
+      adicionarJogo('S3IYA4', 'Pro Evolution Soccer 2013', 2962)
 
       document.getElementById('checkBoxFiltroTodosOsFifa').innerHTML = '<span class=\"material-icons\">check</span>'
+      document.getElementById('checkBoxFiltroTodosOsFifa').style.textShadow = 'black 0px 0px 7px'
+      document.getElementById('filtroTodosOsFifa').style.opacity = '100%'
       todosOsFifaJaFoiClicado = true
       }
     } else {
@@ -322,6 +337,8 @@ function FiltroTodosOsLego() {
       adicionarJogo('RLGE64', 'LEGO Star Wars', 3040)
 
       document.getElementById('checkBoxFiltroTodosOsLego').innerHTML = '<span class=\"material-icons\">check</span>'
+      document.getElementById('checkBoxFiltroTodosOsLego').style.textShadow = 'black 0px 0px 7px'
+      document.getElementById('filtroTodosOsLego').style.opacity = '100%'
       clicouTodosOsLego = true
       }
     } else {
@@ -357,6 +374,8 @@ function filtroTodosOsJustDance() {
       adicionarJogo('SD2J01', 'Just Dance Wii', 2258)
 
       document.getElementById('checkBoxFiltroTodosOsJustDance').innerHTML = '<span class=\"material-icons\">check</span>'
+      document.getElementById('checkBoxFiltroTodosOsJustDance').style.textShadow = 'black 0px 0px 7px'
+      document.getElementById('filtroTodosOsJustDance').style.opacity = '100%'
       ClicouTodosOsJustDance = true
       }
     } else {
@@ -386,6 +405,8 @@ function FiltroTodosOsResidentEvil() {
       adicionarJogo('RBUE08', 'Resident Evil: The Umbrella Chronicles', 3982)
 
       document.getElementById('checkBoxFiltroTodosOsResidentEvil').innerHTML = '<span class=\"material-icons\">check</span>'
+      document.getElementById('checkBoxFiltroTodosOsResidentEvil').style.textShadow = 'black 0px 0px 7px'
+      document.getElementById('FiltroTodosOsResidentEvil').style.opacity = '100%'
       ClicouTodosOsResidentEvil = true
       }
     } else {
@@ -418,7 +439,41 @@ function FiltroTodosOsSonic() {
       adicionarJogo('RSVE8P', 'Sonic Unleashed', 3726)
 
       document.getElementById('CheckBoxFiltroTodosOsSonic').innerHTML = '<span class=\"material-icons\">check</span>'
+      document.getElementById('CheckBoxFiltroTodosOsSonic').style.textShadow = 'black 0px 0px 7px'
+      document.getElementById('FiltroTodosOsSonic').style.opacity = '100%'
       ClicouTodosOsSonic = true
+      }
+    } else {
+      alert('Selecione um HD/PENDRIVE');
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        seletorHd.style.backgroundColor = "yellow";
+        setTimeout(function() {
+          seletorHd.style.backgroundColor = "transparent";
+        }, 500);
+      }, 500);
+    }
+  }
+}
+
+
+let clicouTodosOsSpiderMan = false
+function FiltroTodosOsSpiderMan() {
+  if (clicouTodosOsSpiderMan == false) {
+    if (pen60.checked || hd500.checked || hd1tb.checked) {
+      if (capacidadeAtual + 14000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 14GB para selecionar Todos os SPIDER-MAN')
+      } else {
+        adicionarJogo('SQME52', 'Spider-Man: Edge of Time', 1590)
+        adicionarJogo('RFOE52', 'Spider-Man: Friend or Foe', 3324)
+        adicionarJogo('SPDE52', 'Spider-Man: Shattered Dimensions', 3024)
+        adicionarJogo('R3SE52', 'Spider-Man: Web of Shadows', 3944)
+        adicionarJogo('SAZE52', 'The Amazing Spider-Man', 1752)
+
+        document.getElementById('CheckBoxFiltroTodosOsSpiderMan').innerHTML = '<span class=\"material-icons\">check</span>'
+        document.getElementById('CheckBoxFiltroTodosOsSpiderMan').style.textShadow = 'black 0px 0px 7px'
+        document.getElementById('FiltroTodosOsSpiderMan').style.opacity = '100%'
+        clicouTodosOsSpiderMan = true
       }
     } else {
       alert('Selecione um HD/PENDRIVE');

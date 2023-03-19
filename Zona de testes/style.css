@@ -208,6 +208,83 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     opacity: 100%;
 }
 
+#filtroTodosOsPopulares {
+    background: url(../imagens/fundosfiltros/OsMaisPopulares.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#filtroTodosOsPopulares:hover {
+    opacity: 100%;
+}
+
+#filtroTodosOsFifa {
+    background: url(../imagens/fundosfiltros/FIFAPES.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#filtroTodosOsFifa:hover {
+    opacity: 100%;
+}
+
+#filtroTodosOsLego {
+    background: url(../imagens/fundosfiltros/todosOsLEGO.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#filtroTodosOsLego:hover {
+    opacity: 100%;
+}
+
+#filtroTodosOsJustDance {
+    background: url(../imagens/fundosfiltros/justDance.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#filtroTodosOsJustDance:hover {
+    opacity: 100%;
+}
+
+#FiltroTodosOsResidentEvil {
+    background: url(../imagens/fundosfiltros/residentEvil.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#FiltroTodosOsResidentEvil:hover {
+    opacity: 100%;
+}
+
+#FiltroTodosOsSonic {
+    background: url(../imagens/fundosfiltros/sonic.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#FiltroTodosOsSonic:hover {
+    opacity: 100%;
+}
+
+#FiltroTodosOsSpiderMan {
+    background: url(../imagens/fundosfiltros/spiderman.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#FiltroTodosOsSpiderMan:hover {
+    opacity: 100%;
+}
+
  /* NAVEGAÇÃO */
 
 .container-navegacao {
