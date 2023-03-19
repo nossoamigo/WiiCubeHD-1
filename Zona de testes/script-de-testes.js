@@ -200,7 +200,7 @@ function filtroTodosOsMarios() {
       adicionarJogo('RMKE01', 'MARIO SPORTS MIX', 2322)
       adicionarJogo('R4QE01', 'Mario Strikers Charged', 1878)
       adicionarJogo('RMBE01', 'Mario Super Sluggers', 1438)
-      adicionarJogo('RMCE01', 'MarioKartWii', 2646)
+      adicionarJogo('RMCE01', 'Mario Kart Wii', 2646)
       adicionarJogo('RMAE01', 'MarioTennisGC(Wii Version)', 1478)
       adicionarJogo('SMNE01', 'New SUPER MARIO BROS. Wii', 348)
       adicionarJogo('SMWP01', 'Newer Super Mario World U', 854)
