@@ -296,6 +296,17 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     opacity: 100%;
 }
 
+#FiltroHdShopee {
+    background: url(../imagens/fundosfiltros/wiiLogo.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#FiltroHdShopee:hover {
+    opacity: 100%;
+}
+
  /* NAVEGAÇÃO */
 
 .container-navegacao {
