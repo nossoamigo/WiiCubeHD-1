@@ -373,8 +373,12 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     text-align: center;
     display: flex;
     gap: 10px;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+}
+
+.footer p > a {
+    display: flex;
 }
 
 .footer p > a > img {

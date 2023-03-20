@@ -11,7 +11,7 @@ var capacidadeMaxima = 0
 // SELEÇÃO DE HD'S
 
 function selecionouPen60() {
-  capacidadeMaxima = 57000
+  capacidadeMaxima = 58368 / 1.024
   seletorHd.innerHTML = 'O Pendrive de 64GB tem por padrão 57GB utilizáveis'
   seletorHd.style.color = 'yellow'
   seletorHd.style.textShadow = '0 0 12px black'
@@ -22,7 +22,7 @@ function selecionouPen60() {
 }
 
 function selecionouHd500gb() {
-  capacidadeMaxima = 465000
+  capacidadeMaxima = 476160 / 1.024
   seletorHd.innerHTML = 'O HD de 500GB tem por padrão 465GB utilizáveis'
   seletorHd.style.color = 'yellow'
   seletorHd.style.textShadow = '0 0 12px black'
@@ -33,11 +33,11 @@ function selecionouHd500gb() {
 }
 
 function selecionouHd1tb() {
-  capacidadeMaxima = 931000
+  capacidadeMaxima = 953344 / 1.024
   seletorHd.innerHTML = 'O HD de 1 TB tem por padrão 931GB utilizáveis'
   seletorHd.style.color = 'yellow'
   seletorHd.style.textShadow = '0 0 12px black'
-
+  
 
   res.style.display = 'block'
   listaDeJogos.innerHTML += '**   HD de 1TB   **,' + '\n'
