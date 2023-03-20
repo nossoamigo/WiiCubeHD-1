@@ -3,6 +3,7 @@ const pen60 = document.getElementById('pen60gb')
 const hd500 = document.getElementById('hd500gb')
 const hd1tb = document.getElementById('hd1tb')
 const res = document.getElementById('resultado')
+const tamanhoRealHdMensagem = document.getElementById('tamanhoRealMensagemId')
 const seletorHd = document.getElementById('seletorHd')
 var capacidadeAtual = 0
 var capacidadeMaxima = 0
@@ -11,37 +12,55 @@ var capacidadeMaxima = 0
 // SELEÇÃO DE HD'S
 
 function selecionouPen60() {
+  if (capacidadeAtual >= 58368 / 1.024) {
+    alert('O HD/Pendrive não suporta o tamanho dos jogos selecionados')
+  } else {
   capacidadeMaxima = 58368 / 1.024
-  seletorHd.innerHTML = 'O Pendrive de 64GB tem por padrão 57GB utilizáveis'
-  seletorHd.style.color = 'yellow'
-  seletorHd.style.textShadow = '0 0 12px black'
+  tamanhoRealHdMensagem.innerHTML = 'O Pendrive de 64GB tem por padrão 57GB utilizáveis'
+  tamanhoRealHdMensagem.style.color = 'yellow'
+  tamanhoRealHdMensagem.style.textShadow = '0 0 12px black'
 
   res.style.display = 'block'
-  listaDeJogos.innerHTML += '**   Pendrive de 64GB   **,' + '\n'
+  listaDeJogos.innerHTML = listaDeJogos.innerHTML
+  .replace('** HD500GB **, ', '** PENDRIVE 64GB **, ')
+  .replace('** HD 1TB **, ', '** PENDRIVE 64GB **, ')
   res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
+ }
 }
 
 function selecionouHd500gb() {
+  if (capacidadeAtual >= 476160 / 1.024) {
+    alert('O HD/Pendrive não suporta o tamanho dos jogos selecionados')
+  } else {
   capacidadeMaxima = 476160 / 1.024
-  seletorHd.innerHTML = 'O HD de 500GB tem por padrão 465GB utilizáveis'
-  seletorHd.style.color = 'yellow'
-  seletorHd.style.textShadow = '0 0 12px black'
+  tamanhoRealHdMensagem.innerHTML = 'O HD de 500GB tem por padrão 465GB utilizáveis'
+  tamanhoRealHdMensagem.style.color = 'yellow'
+  tamanhoRealHdMensagem.style.textShadow = '0 0 12px black'
 
   res.style.display = 'block'
-  listaDeJogos.innerHTML += '**   HD de 500GB   **,' + '\n'
+  listaDeJogos.innerHTML = listaDeJogos.innerHTML
+  .replace('** PENDRIVE 64GB **, ', '** HD500GB **, ')
+  .replace('** HD 1TB **, ', '** HD500GB **, ')
   res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
+ }
 }
 
 function selecionouHd1tb() {
+  if (capacidadeAtual >= 953344 / 1.024) {
+    alert('O HD/Pendrive não suporta o tamanho dos jogos selecionados')
+  } else {
   capacidadeMaxima = 953344 / 1.024
-  seletorHd.innerHTML = 'O HD de 1 TB tem por padrão 931GB utilizáveis'
-  seletorHd.style.color = 'yellow'
-  seletorHd.style.textShadow = '0 0 12px black'
+  tamanhoRealHdMensagem.innerHTML = 'O HD de 1 TB tem por padrão 931GB utilizáveis'
+  tamanhoRealHdMensagem.style.color = 'yellow'
+  tamanhoRealHdMensagem.style.textShadow = '0 0 12px black'
   
 
   res.style.display = 'block'
-  listaDeJogos.innerHTML += '**   HD de 1TB   **,' + '\n'
+  listaDeJogos.innerHTML = listaDeJogos.innerHTML
+  .replace('** PENDRIVE 64GB **, ', '** HD 1TB **, ')
+  .replace('** HD500GB **, ', '** HD 1TB **, ')
   res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
+ }
 }
 
 //CONTROLE DE AUDIO

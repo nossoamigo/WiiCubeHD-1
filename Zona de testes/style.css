@@ -76,7 +76,7 @@ form {
 }
 
 #text-area-id {
-    display: none; 
+    display: block; 
 }
 
 .tamanhoHd {
@@ -103,6 +103,15 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
 #botaoDeEnviar {
     padding: 10px;
     margin-bottom: 20px;
+}
+
+.tamanhoRealMensagem {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.radioIdHds {
+    display: none;
 }
 
 /*--Audio--*/

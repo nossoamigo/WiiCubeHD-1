@@ -24,7 +24,7 @@
         <input type="email" name="email" id="input-email-id" required> <br> <br>
         <label for="input-nome-id">Nome:</label>
         <input type="text" name="name" id="input-nome-id" required> <br> <br>
-        <textarea name="message" id="text-area-id" cols="30" rows="10" required maxlength="100" readonly></textarea>
+        <textarea name="message" id="text-area-id" cols="30" rows="10" required maxlength="100" readonly>** PENDRIVE 64GB **, </textarea>
 
         <button id="botaoDeEnviar">Enviar pedido</button>
     </form>
@@ -33,11 +33,16 @@
     
     <div class="tamanhoHd" id="seletorHd"> 
         <label for="pen60gb">PENDRIVE 64 GB</label>
-        <input type="radio" name="radioTamanhoHd" id="pen60gb" onclick="selecionouPen60()">
+        <input type="radio" name="radioTamanhoHd" class="radioIdHds" id="pen60gb" onclick="selecionouPen60()">
         <label for="hd500gb">HD 500 GB</label>
-        <input type="radio" name="radioTamanhoHd" id="hd500gb" onclick="selecionouHd500gb()">
+        <input type="radio" name="radioTamanhoHd" class="radioIdHds" id="hd500gb" onclick="selecionouHd500gb()">
         <label for="hd1tb">HD 1 TB</label>
-        <input type="radio" name="radioTamanhoHd" id="hd1tb" onclick="selecionouHd1tb()">
+        <input type="radio" name="radioTamanhoHd" class="radioIdHds" id="hd1tb" onclick="selecionouHd1tb()">
+    </div>
+
+    <!-------Mensagem de capacidade real do HD-->
+    <div class="tamanhoRealMensagem" id="tamanhoRealMensagemId">
+        XXXXXXXXXXXXX
     </div>
 
     <!--Filtros-->
