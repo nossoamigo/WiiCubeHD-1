@@ -156,7 +156,7 @@ function adicionarJogo(id, nome, tamanho) {
       listaDeJogos.innerHTML = conteudoAtual.replace(jogo, '');
       jogoElement.style.background = 'lightgreen';
       capacidadeAtual -= tamanho;
-      res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
+      res.innerHTML = `${(capacidadeAtual/1000).toFixed(2)} GB / ${capacidadeMaxima/1000} GB`;
 
       if (capacidadeAtual <= capacidadeMaxima / 2) {res.style.color = 'black'} // cores do res
       if (capacidadeAtual >= capacidadeMaxima / 2) {res.style.color = '#ff9100'} // cores do res
@@ -168,7 +168,7 @@ function adicionarJogo(id, nome, tamanho) {
         listaDeJogos.innerHTML = conteudoAtual + jogo + '';
         jogoElement.style.background = 'green';
         capacidadeAtual += tamanho;
-        res.innerHTML = `${capacidadeAtual/1000} GB / ${capacidadeMaxima/1000} GB`;
+        res.innerHTML = `${(capacidadeAtual/1000).toFixed(2)} GB / ${capacidadeMaxima/1000} GB`;
 
         if (capacidadeAtual <= capacidadeMaxima / 2) {res.style.color = 'black'} // cores do res
         if (capacidadeAtual >= capacidadeMaxima / 2) {res.style.color = '#ff9100'} // cores do res
