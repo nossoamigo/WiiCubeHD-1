@@ -76,7 +76,7 @@ form {
 }
 
 #text-area-id {
-    display: block; 
+    display: none; 
 }
 
 .tamanhoHd {
@@ -140,6 +140,31 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     width: 100%;
     height: 100%;
     font-size: 6em;
+}
+
+/*--Seletor de console--*/
+
+.seletorConsole {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.seletorConsoleItem {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: orange;
+    text-shadow: 0 0 6px black;
+    background: #ffffff61;
+    padding: 5px;
+    border-radius: 20px;
+    height: 34px;
+}
+
+.seletorConsoleItem:hover {
+    cursor: pointer;
+    font-size: 1.4em;
 }
 
 /*--Filtros--*/

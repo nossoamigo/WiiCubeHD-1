@@ -8,7 +8,6 @@ const seletorHd = document.getElementById('seletorHd')
 var capacidadeAtual = 0
 var capacidadeMaxima = 0
 
-
 // SELEÇÃO DE HD'S
 
 function selecionouPen60() {
