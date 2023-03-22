@@ -158,6 +158,10 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     align-items: center; 
 }
 
+#container-jogo-gamecube {
+    display: none;
+}
+
 .itensFiltro {
     display: flex;
     width: 150px;

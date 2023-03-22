@@ -69,6 +69,7 @@ function selecionouConsoleWii() {
   document.getElementById('filtrosContainer').style.display = 'flex'
   document.getElementById('container-navegacaoId').style.display = 'flex'
   document.getElementById('container-jogo').style.display = 'flex'
+  document.getElementById('container-jogo-gamecube').style.display = 'none'
 
 }
 
@@ -76,6 +77,7 @@ function selecionouConsoleGameCube() {
   document.getElementById('filtrosContainer').style.display = 'none'
   document.getElementById('container-navegacaoId').style.display = 'none'
   document.getElementById('container-jogo').style.display = 'none'
+  document.getElementById('container-jogo-gamecube').style.display = 'flex'
 }
 
 
