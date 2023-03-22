@@ -141,7 +141,8 @@
         },
         { "id": "GK7E08",
         "nome": "Killer7 Disk1",
-        "tamanho": 1200, "imagem": "../imagens/gamecube/cache/US/3d/GK7E08.png"
+        "tamanho": 1200,
+        "imagem": "../imagens/gamecube/cache/US/3d/GK7E08.png"
         },
         { "id": "GKYE01",
         "nome": "Kirby Air Ride",
@@ -333,11 +334,254 @@
         "nome": "Quidditch World Cup",
         "tamanho": 875,
         "imagem": "../imagens/gamecube/cache/US/3d/GQWE69.png"
+        },
+        {
+        "id": "GRHE41",
+        "nome": "RAYMAN 3 HOODLUM HAVOC",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GRHE41.png"
+        },
+        {
+        "id": "GBIE08",
+        "nome": "Resident Evil",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GBIE08.png"
+        },
+        {
+        "id": "GBZE08",
+        "nome": "Resident Evil 0",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GBZE08.png"
+        },
+        {
+        "id": "GLEE08",
+        "nome": "Resident Evil 3",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GLEE08.png"
+        },
+        {
+        "id": "GCDE08",
+        "nome": "RESIDENT EVIL CVX",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GCDE08.png"
+        },
+        {
+        "id": "GHAE08",
+        "nome": "RESIDENT EVIL2",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GHAE08.png"
+        },
+        {
+        "id": "GUPE8P",
+        "nome": "SHADOW THE HEDGEHOG",
+        "tamanho": 1270,
+        "imagem": "../imagens/gamecube/cache/US/3d/GUPE8P.png"
+        },
+        {
+        "id": "GEAE8P",
+        "nome": "Skies of Arcadia Legends",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GEAE8P.png"
+        },
+        {
+        "id": "GSNE8P",
+        "nome": "Sonic Adventure 2 Battle",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GSNE8P.png"
+        },
+        {
+        "id": "G9SE8P",
+        "nome": "SONIC HEROES",
+        "tamanho": 1160,
+        "imagem": "../imagens/gamecube/cache/US/3d/G9SE8P.png"
+        },
+        {
+        "id": "GXEE8P",
+        "nome": "SonicRiders",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GXEE8P.png"
+        },
+        {
+        "id": "GRSEAF",
+        "nome": "SOULCALIBUR2",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GRSEAF.png"
+        },
+        {
+        "id": "GSAE01",
+        "nome": "Star Fox Adventures",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GSAE01.png"
+        },
+        {
+        "id": "GSXE64",
+        "nome": "Star Wars : The Clone Wars",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GSXE64.png"
+        },
+        {
+        "id": "GSWE64",
+        "nome": "Star Wars: Rogue Leader",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GSWE64.png"
+        },
+        {
+        "id": "GF7E01",
+        "nome": "STARFOX ASSAULT",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GF7E01.png"
+        },
+        {
+        "id": "GMSE01",
+        "nome": "Super Mario Sunshine",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GMSE01.png"
+        },
+        {
+        "id": "GMBE8P", 
+        "nome": "Super Monkey Ball", 
+        "tamanho": 480.32, 
+        "imagem": "../imagens/gamecube/cache/US/3d/GMBE8P.png"
+        },
+        {
+        "id": "GM2E8P",
+        "nome": "SUPER MONKEY BALL 2",
+        "tamanho": 990.18,
+        "imagem": "../imagens/gamecube/cache/US/3d/GM2E8P.png"
+        },
+        { 
+        "id": "GALE01",
+        "nome": "Super Smash Bros Melee",
+        "tamanho": 1.33,
+        "imagem": "../imagens/gamecube/cache/US/3d/GALE01.png"
+        },
+        {
+        "id": "GQSEAF",
+        "nome": "TALES OF SYMPHONIA 1",
+        "tamanho": 1.36,
+        "imagem": "../imagens/gamecube/cache/US/3d/GQSEAF.png"
+        },
+        {
+        "id": "GZLE01",
+        "nome": "THE LEGEND OF ZELDA The Wind Waker for USA",
+        "tamanho": 1.36,
+        "imagem": "../imagens/gamecube/cache/US/3d/GZLE01.png"
+        },
+        {
+        "id": "GZ2E01",
+        "nome": "The Legend of Zelda Twilight Princess",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GZ2E01.png"
+        },
+        {"id": "PZLE01",
+        "nome": "The Legend of Zelda: Collector's Edition",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/PZLE01.png"
+        },
+        {"id": "G4SE01",
+        "nome": "The Legend of Zelda: Four Swords FOR NINTENDO GAMECUBE",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/G4SE01.png"
+        },
+        {"id": "GHQE7D",
+        "nome": "The Simpsons Hit & Run",
+        "tamanho": 867.22,
+        "imagem": "../imagens/gamecube/cache/US/3d/GHQE7D.png"
+        },
+        {"id": "GCIE69",
+        "nome": "The Sims",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GCIE69.png"
+        },
+        {
+        "id": "G4ZE69",
+        "nome": "The Sims 2 GameCube",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/G4ZE69.png"
+        },
+        {
+        "id": "GGVE78",
+        "nome": "The SpongeBob SquarePants Movie",
+        "tamanho": 795.15,
+        "imagem": "../imagens/gamecube/cache/US/3d/GGVE78.png"
+        },
+        {
+        "id": "GTSE4F",
+        "nome": "TimeSplitters 2",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GTSE4F.png"
+        },
+        {
+        "id": "G3FE69",
+        "nome": "Timesplitters Future Perfect",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/G3FE69.png"
+        },
+        {
+        "id": "GCEE41", 
+        "nome": "Tom Clancy's Splinter Cell",   
+        "tamanho": 1360, 
+        "imagem": "../imagens/gamecube/cache/US/3d/GCEE41.png"
+        },
+        {
+        "id": "GL8E4F",
+        "nome": "Tomb Raider: Legend",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GL8E4F.png"
+        },
+        {
+        "id": "GT3E52",
+        "nome": "Tony Hawk's Pro Skater 3",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GT3E52.png"
+        },
+        {
+        "id": "GT4E52",
+        "nome": "Tony Hawk's Pro Skater 4",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GT4E52.png"
+        },
+        {
+        "id": "GTDE52",
+        "nome": "Tony Hawk's Underground",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GTDE52.png"
+        },
+        {
+        "id": "GUTE52",
+        "nome": "Ultimate Spider-Man",
+        "tamanho": 1180,
+        "imagem": "../imagens/gamecube/cache/US/3d/GUTE52.png"
+        },
+        {
+        "id": "GVJE08",
+        "nome": "Viewtiful Joe",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GVJE08.png"
+        },
+        {
+        "id": "G2VE08",
+        "nome": "Viewtiful Joe 2",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/G2VE08.png"
+        },
+        {
+        "id": "GZWE01",
+        "nome": "WarioWare, Inc. Mega Party Games",
+        "tamanho": 847,
+        "imagem": "../imagens/gamecube/cache/US/3d/GZWE01.png"
+        },
+        {
+        "id": "GYKEB2",
+        "nome": "Zatch Bell! Mamodo Battles",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GYKEB2.png"
+        },
+        {
+        "id": "GABEAF",
+        "nome": "Zatch Bell!: Mamodo Fury",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GABEAF.png"
         }
-
-
-
-
-
     ]
 }
