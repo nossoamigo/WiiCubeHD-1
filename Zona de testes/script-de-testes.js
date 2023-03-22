@@ -63,6 +63,25 @@ function selecionouHd1tb() {
  }
 }
 
+// SELETOR DE CONSOLE
+
+function selecionouConsoleWii() {
+  document.getElementById('filtrosContainer').style.display = 'flex'
+  document.getElementById('container-navegacaoId').style.display = 'flex'
+  document.getElementById('container-jogo').style.display = 'flex'
+
+}
+
+function selecionouConsoleGameCube() {
+  document.getElementById('filtrosContainer').style.display = 'none'
+  document.getElementById('container-navegacaoId').style.display = 'none'
+  document.getElementById('container-jogo').style.display = 'none'
+}
+
+
+
+
+
 //CONTROLE DE AUDIO
 
 var audio = new Audio('../Musicas/Super mario lofi.mp3');
@@ -796,9 +815,6 @@ function FiltroHdShopee() {
 
 
 
-
-
-
 // Botão de voltar ao topo da pagina
 
 window.addEventListener('scroll', function() {
@@ -816,3 +832,57 @@ window.addEventListener('scroll', function() {
 function clicouVoltar() {
   window.scrollTo(0, 0);
 }
+
+
+
+
+
+////////////////////////////////////////////////////////////////
+/////////////////        GAMECUBE    //////////////////////////
+//////////////////////////////////////////////////////////////
+
+
+
+
+
+fetch('gamecube.json')
+.then(response => response.json())
+.then(data => {
+  var containerCube = document.getElementById("container-jogo-gamecube");
+  data.itens.forEach(function(item) {
+      var div = document.createElement("div");
+      div.classList.add("jogo");
+      div.id = item.id;
+      div.onclick = function() {
+        adicionarJogo(item.id, item.nome, item.tamanho);
+      }
+
+      div.onmouseenter = function() {
+        document.getElementById('imagemMaior').src = item.imagem;
+        document.getElementById('imagemMaior').style.display = 'block'
+        document.getElementById('imagemMaior').style.left = event.pageX + 15 + 'px';
+        document.getElementById('imagemMaior').style.top = event.pageY + 15 + 'px';
+      }
+
+      div.onmouseleave = function() {
+        document.getElementById('imagemMaior').style.display = 'none'
+      }
+
+      var imagem = document.createElement("img");
+      imagem.src = item.imagem;
+      imagem.alt = item.nome;
+    
+      var nome = document.createElement("p");
+      nome.innerText = item.nome;
+    
+      var tamanho = document.createElement("span");
+      tamanho.classList.add("tamanhoDoJogo");
+      tamanho.innerText = item.tamanho + " mb";
+    
+      nome.appendChild(tamanho);
+      div.appendChild(imagem);
+      div.appendChild(nome);
+    
+      containerCube.appendChild(div);
+    });
+  });

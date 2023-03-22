@@ -1,0 +1,343 @@
+{
+    "itens":[
+        {"id": "GTEE01",
+        "nome": "1080: Avalanche",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GTEE01.png"
+        },
+        {   
+         "id": "GAUE08",
+         "nome": "auto modellista",
+         "tamanho": 821.77,
+         "imagem": "../imagens/gamecube/cache/US/3d/GAUE08.png"
+        },
+        {  
+        "id": "GKBEAF",
+        "nome": "Baten Kaitos - Eternal Wings and the Lost Ocean",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GKBEAF.png"
+        }, 
+        {
+        "id": "GK4E01",
+        "nome": "Baten Kaitos Origins",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GK4E01.png"
+        },
+        {"id": "GGEE41",
+        "nome": "Beyond Good and Evil",
+        "tamanho": 1250,
+        "imagem": "../imagens/gamecube/cache/US/3d/GGEE41.png"
+        },
+        {"id": "GO2P4F",
+        "nome": "Blood Omen 2",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/EN/3d/GO2P4F.png"
+        },
+        {"id": "GBLE52",
+        "nome": "BLOODY ROAR(R): PRIMAL FURY",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GBLE52.png"
+        },
+        {"id": "GBGE5G",
+        "nome": "Bomberman Generation",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GBGE5G.png"
+        },
+        {  
+        "id": "GB4E51",
+        "nome": "Burnout 2",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GB4E51.png"
+        },
+        {
+        "id": "GEOE08",
+        "nome": "CAPCOM VS. SNK 2  EO",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GEOE08.png"
+        },
+        {
+        "id": "GKJE78",
+        "nome": "Cars",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GKJE78.png"
+        },
+        {
+        "id": "GWZE01",
+        "nome": "Dance Dance Revolution: Mario Mix for US",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GWZE01.png"
+        },
+        {
+        "id": "GD6P70",
+        "nome": "Digimon Rumble Arena 2",
+        "tamanho": 1290,
+        "imagem": "../imagens/gamecube/cache/EN/3d/GD6P70.png"
+        },
+        {
+        "id": "GMXE70",
+        "nome": "Enter The Matrix",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GMXE70.png"
+        },
+        {
+        "id": "GEDE01",
+        "nome": "Eternal Darkness",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GEDE01.png"
+        },
+        {
+        "id": "GEDE01",
+        "nome": "Eternal Darkness",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GEDE01.png"
+        },
+        {
+        "id": "G4FE69",
+        "nome": "FIFA 07",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/G4FE69.png"
+        },
+        {
+        "id": "GF8P69",
+        "nome": "FIFA Street",
+        "tamanho": 784.55,
+        "imagem": "../imagens/gamecube/cache/EN/3d/GF8P69.png"
+        },
+        {
+        "id": "GFYP69",
+        "nome": "FIFA Street 2",
+        "tamanho": 1210,
+        "imagem": "../imagens/gamecube/cache/EN/3d/GFYP69.png"
+        },
+        {
+        "id": "GCCE01",
+        "nome": "FINAL FANTASY Crystal Chronicles",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GCCE01.png"
+        },
+        {
+        "id": "GFEE01",
+        "nome": "FIRE EMBLEM GC US",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GFEE01.png"
+        },
+        {
+        "id": "GFZE01",
+        "nome": "F-ZERO GX (US Version)",
+        "tamanho": 1340,
+        "imagem": "../imagens/gamecube/cache/US/3d/GFZE01.png"
+        },
+        {
+        "id": "GHME4F",
+        "nome": "Hitman 2: Silent Assassin",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GHME4F.png"
+        },
+        {
+        "id": "GIKE70",
+        "nome": "IKARUGA",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GIKE70.png"
+        },
+        { "id": "GK7E08",
+        "nome": "Killer7 Disk1",
+        "tamanho": 1200, "imagem": "../imagens/gamecube/cache/US/3d/GK7E08.png"
+        },
+        { "id": "GKYE01",
+        "nome": "Kirby Air Ride",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GKYE01.png"
+        },
+        {
+        "id": "GRNE52",
+        "nome": "LOST KINGDOMS",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GRNE52.png"
+        },
+        { "id": "GLME01",
+        "nome": "LUIGI'S MANSION",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GLME01.png"
+        },
+        {
+        "id": "GM4E01",
+        "nome": "Mario Kart Double Dash!",
+        "tamanho": 468,
+        "imagem": "../imagens/gamecube/cache/US/3d/GM4E01.png"
+        },
+        {
+        "id": "GP5E01",
+        "nome": "Mario Party 5",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GP5E01.png"
+        },
+        {
+        "id": "GP6E01",
+        "nome": "Mario Party 6",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GP6E01.png"
+        },
+        {
+        "id": "GP7E01",
+        "nome": "Mario Party 7",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GP7E01.png"
+        },
+        {
+        "id": "GFTE01",
+        "nome": "Mario Golf: Toadstool Tour",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GFTE01.png"
+        },
+        {
+        "id": "GMPE01",
+        "nome": "MarioParty4",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GMPE01.png"
+        },
+        {
+        "id": "GVLE69",
+        "nome": "Marvel Nemesis: Rise of the Imperfects",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GVLE69.png"
+        },
+        {
+        "id": "GXGE08",
+        "nome": "MEGAMAN X COLLECTION",
+        "tamanho": 794.77,
+        "imagem": "../imagens/gamecube/cache/US/3d/GXGE08.png"
+        },
+        {
+        "id": "GGSEA4",
+        "nome": "METAL GEAR SOLID THE TWIN SNAKES",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GGSEA4.png"
+        },
+        {
+        "id": "GM8P01",
+        "nome": "Metroid Prime",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/EN/3d/GM8P01.png"
+        },
+        {
+        "id": "GMKE5D",
+        "nome": "Mortal Kombat Deadly Alliance",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GMKE5D.png"
+        },
+        {
+        "id": "GQNE5D",
+        "nome": "Mortal Kombat Deception",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GQNE5D.png"
+        },
+        {
+        "id": "GNREDA",
+        "nome": "NARUTO CLASH OF NINJA",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GNREDA.png"
+        },
+        {
+        "id": "GNUEDA",
+        "nome": "NARUTO2",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GNUEDA.png"
+        },
+        {
+        "id": "G3NJDA",
+        "nome": "NARUTO3",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/JA/3d/G3NJDA.png"
+        },
+        {
+        "id": "G3VE69",
+        "nome": "NBA STREET V3",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/G3VE69.png"
+        },
+        {
+        "id": "GNZE69",
+        "nome": "NBA STREET Vol.2",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GNZE69.png"
+        },
+        {
+        "id": "GUGE69",
+        "nome": "Need for Speed(TM) Underground 2",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GUGE69.png"
+        },
+        {
+        "id": "GPZJ01",
+        "nome": "NINTENDO PUZZLE COLLECTION",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/JA/3d/GPZJ01.png"
+        },
+        {
+        "id": "GOOE01",
+        "nome": "Odama US ver",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GOOE01.png"
+        },
+        {
+        "id": "GOQEAF",
+        "nome": "ONE PIECE: GRAND ADVENTURE",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GOQEAF.png"
+        },
+        {
+        "id": "GP8EAF",
+        "nome": "Pac-Man World 3",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GP8EAF.png"
+        },
+        {
+        "id": "GPOE8P",
+        "nome": "PHANTASY STAR ONLINE EPISODE I&II",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GPOE8P.png"
+        },
+        {
+        "id": "GPIE01",
+        "nome": "Pikmin",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GPIE01.png"
+        },
+        {
+        "id": "GPVE01",
+        "nome": "PIKMIN2 for GAMECUBE",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GPVE01.png"
+        },    
+        {
+        "id": "GC6E01",
+        "nome": "Pokemon Colosseum",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GC6E01.png"
+        },
+        
+        {
+        "id": "GXXE01",
+        "nome": "POKeMON XD",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GXXE01.png"
+        },
+        {
+        "id": "GPTE41",
+        "nome": "Prince of Persia : The Sands of Time",
+        "tamanho": 1330,
+        "imagem": "../imagens/gamecube/cache/US/3d/GPTE41.png"
+        },
+        {
+        "id": "GQWE69",
+        "nome": "Quidditch World Cup",
+        "tamanho": 875,
+        "imagem": "../imagens/gamecube/cache/US/3d/GQWE69.png"
+        }
+
+
+
+
+
+    ]
+}

@@ -76,7 +76,7 @@ form {
 }
 
 #text-area-id {
-    display: none; 
+    display: block; 
 }
 
 .tamanhoHd {
@@ -320,6 +320,17 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
 }
 
 #FiltroHdShopee:hover {
+    opacity: 100%;
+}
+
+#filtroTeste {
+    background: url(../imagens/fundosfiltros/wiiLogo.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#filtroTeste:hover {
     opacity: 100%;
 }
 
