@@ -572,8 +572,8 @@ let clicouHdShopee = false
 function FiltroHdShopee() {
   if (clicouHdShopee == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
-      if (capacidadeAtual + 476000 > capacidadeMaxima) {
-        alert('Você precisa ao menos 476GB para selecionar HD shopee/ML')
+      if (capacidadeAtual + 478100 > capacidadeMaxima) {
+        alert('Você precisa ao menos 478.1GB para selecionar HD shopee/ML')
       } else {
         adicionarJogo('SBLE5G', 'a boy and his blob', 1268)
         adicionarJogo('SAVE5G', 'Alvin and the Chipmunks: The Squeakquel', 652)
@@ -756,6 +756,8 @@ function FiltroHdShopee() {
         adicionarJogo('RSLPAF', 'SOULCALIBUR Legends', 1652)
         adicionarJogo('SQME52', 'Spider-Man: Edge of Time', 1590)
         adicionarJogo('RBKE69', 'Spielberg | EA BoomBlox', 1506)
+        adicionarJogo('SVDE52', 'Spongebob Squarepants Plankton\'s Robotic Revenge', 862)
+        adicionarJogo('RQ4E78', 'Spongebob Squarepants Creature from the Krusty Krab', 2032)
         adicionarJogo('RSPE01', 'SPORTS PACK for REVOLUTION', 320)
         adicionarJogo('RO8E7D', 'SPYRO08', 3818)
         adicionarJogo('RSXE69', 'SSX Blur', 1056)

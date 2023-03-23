@@ -2070,6 +2070,18 @@
         "imagem": "../imagens/US/front/RBKE69.png"
         },
         {
+        "id": "SVDE52",
+        "nome": "Spongebob Squarepants Plankton's Robotic Revenge",
+        "tamanho": 862,
+        "imagem": "../imagens/US/front/SVDE52.png"
+        }, 
+        {
+        "id": "RQ4E78",
+        "nome": "Spongebob Squarepants Creature from the Krusty Krab",
+        "tamanho": 2032,
+        "imagem": "../imagens/US/front/RQ4E78.png"
+        },
+        {
         "id": "RQOP69",
         "nome": "Spore Hero",
         "tamanho": 1072,
