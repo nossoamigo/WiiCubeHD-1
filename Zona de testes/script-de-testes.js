@@ -116,10 +116,12 @@ fetch('arquivo.json')
       }
 
       div.onmouseenter = function() {
+        if (!window.matchMedia("(max-width: 480px)").matches) {
         document.getElementById('imagemMaior').src = item.imagem;
         document.getElementById('imagemMaior').style.display = 'block'
         document.getElementById('imagemMaior').style.left = event.pageX + 15 + 'px';
         document.getElementById('imagemMaior').style.top = event.pageY + 15 + 'px';
+      }
       }
 
       div.onmouseleave = function() {
@@ -821,7 +823,7 @@ function FiltroHdShopee() {
 window.addEventListener('scroll', function() {
   let botaoVoltar = document.getElementById('botaoVoltarAoInicio')
   const posicao = window.pageYOffset + document.documentElement.clientHeight;
-  const pontoDeMudanca = 0.15 * document.documentElement.scrollHeight;
+  const pontoDeMudanca = 0.12 * document.documentElement.scrollHeight;
   
   if (posicao >= pontoDeMudanca) {
     botaoVoltar.style.display = 'flex';
@@ -859,11 +861,12 @@ fetch('gamecube.json')
       }
 
       div.onmouseenter = function() {
+        if (!window.matchMedia("(max-width: 480px)").matches) {
         document.getElementById('imagemMaior').src = item.imagem;
         document.getElementById('imagemMaior').style.display = 'block'
         document.getElementById('imagemMaior').style.left = event.pageX + 15 + 'px';
         document.getElementById('imagemMaior').style.top = event.pageY + 15 + 'px';
-      }
+      }}
 
       div.onmouseleave = function() {
         document.getElementById('imagemMaior').style.display = 'none'
