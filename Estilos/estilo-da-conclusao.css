@@ -8,6 +8,7 @@ body {
     background: url(../imagens/wallpaper/mario-kart.jpg) no-repeat fixed;
     background-position: center center;
     background-size: cover;
+    overflow: hidden;
 }
 
 .container {
