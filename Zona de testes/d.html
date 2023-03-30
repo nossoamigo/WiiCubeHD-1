@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styleSecreto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Cole aqui o texto bruto:</h1>
+            <textarea name="" id="textAreaId" cols="150" rows="20"></textarea>
+        </div>
+        <button onclick="pularLinhaPorVirgula()" id="botao">Converter</button>
+        <div>
+            <h1>Aqui vai o resultado</h1>
+            <textarea name="" id="textArea2Id" cols="150" rows="20"></textarea>
+        </div>
+    </div>
+
+    <script>
+        function pularLinhaPorVirgula() {
+            const text = document.getElementById('textAreaId').value;
+            const text2 = document.getElementById('textArea2Id');
+            const regex = /\)(,)/g;
+            text2.value = text.replace(regex, ')\n$1').replace(/^,/gm, '');
+        }
+    </script>
+</body>
+</html>
