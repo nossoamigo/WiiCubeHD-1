@@ -6,6 +6,12 @@
         "imagem": "../imagens/EN/front/RYEPHZ.png"
         },
         {
+        "id": "S2EE41",
+        "nome": "Abba - You Can Dance",
+        "tamanho": 3674,
+        "imagem": "../imagens/US/front/S2EE41.png"
+        },
+        {
         "id": "SBLE5G",
         "nome": "a boy and his blob",
         "tamanho": 1268,
@@ -208,6 +214,12 @@
         "nome": "Big Family Games",
         "tamanho": 600,
         "imagem": "../imagens/EN/front/RN7P78.png"
+        },
+        {
+        "id": "SVCEPZ",
+        "nome": "Big Time Rush - Dance Party",
+        "tamanho": 294,
+        "imagem": "../imagens/US/front/SVCEPZ.png"
         },
         {
         "id": "RBHE08",
@@ -658,6 +670,12 @@
         "nome": "Dream Salon",
         "tamanho": 784,
         "imagem": "../imagens/US/front/R75E20.png"
+        },
+        {
+        "id": "SKZE52",
+        "nome": "DreamWorks Super Star Kartz",
+        "tamanho": 796,
+        "imagem": "../imagens/US/front/SKZE52.png"
         },
         {
         "id": "RDVE41",
@@ -1138,6 +1156,12 @@
         "nome": "Just Dance 2019",
         "tamanho": 4360,
         "imagem": "../imagens/US/front/S5EE41.png"
+        },
+        {
+        "id": "S2UE41",
+        "nome": "Just Dance 2020",
+        "tamanho": 4020,
+        "imagem": "../imagens/US/front/S2UE41.png"
         },
         {
         "id": "SJDE41",
