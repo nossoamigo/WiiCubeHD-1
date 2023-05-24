@@ -11,6 +11,12 @@
          "tamanho": 821.77,
          "imagem": "../imagens/gamecube/cache/US/3d/GAUE08.png"
         },
+        {
+        "id": "GYAE78",
+        "nome": "Barnyard",
+        "tamanho": 1393,
+        "imagem": "../imagens/gamecube/cache/US/3d/GYAE78.png"
+        },
         {  
         "id": "GKBEAF",
         "nome": "Baten Kaitos - Eternal Wings and the Lost Ocean",
@@ -60,6 +66,12 @@
         "nome": "Cars",
         "tamanho": 1360,
         "imagem": "../imagens/gamecube/cache/US/3d/GKJE78.png"
+        },
+        {
+        "id": "GCNE7D",
+        "nome": "Crash Nitro Kart",
+        "tamanho": 1393,
+        "imagem": "../imagens/gamecube/cache/US/3d/GCNE7D.png"
         },
         {
         "id": "GWZE01",
@@ -116,6 +128,12 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GFEE01.png"
         },
         {
+        "id": "GLHEG9",
+        "nome": "FlushedAway",
+        "tamanho": 1393,
+        "imagem": "../imagens/gamecube/cache/US/3d/GLHEG9.png"
+        },
+        {
         "id": "GFZE01",
         "nome": "F-ZERO GX (US Version)",
         "tamanho": 1340,
@@ -149,10 +167,22 @@
         "tamanho": 1360,
         "imagem": "../imagens/gamecube/cache/US/3d/GRNE52.png"
         },
+        {
+        "id": "GLNE69",
+        "nome": "Looney Tunes - Back in Action",
+        "tamanho": 1393,
+        "imagem": "../imagens/gamecube/cache/US/3d/GLNE69.png"
+        },
         { "id": "GLME01",
         "nome": "LUIGI'S MANSION",
         "tamanho": 1360,
         "imagem": "../imagens/gamecube/cache/US/3d/GLME01.png"
+        },
+        {
+        "id": "GGZE52",
+        "nome": "Madagascar",
+        "tamanho": 1393,
+        "imagem": "../imagens/gamecube/cache/US/3d/GGZE52.png"
         },
         {
         "id": "GM4E01",
@@ -281,6 +311,18 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GOQEAF.png"
         },
         {
+        "id": "GOSE41",
+        "nome": "Open Season",
+        "tamanho": 1393,
+        "imagem": "../imagens/gamecube/cache/US/3d/GOSE41.png"
+        },
+        {
+        "id": "GH5E52",
+        "nome": "Over The Hedge",
+        "tamanho": 1393,
+        "imagem": "../imagens/gamecube/cache/US/3d/GH5E52.png"
+        },
+        {
         "id": "GP8EAF",
         "nome": "Pac-Man World 3",
         "tamanho": 1360,
@@ -354,6 +396,12 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GLEE08.png"
         },
         {
+            "id": "G4BE08",
+            "nome": "Resident Evil 4",
+            "tamanho": 3674,
+            "imagem": "../imagens/gamecube/cache/US/3d/G4BE08.png"
+        },
+        {
         "id": "GCDE08",
         "nome": "RESIDENT EVIL CVX",
         "tamanho": 1360,
@@ -366,10 +414,22 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GHAE08.png"
         },
         {
+        "id": "G5DE78",
+        "nome": "Scooby-Doo! Unmasked",
+        "tamanho": 1393,
+        "imagem": "../imagens/gamecube/cache/US/3d/G5DE78.png"
+        },
+        {
         "id": "GUPE8P",
         "nome": "SHADOW THE HEDGEHOG",
         "tamanho": 1270,
         "imagem": "../imagens/gamecube/cache/US/3d/GUPE8P.png"
+        },
+        {
+        "id": "G4IE52",
+        "nome": "Shrek Smash n' Crash Racing",
+        "tamanho": 1393,
+        "imagem": "../imagens/gamecube/cache/US/3d/G4IE52.png"
         },
         {
         "id": "GEAE8P",
@@ -566,6 +626,12 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GZWE01.png"
         },
         {
+        "id": "GYFEA4",
+        "nome": "Yu-Gi-Oh! The Faksebound Kingdom",
+        "tamanho": 1393,
+        "imagem": "../imagens/gamecube/cache/US/3d/GYFEA4.png"
+        },
+        {
         "id": "GYKEB2",
         "nome": "Zatch Bell! Mamodo Battles",
         "tamanho": 1360,
@@ -576,6 +642,12 @@
         "nome": "Zatch Bell!: Mamodo Fury",
         "tamanho": 1360,
         "imagem": "../imagens/gamecube/cache/US/3d/GABEAF.png"
+        },
+        {
+            "id": "G43E01",
+            "nome": "Zelda Ocarina Multi Pack",
+            "tamanho": 1393,
+            "imagem": "../imagens/gamecube/cache/US/3d/D43E01.png"
         }
     ]
 }
