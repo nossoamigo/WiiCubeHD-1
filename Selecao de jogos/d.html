@@ -13,7 +13,7 @@
             <h1>Cole aqui o texto bruto:</h1>
             <textarea name="" id="textAreaId" cols="150" rows="20"></textarea>
         </div>
-        <button onclick="pularLinhaPorVirgula()" id="botao">Converter</button>
+        <button onclick="converter()" id="botao">Converter</button>
         <div>
             <h1>Aqui vai o resultado</h1>
             <textarea name="" id="textArea2Id" cols="150" rows="20"></textarea>
@@ -21,12 +21,51 @@
     </div>
 
     <script>
-        function pularLinhaPorVirgula() {
-            const text = document.getElementById('textAreaId').value;
-            const text2 = document.getElementById('textArea2Id');
-            const regex = /\)(,)/g;
-            text2.value = text.replace(regex, ')\n$1').replace(/^,/gm, '');
+        function converter() {
+            let text1 = document.getElementById("textAreaId").value;
+            let text2 = document.getElementById("textArea2Id");
+
+            // Remove apenas a vírgula depois "()," e mantém o restante da formatação
+            let lista = text1.replace(/,\s*\(/g, '\n(');
+
+            const listaOrganizada = organizarLista(lista.split('\n'));
+
+            text2.value = listaOrganizada;
         }
+
+
+
+
+
+
+
+        function organizarLista(lista) {
+            const hd = lista.shift(); // Extrai o primeiro item da lista (HD de 500GB)
+
+            // Ordena a lista em ordem alfabética
+            lista.sort(function(a, b) {
+                // Ignora o ID inicial de cada item
+                const nomeA = a.substring(a.indexOf(',') + 2);
+                const nomeB = b.substring(b.indexOf(',') + 2);
+
+                return nomeA.localeCompare(nomeB);
+            });
+
+            // Insere o HD de 500GB no início da lista novamente
+            lista.unshift(hd);
+
+            // Junta cada item da lista em uma linha separada
+            const listaOrganizada = lista.join('\n');
+
+            return listaOrganizada;
+        }
+
+
+
+
+
+
+
     </script>
 </body>
 </html>
