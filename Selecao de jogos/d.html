@@ -24,6 +24,7 @@
         function converter() {
             let text1 = document.getElementById("textAreaId").value;
             let text2 = document.getElementById("textArea2Id");
+            text2.value = "";
 
             // Remove apenas a vírgula depois "()," e mantém o restante da formatação
             let lista = text1.replace(/,\s*\(/g, '\n(');
@@ -32,12 +33,6 @@
 
             text2.value = listaOrganizada;
         }
-
-
-
-
-
-
 
         function organizarLista(lista) {
             const hd = lista.shift(); // Extrai o primeiro item da lista (HD de 500GB)
@@ -59,13 +54,6 @@
 
             return listaOrganizada;
         }
-
-
-
-
-
-
-
     </script>
 </body>
 </html>
