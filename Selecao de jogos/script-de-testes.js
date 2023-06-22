@@ -546,7 +546,7 @@ function FiltroTodosOsJogos() {
               }
             }
             if (jogosAdicionados > 0) {
-              alert('Foram adicionados ' + jogosAdicionados + ' jogo(s) a lista.');
+              alert('Foram adicionados ' + jogosAdicionados + ' jogo(s) a lista. Alguns não couberam.');
             } else {
               alert('Não há espaço suficiente para adicionar nenhum jogo.');
             }
@@ -580,8 +580,8 @@ let clicouHdShopee = false
 function FiltroHdShopee() {
   if (clicouHdShopee == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
-      if (capacidadeAtual + 478100 > capacidadeMaxima) {
-        alert('Você precisa ao menos 478.1GB para selecionar HD shopee/ML')
+      if (capacidadeAtual + 476600 > capacidadeMaxima) {
+        alert('Você precisa ao menos 476.6GB para selecionar HD shopee/ML')
       } else {
         adicionarJogo('SBLE5G', 'a boy and his blob', 1268)
         adicionarJogo('SAVE5G', 'Alvin and the Chipmunks: The Squeakquel', 652)
@@ -652,7 +652,6 @@ function FiltroHdShopee() {
         adicionarJogo('SGPEYG', 'GPClassicRacing', 236)
         adicionarJogo('R3LEWR', 'Green Lantern: Rise of the Manhunters', 704)
         adicionarJogo('RGTE41', 'GT Pro Series', 654)
-        adicionarJogo('R3NPH3', 'GUILTY GEAR XX A CORE PLUS EU', 1492)
         adicionarJogo('SA7ESZ', 'Gummy Bears Magical Medalion', 184)
         adicionarJogo('SW7EVN', 'Gunslingers', 1058)
         adicionarJogo('RBIEE9', 'Harvest Moon: Animal Parade', 1976)
