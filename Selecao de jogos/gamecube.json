@@ -185,10 +185,22 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GGZE52.png"
         },
         {
+        "id": "GFTE01",
+        "nome": "Mario Golf: Toadstool Tour",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GFTE01.png"
+        },
+        {
         "id": "GM4E01",
         "nome": "Mario Kart Double Dash!",
         "tamanho": 468,
         "imagem": "../imagens/gamecube/cache/US/3d/GM4E01.png"
+        },
+        {
+        "id": "GMPE01",
+        "nome": "MarioParty4",
+        "tamanho": 1360,
+        "imagem": "../imagens/gamecube/cache/US/3d/GMPE01.png"
         },
         {
         "id": "GP5E01",
@@ -209,16 +221,16 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GP7E01.png"
         },
         {
-        "id": "GFTE01",
-        "nome": "Mario Golf: Toadstool Tour",
-        "tamanho": 1360,
-        "imagem": "../imagens/gamecube/cache/US/3d/GFTE01.png"
+        "id": "GOME01",
+        "nome": "MarioPowerTennis",
+        "tamanho": 601,
+        "imagem": "../imagens/gamecube/cache/US/3d/GOME01.png"
         },
         {
-        "id": "GMPE01",
-        "nome": "MarioParty4",
-        "tamanho": 1360,
-        "imagem": "../imagens/gamecube/cache/US/3d/GMPE01.png"
+        "id": "G4QE01",
+        "nome": "Mario Strikers",
+        "tamanho": 618,
+        "imagem": "../imagens/gamecube/cache/US/3d/G4QE01.png"
         },
         {
         "id": "GVLE69",
@@ -275,6 +287,12 @@
         "imagem": "../imagens/gamecube/cache/JA/3d/G3NJDA.png"
         },
         {
+        "id": "G4NJDA",
+        "nome": "NARUTO4 - JAP",
+        "tamanho": 1198,
+        "imagem": "../imagens/gamecube/cache/US/3d/G4NJDA.png"
+        },
+        {
         "id": "G3VE69",
         "nome": "NBA STREET V3",
         "tamanho": 1360,
@@ -327,6 +345,12 @@
         "nome": "Pac-Man World 3",
         "tamanho": 1360,
         "imagem": "../imagens/gamecube/cache/US/3d/GP8EAF.png"
+        },
+        {
+        "id": "G8ME01",
+        "nome": "Paper Mario-The Thousand-Year Door",
+        "tamanho": 577,
+        "imagem": "../imagens/gamecube/cache/US/3d/G8ME01.png"
         },
         {
         "id": "GPOE8P",
