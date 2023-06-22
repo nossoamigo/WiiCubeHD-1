@@ -534,14 +534,21 @@ let clicouTodosOsJogos = false;
 function FiltroTodosOsJogos() {
   if (clicouTodosOsJogos == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
-      if (capacidadeAtual + 917000 > capacidadeMaxima) {
-        alert('Você precisa ao menos 917GB para selecionar todos os jogos')
-      } else {
+      
         fetch('arquivo.json')
           .then(response => response.json())
           .then(data => {
+            let jogosAdicionados = 0;
             for (let item of data.itens) {
-              adicionarJogo(item.id, item.nome, item.tamanho);
+              if (capacidadeAtual + item.tamanho <= capacidadeMaxima) {
+                adicionarJogo(item.id, item.nome, item.tamanho);
+                jogosAdicionados++;
+              }
+            }
+            if (jogosAdicionados > 0) {
+              alert('Foram adicionados ' + jogosAdicionados + ' jogo(s) a lista.');
+            } else {
+              alert('Não há espaço suficiente para adicionar nenhum jogo.');
             }
           })
           .catch(error => console.error(error));
@@ -550,7 +557,7 @@ function FiltroTodosOsJogos() {
         document.getElementById('CheckBoxFiltroTodosOsJogos').style.textShadow = 'black 0px 0px 7px'
         document.getElementById('FiltroTodosOsJogos').style.opacity = '100%'
         clicouTodosOsJogos = true
-      }
+      
     } else {
       alert('Selecione um HD/PENDRIVE');
       window.scrollTo(0, 0);
