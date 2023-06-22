@@ -30,12 +30,6 @@
         "imagem": "../imagens/US/front/SFSPGT.png"
         },
         {
-        "id": "SDWP18",
-        "nome": "A Shadow's Tale",
-        "tamanho": 1276,
-        "imagem": "../imagens/EN/front/SDWP18.png"
-        },
-        {
         "id": "R4LXUG",
         "nome": "A. Piggy Party",
         "tamanho": 180,
@@ -928,12 +922,6 @@
         "nome": "GT Pro Series",
         "tamanho": 654,
         "imagem": "../imagens/US/front/RGTE41.png"
-        },
-        {
-        "id": "R3NPH3",
-        "nome": "GUILTY GEAR XX A CORE PLUS EU",
-        "tamanho": 1492,
-        "imagem": "../imagens/EN/front/R3NPH3.png"
         },
         {
         "id": "SXEE52",
