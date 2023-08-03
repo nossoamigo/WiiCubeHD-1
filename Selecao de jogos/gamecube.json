@@ -68,10 +68,22 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GKJE78.png"
         },
         {
+        "id": "G4CE54",
+        "nome": "Charlie and The Chocolate Factory",
+        "tamanho": 1195,
+        "imagem": "../imagens/gamecube/cache/US/3d/G4CE54.png"
+        },
+        {
         "id": "GCNE7D",
         "nome": "Crash Nitro Kart",
         "tamanho": 1393,
         "imagem": "../imagens/gamecube/cache/US/3d/GCNE7D.png"
+        },
+        {
+        "id": "G9RE7D",
+        "nome": "Crash Tag Team Racing",
+        "tamanho": 1321,
+        "imagem": "../imagens/gamecube/cache/US/3d/G9RE7D.png"
         },
         {
         "id": "GWZE01",
@@ -436,6 +448,12 @@
         "nome": "RESIDENT EVIL2",
         "tamanho": 1360,
         "imagem": "../imagens/gamecube/cache/US/3d/GHAE08.png"
+        },
+        {
+        "id": "GRKE41",
+        "nome": "Rocky",
+        "tamanho": 864,
+        "imagem": "../imagens/gamecube/cache/US/3d/GRKE41.png"
         },
         {
         "id": "G5DE78",

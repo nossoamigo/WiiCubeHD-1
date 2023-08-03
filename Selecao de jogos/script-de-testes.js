@@ -399,8 +399,8 @@ let ClicouTodosOsJustDance = false
 function filtroTodosOsJustDance() {
   if (ClicouTodosOsJustDance == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
-      if (capacidadeAtual + 41150 > capacidadeMaxima) {
-        alert('Você precisa ao menos 37.2GB para selecionar todos os JUST DANCE')
+      if (capacidadeAtual + 45000 > capacidadeMaxima) {
+        alert('Você precisa ao menos 45GB para selecionar todos os JUST DANCE')
       } else {
       adicionarJogo('SD2E41', 'Just Dance 2', 3090)
       adicionarJogo('SE3E41', 'Just Dance 2015', 3420)
@@ -414,6 +414,7 @@ function filtroTodosOsJustDance() {
       adicionarJogo('SJ9E41', 'Just Dance Summer Party', 1544)
       adicionarJogo('SD2J01', 'Just Dance Wii', 2258)
       adicionarJogo('S2UE41', 'Just Dance 2020', 4020)
+      adicionarJogo('SJDJ01', 'Just Dance Wii 2 (J)', 3848)
 
       document.getElementById('checkBoxFiltroTodosOsJustDance').innerHTML = '<span class=\"material-icons\">check</span>'
       document.getElementById('checkBoxFiltroTodosOsJustDance').style.textShadow = 'black 0px 0px 7px'
