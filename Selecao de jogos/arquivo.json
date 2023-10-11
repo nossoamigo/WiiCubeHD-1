@@ -174,6 +174,18 @@
         "imagem": "../imagens/US/front/S3BEWR.png"
         },
         {
+        "id": "RBWE01",
+        "nome": "Battalion Wars 2",
+        "tamanho": 2656,
+        "imagem": "../imagens/US/front/RBWE01.png"
+        },
+        {
+        "id": "SGXE41",
+        "nome": "Battle of Giants Dinosaurs Strike",
+        "tamanho": 740,
+        "imagem": "../imagens/US/front/SGXE41.png"
+        },
+        {
         "id": "SLYESZ",
         "nome": "BEASTLY",
         "tamanho": 946,
@@ -468,6 +480,12 @@
         "imagem": "../imagens/US/front/RG7EQH.png"
         },
         {
+        "id": "RQLE64",
+        "nome": "Clone Wars Republic Heroes",
+        "tamanho": 3858,
+        "imagem": "../imagens/US/front/RQLE64.png"
+        },
+        {
         "id": "R59P4Q",
         "nome": "Club Penguin Wii",
         "tamanho": 1390,
@@ -496,6 +514,12 @@
         "nome": "Conduit 2",
         "tamanho": 4078,
         "imagem": "../imagens/EN/front/SC2P8P.png"
+        },
+        {
+        "id": "RKLEG9",
+        "nome": "Coraline",
+        "tamanho": 2494,
+        "imagem": "../imagens/US/front/RKLEG9.png"
         },
         {
         "id": "S2BEPZ",
@@ -600,6 +624,12 @@
         "imagem": "../imagens/US/front/RDXE18.png"
         },
         {
+        "id": "R2SE18",
+        "nome": "DECA SPORTS 2",
+        "tamanho": 268,
+        "imagem": "../imagens/US/front/R2SE18.png"
+        },
+        {
         "id": "S3DE18",
         "nome": "DECA SPORTS 3",
         "tamanho": 538,
@@ -682,6 +712,12 @@
         "nome": "Disney Sing It: Family Hits",
         "tamanho": 4210,
         "imagem": "../imagens/US/front/SDFE4Q.png"
+        },
+        {
+        "id": "SDXE4Q",
+        "nome": "Disney Universe",
+        "tamanho": 2474,
+        "imagem": "../imagens/US/front/SDXE4Q.png"
         },
         {
         "id": "SWBE52",
@@ -816,6 +852,12 @@
         "imagem": "../imagens/US/front/RN9E4F.png"
         },
         {
+        "id": "R7SE5G",
+        "nome": "Escape The Museum",
+        "tamanho": 1256,
+        "imagem": "../imagens/US/front/R7SE5G.png"
+        },
+        {
         "id": "RX3E01",
         "nome": "Excite Bots",
         "tamanho": 1046,
@@ -844,6 +886,12 @@
         "nome": "FAMILY GAME NIGHT Fun Pack",
         "tamanho": 3940,
         "imagem": "../imagens/US/front/SAHE69.png"
+        },
+        {
+        "id": "RZ9EG9",
+        "nome": "Family Party: 30 Great Games",
+        "tamanho": 834,
+        "imagem": "../imagens/US/front/RZ9EG9.png"
         },
         {
         "id": "SFKEG9",
@@ -954,6 +1002,12 @@
         "imagem": "../imagens/EN/front/R6FP41.png"
         },
         {
+        "id": "RGXE5D",
+        "nome": "Game Party",
+        "tamanho": 352,
+        "imagem": "../imagens/US/front/RGXE5D.png"
+        },
+        {
         "id": "SG7E20",
         "nome": "GarfieldShow",
         "tamanho": 1966,
@@ -1000,6 +1054,12 @@
         "nome": "Glacier 3",
         "tamanho": 718,
         "imagem": "../imagens/US/front/S3GE20.png"
+        },
+        {
+        "id": "RIGE54",
+        "nome": "Go, Diego, Go! Great Dinosaur Rescue",
+        "tamanho": 1380,
+        "imagem": "../imagens/US/front/RIGE54.png"
         },
         {
         "id": "RLLP70",
@@ -1072,6 +1132,12 @@
         "nome": "GT Pro Series",
         "tamanho": 654,
         "imagem": "../imagens/US/front/RGTE41.png"
+        },
+        {
+        "id": "SU7EG9",
+        "nome": "Guardians",
+        "tamanho": 1728,
+        "imagem": "../imagens/US/front/SU7EG9.png"
         },
         {
         "id": "R3NEXS",
@@ -1266,6 +1332,12 @@
         "imagem": "../imagens/US/front/SEZJHF.png"
         },
         {
+        "id": "RIZENR",
+        "nome": "Indianapolis 500 Legends",
+        "tamanho": 2094,
+        "imagem": "../imagens/US/front/RIZENR.png"
+        },
+        {
         "id": "S2IE8P",
         "nome": "Iron Man 2",
         "tamanho": 3494,
@@ -1294,6 +1366,12 @@
         "nome": "JumpStart Pet Rescue",
         "tamanho": 1436,
         "imagem": "../imagens/US/front/SJSEPK.png"
+        },
+        {
+        "id": "RJOEXJ",
+        "nome": "juon",
+        "tamanho": 4004,
+        "imagem": "../imagens/US/front/RJOEXJ.png"
         },
         {
         "id": "R8XE52",
@@ -1710,6 +1788,12 @@
         "imagem": "../imagens/US/front/SMOX41.png"
         },
         {
+        "id": "RNJE4F",
+        "nome": "MiniNinjas",
+        "tamanho": 3396,
+        "imagem": "../imagens/US/front/RNJE4F.png"
+        },
+        {
         "id": "SMGE78",
         "nome": "MMWii",
         "tamanho": 1030,
@@ -1768,7 +1852,13 @@
         "nome": "MushroomMen",
         "tamanho": 1834,
         "imagem": "../imagens/US/front/RM9EGM.png"
-        },  
+        },
+        {
+        "id": "RL6E69",
+        "nome": "N-STRIKE ELITE",
+        "tamanho": 768,
+        "imagem": "../imagens/US/front/RL6E69.png"
+        },
         {
         "id": "RNEEDA",
         "nome": "NARUTO: Clash of Ninja Revolution 3",
@@ -1816,6 +1906,12 @@
         "nome": "Need for Speed(tm) Undercover",
         "tamanho": 2540,
         "imagem": "../imagens/US/front/RX9E69.png"
+        },
+        {
+        "id": "RN7E78",
+        "nome": "Neighborhood Games",
+        "tamanho": 594,
+        "imagem": "../imagens/US/front/RN7E78.png"
         },
         {
         "id": "R52P08",
@@ -2046,6 +2142,12 @@
         "imagem": "../imagens/EN/front/S2LP01.png"
         },
         {
+        "id": "SM5EAF",
+        "nome": "Power Rangers Samurai",
+        "tamanho": 1144,
+        "imagem": "../imagens/US/front/SM5EAF.png"
+        },
+        {
         "id": "RPPE41",
         "nome": "PRINCE OF PERSIA RIVAL SWORDS",
         "tamanho": 1462,
@@ -2260,6 +2362,12 @@
         "nome": "Rune Factory: Tides of Destiny",
         "tamanho": 2270,
         "imagem": "../imagens/US/front/SO3EE9.png"
+        },
+        {
+        "id": "REQE54",
+        "nome": "Safari Rescue",
+        "tamanho": 2904,
+        "imagem": "../imagens/US/front/REQE54.png"
         },
         {
         "id": "SAKENS",
@@ -2580,6 +2688,12 @@
         "imagem": "../imagens/US/front/RDTEAF.png"
         },
         {
+        "id": "SRPE4Q",
+        "nome": "Tangled",
+        "tamanho": 2440,
+        "imagem": "../imagens/US/front/SRPE4Q.png"
+        },
+        {
         "id": "STKE08",
         "nome": "TATSUNOKO VS. CAPCOM ULTIMATE ALL-STARS",
         "tamanho": 1436,
@@ -2686,6 +2800,12 @@
         "nome": "The Legend of Zelda Twilight Princess",
         "tamanho": 1100,
         "imagem": "../imagens/US/front/RZDE01.png"
+        },
+        {
+        "id": "RQCEAF",
+        "nome": "The Munchables",
+        "tamanho": 1670,
+        "imagem": "../imagens/US/front/RQCEAF.png"
         },
         {
         "id": "S3ME69",
