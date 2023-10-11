@@ -1,5 +1,11 @@
 {
     "itens":[
+        {
+        "id": "GENE69",
+        "nome": "007: Everything or Nothing",
+        "tamanho": 1352.36,
+        "imagem": "../imagens/gamecube/cache/US/3d/GENE69.png"
+        },
         {"id": "GTEE01",
         "nome": "1080: Avalanche",
         "tamanho": 1360,
@@ -48,6 +54,18 @@
         "nome": "Bomberman Generation",
         "tamanho": 1360,
         "imagem": "../imagens/gamecube/cache/US/3d/GBGE5G.png"
+        },
+        {
+        "id": "GJBE5G",
+        "nome": "Bomberman Jetters",
+        "tamanho": 1392.34,
+        "imagem": "../imagens/gamecube/cache/US/3d/GJBE5G.png"
+        },
+        {
+        "id": "GB2J18",
+        "nome": "Bomberman Land 2 (JA)",
+        "tamanho": 1392.34,
+        "imagem": "../imagens/gamecube/cache/US/3d/GB2J18.png"
         },
         {  
         "id": "GB4E51",
@@ -98,6 +116,24 @@
         "imagem": "../imagens/gamecube/cache/EN/3d/GD6P70.png"
         },
         {
+        "id": "GDJEB2",
+        "nome": "Digimon World 4",
+        "tamanho": 1153.3,
+        "imagem": "../imagens/gamecube/cache/US/3d/GDJEB2.png"
+        },
+        {
+        "id": "GPKE41",
+        "nome": "DISNEY'S PK: OUT OF THE SHADOWS",
+        "tamanho": 1392.34,
+        "imagem": "../imagens/gamecube/cache/US/3d/GPKE41.png"
+        },
+        {
+        "id": "GD9E69",
+        "nome": "Drome Racers",
+        "tamanho": 819.08,
+        "imagem": "../imagens/gamecube/cache/US/3d/GD9E69.png"
+        },
+        {
         "id": "GMXE70",
         "nome": "Enter The Matrix",
         "tamanho": 1360,
@@ -146,10 +182,34 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GLHEG9.png"
         },
         {
+        "id": "GLZE69",
+        "nome": "From Russia With Love",
+        "tamanho": 1339.88,
+        "imagem": "../imagens/gamecube/cache/US/3d/GLZE69.png"
+        },
+        {
         "id": "GFZE01",
         "nome": "F-ZERO GX (US Version)",
         "tamanho": 1340,
         "imagem": "../imagens/gamecube/cache/US/3d/GFZE01.png"
+        },
+        {
+        "id": "GUME52",
+        "nome": "Gun",
+        "tamanho": 1168.31,
+        "imagem": "../imagens/gamecube/cache/US/3d/GUME52.png"
+        },
+        {
+        "id": "GHSE69",
+        "nome": "Harry Potter and the Chamber of Secrets",
+        "tamanho": 1392.34,
+        "imagem": "../imagens/gamecube/cache/US/3d/GHSE69.png"
+        },
+        {
+        "id": "GYWPE9",
+        "nome": "Harvest Moon: A Wonderful Life",
+        "tamanho": 501.07,
+        "imagem": "../imagens/gamecube/cache/US/3d/GYWPE9.png"
         },
         {
         "id": "GHME4F",
@@ -185,9 +245,10 @@
         "tamanho": 1393,
         "imagem": "../imagens/gamecube/cache/US/3d/GLNE69.png"
         },
-        { "id": "GLME01",
+        {
+        "id": "GLME01",
         "nome": "LUIGI'S MANSION",
-        "tamanho": 1360,
+        "tamanho": 1392.34,
         "imagem": "../imagens/gamecube/cache/US/3d/GLME01.png"
         },
         {
@@ -265,8 +326,14 @@
         {
         "id": "GM8P01",
         "nome": "Metroid Prime",
-        "tamanho": 1360,
-        "imagem": "../imagens/gamecube/cache/EN/3d/GM8P01.png"
+        "tamanho": 1392.34,
+        "imagem": "../imagens/gamecube/cache/US/3d/GM8P01.png"
+        },
+        {
+        "id": "G2MP01",
+        "nome": "Metroid Prime 2 Echoes",
+        "tamanho": 1392.34,
+        "imagem": "../imagens/gamecube/cache/US/3d/G2MP01.png"
         },
         {
         "id": "GMKE5D",
@@ -359,6 +426,12 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GP8EAF.png"
         },
         {
+        "id": "G8MP01",
+        "nome": "Paper Mario",
+        "tamanho": 1392.34,
+        "imagem": "../imagens/gamecube/cache/US/3d/G8MP01.png"
+        },
+        {
         "id": "G8ME01",
         "nome": "Paper Mario-The Thousand-Year Door",
         "tamanho": 577,
@@ -408,6 +481,12 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GQWE69.png"
         },
         {
+        "id": "GLLE78",
+        "nome": "Ratatouille",
+        "tamanho": 939.06,
+        "imagem": "../imagens/gamecube/cache/US/3d/GLLE78.png"
+        },
+        {
         "id": "GRHE41",
         "nome": "RAYMAN 3 HOODLUM HAVOC",
         "tamanho": 1360,
@@ -432,10 +511,10 @@
         "imagem": "../imagens/gamecube/cache/US/3d/GLEE08.png"
         },
         {
-            "id": "G4BE08",
-            "nome": "Resident Evil 4",
-            "tamanho": 3674,
-            "imagem": "../imagens/gamecube/cache/US/3d/G4BE08.png"
+        "id": "G4BE08",
+        "nome": "Resident Evil 4",
+        "tamanho": 3674,
+        "imagem": "../imagens/gamecube/cache/US/3d/G4BE08.png"
         },
         {
         "id": "GCDE08",
@@ -482,7 +561,7 @@
         {
         "id": "GSNE8P",
         "nome": "Sonic Adventure 2 Battle",
-        "tamanho": 1360,
+        "tamanho": 1167.2,
         "imagem": "../imagens/gamecube/cache/US/3d/GSNE8P.png"
         },
         {
@@ -579,9 +658,10 @@
         "tamanho": 1360,
         "imagem": "../imagens/gamecube/cache/US/3d/G4SE01.png"
         },
-        {"id": "GHQE7D",
+        {
+        "id": "GHQE7D",
         "nome": "The Simpsons Hit & Run",
-        "tamanho": 867.22,
+        "tamanho": 909.41,
         "imagem": "../imagens/gamecube/cache/US/3d/GHQE7D.png"
         },
         {"id": "GCIE69",
