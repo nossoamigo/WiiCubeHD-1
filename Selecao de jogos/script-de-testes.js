@@ -8,6 +8,12 @@ const seletorHd = document.getElementById('seletorHd')
 var capacidadeAtual = 0
 var capacidadeMaxima = 0
 
+// Proibir botão direito
+
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
 // SELEÇÃO DE HD'S
 
 function selecionouPen60() {

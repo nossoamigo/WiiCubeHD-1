@@ -131,10 +131,12 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     background-color: rgba(255, 255, 255, 0.527);
     width: 100px;
     height: 100px;
+    transition: all 0.25s ease;
 }
 
 #audio:hover {
     cursor: pointer;
+    background-color: orange;
 }
 
 #audio > .material-icons {
