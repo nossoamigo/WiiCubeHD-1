@@ -98,6 +98,7 @@ label[for="pen60gb"], label[for="hd500gb"], label[for="hd1tb"] {
     margin-right: 20px;
     font-size: 1.2em;
     color: #000000;
+    transition: all 0.25s ease;
 }
 
 label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover {
@@ -161,11 +162,14 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     border-radius: 20px;
     height: 34px;
     margin-left: 20px;
+    transition: all 0.25s ease;
 }
 
 .seletorConsoleItem:hover {
     cursor: pointer;
     font-size: 1.4em;
+    background: #00000094;
+    color: #ffe200;
 }
 
 /*--Filtros--*/
