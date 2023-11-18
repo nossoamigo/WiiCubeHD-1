@@ -732,7 +732,7 @@ function FiltroHdShopee() {
         adicionarJogo('RO2E7N', 'OFF ROAD', 528);
         adicionarJogo('ROWE08', 'Okami', 3642);
         adicionarJogo('SUTESZ', 'ONCE UPON A TIME', 754);
-        adicionarJogo('RIPEAF', 'ONEPIECE UNLIMITED ADVENTURE', 3258);
+        adicionarJogo('RIPJAF', 'ONEPIECE UNLIMITED ADVENTURE', 3140);
         adicionarJogo('ROXE20', 'Order Up!', 2112);
         adicionarJogo('SP7EAF', 'PAC-MAN PARTY', 2112);
         adicionarJogo('SX3EXJ', 'Pandora\'s Tower', 3134);
