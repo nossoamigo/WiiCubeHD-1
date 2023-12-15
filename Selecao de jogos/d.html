@@ -1,99 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styleSecreto.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styleSecreto.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conversor</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div>
-            <h1>Cole aqui o texto bruto:</h1>
-            <textarea name="" id="textAreaId" cols="150" rows="20"></textarea>
-        </div>
-        <button onclick="converter()" id="botao">Converter</button>
-        <div>
-            <h1>Aqui vai o resultado</h1>
-            <textarea name="" id="textArea2Id" cols="150" rows="20"></textarea>
-        </div>
+      <div>
+        <h1>Cole aqui o texto bruto:</h1>
+        <textarea name="" id="textAreaId" cols="150" rows="20"></textarea>
+      </div>
+      <button onclick="converter()" id="botao">Converter</button>
+
+      <div>
+        <h1>Aqui vai o resultado</h1>
+        <textarea name="" id="textArea2Id" cols="150" rows="20"></textarea>
+      </div>
+
+      <button onclick="gerarArquivoCodigos()" id="botaoGerarArquivo">
+        Gerar Arquivo de Códigos
+      </button>
     </div>
 
     <script>
-        async function converter() {
-            let text1 = document.getElementById("textAreaId").value;
-            let text2 = document.getElementById("textArea2Id");
-            text2.value = "";
+      async function converter() {
+        let text1 = document.getElementById('textAreaId').value;
+        let text2 = document.getElementById('textArea2Id');
+        text2.value = '';
 
-            // Remove apenas a vírgula depois "()," e mantém o restante da formatação
-            let lista = text1.replace(/,\s*\(/g, '\n(');
+        // Remove apenas a vírgula depois "()," e mantém o restante da formatação
+        let lista = text1.replace(/,\s*\(/g, '\n(');
 
-            const listaOrganizada = await organizarLista(lista.split('\n'));
+        const listaOrganizada = await organizarLista(lista.split('\n'));
 
-            text2.value = listaOrganizada;
+        text2.value = listaOrganizada;
+      }
+
+      async function organizarLista(lista) {
+        const hd = lista.shift(); // Extrai o primeiro item da lista (HD de 1TB)
+
+        // Ordena a lista em ordem alfabética
+        lista.sort(function (a, b) {
+          // Ignora o ID inicial de cada item
+          const nomeA = a.substring(a.indexOf(',') + 2);
+          const nomeB = b.substring(b.indexOf(',') + 2);
+
+          return nomeA.localeCompare(nomeB);
+        });
+
+        const response = await fetch(
+          'https://viniciustixu.github.io/WiiCubeHD/Selecao%20de%20jogos/gamecube.json',
+        );
+        const json = await response.json();
+
+        const listaEncontrados = [];
+        const listaNaoEncontrados = [];
+
+        for (const item of lista) {
+          const id = item.substring(item.indexOf('(') + 1, item.indexOf(','));
+
+          // Verifica se o ID do jogo existe no JSON
+          const jogoEncontrado = json.itens.find((jogo) => jogo.id === id);
+
+          if (jogoEncontrado) {
+            // Move o jogo para a lista de encontrados
+            listaEncontrados.push(item);
+          } else {
+            // Mantém o jogo na lista de não encontrados
+            listaNaoEncontrados.push(item);
+          }
         }
 
-        async function organizarLista(lista) {
-            const hd = lista.shift(); // Extrai o primeiro item da lista (HD de 1TB)
+        const listaOrganizada = [];
 
-            // Ordena a lista em ordem alfabética
-            lista.sort(function(a, b) {
-                // Ignora o ID inicial de cada item
-                const nomeA = a.substring(a.indexOf(',') + 2);
-                const nomeB = b.substring(b.indexOf(',') + 2);
+        // Adiciona a lista de não encontrados
+        listaOrganizada.push(...listaNaoEncontrados);
 
-                return nomeA.localeCompare(nomeB);
-            });
+        // Adiciona um salto de 4 linhas antes dos itens encontrados
+        listaOrganizada.push('\n\n\n\n');
 
-            const response = await fetch('https://viniciustixu.github.io/WiiCubeHD/Selecao%20de%20jogos/gamecube.json');
-            const json = await response.json();
+        // Adiciona "gamecube:" como título da segunda lista
+        listaOrganizada.push('gamecube:');
 
-            const listaEncontrados = [];
-            const listaNaoEncontrados = [];
+        // Adiciona os encontrados em ordem alfabética
+        listaEncontrados.sort(function (a, b) {
+          const nomeA = a.substring(a.indexOf(',') + 2);
+          const nomeB = b.substring(b.indexOf(',') + 2);
+          return nomeA.localeCompare(nomeB);
+        });
+        listaOrganizada.push(...listaEncontrados);
 
-            for (const item of lista) {
-                const id = item.substring(item.indexOf('(') + 1, item.indexOf(','));
+        // Insere o HD de 1TB no início da lista novamente
+        listaOrganizada.unshift(hd);
 
-                // Verifica se o ID do jogo existe no JSON
-                const jogoEncontrado = json.itens.find(jogo => jogo.id === id);
+        // Junta cada item da lista em uma linha separada
+        const listaFinal = listaOrganizada.join('\n');
 
-                if (jogoEncontrado) {
-                    // Move o jogo para a lista de encontrados
-                    listaEncontrados.push(item);
-                } else {
-                    // Mantém o jogo na lista de não encontrados
-                    listaNaoEncontrados.push(item);
-                }
-            }
+        return listaFinal;
+      }
 
-            const listaOrganizada = [];
+      function gerarArquivoCodigos() {
+        // Obtém o conteúdo da textarea 2
+        const conteudo = document.getElementById('textArea2Id').value;
 
-            // Adiciona a lista de não encontrados
-            listaOrganizada.push(...listaNaoEncontrados);
-
-            // Adiciona um salto de 4 linhas antes dos itens encontrados
-            listaOrganizada.push('\n\n\n\n');
-
-            // Adiciona "gamecube:" como título da segunda lista
-            listaOrganizada.push('gamecube:');
-
-            // Adiciona os encontrados em ordem alfabética
-            listaEncontrados.sort(function(a, b) {
-                const nomeA = a.substring(a.indexOf(',') + 2);
-                const nomeB = b.substring(b.indexOf(',') + 2);
-                return nomeA.localeCompare(nomeB);
-            });
-            listaOrganizada.push(...listaEncontrados);
-
-            // Insere o HD de 1TB no início da lista novamente
-            listaOrganizada.unshift(hd);
-
-            // Junta cada item da lista em uma linha separada
-            const listaFinal = listaOrganizada.join('\n');
-
-            return listaFinal;
+        // Se a textarea estiver vazia, não faz nada
+        if (!conteudo) {
+          alert('Por favor, gere a lista de códigos antes de continuar.');
+          return;
         }
+
+        // Define a expressão regular para encontrar os códigos
+        const regex = /\(([A-Z0-9]+),/g;
+
+        // Extrai os códigos usando a expressão regular
+        const matches = [...conteudo.matchAll(regex)];
+
+        // Se houver correspondências, cria o conteúdo do arquivo
+        if (matches.length > 0) {
+          const codigos = matches.map((match) => match[1]);
+          const conteudoArquivo = codigos.join('\n');
+
+          // Cria um Blob com o conteúdo do arquivo
+          const blob = new Blob([conteudoArquivo], { type: 'text/plain' });
+
+          // Cria um link de download
+          const linkDownload = document.createElement('a');
+          linkDownload.href = window.URL.createObjectURL(blob);
+          linkDownload.download = 'codigos.txt';
+
+          // Adiciona o link ao documento
+          document.body.appendChild(linkDownload);
+
+          // Simula um clique no link para iniciar o download
+          linkDownload.click();
+
+          // Remove o link do documento
+          document.body.removeChild(linkDownload);
+        } else {
+          alert('Nenhum código encontrado.');
+        }
+      }
     </script>
-</body>
+  </body>
 </html>
