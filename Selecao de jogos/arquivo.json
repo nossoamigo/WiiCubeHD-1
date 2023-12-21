@@ -1177,6 +1177,12 @@
       "imagem": "../imagens/US/3d/SDVE41.png"
     },
     {
+      "id": "RDVE41",
+      "nome": "Driver Parallel Lines",
+      "tamanho": 3904,
+      "imagem": "../imagens/US/3d/RDVE41.png"
+    },
+    {
       "id": "SVOEWW",
       "nome": "El Chavo",
       "tamanho": 1766,
@@ -2474,8 +2480,14 @@
       "imagem": "../imagens/US/front/RMAE01.png"
     },
     {
-      "id": "SMSE78",
+      "id": "R38E78",
       "nome": "Marvel Super Hero Squad",
+      "tamanho": 3496,
+      "imagem": "../imagens/US/3d/R38E78.png"
+    },
+    {
+      "id": "SMSE78",
+      "nome": "Marvel Super Hero Squad: The Infinity Gauntlet",
       "tamanho": 2274,
       "imagem": "../imagens/US/3d/SMSE78.png"
     },
@@ -3366,6 +3378,12 @@
       "nome": "Resident Evil 0",
       "tamanho": 3776,
       "imagem": "../imagens/US/front/RBHE08.png"
+    },
+    {
+      "id": "RE4E08",
+      "nome": "Resident Evil",
+      "tamanho": 3810,
+      "imagem": "../imagens/US/3d/RE4E08.png"
     },
     {
       "id": "RB4E08",
