@@ -409,7 +409,7 @@ function filtroTodosOsJustDance() {
       } else {
         adicionarJogo('SD2E41', 'Just Dance 2', 3090);
         adicionarJogo('SE3E41', 'Just Dance 2015', 3420);
-        adicionarJogo('SE8P41', 'Just Dance 2018', 4278);
+        adicionarJogo('SE8E41', 'Just Dance 2018', 4278);
         adicionarJogo('S5EE41', 'Just Dance 2019', 4360);
         adicionarJogo('SJDE41', 'Just Dance 3', 3762);
         adicionarJogo('SJXE41', 'Just Dance 4', 4104);

@@ -1,196 +1,272 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" href="../imagens/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="../imagens/favicon/favicon.ico"
+      type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
     <title>Seletor de jogos</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-------Preencher formulário------->
 
     <form action="https://api.staticforms.xyz/submit" method="POST">
-        <input type="hidden" name="accessKey" value="da35206a-a9fa-45f6-a891-930aaa730126">
-        <input type="hidden" name="redirectTo" value="https://viniciustixu.github.io/WiiCubeHD/Selecao%20de%20jogos/pedido-concluido.html">
+      <input
+        type="hidden"
+        name="accessKey"
+        value="da35206a-a9fa-45f6-a891-930aaa730126" />
+      <input
+        type="hidden"
+        name="redirectTo"
+        value="https://viniciustixu.github.io/WiiCubeHD/Selecao%20de%20jogos/pedido-concluido.html" />
 
-        <label for="input-email-id">E-mail:</label>
-        <input type="email" name="email" id="input-email-id" required> <br> <br>
-        <label for="input-nome-id">Nome:</label>
-        <input type="text" name="name" id="input-nome-id" required> <br> <br>
-        <textarea name="message" id="text-area-id" cols="30" rows="10" required maxlength="100" readonly>** PENDRIVE 64GB **, </textarea>
+      <label for="input-email-id">E-mail:</label>
+      <input type="email" name="email" id="input-email-id" required /> <br />
+      <br />
+      <label for="input-nome-id">Nome:</label>
+      <input type="text" name="name" id="input-nome-id" required /> <br />
+      <br />
+      <textarea
+        name="message"
+        id="text-area-id"
+        cols="30"
+        rows="10"
+        required
+        maxlength="100"
+        readonly>
+** PENDRIVE 64GB **, </textarea
+      >
 
-        <button id="botaoDeEnviar">Enviar pedido</button>
+      <button id="botaoDeEnviar">Enviar pedido</button>
     </form>
 
     <!-------Selecionar HD------->
-    
-    <div class="tamanhoHd" id="seletorHd"> 
-        <label for="pen60gb">PENDRIVE 64 GB</label>
-        <input type="radio" name="radioTamanhoHd" class="radioIdHds" id="pen60gb" onclick="selecionouPen60()">
-        <label for="hd500gb">HD 500 GB</label>
-        <input type="radio" name="radioTamanhoHd" class="radioIdHds" id="hd500gb" onclick="selecionouHd500gb()">
-        <label for="hd1tb">HD 1 TB</label>
-        <input type="radio" name="radioTamanhoHd" class="radioIdHds" id="hd1tb" onclick="selecionouHd1tb()">
+
+    <div class="tamanhoHd" id="seletorHd">
+      <label for="pen60gb">PENDRIVE 64 GB</label>
+      <input
+        type="radio"
+        name="radioTamanhoHd"
+        class="radioIdHds"
+        id="pen60gb"
+        onclick="selecionouPen60()" />
+      <label for="hd500gb">HD 500 GB</label>
+      <input
+        type="radio"
+        name="radioTamanhoHd"
+        class="radioIdHds"
+        id="hd500gb"
+        onclick="selecionouHd500gb()" />
+      <label for="hd1tb">HD 1 TB</label>
+      <input
+        type="radio"
+        name="radioTamanhoHd"
+        class="radioIdHds"
+        id="hd1tb"
+        onclick="selecionouHd1tb()" />
     </div>
 
     <!-------Mensagem de capacidade real do HD-->
-    <div class="tamanhoRealMensagem" id="tamanhoRealMensagemId">
-        
-    </div>
+    <div class="tamanhoRealMensagem" id="tamanhoRealMensagemId"></div>
 
     <!--Seletor Wii/GameCube-->
     <div class="seletorConsole">
-        <div onclick="selecionouConsoleWii()" class="seletorConsoleItem">Wii</div>
-        <div onclick="selecionouConsoleGameCube()" class="seletorConsoleItem">GameCube</div>
+      <div onclick="selecionouConsoleWii()" class="seletorConsoleItem">Wii</div>
+      <div onclick="selecionouConsoleGameCube()" class="seletorConsoleItem">
+        GameCube
+      </div>
     </div>
 
     <!--Filtros-->
 
     <div id="filtrosContainer">
-        <div class="segundoContainerFiltro">
-            <h3>Todos os marios</h3>
-            <div class="itensFiltro" id="filtroTodosOsMarios" onclick="filtroTodosOsMarios()">
-                <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsMarios"></div>
-            </div>
+      <div class="segundoContainerFiltro">
+        <h3>Todos os marios</h3>
+        <div
+          class="itensFiltro"
+          id="filtroTodosOsMarios"
+          onclick="filtroTodosOsMarios()">
+          <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsMarios"></div>
         </div>
-        <div class="segundoContainerFiltro">
-            <h3>Os mais populares</h3>
-            <div class="itensFiltro" id="filtroTodosOsPopulares" onclick="filtroTodosOsPopulares()">
-                <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsPopulares"></div>
-            </div>
+      </div>
+      <div class="segundoContainerFiltro">
+        <h3>Os mais populares</h3>
+        <div
+          class="itensFiltro"
+          id="filtroTodosOsPopulares"
+          onclick="filtroTodosOsPopulares()">
+          <div
+            class="checkBoxDoFiltro"
+            id="checkBoxFiltroTodosOsPopulares"></div>
         </div>
-        <div class="segundoContainerFiltro">
-            <h3>Todos os FIFA/PES</h3>
-            <div class="itensFiltro" id="filtroTodosOsFifa" onclick="filtroTodosOsFifa()">
-                <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsFifa"></div>
-            </div>
+      </div>
+      <div class="segundoContainerFiltro">
+        <h3>Todos os FIFA/PES</h3>
+        <div
+          class="itensFiltro"
+          id="filtroTodosOsFifa"
+          onclick="filtroTodosOsFifa()">
+          <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsFifa"></div>
         </div>
-        <div class="segundoContainerFiltro">
-            <h3>Todos os LEGO</h3>
-            <div class="itensFiltro" id="filtroTodosOsLego" onclick="FiltroTodosOsLego()">
-                <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsLego"></div>
-            </div>
+      </div>
+      <div class="segundoContainerFiltro">
+        <h3>Todos os LEGO</h3>
+        <div
+          class="itensFiltro"
+          id="filtroTodosOsLego"
+          onclick="FiltroTodosOsLego()">
+          <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsLego"></div>
         </div>
-        <div class="segundoContainerFiltro">
-            <h3>Todos os JUST DANCE</h3>
-            <div class="itensFiltro" id="filtroTodosOsJustDance" onclick="filtroTodosOsJustDance()">
-                <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsJustDance"></div>
-            </div>
+      </div>
+      <div class="segundoContainerFiltro">
+        <h3>Todos os JUST DANCE</h3>
+        <div
+          class="itensFiltro"
+          id="filtroTodosOsJustDance"
+          onclick="filtroTodosOsJustDance()">
+          <div
+            class="checkBoxDoFiltro"
+            id="checkBoxFiltroTodosOsJustDance"></div>
         </div>
-        <div class="segundoContainerFiltro">
-            <h3>Todos os Resident Evil</h3>
-            <div class="itensFiltro" id="FiltroTodosOsResidentEvil" onclick="FiltroTodosOsResidentEvil()">
-                <div class="checkBoxDoFiltro" id="checkBoxFiltroTodosOsResidentEvil"></div>
-            </div>
+      </div>
+      <div class="segundoContainerFiltro">
+        <h3>Todos os Resident Evil</h3>
+        <div
+          class="itensFiltro"
+          id="FiltroTodosOsResidentEvil"
+          onclick="FiltroTodosOsResidentEvil()">
+          <div
+            class="checkBoxDoFiltro"
+            id="checkBoxFiltroTodosOsResidentEvil"></div>
         </div>
-        <div class="segundoContainerFiltro">
-            <h3>Todos os SONIC</h3>
-            <div class="itensFiltro" id="FiltroTodosOsSonic" onclick="FiltroTodosOsSonic()">
-                <div class="checkBoxDoFiltro" id="CheckBoxFiltroTodosOsSonic"></div>
-            </div>
+      </div>
+      <div class="segundoContainerFiltro">
+        <h3>Todos os SONIC</h3>
+        <div
+          class="itensFiltro"
+          id="FiltroTodosOsSonic"
+          onclick="FiltroTodosOsSonic()">
+          <div class="checkBoxDoFiltro" id="CheckBoxFiltroTodosOsSonic"></div>
         </div>
-        <div class="segundoContainerFiltro">
-            <h3>Todos os SPIDER-MAN</h3>
-            <div class="itensFiltro" id="FiltroTodosOsSpiderMan" onclick="FiltroTodosOsSpiderMan()">
-                <div class="checkBoxDoFiltro" id="CheckBoxFiltroTodosOsSpiderMan"></div>
-            </div>
+      </div>
+      <div class="segundoContainerFiltro">
+        <h3>Todos os SPIDER-MAN</h3>
+        <div
+          class="itensFiltro"
+          id="FiltroTodosOsSpiderMan"
+          onclick="FiltroTodosOsSpiderMan()">
+          <div
+            class="checkBoxDoFiltro"
+            id="CheckBoxFiltroTodosOsSpiderMan"></div>
         </div>
-        <div class="segundoContainerFiltro">
-            <h3>Todos os jogos</h3>
-            <div class="itensFiltro" id="FiltroTodosOsJogos" onclick="FiltroTodosOsJogos()">
-                <div class="checkBoxDoFiltro" id="CheckBoxFiltroTodosOsJogos"></div>
-            </div>
+      </div>
+      <div class="segundoContainerFiltro">
+        <h3>Todos os jogos</h3>
+        <div
+          class="itensFiltro"
+          id="FiltroTodosOsJogos"
+          onclick="FiltroTodosOsJogos()">
+          <div class="checkBoxDoFiltro" id="CheckBoxFiltroTodosOsJogos"></div>
         </div>
-        <div class="segundoContainerFiltro">
-            <h3>HD padrão Shopee/ML</h3>
-            <div class="itensFiltro" id="FiltroHdShopee" onclick="FiltroHdShopee()">
-                <div class="checkBoxDoFiltro" id="CheckBoxFiltroHdShopee"></div>
-            </div>
+      </div>
+      <div class="segundoContainerFiltro">
+        <h3>HD padrão Shopee/ML</h3>
+        <div class="itensFiltro" id="FiltroHdShopee" onclick="FiltroHdShopee()">
+          <div class="checkBoxDoFiltro" id="CheckBoxFiltroHdShopee"></div>
         </div>
+      </div>
     </div>
 
     <!--Navegação A-Z-->
     <div class="container-navegacao" id="container-navegacaoId">
-        <a href="#SBLE5G">A</a>
-        <a href="#SBWE5G">B</a>
-        <a href="#SC9P52">C</a>
-        <a href="#RJRPA4">D</a>
-        <a href="#SVOEWW">E</a>
-        <a href="#R9FP36">F</a>
-        <a href="#RGLE7D">G</a>
-        <a href="#RTAP41">H</a>
-        <a href="#SIJP52">I</a>
-        <a href="#SJBE52">J</a>
-        <a href="#SKGEA4">K</a>
-        <a href="#RLBEWR">L</a>
-        <a href="#SV3EG9">M</a>
-        <a href="#SN4EDA">N</a>
-        <a href="#ROBPPL">O</a>
-        <a href="#SP7EAF">P</a>
-        <a href="#RJ2E52">Q</a>
-        <a href="#RPGE5D">R</a>
-        <a href="#SAKENS">S</a>
-        <a href="#RT4EAF">T</a>
-        <a href="#">U</a>
-        <a href="#RVUE8P">V</a>
-        <a href="#RWRP4F">W</a>
-        <a href="#SX4E01">X</a>
-        <a href="#RYOEA4">Y</a>
-        <a href="#RTZE08">Z</a>
+      <a href="#SBLE5G">A</a>
+      <a href="#SBWE5G">B</a>
+      <a href="#SC9P52">C</a>
+      <a href="#RJRPA4">D</a>
+      <a href="#SVOEWW">E</a>
+      <a href="#R9FP36">F</a>
+      <a href="#RGLE7D">G</a>
+      <a href="#RTAP41">H</a>
+      <a href="#SIJP52">I</a>
+      <a href="#SJBE52">J</a>
+      <a href="#SKGEA4">K</a>
+      <a href="#RLBEWR">L</a>
+      <a href="#SV3EG9">M</a>
+      <a href="#SN4EDA">N</a>
+      <a href="#ROBPPL">O</a>
+      <a href="#SP7EAF">P</a>
+      <a href="#RJ2E52">Q</a>
+      <a href="#RPGE5D">R</a>
+      <a href="#SAKENS">S</a>
+      <a href="#RT4EAF">T</a>
+      <a href="#RKAE6K">U</a>
+      <a href="#RVUE8P">V</a>
+      <a href="#RWRP4F">W</a>
+      <a href="#SX4E01">X</a>
+      <a href="#RYOEA4">Y</a>
+      <a href="#RTZE08">Z</a>
     </div>
 
     <!-------Selecionar jogos------->
 
-    <div class="container-jogo" id="container-jogo">
-
-    </div>
+    <div class="container-jogo" id="container-jogo"></div>
 
     <!------Selecionar jogos GAMECUBE------>
-    <div class="container-jogo" id="container-jogo-gamecube">
-
-    </div>
+    <div class="container-jogo" id="container-jogo-gamecube"></div>
 
     <!-------Resultado------->
 
-    <div class="res" id="resultado">
-        
-    </div>
+    <div class="res" id="resultado"></div>
 
     <!--Controlador de audio-->
     <div id="audio" onclick="muteAllAudios()">
-        <span class="material-icons" id="idDoAudio"> music_note </span>
+      <span class="material-icons" id="idDoAudio"> music_note </span>
     </div>
 
     <!--Botão de voltar ao inicio-->
-    <div class="container-botao-voltar-ao-inicio" id="botaoVoltarAoInicio" onclick="clicouVoltar()">
-        <span class="material-icons" id="idDoBotaoDeVoltarAoTopo"> expand_less </span>
+    <div
+      class="container-botao-voltar-ao-inicio"
+      id="botaoVoltarAoInicio"
+      onclick="clicouVoltar()">
+      <span class="material-icons" id="idDoBotaoDeVoltarAoTopo">
+        expand_less
+      </span>
     </div>
 
     <!--Imagem maior ao passar o mouse-->
-    
+
     <div>
-        <img src="#" alt="Não foi possível carregar a imagem" id="imagemMaior">
+      <img src="#" alt="Não foi possível carregar a imagem" id="imagemMaior" />
     </div>
 
     <!--Footer-->
     <footer class="footer">
-        <p>Created by Tixu ™
-            <a href="https://github.com/viniciustixu" target="_blank">
-                <img src="../imagens/favicon/icons8-github-100.png" alt="GitHubIcon">
-            </a>
-            <a href="https://twitter.com/viniciustixuu" target="_blank">
-                <img src="../imagens/favicon/twitter.png" alt="GitHubIcon">
-            </a>
-        </p>
+      <p>
+        Created by Tixu ™
+        <a href="https://github.com/viniciustixu" target="_blank">
+          <img
+            src="../imagens/favicon/icons8-github-100.png"
+            alt="GitHubIcon" />
+        </a>
+        <a href="https://twitter.com/viniciustixuu" target="_blank">
+          <img src="../imagens/favicon/twitter.png" alt="GitHubIcon" />
+        </a>
+      </p>
     </footer>
 
     <script src="script-de-testes.js"></script>
-</body>
+  </body>
 </html>

@@ -79,10 +79,10 @@
       "imagem": "../imagens/EN/front/R3HP6Z.png"
     },
     {
-      "id": "RRKP70",
-      "nome": "Alone in the Dark 5",
-      "tamanho": 4194,
-      "imagem": "../imagens/EN/front/RRKP70.png"
+      "id": "RRKE70",
+      "nome": "Alone in the Dark",
+      "tamanho": 4020,
+      "imagem": "../imagens/US/3d/RRKE70.png"
     },
     {
       "id": "RVBERS",
@@ -211,6 +211,12 @@
       "imagem": "../imagens/EN/front/SB6P52.png"
     },
     {
+      "id": "RB2E6K",
+      "nome": "Balloon Pop",
+      "tamanho": 40,
+      "imagem": "../imagens/US/3d/RB2E6K.png"
+    },
+    {
       "id": "R23P52",
       "nome": "Barbie and the 3 Musketeers",
       "tamanho": 1450,
@@ -227,6 +233,12 @@
       "nome": "Barnyard",
       "tamanho": 1140,
       "imagem": "../imagens/US/3d/RBYE78.png"
+    },
+    {
+      "id": "RM6EEB",
+      "nome": "BAROQUE",
+      "tamanho": 3154,
+      "imagem": "../imagens/US/3d/RM6EEB.png"
     },
     {
       "id": "SB3E08",
@@ -323,12 +335,6 @@
       "nome": "Big Time Rush - Dance Party",
       "tamanho": 294,
       "imagem": "../imagens/US/front/SVCEPZ.png"
-    },
-    {
-      "id": "RBHE08",
-      "nome": "biohazard0",
-      "tamanho": 3776,
-      "imagem": "../imagens/US/front/RBHE08.png"
     },
     {
       "id": "RVIE4F",
@@ -499,6 +505,12 @@
       "imagem": "../imagens/US/3d/SCGE20.png"
     },
     {
+      "id": "RKQENR",
+      "nome": "Candace Kane's Candy Factory",
+      "tamanho": 78,
+      "imagem": "../imagens/US/3d/RKQENR.png"
+    },
+    {
       "id": "SCHEQH",
       "nome": "Canda Hunt",
       "tamanho": 144,
@@ -529,6 +541,12 @@
       "imagem": "../imagens/US/3d/RG9E54.png"
     },
     {
+      "id": "STOE4Q",
+      "nome": "Cars Toon Mater's Tall Tales",
+      "tamanho": 3198,
+      "imagem": "../imagens/US/3d/STOE4Q.png"
+    },
+    {
       "id": "RCAE78",
       "nome": "Cars",
       "tamanho": 3574,
@@ -553,10 +571,10 @@
       "imagem": "../imagens/US/front/R6OE78.png"
     },
     {
-      "id": "RX4PMT",
+      "id": "RX4E4Z",
       "nome": "Casper Scare School",
-      "tamanho": 208,
-      "imagem": "../imagens/EN/front/RX4PMT.png"
+      "tamanho": 204,
+      "imagem": "../imagens/US/3d/RX4E4Z.png"
     },
     {
       "id": "RDGEA4",
@@ -587,6 +605,12 @@
       "nome": "Challenge Me: Brain Puzzles 2",
       "tamanho": 56,
       "imagem": "../imagens/EN/front/SC6PGN.png"
+    },
+    {
+      "id": "RXHF5D",
+      "nome": "Chaos a la maison",
+      "tamanho": 808,
+      "imagem": "../imagens/FR/3d/RXHF5D.png"
     },
     {
       "id": "R7QE52",
@@ -679,6 +703,12 @@
       "imagem": "../imagens/EN/3d/SCTPNK.png"
     },
     {
+      "id": "SS4EWR",
+      "nome": "Cookie's Counting Carnival",
+      "tamanho": 166,
+      "imagem": "../imagens/US/3d/SS4EWR.png"
+    },
+    {
       "id": "RCDE52",
       "nome": "COD3 US",
       "tamanho": 3698,
@@ -743,6 +773,12 @@
       "nome": "Crash of the Titans",
       "tamanho": 3008,
       "imagem": "../imagens/US/front/RQJE7D.png"
+    },
+    {
+      "id": "SCZEMH",
+      "nome": "Crazy Machines",
+      "tamanho": 78,
+      "imagem": "../imagens/US/3d/SCZEMH.png"
     },
     {
       "id": "SECP69",
@@ -817,10 +853,10 @@
       "imagem": "../imagens/US/front/R26E5G.png"
     },
     {
-      "id": "SDBP78",
+      "id": "SDBE78",
       "nome": "de Blob 2",
-      "tamanho": 3658,
-      "imagem": "../imagens/EN/front/SDBP78.png"
+      "tamanho": 3508,
+      "imagem": "../imagens/US/3d/SDBE78.png"
     },
     {
       "id": "RDCE78",
@@ -859,6 +895,12 @@
       "imagem": "../imagens/US/front/S3DE18.png"
     },
     {
+      "id": "SUNEYG",
+      "nome": "Deer Drive Legends",
+      "tamanho": 66,
+      "imagem": "../imagens/US/3d/SUNEYG.png"
+    },
+    {
       "id": "SJREA4",
       "nome": "Def Jam RAPSTAR",
       "tamanho": 3640,
@@ -881,6 +923,12 @@
       "nome": "Destroy All Humans: Big Willy Unleashed",
       "tamanho": 3682,
       "imagem": "../imagens/US/3d/RDHE78.png"
+    },
+    {
+      "id": "RDREA4",
+      "nome": "Dewy's Adventure",
+      "tamanho": 2398,
+      "imagem": "../imagens/US/3d/RDREA4.png"
     },
     {
       "id": "RRIPTV",
@@ -995,6 +1043,12 @@
       "nome": "DKB Ultra Coliseum DX",
       "tamanho": 854,
       "imagem": "../imagens/JA/3d/SMUJAF.png"
+    },
+    {
+      "id": "R2DEEB",
+      "nome": "Dokapon Kingdom",
+      "tamanho": 666,
+      "imagem": "../imagens/US/3d/R2DEEB.png"
     },
     {
       "id": "RDME6K",
@@ -1117,16 +1171,10 @@
       "imagem": "../imagens/US/front/SKZE52.png"
     },
     {
-      "id": "RDVE41",
-      "nome": "Driver Parallel Lines",
-      "tamanho": 3904,
-      "imagem": "../imagens/US/front/RDVE41.png"
-    },
-    {
-      "id": "SDVP41",
+      "id": "SDVE41",
       "nome": "Driver San Francisco",
       "tamanho": 3770,
-      "imagem": "../imagens/EN/front/SDVP41.png"
+      "imagem": "../imagens/US/3d/SDVE41.png"
     },
     {
       "id": "SVOEWW",
@@ -1151,6 +1199,12 @@
       "nome": "Emergency Heroes",
       "tamanho": 1268,
       "imagem": "../imagens/US/3d/REHE41.png"
+    },
+    {
+      "id": "REGE36",
+      "nome": "Emergency Mayhem",
+      "tamanho": 884,
+      "imagem": "../imagens/US/3d/REGE36.png"
     },
     {
       "id": "SENPZX",
@@ -1187,6 +1241,12 @@
       "nome": "Excite Truck",
       "tamanho": 580,
       "imagem": "../imagens/US/front/REXE01.png"
+    },
+    {
+      "id": "SRYEAF",
+      "nome": "ExerBeat",
+      "tamanho": 2818,
+      "imagem": "../imagens/US/3d/SRYEAF.png"
     },
     {
       "id": "R9FP36",
@@ -1339,10 +1399,10 @@
       "imagem": "../imagens/US/front/SF4E20.png"
     },
     {
-      "id": "R22P01",
+      "id": "R22E01",
       "nome": "FlingSmash",
-      "tamanho": 1230,
-      "imagem": "../imagens/EN/front/R22P01.png"
+      "tamanho": 1048,
+      "imagem": "../imagens/US/3d/R22E01.png"
     },
     {
       "id": "R5DE5G",
@@ -1416,17 +1476,24 @@
       "tamanho": 1198,
       "imagem": "../imagens/US/front/SQDE8P.png"
     },
-    {
-      "id": "RGLE7D",
-      "nome": "Geometry Wars: Galaxies",
-      "tamanho": 368,
-      "imagem": "../imagens/US/front/RGLE7D.png"
-    },
+
     {
       "id": "SMKE4Z",
       "nome": "Gem Smashers",
       "tamanho": 434,
       "imagem": "../imagens/US/3d/SMKE4Z.png"
+    },
+    {
+      "id": "SRXE52",
+      "nome": "Generator Rex",
+      "tamanho": 2208,
+      "imagem": "../imagens/US/3d/SRXE52.png"
+    },
+    {
+      "id": "RGLE7D",
+      "nome": "Geometry Wars: Galaxies",
+      "tamanho": 368,
+      "imagem": "../imagens/US/front/RGLE7D.png"
     },
     {
       "id": "RXGE6K",
@@ -1477,6 +1544,18 @@
       "imagem": "../imagens/US/front/RIGE54.png"
     },
     {
+      "id": "RGZE70",
+      "nome": "Godzilla: Unleashed",
+      "tamanho": 1794,
+      "imagem": "../imagens/US/3d/RGZE70.png"
+    },
+    {
+      "id": "SGYESZ",
+      "nome": "GummyBears minigolf",
+      "tamanho": 220,
+      "imagem": "../imagens/US/3d/SGYESZ.png"
+    },
+    {
       "id": "RUGE7T",
       "nome": "Goosebumps Horrorland",
       "tamanho": 742,
@@ -1493,12 +1572,6 @@
       "nome": "Gold's Gym: Dance Workout",
       "tamanho": 2516,
       "imagem": "../imagens/US/front/SCWE41.png"
-    },
-    {
-      "id": "SGYPNJ",
-      "nome": "GOLF",
-      "tamanho": 220,
-      "imagem": "../imagens/EN/front/SGYPNJ.png"
     },
     {
       "id": "SGLEA4",
@@ -1711,6 +1784,12 @@
       "imagem": "../imagens/US/3d/SHKE20.png"
     },
     {
+      "id": "RH2E41",
+      "nome": "Hell's Kicthen",
+      "tamanho": 92,
+      "imagem": "../imagens/US/3d/RH2E41.png"
+    },
+    {
       "id": "SPWHZH",
       "nome": "Het Studio 100 Speeleiland",
       "tamanho": 592,
@@ -1783,8 +1862,14 @@
       "imagem": "../imagens/US/front/SIAE52.png"
     },
     {
+      "id": "R2AE7D",
+      "nome": "Ice Age 2 The Meltdown",
+      "tamanho": 1504,
+      "imagem": "../imagens/US/3d/R2AE7D.png"
+    },
+    {
       "id": "RIAP52",
-      "nome": "IceAge3",
+      "nome": "Ice Age 3",
       "tamanho": 3584,
       "imagem": "../imagens/EN/front/RIAP52.png"
     },
@@ -1873,6 +1958,12 @@
       "imagem": "../imagens/US/3d/R7BE20.png"
     },
     {
+      "id": "SJJEA4",
+      "nome": "Jimmie Johnson's Anything With An Engine",
+      "tamanho": 358,
+      "imagem": "../imagens/US/3d/SJJEA4.png"
+    },
+    {
       "id": "RJMERS",
       "nome": "Jumper",
       "tamanho": 1338,
@@ -1939,10 +2030,10 @@
       "imagem": "../imagens/US/3d/SZ7E41.png"
     },
     {
-      "id": "SE8P41",
+      "id": "SE8E41",
       "nome": "Just Dance 2018",
-      "tamanho": 4278,
-      "imagem": "../imagens/EN/front/SE8P41.png"
+      "tamanho": 4096,
+      "imagem": "../imagens/US/3d/SE8E41.png"
     },
     {
       "id": "S5EE41",
@@ -2047,6 +2138,12 @@
       "imagem": "../imagens/US/front/SSTEG9.png"
     },
     {
+      "id": "RPAF70",
+      "nome": "Kid Paddle 3",
+      "tamanho": 588,
+      "imagem": "../imagens/FR/3d/RPAF70.png"
+    },
+    {
       "id": "RKIPUG",
       "nome": "Kidz Sports Ice Hockey",
       "tamanho": 78,
@@ -2077,6 +2174,12 @@
       "imagem": "../imagens/US/front/R96EAF.png"
     },
     {
+      "id": "R7ZP41",
+      "nome": "Knockout Party",
+      "tamanho": 1288,
+      "imagem": "../imagens/EN/3d/R7ZP41.png"
+    },
+    {
       "id": "RKFEH4",
       "nome": "KOF:The Orochi Saga",
       "tamanho": 2430,
@@ -2105,6 +2208,12 @@
       "nome": "Kung Fu Panda: Legendary Warriors",
       "tamanho": 952,
       "imagem": "../imagens/US/front/RKHE52.png"
+    },
+    {
+      "id": "RLDEGY",
+      "nome": "Legend Of The Dragon",
+      "tamanho": 1106,
+      "imagem": "../imagens/US/3d/RLDEGY.png"
     },
     {
       "id": "RLBEWR",
@@ -2173,6 +2282,12 @@
       "imagem": "../imagens/EN/3d/RR3PA4.png"
     },
     {
+      "id": "R2UE8P",
+      "nome": "Let'sTAP",
+      "tamanho": 386,
+      "imagem": "../imagens/US/3d/R2UE8P.png"
+    },
+    {
       "id": "RLJEHJ",
       "nome": "Line Rider 2: Unbound",
       "tamanho": 1274,
@@ -2191,10 +2306,10 @@
       "imagem": "../imagens/US/front/RO3EXJ.png"
     },
     {
-      "id": "RLPE69",
+      "id": "RL7E69",
       "nome": "LITTLEST PET SHOP",
-      "tamanho": 1288,
-      "imagem": "../imagens/US/3d/RLPE69.png"
+      "tamanho": 510,
+      "imagem": "../imagens/US/3d/RL7E69.png"
     },
     {
       "id": "RLTENR",
@@ -2233,10 +2348,10 @@
       "imagem": "../imagens/EN/3d/RLCP7J.png"
     },
     {
-      "id": "RLDEGY",
-      "nome": "Legend Of The Dragon",
-      "tamanho": 1106,
-      "imagem": "../imagens/US/3d/RLDEGY.png"
+      "id": "SLLEWW",
+      "nome": "Lucha Libre AAA: Heroes del Ring",
+      "tamanho": 2630,
+      "imagem": "../imagens/US/3d/SLLEWW.png"
     },
     {
       "id": "SV3EG9",
@@ -2359,10 +2474,16 @@
       "imagem": "../imagens/US/front/RMAE01.png"
     },
     {
-      "id": "R38E78",
-      "nome": "Marvel Super Hero Squad Uploaded By BazMkt",
-      "tamanho": 3496,
-      "imagem": "../imagens/US/front/R38E78.png"
+      "id": "SMSE78",
+      "nome": "Marvel Super Hero Squad",
+      "tamanho": 2274,
+      "imagem": "../imagens/US/3d/SMSE78.png"
+    },
+    {
+      "id": "RMUE52",
+      "nome": "Marvel Ultimate Alliance",
+      "tamanho": 4212,
+      "imagem": "../imagens/US/3d/RMUE52.png"
     },
     {
       "id": "RMSE52",
@@ -2383,10 +2504,10 @@
       "imagem": "../imagens/US/front/RM2E69.png"
     },
     {
-      "id": "R2OP68",
+      "id": "R2OE68",
       "nome": "Medieval Games",
-      "tamanho": 1318,
-      "imagem": "../imagens/EN/front/R2OP68.png"
+      "tamanho": 1240,
+      "imagem": "../imagens/US/3d/R2OE68.png"
     },
     {
       "id": "S3ZE52",
@@ -2431,12 +2552,6 @@
       "imagem": "../imagens/US/front/R3OE01.png"
     },
     {
-      "id": "SMOE41",
-      "nome": "MICHAEL JACKSON THE EXPERIENCE",
-      "tamanho": 3810,
-      "imagem": "../imagens/US/front/SMOE41.png"
-    },
-    {
       "id": "SMOX41",
       "nome": "MICHAEL JACKSON THE EXPERIENCE SPECIAL EDITION",
       "tamanho": 3810,
@@ -2473,6 +2588,24 @@
       "imagem": "../imagens/US/front/SM8E52.png"
     },
     {
+      "id": "SMPE69",
+      "nome": "Monopoly Collection",
+      "tamanho": 2982,
+      "imagem": "../imagens/US/3d/SMPE69.png"
+    },
+    {
+      "id": "SAOE78",
+      "nome": "Monster High",
+      "tamanho": 870,
+      "imagem": "../imagens/US/front/SAOE78.png"
+    },
+    {
+      "id": "SU5EVZ",
+      "nome": "Monster High: Skultimate Roller Maze",
+      "tamanho": 882,
+      "imagem": "../imagens/US/3d/SU5EVZ.png"
+    },
+    {
       "id": "SMJE52",
       "nome": "Monster Jam: Path of Destruction",
       "tamanho": 1596,
@@ -2491,22 +2624,34 @@
       "imagem": "../imagens/US/front/RMHE08.png"
     },
     {
-      "id": "SAOE78",
-      "nome": "MonsterHigh",
-      "tamanho": 870,
-      "imagem": "../imagens/US/front/SAOE78.png"
-    },
-    {
       "id": "RM7E4F",
       "nome": "Monster Lab",
       "tamanho": 2614,
       "imagem": "../imagens/US/3d/RM7E4F.png"
     },
     {
+      "id": "RI7E4Z",
+      "nome": "Monster Mayhem: Build and Battle",
+      "tamanho": 504,
+      "imagem": "../imagens/US/3d/RI7E4Z.png"
+    },
+    {
+      "id": "RRXE5Z",
+      "nome": "Monster Trux Arenas",
+      "tamanho": 100,
+      "imagem": "../imagens/US/3d/RRXE5Z.png"
+    },
+    {
       "id": "R5SERW",
       "nome": "Mortimer Beckett and the Secrets of Spooky Manor",
       "tamanho": 136,
       "imagem": "../imagens/US/3d/R5SERW.png"
+    },
+    {
+      "id": "RQ8E08",
+      "nome": "MotoGP",
+      "tamanho": 1756,
+      "imagem": "../imagens/US/3d/RQ8E08.png"
     },
     {
       "id": "R7WE52",
@@ -2521,10 +2666,10 @@
       "imagem": "../imagens/US/3d/RVQE41.png"
     },
     {
-      "id": "REBPMT",
-      "nome": "MrBean",
+      "id": "REBE4Z",
+      "nome": "Mr Bean's Wacky World",
       "tamanho": 452,
-      "imagem": "../imagens/EN/front/REBPMT.png"
+      "imagem": "../imagens/US/3d/REBE4Z.png"
     },
     {
       "id": "R6QE69",
@@ -2539,16 +2684,28 @@
       "imagem": "../imagens/US/3d/SIME69.png"
     },
     {
+      "id": "RSHE69",
+      "nome": "MySims Kingdom",
+      "tamanho": 3406,
+      "imagem": "../imagens/US/3d/RSHE69.png"
+    },
+    {
       "id": "RP4E69",
       "nome": "My Sims Party",
       "tamanho": 404,
       "imagem": "../imagens/US/3d/RP4E69.png"
     },
     {
-      "id": "RQGP69",
-      "nome": "My Sims: Racing",
-      "tamanho": 1948,
-      "imagem": "../imagens/EN/front/RQGP69.png"
+      "id": "RQGE69",
+      "nome": "MySims: Racing",
+      "tamanho": 1550,
+      "imagem": "../imagens/US/3d/RQGE69.png"
+    },
+    {
+      "id": "RJ6E69",
+      "nome": "MySims SkyHeroes",
+      "tamanho": 1144,
+      "imagem": "../imagens/US/3d/RJ6E69.png"
     },
     {
       "id": "SFIE01",
@@ -2599,6 +2756,12 @@
       "imagem": "../imagens/US/3d/RN2EAF.png"
     },
     {
+      "id": "RNYEDA",
+      "nome": "NARUTO: Clash of Ninja Revolution 2",
+      "tamanho": 2538,
+      "imagem": "../imagens/US/3d/RNYEDA.png"
+    },
+    {
       "id": "RNEEDA",
       "nome": "NARUTO: Clash of Ninja Revolution 3",
       "tamanho": 3262,
@@ -2621,6 +2784,12 @@
       "nome": "NASCAR Kart Racing",
       "tamanho": 496,
       "imagem": "../imagens/US/front/R2NE69.png"
+    },
+    {
+      "id": "SNRE52",
+      "nome": "NASCAR Unleashed",
+      "tamanho": 470,
+      "imagem": "../imagens/US/3d/SNRE52.png"
     },
     {
       "id": "SGEEG9",
@@ -2725,6 +2894,12 @@
       "imagem": "../imagens/US/3d/RN3E78.png"
     },
     {
+      "id": "RUSE78",
+      "nome": "NickToons: Globs of Doom",
+      "tamanho": 1878,
+      "imagem": "../imagens/US/3d/RUSE78.png"
+    },
+    {
       "id": "R7EE8P",
       "nome": "NiGHTS: Journey of Dreams",
       "tamanho": 4110,
@@ -2753,6 +2928,12 @@
       "nome": "Ninja Reflex",
       "tamanho": 430,
       "imagem": "../imagens/US/3d/RNZE69.png"
+    },
+    {
+      "id": "RNRE41",
+      "nome": "Nitrobike",
+      "tamanho": 846,
+      "imagem": "../imagens/US/3d/RNRE41.png"
     },
     {
       "id": "RNHE41",
@@ -2803,10 +2984,10 @@
       "imagem": "../imagens/US/front/RONEG9.png"
     },
     {
-      "id": "RIPJAF",
+      "id": "RIPEAF",
       "nome": "ONEPIECE UNLIMITED ADVENTURE",
-      "tamanho": 3140,
-      "imagem": "../imagens/JA/3d/RIPJAF.png"
+      "tamanho": 3258,
+      "imagem": "../imagens/US/3d/RIPEAF.png"
     },
     {
       "id": "ROUPAF",
@@ -2845,10 +3026,10 @@
       "imagem": "../imagens/US/3d/SHPE5G.png"
     },
     {
-      "id": "ROAP36",
+      "id": "ROAE36",
       "nome": "Overlord: Dark Legend",
       "tamanho": 2050,
-      "imagem": "../imagens/EN/front/ROAP36.png"
+      "imagem": "../imagens/US/3d/ROAE36.png"
     },
     {
       "id": "SP7EAF",
@@ -2867,6 +3048,12 @@
       "nome": "PARTY PACK for REVOLUTION",
       "tamanho": 94,
       "imagem": "../imagens/US/front/RHAE01.png"
+    },
+    {
+      "id": "RTEE78",
+      "nome": "Paws and Claws Pet Vet",
+      "tamanho": 166,
+      "imagem": "../imagens/US/3d/RTEE78.png"
     },
     {
       "id": "RCQEDA",
@@ -2917,6 +3104,12 @@
       "imagem": "../imagens/US/front/R92E01.png"
     },
     {
+      "id": "RPIE52",
+      "nome": "Pimp My Ride",
+      "tamanho": 1354,
+      "imagem": "../imagens/US/3d/RPIE52.png"
+    },
+    {
       "id": "RQSE4Z",
       "nome": "Pinball Hall Of Fame: Gottlieb Collection",
       "tamanho": 474,
@@ -2959,10 +3152,10 @@
       "imagem": "../imagens/US/front/RPBE01.png"
     },
     {
-      "id": "R8AJ01",
+      "id": "R8AE01",
       "nome": "Pokepark Wii",
-      "tamanho": 1384,
-      "imagem": "../imagens/JA/front/R8AJ01.png"
+      "tamanho": 1382,
+      "imagem": "../imagens/US/3d/R8AE01.png"
     },
     {
       "id": "S2LP01",
@@ -3013,10 +3206,10 @@
       "imagem": "../imagens/EN/front/SPVYA4.png"
     },
     {
-      "id": "S3IYA4",
+      "id": "S3IEA4",
       "nome": "Pro Evolution Soccer 2013",
-      "tamanho": 2962,
-      "imagem": "../imagens/EN/front/S3IYA4.png"
+      "tamanho": 2972,
+      "imagem": "../imagens/US/3d/S3IEA4.png"
     },
     {
       "id": "SL2P01",
@@ -3025,10 +3218,22 @@
       "imagem": "../imagens/EN/front/SL2P01.png"
     },
     {
+      "id": "RUREPL",
+      "nome": "Pro Hall Pool",
+      "tamanho": 450,
+      "imagem": "../imagens/US/3d/RUREPL.png"
+    },
+    {
       "id": "SP9PJW",
       "nome": "Pucca's Race for Kisses",
       "tamanho": 74,
       "imagem": "../imagens/EN/front/SP9PJW.png"
+    },
+    {
+      "id": "SSBE78",
+      "nome": "Puss In Boots",
+      "tamanho": 2622,
+      "imagem": "../imagens/US/3d/SSBE78.png"
     },
     {
       "id": "R7PE01",
@@ -3067,10 +3272,10 @@
       "imagem": "../imagens/US/3d/S5RESZ.png"
     },
     {
-      "id": "SRGP69",
+      "id": "SRGE69",
       "nome": "Rango",
-      "tamanho": 1656,
-      "imagem": "../imagens/EN/front/SRGP69.png"
+      "tamanho": 1650,
+      "imagem": "../imagens/US/3d/SRGE69.png"
     },
     {
       "id": "SRFE52",
@@ -3157,9 +3362,9 @@
       "imagem": "../imagens/US/3d/SRKEFP.png"
     },
     {
-      "id": "RE4E08",
-      "nome": "Resident Evil",
-      "tamanho": 3810,
+      "id": "RBHE08",
+      "nome": "Resident Evil 0",
+      "tamanho": 3776,
       "imagem": "../imagens/US/front/RBHE08.png"
     },
     {
@@ -3355,6 +3560,12 @@
       "imagem": "../imagens/US/3d/RQNEWR.png"
     },
     {
+      "id": "RC7E20",
+      "nome": "Sea Monsters",
+      "tamanho": 296,
+      "imagem": "../imagens/US/3d/RC7E20.png"
+    },
+    {
       "id": "RTUEJJ",
       "nome": "SECRET FILES: TUNGUSKA",
       "tamanho": 4222,
@@ -3397,6 +3608,12 @@
       "imagem": "../imagens/EN/front/R39PNK.png"
     },
     {
+      "id": "RC4SGT",
+      "nome": "Shin chan Las Nuevas Aventuras Para Wii!",
+      "tamanho": 594,
+      "imagem": "../imagens/EN/3d/RC4SGT.png"
+    },
+    {
       "id": "RSYE20",
       "nome": "Showtime Championship Boxing",
       "tamanho": 554,
@@ -3433,6 +3650,12 @@
       "imagem": "../imagens/US/front/RSNE69.png"
     },
     {
+      "id": "R4CE69",
+      "nome": "SIMCITY CREATOR",
+      "tamanho": 378,
+      "imagem": "../imagens/US/3d/R4CE69.png"
+    },
+    {
       "id": "R2VE01",
       "nome": "Sin and Punishment 2",
       "tamanho": 1102,
@@ -3452,7 +3675,7 @@
     },
     {
       "id": "S2XE41",
-      "nome": "Smurfs2",
+      "nome": "Smurfs 2",
       "tamanho": 596,
       "imagem": "../imagens/US/front/S2XE41.png"
     },
@@ -3614,6 +3837,12 @@
       "imagem": "../imagens/US/front/RO7E7D.png"
     },
     {
+      "id": "R6YEXS",
+      "nome": "Squeeballs Party",
+      "tamanho": 412,
+      "imagem": "../imagens/US/3d/R6YEXS.png"
+    },
+    {
       "id": "RSXE69",
       "nome": "SSX Blur",
       "tamanho": 1056,
@@ -3636,6 +3865,12 @@
       "nome": "Star Wars: The Force Unleashed 2",
       "tamanho": 4156,
       "imagem": "../imagens/US/front/SFUE64.png"
+    },
+    {
+      "id": "RF4E36",
+      "nome": "Super Fruitfall",
+      "tamanho": 64,
+      "imagem": "../imagens/US/3d/RF4E36.png"
     },
     {
       "id": "SM3E01",
@@ -3692,6 +3927,12 @@
       "imagem": "../imagens/US/3d/RLNEVN.png"
     },
     {
+      "id": "SSUES5",
+      "nome": "Sushi Go Round",
+      "tamanho": 52,
+      "imagem": "../imagens/US/3d/SSUES5.png"
+    },
+    {
       "id": "SSZE5G",
       "nome": "Swords",
       "tamanho": 462,
@@ -3740,6 +3981,12 @@
       "imagem": "../imagens/US/front/STKE08.png"
     },
     {
+      "id": "R7ZE41",
+      "nome": "Team Elimination Games",
+      "tamanho": 1282,
+      "imagem": "../imagens/US/3d/R7ZE41.png"
+    },
+    {
       "id": "SX7E52",
       "nome": "Teenage Mutant Ninja Turtles",
       "tamanho": 624,
@@ -3776,6 +4023,12 @@
       "imagem": "../imagens/US/front/RI3E5D.png"
     },
     {
+      "id": "SEPZ41",
+      "nome": "THE BEP EXPERIENCE",
+      "tamanho": 3456,
+      "imagem": "../imagens/EN/3d/SEPZ41.png"
+    },
+    {
       "id": "RZ7JG9",
       "nome": "The Combat",
       "tamanho": 60,
@@ -3794,10 +4047,10 @@
       "imagem": "../imagens/US/front/RDIE41.png"
     },
     {
-      "id": "RGFP69",
+      "id": "RGFE69",
       "nome": "The Godfather(R) Blackhand Edition",
-      "tamanho": 3118,
-      "imagem": "../imagens/EN/front/RGFP69.png"
+      "tamanho": 3126,
+      "imagem": "../imagens/US/3d/RGFE69.png"
     },
     {
       "id": "RGME5D",
@@ -3806,10 +4059,10 @@
       "imagem": "../imagens/US/front/RGME5D.png"
     },
     {
-      "id": "SUOP41",
+      "id": "SUOE41",
       "nome": "The Hip Hop Dance Experience",
-      "tamanho": 7848,
-      "imagem": "../imagens/EN/front/SUOP41.png"
+      "tamanho": 7092,
+      "imagem": "../imagens/US/3d/SUOE41.png"
     },
     {
       "id": "RHCE52",
@@ -3852,6 +4105,12 @@
       "nome": "The Legend of Zelda Twilight Princess",
       "tamanho": 1100,
       "imagem": "../imagens/US/front/RZDE01.png"
+    },
+    {
+      "id": "RTDE6K",
+      "nome": "The Monkey King - The Legend Begins",
+      "tamanho": 284,
+      "imagem": "../imagens/US/3d/RTDE6K.png"
     },
     {
       "id": "RQCEAF",
@@ -3902,6 +4161,12 @@
       "imagem": "../imagens/EN/3d/ST4PNX.png"
     },
     {
+      "id": "STHE8P",
+      "nome": "Thor: God of Thunder",
+      "tamanho": 3582,
+      "imagem": "../imagens/US/3d/STHE8P.png"
+    },
+    {
       "id": "STNE41",
       "nome": "TINTIN",
       "tamanho": 3378,
@@ -3932,6 +4197,12 @@
       "imagem": "../imagens/US/3d/SGHE41.png"
     },
     {
+      "id": "RTHE52",
+      "nome": "Tony Hawk's Downhill Jam",
+      "tamanho": 2488,
+      "imagem": "../imagens/US/3d/RTHE52.png"
+    },
+    {
       "id": "RX5E52",
       "nome": "Tony Hawk RIDE",
       "tamanho": 2262,
@@ -3956,10 +4227,22 @@
       "imagem": "../imagens/US/front/R28E54.png"
     },
     {
+      "id": "R6TEA4",
+      "nome": "Tornado Outbreak",
+      "tamanho": 2990,
+      "imagem": "../imagens/US/3d/R6TEA4.png"
+    },
+    {
       "id": "RO4JDA",
       "nome": "Toshinden",
       "tamanho": 1884,
       "imagem": "../imagens/JA/3d/RO4JDA.png"
+    },
+    {
+      "id": "RTSEVN",
+      "nome": "Totally Spies! Totally Party",
+      "tamanho": 1992,
+      "imagem": "../imagens/US/3d/RTSEVN.png"
     },
     {
       "id": "SGAE8P",
@@ -4040,6 +4323,36 @@
       "imagem": "../imagens/US/front/SOSEG9.png"
     },
     {
+      "id": "STVDSV",
+      "nome": "TV total Events",
+      "tamanho": 1316,
+      "imagem": "../imagens/DE/3d/STVDSV.png"
+    },
+    {
+      "id": "ROTE20",
+      "nome": "Twin Strike Operation Thunder",
+      "tamanho": 376,
+      "imagem": "../imagens/US/3d/ROTE20.png"
+    },
+    {
+      "id": "RKAE6K",
+      "nome": "Ultimate Shooting Collection",
+      "tamanho": 1034,
+      "imagem": "../imagens/US/3d/RKAE6K.png"
+    },
+    {
+      "id": "RUQE78",
+      "nome": "UP - Disney-Pixar",
+      "tamanho": 1724,
+      "imagem": "../imagens/US/3d/RUQE78.png"
+    },
+    {
+      "id": "RVKEXJ",
+      "nome": "VALHALLA KNIGHTS ELDAR SAGA",
+      "tamanho": 988,
+      "imagem": "../imagens/US/3d/RVKEXJ.png"
+    },
+    {
       "id": "RHIEXJ",
       "nome": "Victorious Boxers Revolution",
       "tamanho": 1992,
@@ -4058,10 +4371,10 @@
       "imagem": "../imagens/EN/front/SV4P8P.png"
     },
     {
-      "id": "RWRP4F",
-      "nome": "Wacky Races: Crash and Dash",
+      "id": "RWRE4F",
+      "nome": "Wacky Races: Crash & Dash",
       "tamanho": 516,
-      "imagem": "../imagens/EN/front/RWRP4F.png"
+      "imagem": "../imagens/US/3d/RWRE4F.png"
     },
     {
       "id": "RWLE01",
@@ -4076,10 +4389,22 @@
       "imagem": "../imagens/US/front/RODE01.png"
     },
     {
+      "id": "RSQEAF",
+      "nome": "We Ski",
+      "tamanho": 674,
+      "imagem": "../imagens/US/3d/RSQEAF.png"
+    },
+    {
       "id": "RXQEWR",
       "nome": "Where the Wild Things Are",
       "tamanho": 3450,
       "imagem": "../imagens/US/3d/RXQEWR.png"
+    },
+    {
+      "id": "SW9EVN",
+      "nome": "Wicked Monsters BLAST!",
+      "tamanho": 900,
+      "imagem": "../imagens/US/3d/SW9EVN.png"
     },
     {
       "id": "R64E01",
@@ -4196,10 +4521,22 @@
       "imagem": "../imagens/US/front/SX4E01.png"
     },
     {
+      "id": "SX8E52",
+      "nome": "X-Men Destiny",
+      "tamanho": 1870,
+      "imagem": "../imagens/US/3d/SX8E52.png"
+    },
+    {
       "id": "RWUE52",
       "nome": "Xmen Origens: Wolverine",
       "tamanho": 740,
       "imagem": "../imagens/US/3d/RWUE52.png"
+    },
+    {
+      "id": "RYXE20",
+      "nome": "Yamaha Supercross",
+      "tamanho": 220,
+      "imagem": "../imagens/US/3d/RYXE20.png"
     },
     {
       "id": "R8DEA4",
