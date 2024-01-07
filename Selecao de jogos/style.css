@@ -1,203 +1,552 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
 body {
-    background-color: #0B88FF; 
-    background-image: url("../imagens/wallpaper/fundo-background-ampliado.png");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    user-select: none;
-  }
+  background-color: #0b88ff;
+  background-image: url('../imagens/wallpaper/fundo-background-ampliado.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  user-select: none;
+}
 
 /*--SELETOR DE JOGOS--*/
 
 .container-jogo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgba(211, 211, 211, 0.596);
-    max-width: 1100px;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(211, 211, 211, 0.596);
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .jogo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background-color: lightgreen;
-    padding: 5px;
-    width: 250px;
-    margin: 5px;
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: lightgreen;
+  padding: 5px;
+  width: 250px;
+  margin: 5px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .jogo:hover {
-    cursor: pointer;
-    background-color: green;
+  cursor: pointer;
+  background-color: green;
 }
 
 .jogo > img {
-    max-height: 90px;
+  max-height: 90px;
 }
 
 .tamanhoDoJogo {
-    display: inline-block;
-    font-size: 0.8em;
-    text-align: center;
-    font-style: italic;
-    width: 100%;
-    margin-top: 5px;
+  display: inline-block;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+  margin-top: 5px;
 }
 
 .res {
-    display: none;
-    background-color: rgb(255, 255, 255);
-    padding: 5px;
-    border: 2px solid black;
-    box-shadow: 0px 0px 15px 1px black;
-    font-size: 2em;
-    position: fixed;
-    top: 0%;
-    right: 0%;
-    transform: translate(-50%, -0%);
+  display: none;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 15px 1px black;
+  font-size: 2em;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  transform: translate(-50%, -0%);
 }
 
 /*---FORMULARIO--*/
 
 form {
-    font-size: 2em;
-    text-align: center;
+  font-size: 2em;
+  text-align: center;
 }
 
 #text-area-id {
-    display: none; 
+  display: block;
 }
 
 .tamanhoHd {
-    font-size: 1em;
-    text-align: center;
-    padding: 10px;
-    height: 40px;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px;
+  height: 40px;
 }
 
-input[name="radioTamanhoHd"]:hover {
-    cursor: pointer;
+input[name='radioTamanhoHd']:hover {
+  cursor: pointer;
 }
 
-input[name="radioTamanhoHd"] {
-    margin-right: 20px;
+input[name='radioTamanhoHd'] {
+  margin-right: 20px;
 }
 
-label[for="pen60gb"], label[for="hd500gb"], label[for="hd1tb"] {
-    margin-right: 20px;
-    font-size: 1.2em;
-    color: #000000;
-    transition: all 0.25s ease;
+label[for='pen60gb'],
+label[for='hd500gb'],
+label[for='hd1tb'] {
+  margin-right: 20px;
+  font-size: 1.2em;
+  color: #000000;
+  transition: all 0.25s ease;
 }
 
-label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover {
-    cursor: pointer;
-    font-size: 1.3em;
-    font-weight: bold;
+label[for='pen60gb']:hover,
+label[for='hd500gb']:hover,
+label[for='hd1tb']:hover {
+  cursor: pointer;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 #botaoDeEnviar {
-    padding: 10px;
-    margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .tamanhoRealMensagem {
-    text-align: center;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .radioIdHds {
-    display: none;
-    margin-right: 20px;
+  display: none;
+  margin-right: 20px;
 }
 
 /*--Audio--*/
 
 #audio {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    background-color: rgba(255, 255, 255, 0.527);
-    width: 100px;
-    height: 100px;
-    transition: all 0.25s ease;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(255, 255, 255, 0.527);
+  width: 100px;
+  height: 100px;
+  transition: all 0.25s ease;
 }
 
 #audio:hover {
-    cursor: pointer;
-    background-color: orange;
+  cursor: pointer;
+  background-color: orange;
 }
 
 #audio > .material-icons {
-    width: 100%;
-    height: 100%;
-    font-size: 6em;
+  width: 100%;
+  height: 100%;
+  font-size: 6em;
 }
 
 /*--Seletor de console--*/
 
 .seletorConsole {
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .seletorConsoleItem {
-    font-size: 1.3em;
-    font-weight: 600;
-    color: orange;
-    text-shadow: 0 0 6px black;
-    background: #ffffff61;
-    padding: 5px;
-    border-radius: 20px;
-    height: 34px;
-    margin-left: 20px;
-    transition: all 0.25s ease;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: orange;
+  text-shadow: 0 0 6px black;
+  background: #ffffff61;
+  padding: 5px;
+  border-radius: 20px;
+  height: 34px;
+  margin-left: 20px;
+  transition: all 0.25s ease;
 }
 
 .seletorConsoleItem:hover {
-    cursor: pointer;
-    font-size: 1.4em;
-    background: #00000094;
-    color: #ffe200;
+  cursor: pointer;
+  font-size: 1.4em;
+  background: #00000094;
+  color: #ffe200;
 }
 
 /*--Filtros--*/
 
 #filtrosContainer {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.644);
-    margin-bottom: 20px;
-    max-width: 1100px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    text-align: center;
-    align-items: center; 
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.644);
+  margin-bottom: 20px;
+  max-width: 1100px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 #container-jogo-gamecube {
-    display: none;
+  display: none;
 }
 
 .itensFiltro {
+  display: flex;
+  width: 150px;
+  border-radius: 25px;
+  padding: 5px;
+  height: 60px;
+  margin: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.itensFiltro:hover {
+  cursor: pointer;
+}
+
+.itensFiltro > p {
+  font-weight: bold;
+  opacity: 100%;
+}
+
+.itensFiltro .material-icons {
+  font-size: 4em;
+}
+
+.checkBoxDoFiltro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  width: 22px;
+  height: 22px;
+  background-color: transparent;
+  margin-left: 5px;
+}
+
+#filtroAutoCompletar {
+  display: flex;
+  width: 200px;
+}
+
+#checkBoxFiltroAutoCompletar {
+  width: 45px;
+  margin-right: 5px;
+}
+
+.segundoContainerFiltro {
+  display: flex;
+  flex-direction: column;
+  line-height: 2px;
+  font-size: small;
+  gap: 2px;
+}
+
+#filtroTodosOsMarios {
+  background: url(../imagens/fundosfiltros/mario.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#filtroTodosOsMarios:hover {
+  opacity: 100%;
+}
+
+#filtroTodosOsPopulares {
+  background: url(../imagens/fundosfiltros/OsMaisPopulares.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#filtroTodosOsPopulares:hover {
+  opacity: 100%;
+}
+
+#filtroTodosOsFifa {
+  background: url(../imagens/fundosfiltros/FIFAPES.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#filtroTodosOsFifa:hover {
+  opacity: 100%;
+}
+
+#filtroTodosOsLego {
+  background: url(../imagens/fundosfiltros/todosOsLEGO.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#filtroTodosOsLego:hover {
+  opacity: 100%;
+}
+
+#filtroTodosOsJustDance {
+  background: url(../imagens/fundosfiltros/justDance.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#filtroTodosOsJustDance:hover {
+  opacity: 100%;
+}
+
+#FiltroTodosOsResidentEvil {
+  background: url(../imagens/fundosfiltros/residentEvil.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#FiltroTodosOsResidentEvil:hover {
+  opacity: 100%;
+}
+
+#FiltroTodosOsSonic {
+  background: url(../imagens/fundosfiltros/sonic.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#FiltroTodosOsSonic:hover {
+  opacity: 100%;
+}
+
+#FiltroTodosOsSpiderMan {
+  background: url(../imagens/fundosfiltros/spiderman.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#FiltroTodosOsSpiderMan:hover {
+  opacity: 100%;
+}
+
+#FiltroTodosOsJogos {
+  background: url(../imagens/fundosfiltros/wiiLogo.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#FiltroTodosOsJogos:hover {
+  opacity: 100%;
+}
+
+#FiltroHdShopee {
+  background: url(../imagens/fundosfiltros/wiiLogo.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#FiltroHdShopee:hover {
+  opacity: 100%;
+}
+
+#filtroTeste {
+  background: url(../imagens/fundosfiltros/wiiLogo.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+#filtroTeste:hover {
+  opacity: 100%;
+}
+
+/* NAVEGAÇÃO */
+
+.container-navegacao {
+  display: flex;
+  background: rgba(255, 255, 255, 0.582);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 1100px;
+  margin: 10px auto;
+  color: blue;
+}
+
+.container-navegacao *:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container-botao-voltar-ao-inicio {
+  display: none;
+  position: fixed;
+  left: 85%;
+  top: 85%;
+  height: 100px;
+  width: 100px;
+}
+
+#idDoBotaoDeVoltarAoTopo {
+  width: 100%;
+  height: 100%;
+  background: #ffffffa3;
+  text-align: center;
+  font-size: 6em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 0px;
+}
+
+#idDoBotaoDeVoltarAoTopo:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+#imagemMaior {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0px 0px 10px 2px;
+}
+
+/* FOOTER */
+
+.footer {
+  margin: 200px auto 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > p {
+  background: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.footer p > a {
+  display: flex;
+}
+
+.footer p > a > img {
+  max-width: 20px;
+  max-height: 20px;
+  background-color: black;
+}
+
+/*------------------------CELULAR------------------------*/
+
+@media (max-width: 480px) {
+  /* AUDIO */
+
+  #audio {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.527);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+
+  #audio > .material-icons {
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
+  }
+
+  /* FORMULARIO */
+
+  form {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  label[for='pen60gb'],
+  label[for='hd500gb'],
+  label[for='hd1tb'] {
+    margin-right: 0px;
+    font-size: 1em;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.478);
+    border-radius: 25px;
+  }
+
+  label[for='pen60gb']:hover,
+  label[for='hd500gb']:hover,
+  label[for='hd1tb']:hover {
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .tamanhoHd {
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
     display: flex;
-    width: 150px;
+    flex-direction: column;
+    gap: 5px;
+    height: auto;
+  }
+
+  .seletorConsole {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .res {
+    display: none;
+    background-color: rgb(255 255 255);
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 15px 1px black;
+    font-size: 1em;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    transform: translate(-0%, -0%);
+  }
+
+  .container-navegacao {
+    display: flex;
+    background: rgba(255, 255, 255, 0.582);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 1100px;
+    margin: 10px auto;
+    color: blue;
+  }
+
+  /* FILTROS */
+
+  .itensFiltro {
+    display: flex;
+    width: 100px;
     border-radius: 25px;
     padding: 5px;
     height: 60px;
@@ -205,425 +554,60 @@ label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-}
+    font-size: 1em;
+  }
 
-.itensFiltro:hover {
-    cursor: pointer;    
-}
+  .segundoContainerFiltro > h3 {
+    font-size: 1em;
+  }
 
-.itensFiltro > p {
-    font-weight: bold;
-    opacity: 100%;
-}
+  /* Seletor de jogos */
 
-.itensFiltro .material-icons {
-    font-size: 4em;
-}
-
-.checkBoxDoFiltro {
+  .container-jogo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    color: green;
-    width: 22px;
-    height: 22px;
-    background-color: transparent;
-    margin-left: 5px;
-
-}
-
-#filtroAutoCompletar {
-    display: flex;
-    width: 200px;
-}
-
-#checkBoxFiltroAutoCompletar {
-    width: 45px;
-    margin-right: 5px;
-}
-
-.segundoContainerFiltro {
-    display: flex;
-    flex-direction: column;
-    line-height: 2px;
-    font-size: small;
-    gap: 2px;
-}
-
-#filtroTodosOsMarios {
-    background: url(../imagens/fundosfiltros/mario.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#filtroTodosOsMarios:hover {
-    opacity: 100%;
-}
-
-#filtroTodosOsPopulares {
-    background: url(../imagens/fundosfiltros/OsMaisPopulares.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#filtroTodosOsPopulares:hover {
-    opacity: 100%;
-}
-
-#filtroTodosOsFifa {
-    background: url(../imagens/fundosfiltros/FIFAPES.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#filtroTodosOsFifa:hover {
-    opacity: 100%;
-}
-
-#filtroTodosOsLego {
-    background: url(../imagens/fundosfiltros/todosOsLEGO.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#filtroTodosOsLego:hover {
-    opacity: 100%;
-}
-
-#filtroTodosOsJustDance {
-    background: url(../imagens/fundosfiltros/justDance.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#filtroTodosOsJustDance:hover {
-    opacity: 100%;
-}
-
-#FiltroTodosOsResidentEvil {
-    background: url(../imagens/fundosfiltros/residentEvil.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#FiltroTodosOsResidentEvil:hover {
-    opacity: 100%;
-}
-
-#FiltroTodosOsSonic {
-    background: url(../imagens/fundosfiltros/sonic.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#FiltroTodosOsSonic:hover {
-    opacity: 100%;
-}
-
-#FiltroTodosOsSpiderMan {
-    background: url(../imagens/fundosfiltros/spiderman.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#FiltroTodosOsSpiderMan:hover {
-    opacity: 100%;
-}
-
-#FiltroTodosOsJogos {
-    background: url(../imagens/fundosfiltros/wiiLogo.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#FiltroTodosOsJogos:hover {
-    opacity: 100%;
-}
-
-#FiltroHdShopee {
-    background: url(../imagens/fundosfiltros/wiiLogo.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#FiltroHdShopee:hover {
-    opacity: 100%;
-}
-
-#filtroTeste {
-    background: url(../imagens/fundosfiltros/wiiLogo.jpg) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-
-#filtroTeste:hover {
-    opacity: 100%;
-}
-
- /* NAVEGAÇÃO */
-
-.container-navegacao {
-    display: flex;
-    background: rgba(255, 255, 255, 0.582);
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    background-color: rgba(211, 211, 211, 0.596);
     max-width: 1100px;
-    margin: 10px auto;
-    color: blue;
-}
+    margin: 0 auto;
+    word-break: break-all;
+    font-size: 0.8em;
+  }
 
-.container-navegacao *:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
+  .jogo {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background-color: lightgreen;
+    padding: 5px;
+    width: 141px;
+    margin: 3px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-.container-botao-voltar-ao-inicio {
+  .jogo > img {
+    max-height: 75px;
+  }
+
+  /* BOTAO VOLTAR AO INICIO */
+
+  .container-botao-voltar-ao-inicio {
     display: none;
     position: fixed;
-    left: 85%;
-    top: 85%;
-    height: 100px;
-    width: 100px;
-}
+    left: 83%;
+    top: 90%;
+    height: 50px;
+    width: 50px;
+  }
 
-#idDoBotaoDeVoltarAoTopo {
+  #idDoBotaoDeVoltarAoTopo {
     width: 100%;
     height: 100%;
     background: #ffffffa3;
     text-align: center;
-    font-size: 6em;
+    font-size: 3em;
     border-radius: 50%;
     box-shadow: 0px 0px 8px 0px;
+  }
 }
-
-#idDoBotaoDeVoltarAoTopo:hover {
-    cursor: pointer;
-    border: 1px solid black;
-}
-
-#imagemMaior {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 0;
-    box-shadow: 0px 0px 10px 2px;
-}
-
-/* FOOTER */
-
-.footer {
-    margin: 200px auto 0px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer > p {
-    background: black;
-    color: white;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    gap: 10px;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.footer p > a {
-    display: flex;
-}
-
-.footer p > a > img {
-    max-width: 20px;
-    max-height: 20px;
-    background-color: black;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*------------------------CELULAR------------------------*/
-
-
-
-
-@media (max-width: 480px) {
-
-    /* AUDIO */
-
-    #audio {
-        position: fixed;
-        top: 0%;
-        left: 0%;
-        background-color: rgba(255, 255, 255, 0.527);
-        width: 50px;
-        height: 50px;
-        border-radius: 25px;
-    }
-
-    #audio > .material-icons {
-        width: 100%;
-        height: 100%;
-        font-size: 3em;
-    }
-
-    /* FORMULARIO */
-
-    form {
-        font-size: 1em;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    label[for="pen60gb"], label[for="hd500gb"], label[for="hd1tb"] {
-        margin-right: 0px;
-        font-size: 1em;
-        color: #000000;
-        background-color: rgba(255, 255, 255, 0.478);
-        border-radius: 25px;
-    }
-    
-    label[for="pen60gb"]:hover, label[for="hd500gb"]:hover, label[for="hd1tb"]:hover {
-        cursor: pointer;
-        font-size: 1em;
-        font-weight: bold;
-    }
-
-    .tamanhoHd {
-        font-size: 1em;
-        text-align: center;
-        padding: 10px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        height: auto;
-    }
-
-    .seletorConsole {
-        display: flex;
-         gap: 10px; 
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .res {
-        display: none;
-        background-color: rgb(255 255 255);
-        padding: 5px;
-        border: 2px solid black;
-        box-shadow: 0px 0px 15px 1px black;
-        font-size: 1em;
-        position: fixed;
-        top: 0%;
-        right: 0%;
-        transform: translate(-0%, -0%);
-    }
-
-
-
-    .container-navegacao {
-        display: flex;
-        background: rgba(255, 255, 255, 0.582);
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        max-width: 1100px;
-        margin: 10px auto;
-        color: blue;
-    }
-
-    /* FILTROS */
-
-    .itensFiltro {
-        display: flex;
-        width: 100px;
-        border-radius: 25px;
-        padding: 5px;
-        height: 60px;
-        margin: 10px 20px;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid black;
-        font-size: 1em;
-    }
-
-    .segundoContainerFiltro > h3 {
-        font-size: 1em;
-    }
-
-    /* Seletor de jogos */
-
-    .container-jogo {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        background-color: rgba(211, 211, 211, 0.596);
-        max-width: 1100px;
-        margin: 0 auto;
-        word-break: break-all;
-        font-size: 0.8em;
-    }
-
-    .jogo {
-        display: flex;
-        align-items: center;
-        gap: 2px;
-        background-color: lightgreen;
-        padding: 5px;
-        width: 141px;
-        margin: 3px;
-        font-size: 1em;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .jogo > img {
-        max-height: 75px;
-    }
-
-    /* BOTAO VOLTAR AO INICIO */
-
-    .container-botao-voltar-ao-inicio {
-        display: none;
-        position: fixed;
-        left: 83%;
-        top: 90%;
-        height: 50px;
-        width: 50px;
-    }
-
-    #idDoBotaoDeVoltarAoTopo {
-        width: 100%;
-        height: 100%;
-        background: #ffffffa3;
-        text-align: center;
-        font-size: 3em;
-        border-radius: 50%;
-        box-shadow: 0px 0px 8px 0px;
-    }
-
-
-
-
-}
-  
