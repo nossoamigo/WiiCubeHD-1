@@ -450,6 +450,7 @@ function FiltroTodosOsResidentEvil() {
       if (capacidadeAtual + 17000 > capacidadeMaxima) {
         alert('Você precisa ao menos 17GB para selecionar todos os Resident Evil');
       } else {
+        adicionarJogo('RBHE08', 'Resident Evil 0', 3776);
         adicionarJogo('RE4E08', 'Resident Evil', 3810);
         adicionarJogo('RB4E08', 'Resident Evil 4 Wii Edition', 4064);
         adicionarJogo('RMVE69', 'Resident Evil Archives: Resident Evil', 1224);
