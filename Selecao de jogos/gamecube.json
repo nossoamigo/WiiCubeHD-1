@@ -26,13 +26,13 @@
         {  
         "id": "GKBEAF",
         "nome": "Baten Kaitos - Eternal Wings and the Lost Ocean",
-        "tamanho": 1360,
+        "tamanho": 2720,
         "imagem": "../imagens/gamecube/cache/US/3d/GKBEAF.png"
         }, 
         {
         "id": "GK4E01",
         "nome": "Baten Kaitos Origins",
-        "tamanho": 1360,
+        "tamanho": 2720,
         "imagem": "../imagens/gamecube/cache/US/3d/GK4E01.png"
         },
         {"id": "GGEE41",
@@ -136,7 +136,7 @@
         {
         "id": "GMXE70",
         "nome": "Enter The Matrix",
-        "tamanho": 1360,
+        "tamanho": 2720,
         "imagem": "../imagens/gamecube/cache/US/3d/GMXE70.png"
         },
         {
@@ -621,19 +621,19 @@
         { 
         "id": "GALE01",
         "nome": "Super Smash Bros Melee",
-        "tamanho": 1.33,
+        "tamanho": 1330,
         "imagem": "../imagens/gamecube/cache/US/3d/GALE01.png"
         },
         {
         "id": "GQSEAF",
-        "nome": "TALES OF SYMPHONIA 1",
-        "tamanho": 1.36,
+        "nome": "TALES OF SYMPHONIA",
+        "tamanho": 2720,
         "imagem": "../imagens/gamecube/cache/US/3d/GQSEAF.png"
         },
         {
         "id": "GZLE01",
         "nome": "THE LEGEND OF ZELDA The Wind Waker for USA",
-        "tamanho": 1.36,
+        "tamanho": 1360,
         "imagem": "../imagens/gamecube/cache/US/3d/GZLE01.png"
         },
         {
