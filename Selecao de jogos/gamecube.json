@@ -20,7 +20,7 @@
         {
         "id": "GYAE78",
         "nome": "Barnyard",
-        "tamanho": 1393,
+        "tamanho": 904.06,
         "imagem": "../imagens/gamecube/cache/US/3d/GYAE78.png"
         },
         {  
@@ -47,7 +47,7 @@
         },
         {"id": "GBLE52",
         "nome": "BLOODY ROAR(R): PRIMAL FURY",
-        "tamanho": 1360,
+        "tamanho": 602.11,
         "imagem": "../imagens/gamecube/cache/US/3d/GBLE52.png"
         },
         {"id": "GBGE5G",
@@ -58,13 +58,13 @@
         {
         "id": "GJBE5G",
         "nome": "Bomberman Jetters",
-        "tamanho": 1392.34,
+        "tamanho": 942.07,
         "imagem": "../imagens/gamecube/cache/US/3d/GJBE5G.png"
         },
         {
         "id": "GB2J18",
         "nome": "Bomberman Land 2 (JA)",
-        "tamanho": 1392.34,
+        "tamanho": 301.10,
         "imagem": "../imagens/gamecube/cache/US/3d/GB2J18.png"
         },
         {  
@@ -76,7 +76,7 @@
         {
         "id": "GEOE08",
         "nome": "CAPCOM VS. SNK 2  EO",
-        "tamanho": 1360,
+        "tamanho": 281.28,
         "imagem": "../imagens/gamecube/cache/US/3d/GEOE08.png"
         },
         {
@@ -106,7 +106,7 @@
         {
         "id": "GWZE01",
         "nome": "Dance Dance Revolution: Mario Mix for US",
-        "tamanho": 1360,
+        "tamanho": 265,
         "imagem": "../imagens/gamecube/cache/US/3d/GWZE01.png"
         },
         {
@@ -124,7 +124,7 @@
         {
         "id": "GPKE41",
         "nome": "DISNEY'S PK: OUT OF THE SHADOWS",
-        "tamanho": 1392.34,
+        "tamanho": 1080,
         "imagem": "../imagens/gamecube/cache/US/3d/GPKE41.png"
         },
         {
@@ -214,13 +214,13 @@
         {
         "id": "GHME4F",
         "nome": "Hitman 2: Silent Assassin",
-        "tamanho": 1360,
+        "tamanho": 812.81,
         "imagem": "../imagens/gamecube/cache/US/3d/GHME4F.png"
         },
         {
         "id": "GIKE70",
         "nome": "IKARUGA",
-        "tamanho": 1360,
+        "tamanho": 204.18,
         "imagem": "../imagens/gamecube/cache/US/3d/GIKE70.png"
         },
         { "id": "GK7E08",
@@ -230,19 +230,19 @@
         },
         { "id": "GKYE01",
         "nome": "Kirby Air Ride",
-        "tamanho": 1360,
+        "tamanho": 659.09,
         "imagem": "../imagens/gamecube/cache/US/3d/GKYE01.png"
         },
         {
         "id": "GRNE52",
         "nome": "LOST KINGDOMS",
-        "tamanho": 1360,
+        "tamanho": 583.85,
         "imagem": "../imagens/gamecube/cache/US/3d/GRNE52.png"
         },
         {
         "id": "GLNE69",
         "nome": "Looney Tunes - Back in Action",
-        "tamanho": 1393,
+        "tamanho": 1020,
         "imagem": "../imagens/gamecube/cache/US/3d/GLNE69.png"
         },
         {
@@ -254,13 +254,13 @@
         {
         "id": "GGZE52",
         "nome": "Madagascar",
-        "tamanho": 1393,
+        "tamanho": 614.43,
         "imagem": "../imagens/gamecube/cache/US/3d/GGZE52.png"
         },
         {
         "id": "GFTE01",
         "nome": "Mario Golf: Toadstool Tour",
-        "tamanho": 1360,
+        "tamanho": 1110,
         "imagem": "../imagens/gamecube/cache/US/3d/GFTE01.png"
         },
         {
@@ -272,37 +272,37 @@
         {
         "id": "GMPE01",
         "nome": "MarioParty4",
-        "tamanho": 1360,
+        "tamanho": 570.66,
         "imagem": "../imagens/gamecube/cache/US/3d/GMPE01.png"
         },
         {
         "id": "GP5E01",
         "nome": "Mario Party 5",
-        "tamanho": 1360,
+        "tamanho": 951.65,
         "imagem": "../imagens/gamecube/cache/US/3d/GP5E01.png"
         },
         {
         "id": "GP6E01",
         "nome": "Mario Party 6",
-        "tamanho": 1360,
+        "tamanho": 751.42,
         "imagem": "../imagens/gamecube/cache/US/3d/GP6E01.png"
         },
         {
         "id": "GP7E01",
         "nome": "Mario Party 7",
-        "tamanho": 1360,
+        "tamanho": 570.15,
         "imagem": "../imagens/gamecube/cache/US/3d/GP7E01.png"
         },
         {
         "id": "GOME01",
         "nome": "MarioPowerTennis",
-        "tamanho": 601,
+        "tamanho": 601.25,
         "imagem": "../imagens/gamecube/cache/US/3d/GOME01.png"
         },
         {
         "id": "G4QE01",
         "nome": "Mario Strikers",
-        "tamanho": 618,
+        "tamanho": 618.55,
         "imagem": "../imagens/gamecube/cache/US/3d/G4QE01.png"
         },
         {
@@ -392,7 +392,7 @@
         {
         "id": "GPZJ01",
         "nome": "NINTENDO PUZZLE COLLECTION",
-        "tamanho": 1360,
+        "tamanho": 138,
         "imagem": "../imagens/gamecube/cache/JA/3d/GPZJ01.png"
         },
         {
@@ -633,13 +633,13 @@
         {
         "id": "GZLE01",
         "nome": "THE LEGEND OF ZELDA The Wind Waker for USA",
-        "tamanho": 1360,
+        "tamanho": 1010,
         "imagem": "../imagens/gamecube/cache/US/3d/GZLE01.png"
         },
         {
         "id": "GZ2E01",
         "nome": "The Legend of Zelda Twilight Princess",
-        "tamanho": 1360,
+        "tamanho": 1000.12,
         "imagem": "../imagens/gamecube/cache/US/3d/GZ2E01.png"
         },
         {"id": "PZLE01",
@@ -649,7 +649,7 @@
         },
         {"id": "G4SE01",
         "nome": "The Legend of Zelda: Four Swords FOR NINTENDO GAMECUBE",
-        "tamanho": 1360,
+        "tamanho": 254.43,
         "imagem": "../imagens/gamecube/cache/US/3d/G4SE01.png"
         },
         {
@@ -762,7 +762,7 @@
         {
         "id": "G43E01",
         "nome": "Zelda Ocarina Multi Pack",
-        "tamanho": 1393,
+        "tamanho": 1050,
         "imagem": "../imagens/gamecube/cache/US/3d/D43E01.png"
         }
     ]
