@@ -24,39 +24,31 @@
     <!-------Preencher formulário------->
 
     <form action="https://formsubmit.co/alissonddo@gmail.com" method="POST">
-      <!-- 
-      <input
-        type="hidden"
-        name="accessKey"
-        value="sf_69d85f94255a754c828ccaa1" /> 
-      --> 
+  <input
+    type="hidden"
+    name="_next"
+    value="https://nossoamigo.github.io/WiiCubeHD-1/Selecao%20de%20jogos/pedido-concluido.html" />
+  
+  <input type="hidden" name="_captcha" value="false" />
 
-      <input
-        type="hidden"
-        name="_next"
-        value="https://nossoamigo.github.io" />
-      
-      <input type="hidden" name="_captcha" value="false" />
+  <label for="input-email-id">E-mail:</label>
+  <input type="email" name="email" id="input-email-id" required /> <br />
+  <br />
+  <label for="input-nome-id">Nome:</label>
+  <input type="text" name="name" id="input-nome-id" required /> <br />
+  <br />
+  <textarea
+    name="message"
+    id="text-area-id"
+    cols="30"
+    rows="10"
+    required
+    maxlength="100"
+    readonly>
+** PENDRIVE 64GB **, </textarea>
 
-      <label for="input-email-id">E-mail:</label>
-      <input type="email" name="email" id="input-email-id" required /> <br />
-      <br />
-      <label for="input-nome-id">Nome:</label>
-      <input type="text" name="name" id="input-nome-id" required /> <br />
-      <br />
-      <textarea
-        name="message"
-        id="text-area-id"
-        cols="30"
-        rows="10"
-        required
-        maxlength="100"
-        readonly>
-** PENDRIVE 64GB **, </textarea
-      >
-
-      <button id="botaoDeEnviar">Enviar pedido</button>
-    </form>
+  <button id="botaoDeEnviar">Enviar pedido</button>
+</form>
 
     <!-------Selecionar HD------->
 
