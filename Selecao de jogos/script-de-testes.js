@@ -562,7 +562,9 @@ function FiltroTodosOsSpiderMan() {
   }
 }
 
-let clicouTodosOsJogos = false;
+//seletor todos os jogos e hd padrao desativados
+
+/*let clicouTodosOsJogos = false;
 function FiltroTodosOsJogos() {
   if (clicouTodosOsJogos == false) {
     if (pen60.checked || hd500.checked || hd1tb.checked) {
@@ -602,11 +604,6 @@ function FiltroTodosOsJogos() {
     }
   }
 }
-
-
-
-
-
 
 let clicouHdShopee = false;
 function FiltroHdShopee() {
@@ -855,8 +852,7 @@ function FiltroHdShopee() {
       }, 500);
     }
   }
-}
-
+}*/
 
 
 // Botão de voltar ao topo da pagina
