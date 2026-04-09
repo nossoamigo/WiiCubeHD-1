@@ -96,6 +96,7 @@ input[name='radioTamanhoHd'] {
 label[for='pen60gb'],
 label[for='hd320gb'],
 label[for='hd500gb'],
+label[for='hd750gb'],
 label[for='hd1tb'] {
   margin-right: 20px;
   font-size: 1.2em;
@@ -106,6 +107,7 @@ label[for='hd1tb'] {
 label[for='pen60gb']:hover,
 label[for='hd320gb']:hover,
 label[for='hd500gb']:hover,
+label[for='hd750gb']:hover,
 label[for='hd1tb']:hover {
   cursor: pointer;
   font-size: 1.3em;
