@@ -23,35 +23,46 @@
   <body>
     <!-------Preencher formulário------->
 
-    <form action="https://formsubmit.co/alissonddo@gmail.com" method="POST">
-      <!--<input
-        type="hidden"
-        name="accessKey"
-        value="sf_69d85f94255a754c828ccaa1" />-->
-      <input
-        type="hidden"
-        name="_next"
-        value="https://nossoamigo.github.io/WiiCubeHD-1/Selecao%20de%20jogos/pedido-concluido.html" />
+    <form id="meu-formulario" method="POST">
+  <label for="input-email-id">E-mail:</label>
+  <input type="email" name="email" id="input-email-id" required /> <br />
+  <br />
+  <label for="input-nome-id">Nome:</label>
+  <input type="text" name="name" id="input-nome-id" required /> <br />
+  <br />
+  <textarea
+    name="message"
+    id="text-area-id"
+    cols="30"
+    rows="10"
+    required
+    maxlength="100"
+    readonly>
+** PENDRIVE 64GB **, </textarea>
 
-      <label for="input-email-id">E-mail:</label>
-      <input type="email" name="email" id="input-email-id" required /> <br />
-      <br />
-      <label for="input-nome-id">Nome:</label>
-      <input type="text" name="name" id="input-nome-id" required /> <br />
-      <br />
-      <textarea
-        name="message"
-        id="text-area-id"
-        cols="30"
-        rows="10"
-        required
-        maxlength="100"
-        readonly>
-** PENDRIVE 64GB **, </textarea
-      >
+  <button id="botaoDeEnviar" type="submit">Enviar pedido</button>
+</form>
 
-      <button id="botaoDeEnviar">Enviar pedido</button>
-    </form>
+<script>
+  // ---------------------------------------------------------
+  // CHAVE MESTRA: Digite "staticforms" ou "formsubmit" abaixo
+  // ---------------------------------------------------------
+  const servidorEscolhido = "staticforms"; 
+  
+  // Daqui para baixo você não precisa mexer mais nunca!
+  const formulario = document.getElementById("meu-formulario");
+
+  if (servidorEscolhido === "staticforms") {
+    formulario.action = "https://api.staticforms.xyz/submit";
+    formulario.insertAdjacentHTML('beforeend', '<input type="hidden" name="accessKey" value="sf_69d85f94255a754c828ccaa1" />');
+    formulario.insertAdjacentHTML('beforeend', '<input type="hidden" name="redirectTo" value="https://nossoamigo.github.io/WiiCubeHD-1/Selecao%20de%20jogos/pedido-concluido.html" />');
+  } 
+  else if (servidorEscolhido === "formsubmit") {
+    formulario.action = "https://formsubmit.co/alissonddo@gmail.com";
+    formulario.insertAdjacentHTML('beforeend', '<input type="hidden" name="_next" value="https://nossoamigo.github.io/WiiCubeHD-1/Selecao%20de%20jogos/pedido-concluido.html" />');
+    formulario.insertAdjacentHTML('beforeend', '<input type="hidden" name="_captcha" value="false" />');
+  }
+</script>
 
     <!-------Selecionar HD------->
 
