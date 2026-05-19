@@ -275,7 +275,7 @@ function XXXXX() {
 let todosOsMariosJaFoiClicado = false;
 function filtroTodosOsMarios() {
   if (todosOsMariosJaFoiClicado == false) {
-    if (pen60.checked || hd500.checked || hd1tb.checked) {
+    if (pen60.checked || hd320.checked || hd500.checked || hd750.checked || hd1tb.checked) {
       if (capacidadeAtual + 42000 > capacidadeMaxima) {
         alert('Você precisa ao menos 42GB para selecionar todos os marios');
       } else {
@@ -322,7 +322,7 @@ function filtroTodosOsMarios() {
 let todosOsPopularesJaFoiClicado = false;
 function filtroTodosOsPopulares() {
   if (todosOsPopularesJaFoiClicado == false) {
-    if (pen60.checked || hd500.checked || hd1tb.checked) {
+    if (pen60.checked || hd320.checked || hd500.checked || hd750.checked || hd1tb.checked) {
       if (capacidadeAtual + 62000 > capacidadeMaxima) {
         alert('Você precisa ao menos 62GB para selecionar todos os populares');
       } else {
@@ -367,7 +367,7 @@ function filtroTodosOsPopulares() {
 let todosOsFifaJaFoiClicado = false;
 function filtroTodosOsFifa() {
   if (todosOsFifaJaFoiClicado == false) {
-    if (pen60.checked || hd500.checked || hd1tb.checked) {
+    if (pen60.checked || hd320.checked || hd500.checked || hd750.checked || hd1tb.checked) {
       if (capacidadeAtual + 24000 > capacidadeMaxima) {
         alert('Você precisa ao menos 24GB para selecionar todos os FIFA/PES');
       } else {
@@ -412,7 +412,7 @@ function filtroAutoCompletar() {
 let clicouTodosOsLego = false;
 function FiltroTodosOsLego() {
   if (clicouTodosOsLego == false) {
-    if (pen60.checked || hd500.checked || hd1tb.checked) {
+    if (pen60.checked || hd320.checked || hd500.checked || hd750.checked || hd1tb.checked) {
       if (capacidadeAtual + 23500 > capacidadeMaxima) {
         alert('Você precisa ao menos 23.5GB para selecionar todos os LEGO');
       } else {
@@ -446,7 +446,7 @@ function FiltroTodosOsLego() {
 let ClicouTodosOsJustDance = false;
 function filtroTodosOsJustDance() {
   if (ClicouTodosOsJustDance == false) {
-    if (pen60.checked || hd500.checked || hd1tb.checked) {
+    if (pen60.checked || hd320.checked || hd500.checked || hd750.checked || hd1tb.checked) {
       if (capacidadeAtual + 61100 > capacidadeMaxima) {
         alert('Você precisa ao menos 61.1GB para selecionar todos os JUST DANCE');
       } else {
@@ -489,7 +489,7 @@ function filtroTodosOsJustDance() {
 let ClicouTodosOsResidentEvil = false;
 function FiltroTodosOsResidentEvil() {
   if (ClicouTodosOsResidentEvil == false) {
-    if (pen60.checked || hd500.checked || hd1tb.checked) {
+    if (pen60.checked || hd320.checked || hd500.checked || hd750.checked || hd1tb.checked) {
       if (capacidadeAtual + 17000 > capacidadeMaxima) {
         alert('Você precisa ao menos 17GB para selecionar todos os Resident Evil');
       } else {
@@ -520,7 +520,7 @@ function FiltroTodosOsResidentEvil() {
 let ClicouTodosOsSonic = false;
 function FiltroTodosOsSonic() {
   if (ClicouTodosOsSonic == false) {
-    if (pen60.checked || hd500.checked || hd1tb.checked) {
+    if (pen60.checked || hd320.checked || hd500.checked || hd750.checked || hd1tb.checked) {
       if (capacidadeAtual + 28500 > capacidadeMaxima) {
         alert('Você precisa ao menos 28.5GB para selecionar todos os Sonic');
       } else {
@@ -555,7 +555,7 @@ function FiltroTodosOsSonic() {
 let clicouTodosOsSpiderMan = false;
 function FiltroTodosOsSpiderMan() {
   if (clicouTodosOsSpiderMan == false) {
-    if (pen60.checked || hd500.checked || hd1tb.checked) {
+    if (pen60.checked || hd320.checked || hd500.checked || hd750.checked || hd1tb.checked) {
       if (capacidadeAtual + 16550 > capacidadeMaxima) {
         alert('Você precisa ao menos 16.55GB para selecionar Todos os SPIDER-MAN');
       } else {
