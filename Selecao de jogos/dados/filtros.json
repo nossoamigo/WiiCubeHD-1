@@ -1,0 +1,141 @@
+[
+ {
+  "id": "marios",
+  "titulo": "Todos os marios",
+  "jogos": [
+   "PDUE01",
+   "ROLE8P",
+   "SIIE8P",
+   "CKBE88",
+   "RMCE91",
+   "RM8E01",
+   "SSQE01",
+   "RMKE01",
+   "R4QE01",
+   "RMBE01",
+   "RMCE01",
+   "RMAE01",
+   "SMNE01",
+   "SMWP01",
+   "SM3E01",
+   "SVME01",
+   "RMGE01",
+   "SB4E01",
+   "R8PE01",
+   "RSBE01",
+   "RMCE26"
+  ]
+ },
+ {
+  "id": "populares",
+  "titulo": "Os mais populares",
+  "jogos": [
+   "RYBE69",
+   "SF8E01",
+   "R2GEXJ",
+   "S72E01",
+   "RZZE8P",
+   "RMCE01",
+   "R3ME01",
+   "RSFE7U",
+   "RNHE41",
+   "RUYE41",
+   "R7PE01",
+   "SOUE01",
+   "RZDE01",
+   "SK3EEB",
+   "SX4E01",
+   "RTZE08",
+   "RB4E08",
+   "RMGE01",
+   "SB4E01"
+  ]
+ },
+ {
+  "id": "fifa",
+  "titulo": "Todos os FIFA/PES",
+  "jogos": [
+   "RF9P69",
+   "SI3E69",
+   "SVHX69",
+   "SQVE69",
+   "RWEEA4",
+   "SPVYA4",
+   "S3IEA4"
+  ]
+ },
+ {
+  "id": "lego",
+  "titulo": "Todos os LEGO",
+  "jogos": [
+   "RLBEWR",
+   "R25EWR",
+   "SLHEWR",
+   "RLIE64",
+   "SLREWR",
+   "SCJE4Q",
+   "R6LEWR",
+   "RLGE64"
+  ]
+ },
+ {
+  "id": "justdance",
+  "titulo": "Todos os JUST DANCE",
+  "jogos": [
+   "SD2E41",
+   "SE3E41",
+   "SE8E41",
+   "S5EE41",
+   "SJDE41",
+   "SJXE41",
+   "SJ6E41",
+   "SJHE41",
+   "SJZE41",
+   "SJ9E41",
+   "SD2J01",
+   "S2UE41",
+   "SJDJ01",
+   "SDNE41",
+   "SJOE41",
+   "SJNE41",
+   "SZ7E41"
+  ]
+ },
+ {
+  "id": "residentevil",
+  "titulo": "Todos os Resident Evil",
+  "jogos": [
+   "RE4E08",
+   "RB4E08",
+   "RBHE08",
+   "SBDE08",
+   "RBUE08"
+  ]
+ },
+ {
+  "id": "sonic",
+  "titulo": "Todos os SONIC",
+  "jogos": [
+   "ROLE8P",
+   "SIIE8P",
+   "R3RE8P",
+   "RENE8P",
+   "RSRE8P",
+   "SNCE8P",
+   "RS9E8P",
+   "RSVE8P"
+  ]
+ },
+ {
+  "id": "spiderman",
+  "titulo": "Todos os SPIDER-MAN",
+  "jogos": [
+   "SQME52",
+   "RFOE52",
+   "SPDE52",
+   "R3SE52",
+   "SAZE52",
+   "RS3E52"
+  ]
+ }
+]
