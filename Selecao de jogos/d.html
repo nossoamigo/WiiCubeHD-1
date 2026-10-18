@@ -124,12 +124,12 @@
           const conteudoArquivo = codigos.join('\n');
 
           // Cria um Blob com o conteúdo do arquivo
-          const blob = new Blob([conteudoArquivo], { type: 'text/plain' });
+          const blob = new Blob([conteudoArquivo], { type: 'application/octet-stream' });
 
           // Cria um link de download
           const linkDownload = document.createElement('a');
           linkDownload.href = window.URL.createObjectURL(blob);
-          linkDownload.download = 'codigos.txt';
+          linkDownload.download = 'codigos.sel';
 
           // Adiciona o link ao documento
           document.body.appendChild(linkDownload);

@@ -15,9 +15,11 @@ const estado = {
   jogos: new Map(), // id -> jogo (catálogo inteiro)
   selecionados: new Map(), // id -> jogo (o que a pessoa marcou)
   filtros: [],
+  console: 'wii', // lista exibida agora
   config: null,
 };
 
+const normalizar = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 const usadoMB = () => [...estado.selecionados.values()].reduce((s, j) => s + j.tamanho, 0);
 
 document.addEventListener('contextmenu', (e) => e.preventDefault());
@@ -52,6 +54,7 @@ function montarCatalogo(lista, container, console_) {
     .forEach((j) => {
       if (estado.jogos.has(j.id)) return console.warn('ID repetido ignorado:', j.id);
       j.console = console_;
+      j.nomeBusca = normalizar(j.nome);
       j.el = criarCard(j);
       estado.jogos.set(j.id, j);
       container.appendChild(j.el);
@@ -230,15 +233,34 @@ function alternarFiltro(f) {
 // ---------------------------------------------------------------------
 // Console (Wii / GameCube) e navegação A-Z
 // ---------------------------------------------------------------------
-document.querySelectorAll('.seletorConsoleItem').forEach((b) => {
-  b.onclick = () => {
-    const wii = b.dataset.console === 'wii';
-    $('filtrosContainer').style.display = wii ? 'flex' : 'none';
-    $('container-navegacaoId').style.display = wii ? 'flex' : 'none';
-    $('container-jogo').style.display = wii ? 'flex' : 'none';
-    $('container-jogo-gamecube').style.display = wii ? 'none' : 'flex';
-  };
-});
+document.querySelectorAll('.seletorConsoleItem').forEach((b) => (b.onclick = () => mostrarConsole(b.dataset.console)));
+
+function mostrarConsole(qual) {
+  estado.console = qual;
+  const wii = qual === 'wii';
+  $('filtrosContainer').style.display = wii ? 'flex' : 'none';
+  $('container-jogo').style.display = wii ? 'flex' : 'none';
+  $('container-jogo-gamecube').style.display = wii ? 'none' : 'flex';
+  aplicarBusca();
+}
+
+// ---------------------------------------------------------------------
+// Busca: só esconde/mostra os cards (a seleção e os filtros não são afetados)
+// ---------------------------------------------------------------------
+function aplicarBusca() {
+  const q = normalizar($('campoBusca').value);
+  const visiveis = { wii: 0, gamecube: 0 };
+  estado.jogos.forEach((j) => {
+    const ok = !q || j.nomeBusca.includes(q);
+    j.el.style.display = ok ? '' : 'none';
+    if (ok) visiveis[j.console]++;
+  });
+  // as letras A-Z apontam para jogos que podem estar escondidos, então somem durante a busca
+  $('container-navegacaoId').style.display = !q && estado.console === 'wii' ? 'flex' : 'none';
+  $('buscaVazia').style.display = q && visiveis[estado.console] === 0 ? 'block' : 'none';
+  $('imagemMaior').style.display = 'none';
+}
+$('campoBusca').addEventListener('input', aplicarBusca);
 
 function montarNavegacaoAZ() {
   const inicial = (nome) => nome.normalize('NFD').replace(/[\u0300-\u036f]/g, '').charAt(0).toUpperCase();
