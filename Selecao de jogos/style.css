@@ -105,6 +105,22 @@ input[name='radioTamanhoHd'] {
   border-radius: 25px;
   cursor: pointer;
   transition: all 0.2s ease;
+  position: relative;
+}
+
+/* LED: apagado por padrão, acende no botão escolhido */
+.tamanhoHd label::before {
+  content: '';
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  margin-top: -4.5px;
+  border-radius: 50%;
+  background: #7a0a0a;
+  opacity: 0;
+  transition: opacity 0.4s ease, box-shadow 0.4s ease;
 }
 
 .tamanhoHd label:hover {
@@ -112,17 +128,18 @@ input[name='radioTamanhoHd'] {
   transform: translateY(-2px);
 }
 
-/* Botão escolhido: fundo branco, contorno vermelho, brilho e ✓ */
+/* Botão escolhido: fundo branco, halo vermelho difuso e o LED aceso */
 .radioIdHds:checked + label {
   background-color: #ffffff;
-  border-color: #e11d1d;
+  border-color: rgba(190, 25, 25, 0.45);
   font-weight: bold;
-  box-shadow: 0 0 0 2px rgba(225, 29, 29, 0.25), 0 0 14px 3px rgba(255, 70, 70, 0.7);
+  box-shadow: 0 0 14px 3px rgba(210, 30, 30, 0.35);
 }
 
 .radioIdHds:checked + label::before {
-  content: '✓ ';
-  color: #e11d1d;
+  opacity: 1;
+  background: radial-gradient(circle at 35% 35%, #ff7a6e 0%, #e0141a 45%, #9c0a0f 100%);
+  box-shadow: 0 0 4px 1px rgba(255, 40, 30, 0.9), 0 0 12px 4px rgba(230, 20, 25, 0.45);
 }
 
 /* navegação por teclado (Tab + setas) */
@@ -644,7 +661,7 @@ input[name='radioTamanhoHd'] {
 .recado h4 { margin: 0 0 4px; }
 .recado p { margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
 #imagemMaior { z-index: 20; }
-@media (max-width: 480px) { #quadroRecados { top: 70px; right: 6px; } }
+@media (max-width: 480px) { #quadroRecados { top: 140px; right: 6px; } }
 
 /* X vermelho (só aparece com o quadro aberto) */
 #quadroRecadosCabecalho { display: flex; align-items: center; }
@@ -656,3 +673,10 @@ input[name='radioTamanhoHd'] {
 /* Some ao rolar a página para baixo, volta ao chegar perto do topo */
 #quadroRecados { transition: opacity 0.25s, transform 0.25s, visibility 0s; }
 #quadroRecados.oculto { opacity: 0; visibility: hidden; transform: translateX(30px); pointer-events: none; transition: opacity 0.25s, transform 0.25s, visibility 0s 0.25s; }
+
+/* Campos de nome e telefone: largura de um telefone completo, (41) 99999-9999 */
+#input-nome-id, #input-telefone-id { box-sizing: content-box; width: 15ch; padding: 4px 8px; font-size: 16px; }
+
+/* Imagem, transparência e brilho dos botões de filtro (a imagem vem de filtros.json) */
+.itensFiltro { background-size: cover; background-position: center; background-repeat: no-repeat; opacity: 50%; }
+.itensFiltro:hover { opacity: 100%; }

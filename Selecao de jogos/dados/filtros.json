@@ -2,6 +2,7 @@
  {
   "id": "marios",
   "titulo": "Todos os marios",
+  "imagem": "../imagens/fundosfiltros/mario.jpg",
   "jogos": [
    "PDUE01",
    "ROLE8P",
@@ -29,6 +30,7 @@
  {
   "id": "populares",
   "titulo": "Os mais populares",
+  "imagem": "../imagens/fundosfiltros/OsMaisPopulares.jpg",
   "jogos": [
    "RYBE69",
    "SF8E01",
@@ -54,6 +56,7 @@
  {
   "id": "fifa",
   "titulo": "Todos os FIFA/PES",
+  "imagem": "../imagens/fundosfiltros/FIFAPES.jpg",
   "jogos": [
    "RF9P69",
    "SI3E69",
@@ -67,6 +70,7 @@
  {
   "id": "lego",
   "titulo": "Todos os LEGO",
+  "imagem": "../imagens/fundosfiltros/todosOsLEGO.jpg",
   "jogos": [
    "RLBEWR",
    "R25EWR",
@@ -81,6 +85,7 @@
  {
   "id": "justdance",
   "titulo": "Todos os JUST DANCE",
+  "imagem": "../imagens/fundosfiltros/justDance.jpg",
   "jogos": [
    "SD2E41",
    "SE3E41",
@@ -104,6 +109,7 @@
  {
   "id": "residentevil",
   "titulo": "Todos os Resident Evil",
+  "imagem": "../imagens/fundosfiltros/residentEvil.jpg",
   "jogos": [
    "RE4E08",
    "RB4E08",
@@ -115,6 +121,7 @@
  {
   "id": "sonic",
   "titulo": "Todos os SONIC",
+  "imagem": "../imagens/fundosfiltros/sonic.jpg",
   "jogos": [
    "ROLE8P",
    "SIIE8P",
@@ -129,6 +136,7 @@
  {
   "id": "spiderman",
   "titulo": "Todos os SPIDER-MAN",
+  "imagem": "../imagens/fundosfiltros/spiderman.jpg",
   "jogos": [
    "SQME52",
    "RFOE52",

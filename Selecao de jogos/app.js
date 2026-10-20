@@ -193,6 +193,7 @@ function montarFiltros(lista) {
     bloco.innerHTML = `<h3>${f.titulo}</h3><div class="itensFiltro"><div class="checkBoxDoFiltro"></div></div>`;
     f.botao = bloco.querySelector('.itensFiltro');
     f.caixa = bloco.querySelector('.checkBoxDoFiltro');
+    if (f.imagem) f.botao.style.backgroundImage = `url("${f.imagem}")`;
     f.botao.onclick = () => alternarFiltro(f);
     $('filtrosContainer').appendChild(bloco);
     estado.filtros.push(f);
