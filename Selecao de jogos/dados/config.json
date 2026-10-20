@@ -11,6 +11,14 @@
    "ajusteMB": 0
   },
   {
+   "id": "hd250",
+   "rotulo": "HD 250 GB",
+   "etiquetaPedido": "HD250GB",
+   "utilizavelGB": 231,
+   "mensagem": "O HD de 250GB tem por padrão 231GB utilizáveis",
+   "ajusteMB": 0
+  },
+  {
    "id": "hd320",
    "rotulo": "HD 320 GB",
    "etiquetaPedido": "HD320GB",
