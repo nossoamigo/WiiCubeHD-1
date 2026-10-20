@@ -8,7 +8,9 @@
 // =====================================================================
 
 const $ = (id) => document.getElementById(id);
-const gb = (mb) => `${(mb / 1000).toFixed(2).replace(/\.?0+$/, '')} GB`;
+// Unidades: os tamanhos dos jogos estão em MB "do Windows" (MiB, 1024 KB) e a capacidade
+// dos HDs em GB "do Windows" (GiB, 1024 MB). Por isso 1 GB = 1024 MB, e não 1000.
+const gb = (mb) => `${(mb / 1024).toFixed(2).replace(/\.?0+$/, '')} GB`;
 
 const estado = {
   capacidade: null, // HD/pendrive escolhido
@@ -100,7 +102,7 @@ function criarCard(j) {
 // ---------------------------------------------------------------------
 function montarCapacidades(capacidades) {
   capacidades.forEach((c) => {
-    c.MB = c.utilizavelGB * 1000;
+    c.MB = c.utilizavelGB * 1024 + (c.ajusteMB || 0); // ajusteMB (opcional) calibra a capacidade real
     const label = document.createElement('label');
     label.htmlFor = c.id;
     label.textContent = c.rotulo;

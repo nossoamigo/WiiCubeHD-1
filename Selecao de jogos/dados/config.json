@@ -7,35 +7,40 @@
    "rotulo": "PENDRIVE 64 GB",
    "etiquetaPedido": "PENDRIVE 64GB",
    "utilizavelGB": 57,
-   "mensagem": "O Pendrive de 64GB tem por padrão 57GB utilizáveis"
+   "mensagem": "O Pendrive de 64GB tem por padrão 57GB utilizáveis",
+   "ajusteMB": 0
   },
   {
    "id": "hd320",
    "rotulo": "HD 320 GB",
    "etiquetaPedido": "HD320GB",
    "utilizavelGB": 298,
-   "mensagem": "O HD de 320gb tem por padrão 298GB utilizáveis"
+   "mensagem": "O HD de 320gb tem por padrão 298GB utilizáveis",
+   "ajusteMB": 0
   },
   {
    "id": "hd500",
    "rotulo": "HD 500 GB",
    "etiquetaPedido": "HD500GB",
    "utilizavelGB": 465,
-   "mensagem": "O HD de 500GB tem por padrão 465GB utilizáveis"
+   "mensagem": "O HD de 500GB tem por padrão 465GB utilizáveis",
+   "ajusteMB": 0
   },
   {
    "id": "hd750",
    "rotulo": "HD 750 GB",
    "etiquetaPedido": "HD750GB",
    "utilizavelGB": 697.5,
-   "mensagem": "O HD de 750GB tem por padrão 698GB utilizáveis"
+   "mensagem": "O HD de 750GB tem por padrão 698GB utilizáveis",
+   "ajusteMB": 0
   },
   {
    "id": "hd1tb",
    "rotulo": "HD 1 TB",
    "etiquetaPedido": "HD 1TB",
    "utilizavelGB": 931,
-   "mensagem": "O HD de 1 TB tem por padrão 931GB utilizáveis"
+   "mensagem": "O HD de 1 TB tem por padrão 931GB utilizáveis",
+   "ajusteMB": 0
   }
  ],
  "envio": [
