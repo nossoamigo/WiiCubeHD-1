@@ -310,6 +310,11 @@ async function carregarRecados() {
     };
     abrir(window.innerWidth >= 1280); // aberto só em telas largas; nas outras, o visitante toca para abrir
     $('quadroRecadosTitulo').onclick = () => abrir(!quadro.classList.contains('aberto'));
+    $('quadroRecadosFechar').onclick = () => abrir(false); // X vermelho: recolhe o quadro (fica só o botão "Recados")
+    // Some ao rolar para baixo e volta quando a pessoa retorna ao topo
+    const ajustarVisibilidade = () => quadro.classList.toggle('oculto', window.scrollY > 60);
+    window.addEventListener('scroll', ajustarVisibilidade, { passive: true });
+    ajustarVisibilidade();
     quadro.hidden = false;
   } catch (erro) {
     console.warn('Recados não carregados (o site segue normal):', erro);

@@ -49,9 +49,14 @@
 
     <!-- Quadro de recados: conteúdo vem de dados/recados.json -->
     <aside id="quadroRecados" hidden>
-      <button type="button" id="quadroRecadosTitulo" aria-expanded="false">
-        <span class="material-icons">push_pin</span> Recados <span id="quadroRecadosQtd"></span>
-      </button>
+      <div id="quadroRecadosCabecalho">
+        <button type="button" id="quadroRecadosTitulo" aria-expanded="false">
+          <span class="material-icons">push_pin</span> Recados <span id="quadroRecadosQtd"></span>
+        </button>
+        <button type="button" id="quadroRecadosFechar" aria-label="Fechar recados" title="Fechar">
+          <span class="material-icons">close</span>
+        </button>
+      </div>
       <div id="quadroRecadosLista"></div>
     </aside>
 
