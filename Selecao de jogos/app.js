@@ -39,6 +39,7 @@ async function iniciar() {
     montarFiltros(filtros);
     montarNavegacaoAZ();
     iniciarMusica(config.musica);
+    carregarRecados();
   } catch (erro) {
     console.error(erro);
     alert('Não foi possível carregar a lista de jogos. Se estiver testando no computador, abra pelo Live Server.');
@@ -276,6 +277,46 @@ function montarNavegacaoAZ() {
 }
 
 // ---------------------------------------------------------------------
+// Quadro de recados (dados/recados.json)
+//   { "titulo": "Aviso", "texto": "Texto do recado", "ate": "2026-12-31" }
+//   "titulo" e "ate" são opcionais. Depois da data "ate" o recado some sozinho.
+// Se não houver recados válidos, o quadro nem aparece.
+// ---------------------------------------------------------------------
+async function carregarRecados() {
+  try {
+    const lista = await fetch('dados/recados.json').then((r) => r.json());
+    const hoje = new Date();
+    hoje.setHours(0, 0, 0, 0);
+    const validos = lista.filter((r) => r.texto && (!r.ate || new Date(r.ate + 'T00:00:00') >= hoje));
+    if (validos.length === 0) return;
+    validos.forEach((r) => {
+      const div = document.createElement('div');
+      div.className = 'recado';
+      if (r.titulo) {
+        const t = document.createElement('h4');
+        t.textContent = r.titulo;
+        div.appendChild(t);
+      }
+      const p = document.createElement('p');
+      p.textContent = r.texto; // textContent: o texto nunca é interpretado como HTML
+      div.appendChild(p);
+      $('quadroRecadosLista').appendChild(div);
+    });
+    $('quadroRecadosQtd').textContent = `(${validos.length})`;
+    const quadro = $('quadroRecados');
+    const abrir = (sim) => {
+      quadro.classList.toggle('aberto', sim);
+      $('quadroRecadosTitulo').setAttribute('aria-expanded', sim);
+    };
+    abrir(window.innerWidth >= 1280); // aberto só em telas largas; nas outras, o visitante toca para abrir
+    $('quadroRecadosTitulo').onclick = () => abrir(!quadro.classList.contains('aberto'));
+    quadro.hidden = false;
+  } catch (erro) {
+    console.warn('Recados não carregados (o site segue normal):', erro);
+  }
+}
+
+// ---------------------------------------------------------------------
 // Música e botão de voltar ao topo
 // ---------------------------------------------------------------------
 function iniciarMusica(arquivo) {
@@ -334,16 +375,30 @@ async function enviarPedido(dados) {
   return false;
 }
 
+// Máscara do telefone: (41) 99999-9999
+$('input-telefone-id').addEventListener('input', (e) => {
+  const d = e.target.value.replace(/\D/g, '').slice(0, 11);
+  e.target.value =
+    d.length > 10 ? d.replace(/(\d{2})(\d{5})(\d{0,4})/, '($1) $2-$3')
+    : d.length > 6 ? d.replace(/(\d{2})(\d{4})(\d{0,4})/, '($1) $2-$3')
+    : d.length > 2 ? d.replace(/(\d{2})(\d{0,5})/, '($1) $2')
+    : d;
+});
+
 $('meu-formulario').addEventListener('submit', async (e) => {
   e.preventDefault();
   if (!exigirHd()) return;
   if (estado.selecionados.size === 0) return alert('Selecione pelo menos um jogo.');
+  const telefone = $('input-telefone-id').value.trim();
+  if (telefone && telefone.replace(/\D/g, '').length < 10) {
+    return alert('Telefone incompleto. Confira o DDD e o número, ou deixe o campo em branco.');
+  }
   const botao = $('botaoDeEnviar');
   botao.disabled = true;
   botao.textContent = 'Enviando...';
   const ok = await enviarPedido({
     name: $('input-nome-id').value,
-    email: $('input-email-id').value,
+    ...(telefone && { phone: telefone }), // só vai no pedido se foi preenchido
     message: $('text-area-id').value,
   });
   if (ok) {

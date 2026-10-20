@@ -14,10 +14,10 @@
   <body>
     <!-- Formulário: o envio é feito pelo app.js (com servidor reserva) -->
     <form id="meu-formulario">
-      <label for="input-email-id">E-mail:</label>
-      <input type="email" name="email" id="input-email-id" required /> <br /><br />
       <label for="input-nome-id">Nome:</label>
       <input type="text" name="name" id="input-nome-id" required /> <br /><br />
+      <label for="input-telefone-id">Telefone (opcional):</label>
+      <input type="tel" name="phone" id="input-telefone-id" inputmode="tel" autocomplete="tel" placeholder="(41) 99999-9999" maxlength="15" /> <br /><br />
       <textarea name="message" id="text-area-id" cols="30" rows="10" readonly></textarea>
       <button id="botaoDeEnviar" type="submit">Enviar pedido</button>
     </form>
@@ -46,6 +46,14 @@
     <div class="container-jogo" id="container-jogo-gamecube"></div>
 
     <div class="res" id="resultado"></div>
+
+    <!-- Quadro de recados: conteúdo vem de dados/recados.json -->
+    <aside id="quadroRecados" hidden>
+      <button type="button" id="quadroRecadosTitulo" aria-expanded="false">
+        <span class="material-icons">push_pin</span> Recados <span id="quadroRecadosQtd"></span>
+      </button>
+      <div id="quadroRecadosLista"></div>
+    </aside>
 
     <div id="audio"><span class="material-icons" id="idDoAudio">music_note</span></div>
 

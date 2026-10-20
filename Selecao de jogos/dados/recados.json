@@ -1,0 +1,7 @@
+[
+ {
+  "titulo": "Recado de exemplo",
+  "texto": "Edite ou apague este aviso em dados/recados.json.\nPara quebrar linha, use \\n.",
+  "ate": "2099-12-31"
+ }
+]
