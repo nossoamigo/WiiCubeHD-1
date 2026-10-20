@@ -109,7 +109,7 @@ function montarCapacidades(capacidades) {
     const radio = document.createElement('input');
     Object.assign(radio, { type: 'radio', name: 'radioTamanhoHd', id: c.id, className: 'radioIdHds' });
     radio.onclick = () => escolherCapacidade(c, radio);
-    $('seletorHd').append(label, radio);
+    $('seletorHd').append(radio, label); // o rádio vem ANTES do rótulo: o CSS usa input:checked + label
   });
 }
 
