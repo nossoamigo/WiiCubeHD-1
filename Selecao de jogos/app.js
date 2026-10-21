@@ -198,10 +198,20 @@ function atualizar() {
   $('text-area-id').value =
     `** ${cap.etiquetaPedido} **, ` + [...estado.selecionados.values()].map((j) => `(${j.id}, ${j.nome}), `).join('');
 
+  // Medidor: a barra enche proporcionalmente e a cor muda aos poucos (verde -> laranja -> vermelho)
+  const p = Math.min(usado / cap.MB, 1);
   const res = $('resultado');
   res.style.display = 'block';
-  res.innerHTML = `${gb(usado)} / ${gb(cap.MB)}`;
-  res.style.color = usado >= cap.MB * 0.8 ? 'red' : usado >= cap.MB / 2 ? '#ff9100' : 'black';
+  res.setAttribute('aria-valuenow', Math.round(p * 100));
+  $('resultadoTexto').textContent = `${gb(usado)} / ${gb(cap.MB)}`;
+  $('resultadoNivel').style.width = `${p * 100}%`;
+  $('resultadoNivel').style.backgroundColor = corDoNivel(p);
+}
+
+// Cor do "líquido" em degradê contínuo: verde (vazio) -> laranja (metade) -> vermelho (cheio)
+function corDoNivel(p) {
+  const matiz = p <= 0.5 ? 130 - (130 - 36) * (p / 0.5) : 36 - (36 - 4) * ((p - 0.5) / 0.5);
+  return `hsl(${matiz.toFixed(0)}, 85%, 55%)`;
 }
 
 // ---------------------------------------------------------------------

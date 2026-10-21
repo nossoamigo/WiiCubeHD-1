@@ -51,13 +51,17 @@
     <div class="container-jogo" id="container-jogo"></div>
     <div class="container-jogo" id="container-jogo-gamecube"></div>
 
-    <div class="res" id="resultado"></div>
+    <!-- Medidor de capacidade: barra que enche como um líquido (atualizada pelo app.js) -->
+    <div class="res" id="resultado" role="progressbar" aria-label="Capacidade usada" aria-valuemin="0" aria-valuemax="100">
+      <div class="resNivel" id="resultadoNivel"></div>
+      <span class="resTexto" id="resultadoTexto"></span>
+    </div>
 
     <!-- Quadro de recados: conteúdo vem de dados/recados.json -->
     <aside id="quadroRecados" hidden>
       <div id="quadroRecadosCabecalho">
         <button type="button" id="quadroRecadosTitulo" aria-expanded="false">
-          <span class="material-icons">push_pin</span> Recados <span id="quadroRecadosQtd"></span>
+          <span class="material-icons">push_pin</span> <span class="quadroRecadosRotulo">Recados</span> <span id="quadroRecadosQtd"></span>
         </button>
         <button type="button" id="quadroRecadosFechar" aria-label="Fechar recados" title="Fechar">
           <span class="material-icons">close</span>

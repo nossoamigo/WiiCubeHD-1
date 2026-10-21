@@ -310,6 +310,8 @@ form {
 
 .jogo p {
   margin: 0;
+  min-width: 0; /* sem isto, uma palavra longa empurra o card para fora da tela */
+  overflow-wrap: anywhere;
   text-align: left;
   font-weight: 700;
   font-size: 0.95rem;
@@ -365,8 +367,63 @@ form {
   font-family: var(--fonte-titulo);
   font-weight: 600;
   border: 0;
-  border-radius: 16px;
+  border-radius: 999px;
+  overflow: hidden;
+  box-sizing: border-box;
+  min-width: 10.5em; /* largura fixa: a barra não "pula" quando os números mudam */
+  padding: 6px 18px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.94);
   box-shadow: var(--sombra);
+}
+
+/* a barra (o "líquido") fica atrás do texto, que é sempre preto */
+.resTexto {
+  position: relative;
+  z-index: 1;
+  color: #000;
+  white-space: nowrap;
+}
+
+.resNivel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  border-radius: 999px;
+  overflow: hidden;
+  transition: width 0.7s cubic-bezier(0.34, 1.25, 0.5, 1), background-color 0.7s ease;
+}
+
+/* brilho de líquido: luz no alto e sombra leve embaixo */
+.resNivel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.1) 45%, rgba(0, 0, 0, 0.07) 100%);
+}
+
+/* reflexo que passeia devagar pela barra */
+.resNivel::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -40%;
+  width: 40%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  animation: reflexoDoLiquido 3s ease-in-out infinite;
+}
+
+@keyframes reflexoDoLiquido {
+  0% { left: -40%; }
+  60%, 100% { left: 110%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .resNivel { transition: none; }
+  .resNivel::after { animation: none; }
 }
 
 @media (min-width: 481px) {
@@ -477,6 +534,14 @@ form {
     right: auto;
   }
 
+  /* medidor de capacidade: menor e afastado da borda, sem encostar nos botões do topo */
+  .res {
+    top: 10px;
+    right: 8px;
+    font-size: clamp(0.7em, 3.3vw, 0.85em); /* encolhe junto com a tela */
+    padding: 5px 12px;
+  }
+
   /* aberto, desce um pouco para não cobrir o botão de música nem o indicador de capacidade */
   #quadroRecados.aberto {
     top: 70px;
@@ -522,5 +587,16 @@ form {
 
   .itensFiltro {
     margin: 0 auto 10px;
+  }
+}
+
+/* telas muito estreitas (320-340px): o botão de recados mostra só o ícone e o número */
+@media (max-width: 340px) {
+  .quadroRecadosRotulo {
+    display: none;
+  }
+
+  #quadroRecados.aberto .quadroRecadosRotulo {
+    display: inline;
   }
 }
