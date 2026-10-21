@@ -51,7 +51,8 @@
    "RB4E08",
    "RMGE01",
    "SB4E01"
-  ]
+  ],
+  "ativo": false
  },
  {
   "id": "fifa",
@@ -59,6 +60,7 @@
   "imagem": "../imagens/fundosfiltros/FIFAPES.jpg",
   "jogos": [
    "RF9P69",
+   "R4RE69",
    "SI3E69",
    "SVHX69",
    "SQVE69",
@@ -144,6 +146,17 @@
    "R3SE52",
    "SAZE52",
    "RS3E52"
+  ]
+ },
+ {
+  "id": "needforspeed",
+  "titulo": "Todos os Need for Speed",
+  "imagem": "../imagens/fundosfiltros/needforspeed.jpg",
+  "busca": [
+   "need for speed"
+  ],
+  "jogos": [
+   "R7XE69"
   ]
  },
  {

@@ -16,6 +16,7 @@ const estado = {
   capacidade: null, // HD/pendrive escolhido
   jogos: new Map(), // id -> jogo (catálogo inteiro)
   selecionados: new Map(), // id -> jogo (o que a pessoa marcou)
+  donos: new Map(), // id -> quem pediu o jogo: 'manual' e/ou o id de um filtro
   filtros: [],
   console: 'wii', // lista exibida agora
   config: null,
@@ -147,13 +148,37 @@ function exigirHd() {
 function alternarJogo(j) {
   if (!exigirHd()) return;
   if (estado.selecionados.has(j.id)) {
-    estado.selecionados.delete(j.id);
+    desmarcar(j);
   } else if (usadoMB() + j.tamanho > estado.capacidade.MB) {
     return alert('Você excedeu o tamanho máximo!');
   } else {
-    estado.selecionados.set(j.id, j);
+    marcar(j, 'manual');
   }
   atualizar();
+}
+
+// Cada jogo da lista lembra QUEM o pediu: a própria pessoa ('manual') e/ou filtros.
+// Ele só sai da lista quando ninguém mais o pede. Assim, desfazer um filtro nunca tira
+// um jogo que a pessoa escolheu à mão nem um que outro filtro ligado ainda precisa.
+function donosDe(id) {
+  if (!estado.donos.has(id)) estado.donos.set(id, new Set(['manual']));
+  return estado.donos.get(id);
+}
+function marcar(j, dono) {
+  if (!estado.selecionados.has(j.id)) {
+    estado.selecionados.set(j.id, j);
+    estado.donos.set(j.id, new Set());
+  }
+  donosDe(j.id).add(dono);
+}
+function soltar(j, dono) {
+  const d = estado.donos.get(j.id);
+  if (d) d.delete(dono);
+  if (!d || d.size === 0) desmarcar(j);
+}
+function desmarcar(j) {
+  estado.selecionados.delete(j.id);
+  estado.donos.delete(j.id);
 }
 
 // Redesenha tudo a partir do estado (cores, filtros, lista, capacidade)
@@ -188,11 +213,11 @@ function atualizar() {
 // ---------------------------------------------------------------------
 function montarFiltros(lista, maisEscolhidos = {}) {
   lista.forEach((f) => {
+    if (f.ativo === false) return; // filtro desativado em filtros.json ("ativo": false)
     if (f.ranking) {
       // filtro que "completa" a lista: segue a ordem de dados/mais-escolhidos.json (chave "wii" ou "gamecube")
       f.ordem = (maisEscolhidos[f.ranking] || []).map((x) => x.id).filter((id) => estado.jogos.has(id));
       if (f.ordem.length === 0) return console.warn(`Filtro "${f.id}" sem dados de ranking: não será exibido.`);
-      f.adicionados = new Set(); // jogos que este filtro colocou na lista
     }
     (f.jogos || []).forEach((id) => estado.jogos.has(id) || console.warn(`Filtro "${f.id}": jogo não existe no catálogo:`, id));
     const bloco = document.createElement('div');
@@ -209,7 +234,8 @@ function montarFiltros(lista, maisEscolhidos = {}) {
 }
 
 function jogosDoFiltro(f) {
-  if (f.adicionados) return [...f.adicionados].map((id) => estado.jogos.get(id)).filter(Boolean);
+  // "Mais escolhidos": os jogos que ELE colocou na lista
+  if (f.ordem) return f.ordem.map((id) => estado.jogos.get(id)).filter((j) => estado.selecionados.has(j.id) && donosDe(j.id).has(f.id));
   const porId = (f.jogos || []).map((id) => estado.jogos.get(id)).filter(Boolean);
   const porNome = (f.busca || []).flatMap((t) =>
     [...estado.jogos.values()].filter((j) => j.console === 'wii' && j.nome.toLowerCase().includes(t.toLowerCase()))
@@ -217,52 +243,37 @@ function jogosDoFiltro(f) {
   return [...new Set([...porId, ...porNome])];
 }
 
-// Um filtro está "ligado" quando todos os jogos dele estão selecionados
+// Filtro "ligado" = é dono dos jogos dele (todos, nos filtros comuns; algum, no "Mais escolhidos").
+// Marcar jogos à mão, ou por outro filtro, não liga este filtro por coincidência.
 function filtroAtivo(f) {
-  if (f.adicionados) return [...f.adicionados].some((id) => estado.selecionados.has(id));
   const lista = jogosDoFiltro(f);
-  return lista.length > 0 && lista.every((j) => estado.selecionados.has(j.id));
-}
-
-// jogos que outro filtro ligado também usa (não podem sair quando este filtro é desligado)
-function jogosProtegidos(f) {
-  return new Set(estado.filtros.filter((o) => o !== f && filtroAtivo(o)).flatMap(jogosDoFiltro).map((j) => j.id));
-}
-
-// "Mais escolhidos": preenche o espaço livre, seguindo a ordem do ranking; clicar de novo desfaz
-function alternarMaisEscolhidos(f) {
-  if (filtroAtivo(f)) {
-    const protegidos = jogosProtegidos(f);
-    f.adicionados.forEach((id) => protegidos.has(id) || estado.selecionados.delete(id));
-    f.adicionados.clear();
-  } else {
-    f.adicionados.clear();
-    for (const id of f.ordem) {
-      const j = estado.jogos.get(id);
-      if (estado.selecionados.has(id) || j.tamanho > estado.capacidade.MB - usadoMB()) continue;
-      estado.selecionados.set(id, j);
-      f.adicionados.add(id);
-    }
-    if (f.adicionados.size === 0) return alert('Não há espaço livre para adicionar mais jogos.');
-  }
-  atualizar();
+  if (f.ordem) return lista.length > 0;
+  return lista.length > 0 && lista.every((j) => estado.selecionados.has(j.id) && donosDe(j.id).has(f.id));
 }
 
 function alternarFiltro(f) {
   if (!exigirHd()) return;
-  if (f.adicionados) return alternarMaisEscolhidos(f);
-  const lista = jogosDoFiltro(f);
   if (filtroAtivo(f)) {
-    // desligar: remove os jogos, menos os que outro filtro ligado também usa
-    const protegidos = jogosProtegidos(f);
-    lista.forEach((j) => protegidos.has(j.id) || estado.selecionados.delete(j.id));
+    // desligar: sai da lista só o que ninguém mais pediu
+    jogosDoFiltro(f).forEach((j) => soltar(j, f.id));
+  } else if (f.ordem) {
+    // "Mais escolhidos": preenche o espaço livre seguindo a ordem do ranking
+    let adicionados = 0;
+    for (const id of f.ordem) {
+      const j = estado.jogos.get(id);
+      if (estado.selecionados.has(id) || j.tamanho > estado.capacidade.MB - usadoMB()) continue;
+      marcar(j, f.id);
+      adicionados++;
+    }
+    if (!adicionados) return alert('Não há espaço livre para adicionar mais jogos.');
   } else {
+    const lista = jogosDoFiltro(f);
     const faltam = lista.filter((j) => !estado.selecionados.has(j.id));
     const total = faltam.reduce((s, j) => s + j.tamanho, 0);
     if (usadoMB() + total > estado.capacidade.MB) {
       return alert(`Você precisa de pelo menos ${gb(total)} livres para selecionar "${f.titulo}"`);
     }
-    faltam.forEach((j) => estado.selecionados.set(j.id, j));
+    lista.forEach((j) => marcar(j, f.id));
   }
   atualizar();
 }
