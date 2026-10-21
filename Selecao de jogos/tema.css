@@ -1,0 +1,526 @@
+/* =====================================================================
+   TEMA VISUAL — cores, fontes e formas do seletor.
+   Carregado DEPOIS do style.css, então o que está aqui vale por cima.
+   Para mudar as cores do site inteiro, mexa só nas variáveis abaixo.
+   ===================================================================== */
+:root {
+  --texto: #14325c; /* azul-marinho, no lugar do preto puro */
+  --texto-suave: #5b7aa3;
+  --painel: rgba(255, 255, 255, 0.84); /* "vidro" das janelas */
+  --card: #ffffff;
+  --selecionado: #1fae6b; /* verde: o que a pessoa escolheu */
+  --selecionado-fundo: #e3f8ec;
+  --acento: #ffb020; /* laranja: botão principal */
+  --acento-escuro: #f08a00;
+  --led: #e0141a;
+  --sombra: 0 6px 18px rgba(8, 50, 110, 0.18);
+  --sombra-suave: 0 2px 8px rgba(8, 50, 110, 0.16);
+  --fonte: 'Nunito', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  --fonte-titulo: 'Fredoka', 'Nunito', system-ui, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--fonte);
+  color: var(--texto);
+}
+
+/* ---------- Formulário (nome, telefone, enviar) em uma "janela" ---------- */
+form {
+  font-size: 1em;
+  max-width: 440px;
+  margin: 22px auto 18px;
+  padding: 18px 20px 4px;
+  background: var(--painel);
+  border-radius: 26px;
+  box-shadow: var(--sombra);
+}
+
+.campos label {
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: var(--texto);
+}
+
+#input-nome-id,
+#input-telefone-id {
+  font-family: var(--fonte);
+  color: var(--texto);
+  background: #fff;
+  border: 2px solid #cfe1fb;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#input-nome-id:focus,
+#input-telefone-id:focus {
+  border-color: #0b88ff;
+  box-shadow: 0 0 0 4px rgba(11, 136, 255, 0.2);
+}
+
+.opcional {
+  color: var(--texto-suave);
+  font-weight: 600;
+}
+
+#botaoDeEnviar {
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 12px 30px;
+  margin-bottom: 18px;
+  border: 0;
+  border-radius: 999px;
+  color: #3b2600;
+  background: linear-gradient(180deg, #ffc83d, #ffa51f);
+  box-shadow: 0 4px 0 #d9830a, var(--sombra-suave);
+  cursor: pointer;
+  transition: transform 0.15s, filter 0.15s, box-shadow 0.15s;
+}
+
+#botaoDeEnviar:hover {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+}
+
+#botaoDeEnviar:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #d9830a;
+}
+
+#botaoDeEnviar:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+/* ---------- Capacidade (HD / pendrive) ---------- */
+.tamanhoHd label {
+  font-family: var(--fonte);
+  font-weight: 700;
+  color: var(--texto);
+  background-color: rgba(255, 255, 255, 0.62);
+  box-shadow: var(--sombra-suave);
+}
+
+.tamanhoHd label:hover {
+  background-color: rgba(255, 255, 255, 0.92);
+}
+
+/* LED dentro do fluxo do texto: texto + luz ficam centralizados juntos.
+   O botão escolhido troca um pouco de espaçamento interno pelo espaço do LED,
+   então a largura dele não muda e os vizinhos não "pulam". */
+.tamanhoHd label::before {
+  position: static;
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 9px;
+  margin: -2px 0 0 0;
+}
+
+.radioIdHds:checked + label {
+  padding-left: 14px;
+  padding-right: 14px;
+  font-weight: 800;
+}
+
+.radioIdHds:checked + label::before {
+  width: 9px;
+  margin-right: 8px;
+}
+
+.tamanhoRealMensagem {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 40, 100, 0.65);
+  padding: 0 12px;
+}
+
+/* ---------- Wii / GameCube ---------- */
+.seletorConsole {
+  gap: 12px;
+}
+
+.seletorConsoleItem {
+  margin: 0;
+  height: auto;
+  padding: 8px 28px;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 40, 100, 0.5);
+  background: rgba(255, 255, 255, 0.26);
+  cursor: pointer;
+}
+
+.seletorConsoleItem:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.seletorConsoleItem.ativo {
+  background: #fff;
+  border-color: #fff;
+  color: var(--acento-escuro);
+  text-shadow: none;
+  box-shadow: var(--sombra-suave);
+}
+
+/* ---------- Busca ---------- */
+#campoBusca {
+  font-family: var(--fonte);
+  color: var(--texto);
+  border: 2px solid transparent;
+  box-shadow: var(--sombra-suave);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#campoBusca:focus {
+  border-color: var(--acento);
+  box-shadow: 0 0 0 4px rgba(255, 176, 32, 0.4);
+}
+
+#buscaVazia {
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 40, 100, 0.65);
+}
+
+/* ---------- Filtros ---------- */
+#filtrosContainer {
+  background: var(--painel);
+  border-radius: 26px;
+  box-shadow: var(--sombra);
+  padding: 14px 10px 6px;
+}
+
+.segundoContainerFiltro {
+  line-height: 1.2;
+  gap: 6px;
+}
+
+.segundoContainerFiltro h3 {
+  margin: 6px 0 0;
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--texto);
+}
+
+.itensFiltro {
+  position: relative;
+  margin: 0 14px 12px;
+  border: 3px solid #fff;
+  border-radius: 22px;
+  box-shadow: var(--sombra-suave);
+  opacity: 0.78;
+  cursor: pointer;
+  transition: opacity 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.itensFiltro:hover {
+  opacity: 1;
+}
+
+.itensFiltro.ligado {
+  border-color: var(--selecionado);
+}
+
+.checkBoxDoFiltro:empty {
+  display: none;
+}
+
+.checkBoxDoFiltro {
+  position: absolute;
+  top: -11px;
+  right: -11px;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  border-radius: 50%;
+  background: var(--selecionado);
+  color: #fff;
+  box-shadow: var(--sombra-suave);
+}
+
+.checkBoxDoFiltro .material-icons {
+  font-size: 18px;
+}
+
+/* ---------- Letras A-Z ---------- */
+.container-navegacao {
+  flex-wrap: wrap;
+  gap: 2px;
+  padding: 6px 10px;
+  background: var(--painel);
+  border-radius: 20px;
+  box-shadow: var(--sombra-suave);
+}
+
+.container-navegacao a {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--texto);
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.container-navegacao a:hover {
+  background: #fff;
+  color: #0b88ff;
+  box-shadow: var(--sombra-suave);
+}
+
+/* ---------- Lista de jogos ---------- */
+.container-jogo {
+  background: var(--painel);
+  border-radius: 26px;
+  box-shadow: var(--sombra);
+  padding: 14px 10px;
+}
+
+.jogo {
+  position: relative;
+  background: var(--card);
+  border-radius: 16px;
+  box-shadow: var(--sombra-suave);
+  font-family: var(--fonte);
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
+}
+
+@media (hover: hover) {
+  .jogo:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--sombra);
+  }
+}
+
+.jogo img {
+  border-radius: 8px;
+}
+
+.jogo p {
+  margin: 0;
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.25;
+  color: var(--texto);
+}
+
+.tamanhoDoJogo {
+  display: block;
+  width: auto;
+  margin-top: 4px;
+  text-align: left;
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--texto-suave);
+}
+
+/* o CSS antigo pintava o card de verde-escuro ao passar o mouse; aqui vira um azul bem claro */
+.jogo:hover {
+  background-color: #f1f8ff;
+}
+
+.jogo.selecionado:hover {
+  background-color: var(--selecionado-fundo);
+}
+
+/* escolhido: fundo verde-menta, contorno verde e selo ✓ */
+.jogo.selecionado {
+  background: var(--selecionado-fundo);
+  box-shadow: 0 0 0 3px var(--selecionado), var(--sombra-suave);
+}
+
+.jogo.selecionado::after {
+  content: '✓';
+  position: absolute;
+  top: -9px;
+  right: -7px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--selecionado);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  box-shadow: var(--sombra-suave);
+}
+
+/* ---------- Indicador de capacidade, música, voltar ao topo, imagem grande ---------- */
+.res {
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  border: 0;
+  border-radius: 16px;
+  box-shadow: var(--sombra);
+}
+
+@media (min-width: 481px) {
+  .res {
+    font-size: 1.5em; /* menor que antes (2em): cobria os títulos dos filtros */
+  }
+}
+
+#audio {
+  top: 12px;
+  left: 12px;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: var(--sombra-suave);
+  cursor: pointer;
+}
+
+#audio > .material-icons {
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  color: var(--texto);
+}
+
+.container-botao-voltar-ao-inicio {
+  left: auto;
+  top: auto;
+  right: 16px;
+  bottom: 16px;
+  width: 54px;
+  height: 54px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: var(--sombra);
+  cursor: pointer;
+}
+
+#idDoBotaoDeVoltarAoTopo {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: transparent;
+  box-shadow: none;
+  font-size: 32px;
+  color: var(--texto);
+}
+
+#idDoBotaoDeVoltarAoTopo:hover {
+  border: 0;
+  color: #0b88ff;
+}
+
+#imagemMaior {
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.footer {
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 1px 4px rgba(0, 40, 100, 0.6);
+}
+
+/* ---------- Quadro de recados ---------- */
+#quadroRecados {
+  font-family: var(--fonte);
+  color: var(--texto);
+  background: #fff7d1;
+  border: 2px solid #ffd45c;
+  border-radius: 18px;
+  box-shadow: var(--sombra);
+}
+
+#quadroRecadosTitulo {
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  color: var(--texto);
+}
+
+.recado {
+  border-top-color: rgba(180, 130, 0, 0.45);
+}
+
+/* ---------- Celular ---------- */
+@media (max-width: 480px) {
+  form {
+    margin: 72px 10px 14px;
+    padding: 16px 12px 2px;
+  }
+
+  /* botões de capacidade: largura fixa, então nada de trocar espaçamento por LED */
+  .radioIdHds:checked + label {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  /* o quadro de recados fica ao lado do botão de música, longe dos campos de digitação */
+  #quadroRecados {
+    top: 19px;
+    left: 76px;
+    right: auto;
+  }
+
+  /* aberto, desce um pouco para não cobrir o botão de música nem o indicador de capacidade */
+  #quadroRecados.aberto {
+    top: 70px;
+    left: 10px;
+  }
+
+  /* filtros em 3 colunas: o título quebra em duas linhas em vez de colar no vizinho */
+  #filtrosContainer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 4px 0;
+    padding: 12px 6px 4px;
+  }
+
+  /* cards: 2 por linha aproveitando a largura toda, e nomes sem quebrar no meio da palavra */
+  .container-jogo {
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  .jogo {
+    box-sizing: border-box;
+    width: calc(50% - 8px);
+    margin: 4px;
+    gap: 8px;
+  }
+
+  .jogo p {
+    font-size: 0.85rem;
+  }
+
+  .segundoContainerFiltro {
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 0;
+  }
+
+  .segundoContainerFiltro h3 {
+    font-size: 0.8rem;
+    text-align: center;
+    text-wrap: balance;
+  }
+
+  .itensFiltro {
+    margin: 0 auto 10px;
+  }
+}

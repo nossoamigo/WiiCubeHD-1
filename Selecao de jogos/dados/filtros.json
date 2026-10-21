@@ -1,7 +1,7 @@
 [
  {
   "id": "marios",
-  "titulo": "Todos os marios",
+  "titulo": "Todos os MARIOS",
   "imagem": "../imagens/fundosfiltros/mario.jpg",
   "jogos": [
    "PDUE01",
@@ -24,7 +24,9 @@
    "SB4E01",
    "R8PE01",
    "RSBE01",
-   "RMCE26"
+   "RMCE26",
+   "RWSE8P",
+   "SMG2CC"
   ]
  },
  {
@@ -81,7 +83,9 @@
    "SLREWR",
    "SCJE4Q",
    "R6LEWR",
-   "RLGE64"
+   "RLGE64",
+   "S7AEWR",
+   "SC4E64"
   ]
  },
  {
@@ -105,7 +109,8 @@
    "SDNE41",
    "SJOE41",
    "SJNE41",
-   "SZ7E41"
+   "SZ7E41",
+   "SJTP41"
   ]
  },
  {

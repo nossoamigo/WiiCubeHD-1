@@ -126,8 +126,6 @@ function escolherCapacidade(c, radio) {
   estado.capacidade = c;
   const msg = $('tamanhoRealMensagemId');
   msg.innerHTML = c.mensagem;
-  msg.style.color = 'yellow';
-  msg.style.textShadow = '0 0 12px black';
   atualizar();
 }
 
@@ -183,12 +181,12 @@ function desmarcar(j) {
 
 // Redesenha tudo a partir do estado (cores, filtros, lista, capacidade)
 function atualizar() {
-  estado.jogos.forEach((j) => (j.el.style.background = estado.selecionados.has(j.id) ? 'green' : ''));
+  estado.jogos.forEach((j) => j.el.classList.toggle('selecionado', estado.selecionados.has(j.id)));
 
   estado.filtros.forEach((f) => {
     const ativo = filtroAtivo(f);
     f.caixa.innerHTML = ativo ? '<span class="material-icons">check</span>' : '';
-    f.caixa.style.textShadow = ativo ? 'black 0px 0px 7px' : '';
+    f.botao.classList.toggle('ligado', ativo);
     f.botao.style.opacity = ativo ? '100%' : '';
   });
 
@@ -285,8 +283,9 @@ document.querySelectorAll('.seletorConsoleItem').forEach((b) => (b.onclick = () 
 
 function mostrarConsole(qual) {
   estado.console = qual;
+  document.querySelectorAll('.seletorConsoleItem').forEach((b) => b.classList.toggle('ativo', b.dataset.console === qual));
   const wii = qual === 'wii';
-  $('filtrosContainer').style.display = wii ? 'flex' : 'none';
+  $('filtrosContainer').style.display = wii ? '' : 'none'; // '' devolve o layout definido no CSS
   $('container-jogo').style.display = wii ? 'flex' : 'none';
   $('container-jogo-gamecube').style.display = wii ? 'none' : 'flex';
   aplicarBusca();
@@ -355,7 +354,7 @@ async function carregarRecados() {
       quadro.classList.toggle('aberto', sim);
       $('quadroRecadosTitulo').setAttribute('aria-expanded', sim);
     };
-    abrir(window.innerWidth >= 1280); // aberto só em telas largas; nas outras, o visitante toca para abrir
+    abrir(window.innerWidth >= 1700); // aberto sozinho só em telas bem largas (senão cobre a lista); nas outras, o visitante abre
     $('quadroRecadosTitulo').onclick = () => abrir(!quadro.classList.contains('aberto'));
     $('quadroRecadosFechar').onclick = () => abrir(false); // X vermelho: recolhe o quadro (fica só o botão "Recados")
     // Some ao rolar para baixo e volta quando a pessoa retorna ao topo
