@@ -145,5 +145,12 @@
    "SAZE52",
    "RS3E52"
   ]
+ },
+ {
+  "id": "maisescolhidos",
+  "titulo": "Mais escolhidos",
+  "imagem": "../imagens/fundosfiltros/wiiLogo.jpg",
+  "ranking": "wii",
+  "descricao": "Completa o espaço que sobrar com os jogos mais escolhidos por outras pessoas"
  }
 ]

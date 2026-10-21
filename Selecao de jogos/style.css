@@ -686,3 +686,8 @@ input[name='radioTamanhoHd'] {
 /* Imagem, transparência e brilho dos botões de filtro (a imagem vem de filtros.json) */
 .itensFiltro { background-size: cover; background-position: center; background-repeat: no-repeat; opacity: 50%; }
 .itensFiltro:hover { opacity: 100%; }
+
+/* Nome e Telefone: rótulos e campos alinhados, linhas juntas; "(opcional)" como nota de rodapé */
+.campos { display: grid; grid-template-columns: auto auto auto; justify-content: center; align-items: center; column-gap: 8px; row-gap: 8px; margin-bottom: 18px; }
+.campos label { justify-self: end; }
+.opcional { justify-self: start; font-size: 14px; opacity: 0.75; white-space: nowrap; }

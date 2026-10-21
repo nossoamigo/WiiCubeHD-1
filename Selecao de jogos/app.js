@@ -31,14 +31,15 @@ document.addEventListener('contextmenu', (e) => e.preventDefault());
 // ---------------------------------------------------------------------
 async function iniciar() {
   try {
-    const [config, wii, gamecube, filtros] = await Promise.all(
-      ['config', 'wii', 'gamecube', 'filtros'].map((n) => fetch(`dados/${n}.json`).then((r) => r.json()))
-    );
+    const [config, wii, gamecube, filtros, maisEscolhidos] = await Promise.all([
+      ...['config', 'wii', 'gamecube', 'filtros'].map((n) => fetch(`dados/${n}.json`).then((r) => r.json())),
+      fetch('dados/mais-escolhidos.json').then((r) => r.json()).catch(() => ({})), // opcional: sem ele, só some o filtro
+    ]);
     estado.config = config;
     montarCatalogo(wii, $('container-jogo'), 'wii');
     montarCatalogo(gamecube, $('container-jogo-gamecube'), 'gamecube');
     montarCapacidades(config.capacidades);
-    montarFiltros(filtros);
+    montarFiltros(filtros, maisEscolhidos);
     montarNavegacaoAZ();
     iniciarMusica(config.musica);
     carregarRecados();
@@ -185,8 +186,14 @@ function atualizar() {
 //   { "id": "lego", "titulo": "Todos os LEGO", "jogos": ["ID1","ID2"] }
 //   ou por nome: { "id": "...", "titulo": "...", "busca": ["lego"] }
 // ---------------------------------------------------------------------
-function montarFiltros(lista) {
+function montarFiltros(lista, maisEscolhidos = {}) {
   lista.forEach((f) => {
+    if (f.ranking) {
+      // filtro que "completa" a lista: segue a ordem de dados/mais-escolhidos.json (chave "wii" ou "gamecube")
+      f.ordem = (maisEscolhidos[f.ranking] || []).map((x) => x.id).filter((id) => estado.jogos.has(id));
+      if (f.ordem.length === 0) return console.warn(`Filtro "${f.id}" sem dados de ranking: não será exibido.`);
+      f.adicionados = new Set(); // jogos que este filtro colocou na lista
+    }
     (f.jogos || []).forEach((id) => estado.jogos.has(id) || console.warn(`Filtro "${f.id}": jogo não existe no catálogo:`, id));
     const bloco = document.createElement('div');
     bloco.className = 'segundoContainerFiltro';
@@ -194,6 +201,7 @@ function montarFiltros(lista) {
     f.botao = bloco.querySelector('.itensFiltro');
     f.caixa = bloco.querySelector('.checkBoxDoFiltro');
     if (f.imagem) f.botao.style.backgroundImage = `url("${f.imagem}")`;
+    if (f.descricao) f.botao.title = f.descricao;
     f.botao.onclick = () => alternarFiltro(f);
     $('filtrosContainer').appendChild(bloco);
     estado.filtros.push(f);
@@ -201,6 +209,7 @@ function montarFiltros(lista) {
 }
 
 function jogosDoFiltro(f) {
+  if (f.adicionados) return [...f.adicionados].map((id) => estado.jogos.get(id)).filter(Boolean);
   const porId = (f.jogos || []).map((id) => estado.jogos.get(id)).filter(Boolean);
   const porNome = (f.busca || []).flatMap((t) =>
     [...estado.jogos.values()].filter((j) => j.console === 'wii' && j.nome.toLowerCase().includes(t.toLowerCase()))
@@ -210,18 +219,42 @@ function jogosDoFiltro(f) {
 
 // Um filtro está "ligado" quando todos os jogos dele estão selecionados
 function filtroAtivo(f) {
+  if (f.adicionados) return [...f.adicionados].some((id) => estado.selecionados.has(id));
   const lista = jogosDoFiltro(f);
   return lista.length > 0 && lista.every((j) => estado.selecionados.has(j.id));
 }
 
+// jogos que outro filtro ligado também usa (não podem sair quando este filtro é desligado)
+function jogosProtegidos(f) {
+  return new Set(estado.filtros.filter((o) => o !== f && filtroAtivo(o)).flatMap(jogosDoFiltro).map((j) => j.id));
+}
+
+// "Mais escolhidos": preenche o espaço livre, seguindo a ordem do ranking; clicar de novo desfaz
+function alternarMaisEscolhidos(f) {
+  if (filtroAtivo(f)) {
+    const protegidos = jogosProtegidos(f);
+    f.adicionados.forEach((id) => protegidos.has(id) || estado.selecionados.delete(id));
+    f.adicionados.clear();
+  } else {
+    f.adicionados.clear();
+    for (const id of f.ordem) {
+      const j = estado.jogos.get(id);
+      if (estado.selecionados.has(id) || j.tamanho > estado.capacidade.MB - usadoMB()) continue;
+      estado.selecionados.set(id, j);
+      f.adicionados.add(id);
+    }
+    if (f.adicionados.size === 0) return alert('Não há espaço livre para adicionar mais jogos.');
+  }
+  atualizar();
+}
+
 function alternarFiltro(f) {
   if (!exigirHd()) return;
+  if (f.adicionados) return alternarMaisEscolhidos(f);
   const lista = jogosDoFiltro(f);
   if (filtroAtivo(f)) {
     // desligar: remove os jogos, menos os que outro filtro ligado também usa
-    const protegidos = new Set(
-      estado.filtros.filter((o) => o !== f && filtroAtivo(o)).flatMap(jogosDoFiltro).map((j) => j.id)
-    );
+    const protegidos = jogosProtegidos(f);
     lista.forEach((j) => protegidos.has(j.id) || estado.selecionados.delete(j.id));
   } else {
     const faltam = lista.filter((j) => !estado.selecionados.has(j.id));
