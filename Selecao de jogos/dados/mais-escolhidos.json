@@ -194,14 +194,14 @@
 "listas": 155
 },
 {
-"id": "RK5E01",
-"nome": "Kirby's Epic Yarn",
-"listas": 167
-},
-{
 "id": "SUPE01",
 "nome": "Wii Party",
 "listas": 166
+},
+{
+"id": "RK5E01",
+"nome": "Kirby's Epic Yarn",
+"listas": 167
 },
 {
 "id": "RS9E8P",
@@ -479,14 +479,14 @@
 "listas": 151
 },
 {
-"id": "RS3E52",
-"nome": "Spider-man 3",
-"listas": 143
-},
-{
 "id": "RDGEA4",
 "nome": "Castlevania Judgment",
 "listas": 123
+},
+{
+"id": "RS3E52",
+"nome": "Spider-man 3",
+"listas": 143
 },
 {
 "id": "RVYE52",
@@ -804,14 +804,14 @@
 "listas": 133
 },
 {
-"id": "RLVE78",
-"nome": "Avatar: The Last Airbender",
-"listas": 103
-},
-{
 "id": "SV3EG9",
 "nome": "Madagascar 3",
 "listas": 128
+},
+{
+"id": "RLVE78",
+"nome": "Avatar: The Last Airbender",
+"listas": 103
 },
 {
 "id": "SHHE69",
@@ -959,6 +959,11 @@
 "listas": 82
 },
 {
+"id": "SBLE5G",
+"nome": "a boy and his blob",
+"listas": 73
+},
+{
 "id": "S2XE41",
 "nome": "Smurfs 2",
 "listas": 92
@@ -967,11 +972,6 @@
 "id": "RSTE64",
 "nome": "Star Wars: The Force Unleashed",
 "listas": 99
-},
-{
-"id": "SBLE5G",
-"nome": "a boy and his blob",
-"listas": 73
 },
 {
 "id": "RT5E8P",
@@ -999,14 +999,14 @@
 "listas": 100
 },
 {
-"id": "RWUE52",
-"nome": "Xmen Origens: Wolverine",
-"listas": 104
-},
-{
 "id": "SHVP78",
 "nome": "Hot Wheels: Track Attack",
 "listas": 93
+},
+{
+"id": "RWUE52",
+"nome": "Xmen Origens: Wolverine",
+"listas": 104
 },
 {
 "id": "SNXJDA",
@@ -1105,7 +1105,7 @@
 },
 {
 "id": "SJDJ01",
-"nome": "Just Dance Wii 2 (J)",
+"nome": "Just Dance Wii 2",
 "listas": 103
 },
 {
@@ -1130,7 +1130,7 @@
 },
 {
 "id": "SD2J01",
-"nome": "Just Dance Wii (J)",
+"nome": "Just Dance Wii",
 "listas": 106
 },
 {
@@ -1395,7 +1395,7 @@
 },
 {
 "id": "R92E01",
-"nome": "PIKMIN2 for Wii",
+"nome": "New Play Control! Pikmin 2",
 "listas": 70
 },
 {
@@ -1437,6 +1437,11 @@
 "id": "SSVE52",
 "nome": "Wipeout 3",
 "listas": 68
+},
+{
+"id": "RQSE4Z",
+"nome": "Pinball Hall Of Fame: Gottlieb Collection",
+"listas": 80
 },
 {
 "id": "SFWE69",
@@ -1490,7 +1495,7 @@
 },
 {
 "id": "R9IE01",
-"nome": "PIKMIN1 for Wii",
+"nome": "New Play Control! Pikmin",
 "listas": 65
 },
 {
@@ -1505,7 +1510,7 @@
 },
 {
 "id": "RFEE01",
-"nome": "FIRE EMBLEM 10 USA",
+"nome": "Fire Emblem: Radiant Dawn",
 "listas": 70
 },
 {
@@ -1519,14 +1524,14 @@
 "listas": 77
 },
 {
-"id": "RWKE5G",
-"nome": "Cooking Mama: WORLD KITCHEN",
-"listas": 64
-},
-{
 "id": "SFRPXT",
 "nome": "Fit and Fun",
 "listas": 62
+},
+{
+"id": "RWKE5G",
+"nome": "Cooking Mama: WORLD KITCHEN",
+"listas": 64
 },
 {
 "id": "SQFE5G",
@@ -1624,14 +1629,14 @@
 "listas": 67
 },
 {
-"id": "RKXE69",
-"nome": "Rock Band",
-"listas": 55
-},
-{
 "id": "SG7E20",
 "nome": "GarfieldShow",
 "listas": 78
+},
+{
+"id": "RKXE69",
+"nome": "Rock Band",
+"listas": 55
 },
 {
 "id": "SDUE41",
@@ -1664,14 +1669,14 @@
 "listas": 51
 },
 {
-"id": "RCGE54",
-"nome": "Carnival Games",
-"listas": 70
-},
-{
 "id": "RCRE5D",
 "nome": "Cruis'n",
 "listas": 54
+},
+{
+"id": "RCGE54",
+"nome": "Carnival Games",
+"listas": 70
 },
 {
 "id": "RNVJ5Z",
@@ -1744,14 +1749,14 @@
 "listas": 67
 },
 {
-"id": "R84EE9",
-"nome": "Harvest Moon: Tree of Tranquility",
-"listas": 65
-},
-{
 "id": "SA6EG9",
 "nome": "Ben 10 Galactic Racing",
 "listas": 71
+},
+{
+"id": "R84EE9",
+"nome": "Harvest Moon: Tree of Tranquility",
+"listas": 65
 },
 {
 "id": "RQXP70",
@@ -1784,14 +1789,14 @@
 "listas": 81
 },
 {
-"id": "RF9P69",
-"nome": "FIFA 09 All-Play",
-"listas": 59
-},
-{
 "id": "RIVEXJ",
 "nome": "Ivy The Kiwi",
 "listas": 50
+},
+{
+"id": "RF9P69",
+"nome": "FIFA 09 All-Play",
+"listas": 59
 },
 {
 "id": "RB2E6K",
@@ -1879,14 +1884,14 @@
 "listas": 53
 },
 {
-"id": "SV4E8P",
-"nome": "Virtua Tennis 4",
-"listas": 56
-},
-{
 "id": "SSTEG9",
 "nome": "Kid Adventures: Sky Captain",
 "listas": 53
+},
+{
+"id": "SV4E8P",
+"nome": "Virtua Tennis 4",
+"listas": 56
 },
 {
 "id": "SAHE69",
@@ -1929,9 +1934,9 @@
 "listas": 63
 },
 {
-"id": "RQSP6M",
-"nome": "Gottlieb Pinball Classics",
-"listas": 57
+"id": "RN7E78",
+"nome": "Neighborhood Games",
+"listas": 66
 },
 {
 "id": "RN2EAF",
@@ -1949,14 +1954,14 @@
 "listas": 48
 },
 {
+"id": "R8XZ52",
+"nome": "Top Shot: Dinosaur Hunter",
+"listas": 60
+},
+{
 "id": "STYE52",
 "nome": "Tony Hawk: SHRED",
 "listas": 57
-},
-{
-"id": "R8XZ52",
-"nome": "Dinosaur Hunter",
-"listas": 60
 },
 {
 "id": "ROYE41",
@@ -1979,14 +1984,14 @@
 "listas": 59
 },
 {
-"id": "REXE01",
-"nome": "Excite Truck",
-"listas": 47
-},
-{
 "id": "RQLE64",
 "nome": "Clone Wars Republic Heroes",
 "listas": 79
+},
+{
+"id": "REXE01",
+"nome": "Excite Truck",
+"listas": 47
 },
 {
 "id": "SFVEXJ",
@@ -2010,7 +2015,7 @@
 },
 {
 "id": "RBLJ8P",
-"nome": "BLEACH Wii - (JA)",
+"nome": "Bleach Wii",
 "listas": 58
 },
 {
@@ -2074,14 +2079,14 @@
 "listas": 41
 },
 {
-"id": "RFCEGD",
-"nome": "FFCC THE CRYSTAL BEARERS",
-"listas": 59
-},
-{
 "id": "SDWE18",
 "nome": "Lost in Shadow",
 "listas": 47
+},
+{
+"id": "RFCEGD",
+"nome": "FFCC THE CRYSTAL BEARERS",
+"listas": 59
 },
 {
 "id": "SMGE78",
@@ -2094,9 +2099,9 @@
 "listas": 45
 },
 {
-"id": "RBQENR",
-"nome": "Classic British Racing",
-"listas": 43
+"id": "RSXE69",
+"nome": "SSX Blur",
+"listas": 36
 },
 {
 "id": "RIZENR",
@@ -2104,24 +2109,24 @@
 "listas": 54
 },
 {
+"id": "RBQENR",
+"nome": "Classic British Racing",
+"listas": 43
+},
+{
 "id": "RDNEA4",
 "nome": "DDR Disney Grooves",
 "listas": 66
 },
 {
-"id": "RSXE69",
-"nome": "SSX Blur",
-"listas": 36
+"id": "SG9EYC",
+"nome": "Gizmo",
+"listas": 56
 },
 {
 "id": "RT3E54",
 "nome": "Rockstar Games presents Table Tennis",
 "listas": 45
-},
-{
-"id": "SG9EYC",
-"nome": "Gizmo",
-"listas": 56
 },
 {
 "id": "REMJ8P",
@@ -2204,19 +2209,9 @@
 "listas": 42
 },
 {
-"id": "RQSE4Z",
-"nome": "Pinball Hall Of Fame: Gottlieb Collection",
-"listas": 51
-},
-{
 "id": "R82E52",
 "nome": "Animal Planet: Vet Life",
 "listas": 43
-},
-{
-"id": "RN7P78",
-"nome": "Big Family Games",
-"listas": 52
 },
 {
 "id": "RX4E4Z",
@@ -2224,14 +2219,14 @@
 "listas": 58
 },
 {
-"id": "SBWE5G",
-"nome": "Babysitting Mama",
-"listas": 50
-},
-{
 "id": "RO5E52",
 "nome": "Hot Wheels: Battle Force 5",
 "listas": 59
+},
+{
+"id": "SBWE5G",
+"nome": "Babysitting Mama",
+"listas": 50
 },
 {
 "id": "RTLE18",
@@ -2340,18 +2335,18 @@
 },
 {
 "id": "RBXJ8P",
-"nome": "BLEACH VERSUS CRUSADE (JA)",
+"nome": "Bleach: Versus Crusade",
 "listas": 51
-},
-{
-"id": "SIME69",
-"nome": "My Sims: Collection",
-"listas": 53
 },
 {
 "id": "RZ2JG9",
 "nome": "The World Kart Racing",
 "listas": 28
+},
+{
+"id": "SIME69",
+"nome": "My Sims: Collection",
+"listas": 53
 },
 {
 "id": "RHCE52",
@@ -2384,14 +2379,14 @@
 "listas": 56
 },
 {
-"id": "RMXE78",
-"nome": "MX vs ATV Untamed",
-"listas": 32
-},
-{
 "id": "RDZP01",
 "nome": "Disaster",
 "listas": 45
+},
+{
+"id": "RMXE78",
+"nome": "MX vs ATV Untamed",
+"listas": 32
 },
 {
 "id": "RF2E54",
@@ -2440,7 +2435,7 @@
 },
 {
 "id": "SOMP01",
-"nome": "beat the beat rhythm paradise",
+"nome": "Beat the Beat: Rhythm Paradise",
 "listas": 45
 },
 {
@@ -2709,6 +2704,11 @@
 "listas": 42
 },
 {
+"id": "SJ3PNL",
+"nome": "Jakers",
+"listas": 32
+},
+{
 "id": "SF4E20",
 "nome": "FlatoutWii",
 "listas": 51
@@ -2717,11 +2717,6 @@
 "id": "R46ENS",
 "nome": "PHANTOM BRAVE Wii",
 "listas": 31
-},
-{
-"id": "SJ3PNL",
-"nome": "Jakers",
-"listas": 32
 },
 {
 "id": "SSIENR",
@@ -2784,14 +2779,14 @@
 "listas": 46
 },
 {
-"id": "RT9P52",
-"nome": "Tony Hawk's Proving Ground",
-"listas": 31
-},
-{
 "id": "S2CE54",
 "nome": "New Carnival Games",
 "listas": 37
+},
+{
+"id": "RT9P52",
+"nome": "Tony Hawk's Proving Ground",
+"listas": 31
 },
 {
 "id": "RFRE5G",
@@ -2959,24 +2954,24 @@
 "listas": 32
 },
 {
-"id": "RQKE41",
-"nome": "CIRCUS GAMES",
-"listas": 51
-},
-{
 "id": "SKWPNK",
 "nome": "Cocoto Kart 2",
 "listas": 33
 },
 {
-"id": "STDEFP",
-"nome": "Reload",
-"listas": 37
+"id": "RQKE41",
+"nome": "CIRCUS GAMES",
+"listas": 51
 },
 {
 "id": "RL6E69",
 "nome": "N-STRIKE ELITE",
 "listas": 38
+},
+{
+"id": "STDEFP",
+"nome": "Reload",
+"listas": 37
 },
 {
 "id": "RMFE68",
@@ -3009,14 +3004,14 @@
 "listas": 41
 },
 {
-"id": "R6YEXS",
-"nome": "Squeeballs Party",
-"listas": 23
-},
-{
 "id": "RKAE6K",
 "nome": "Ultimate Shooting Collection",
 "listas": 37
+},
+{
+"id": "R6YEXS",
+"nome": "Squeeballs Party",
+"listas": 23
 },
 {
 "id": "SU5EVZ",
@@ -3054,14 +3049,14 @@
 "listas": 32
 },
 {
-"id": "SKYE52",
-"nome": "Skylanders Giants",
-"listas": 44
-},
-{
 "id": "RGLE7D",
 "nome": "Geometry Wars: Galaxies",
 "listas": 46
+},
+{
+"id": "SKYE52",
+"nome": "Skylanders Giants",
+"listas": 44
 },
 {
 "id": "R5FE41",
@@ -3324,14 +3319,14 @@
 "listas": 35
 },
 {
-"id": "SL3ENR",
-"nome": "Dragon's Lair Trilogy",
-"listas": 40
-},
-{
 "id": "R3PEWR",
 "nome": "SPEED RACER",
 "listas": 26
+},
+{
+"id": "SL3ENR",
+"nome": "Dragon's Lair Trilogy",
+"listas": 40
 },
 {
 "id": "R42E69",
@@ -3614,13 +3609,13 @@
 "listas": 29
 },
 {
-"id": "RZNJ01",
-"nome": "Reginleiv",
+"id": "R7ZP41",
+"nome": "Knockout Party",
 "listas": 32
 },
 {
-"id": "R7ZP41",
-"nome": "Knockout Party",
+"id": "RZNJ01",
+"nome": "Reginleiv",
 "listas": 32
 },
 {
@@ -3654,11 +3649,6 @@
 "listas": 28
 },
 {
-"id": "RN7E78",
-"nome": "Neighborhood Games",
-"listas": 30
-},
-{
 "id": "RDREA4",
 "nome": "Dewy's Adventure",
 "listas": 25
@@ -3684,6 +3674,11 @@
 "listas": 27
 },
 {
+"id": "R3DES5",
+"nome": "Dream Pinball 3d",
+"listas": 18
+},
+{
 "id": "RCIE41",
 "nome": "CSI: Hard Evidence",
 "listas": 23
@@ -3692,11 +3687,6 @@
 "id": "SP5E70",
 "nome": "The Kore Gang",
 "listas": 28
-},
-{
-"id": "R3DES5",
-"nome": "Dream Pinball 3d",
-"listas": 18
 },
 {
 "id": "SFSPGT",
@@ -3999,14 +3989,14 @@
 "listas": 20
 },
 {
-"id": "SRSPXT",
-"nome": "SuperSonicWii",
-"listas": 16
-},
-{
 "id": "RELEA4",
 "nome": "Elebits",
 "listas": 21
+},
+{
+"id": "SRSPXT",
+"nome": "SuperSonicWii",
+"listas": 16
 },
 {
 "id": "RR4EGY",
@@ -4014,14 +4004,14 @@
 "listas": 20
 },
 {
-"id": "RICENR",
-"nome": "Iron Chef",
-"listas": 20
-},
-{
 "id": "SN8EYG",
 "nome": "Sprint Cars",
 "listas": 10
+},
+{
+"id": "RICENR",
+"nome": "Iron Chef",
+"listas": 20
 },
 {
 "id": "R6TEA4",
@@ -4145,19 +4135,19 @@
 },
 {
 "id": "STUPRN",
-"nome": "TurboTrainz PAL",
+"nome": "TurboTrainz",
 "listas": 2
 }
 ],
 "gamecube": [
 {
 "id": "GLME01",
-"nome": "LUIGI'S MANSION",
+"nome": "Luigi's Mansion",
 "listas": 122
 },
 {
 "id": "GM4E01",
-"nome": "Mario Kart Double Dash!",
+"nome": "Mario Kart: Double Dash!!",
 "listas": 112
 },
 {
@@ -4167,7 +4157,7 @@
 },
 {
 "id": "GZLE01",
-"nome": "THE LEGEND OF ZELDA The Wind Waker for USA",
+"nome": "Zelda: The Wind Waker",
 "listas": 109
 },
 {
@@ -4177,22 +4167,22 @@
 },
 {
 "id": "G43E01",
-"nome": "Zelda Ocarina Multi Pack",
+"nome": "Zelda: Ocarina Multi Pack",
 "listas": 99
 },
 {
 "id": "GALE01",
-"nome": "Super Smash Bros Melee",
+"nome": "Super Smash Bros. Melee",
 "listas": 88
 },
 {
 "id": "G4SE01",
-"nome": "The Legend of Zelda: Four Swords FOR NINTENDO GAMECUBE",
+"nome": "Zelda: Four Swords Adventures",
 "listas": 95
 },
 {
 "id": "GEOE08",
-"nome": "CAPCOM VS. SNK 2  EO",
+"nome": "Capcom vs. SNK 2 EO",
 "listas": 66
 },
 {
@@ -4207,17 +4197,17 @@
 },
 {
 "id": "PZLE01",
-"nome": "The Legend of Zelda: Collector's Edition",
+"nome": "Zelda: Collector's Edition",
 "listas": 96
 },
 {
 "id": "GHQE7D",
-"nome": "The Simpsons Hit and Run",
+"nome": "The Simpsons: Hit & Run",
 "listas": 72
 },
 {
 "id": "GSNE8P",
-"nome": "Sonic Adventure 2 Battle",
+"nome": "Sonic Adventure 2: Battle",
 "listas": 73
 },
 {
@@ -4242,37 +4232,37 @@
 },
 {
 "id": "GQNE5D",
-"nome": "Mortal Kombat Deception",
+"nome": "Mortal Kombat: Deception",
 "listas": 70
 },
 {
 "id": "GLEE08",
-"nome": "Resident Evil 3",
+"nome": "Resident Evil 3: Nemesis",
 "listas": 73
 },
 {
 "id": "GZ2E01",
-"nome": "The Legend of Zelda Twilight Princess",
+"nome": "Zelda: Twilight Princess",
 "listas": 84
 },
 {
 "id": "GMPE01",
-"nome": "MarioParty4",
+"nome": "Mario Party 4",
 "listas": 82
 },
 {
 "id": "GHAE08",
-"nome": "RESIDENT EVIL2",
+"nome": "Resident Evil 2",
 "listas": 69
 },
 {
 "id": "GXGE08",
-"nome": "MEGAMAN X COLLECTION",
+"nome": "Mega Man X Collection",
 "listas": 78
 },
 {
 "id": "GXXE01",
-"nome": "POKeMON XD",
+"nome": "Pokemon XD: Gale of Darkness",
 "listas": 66
 },
 {
@@ -4282,17 +4272,17 @@
 },
 {
 "id": "GLNE69",
-"nome": "Looney Tunes - Back in Action",
+"nome": "Looney Tunes: Back in Action",
 "listas": 46
 },
 {
 "id": "GOME01",
-"nome": "MarioPowerTennis",
+"nome": "Mario Power Tennis",
 "listas": 79
 },
 {
 "id": "G9SE8P",
-"nome": "SONIC HEROES",
+"nome": "Sonic Heroes",
 "listas": 76
 },
 {
@@ -4302,12 +4292,12 @@
 },
 {
 "id": "G8ME01",
-"nome": "Paper Mario-The Thousand-Year Door",
+"nome": "Paper Mario: The Thousand-Year Door",
 "listas": 75
 },
 {
 "id": "GUGE69",
-"nome": "Need for Speed(TM) Underground 2",
+"nome": "Need for Speed: Underground 2",
 "listas": 71
 },
 {
@@ -4347,22 +4337,22 @@
 },
 {
 "id": "GGSEA4",
-"nome": "METAL GEAR SOLID THE TWIN SNAKES",
+"nome": "Metal Gear Solid: The Twin Snakes",
 "listas": 65
 },
 {
 "id": "GXEE8P",
-"nome": "SonicRiders",
+"nome": "Sonic Riders",
 "listas": 66
 },
 {
 "id": "GAUE08",
-"nome": "auto modellista",
+"nome": "Auto Modellista",
 "listas": 31
 },
 {
 "id": "GCDE08",
-"nome": "RESIDENT EVIL CVX",
+"nome": "Resident Evil Code: Veronica X",
 "listas": 60
 },
 {
@@ -4372,7 +4362,7 @@
 },
 {
 "id": "GMKE5D",
-"nome": "Mortal Kombat Deadly Alliance",
+"nome": "Mortal Kombat: Deadly Alliance",
 "listas": 68
 },
 {
@@ -4382,12 +4372,12 @@
 },
 {
 "id": "GRSEAF",
-"nome": "SOULCALIBUR2",
+"nome": "Soulcalibur II",
 "listas": 62
 },
 {
 "id": "GUPE8P",
-"nome": "SHADOW THE HEDGEHOG",
+"nome": "Shadow the Hedgehog",
 "listas": 58
 },
 {
@@ -4417,37 +4407,37 @@
 },
 {
 "id": "GF7E01",
-"nome": "STARFOX ASSAULT",
+"nome": "Star Fox Assault",
 "listas": 55
 },
 {
 "id": "G2MP01",
-"nome": "Metroid Prime 2 Echoes",
+"nome": "Metroid Prime 2: Echoes",
 "listas": 63
 },
 {
 "id": "GHSE69",
-"nome": "Harry Potter and the Chamber of Secrets",
+"nome": "Harry Potter: Chamber of Secrets",
 "listas": 46
 },
 {
 "id": "GFZE01",
-"nome": "F-ZERO GX (US Version)",
+"nome": "F-Zero GX",
 "listas": 54
 },
 {
 "id": "GPTE41",
-"nome": "Prince of Persia : The Sands of Time",
+"nome": "Prince of Persia: The Sands of Time",
 "listas": 48
 },
 {
 "id": "GRHE41",
-"nome": "RAYMAN 3 HOODLUM HAVOC",
+"nome": "Rayman 3: Hoodlum Havoc",
 "listas": 52
 },
 {
 "id": "GB2J18",
-"nome": "Bomberman Land 2 (JA)",
+"nome": "Bomberman Land 2",
 "listas": 55
 },
 {
@@ -4462,7 +4452,7 @@
 },
 {
 "id": "GWZE01",
-"nome": "Dance Dance Revolution: Mario Mix for US",
+"nome": "Dance Dance Revolution: Mario Mix",
 "listas": 45
 },
 {
@@ -4477,27 +4467,27 @@
 },
 {
 "id": "GLHEG9",
-"nome": "FlushedAway",
+"nome": "Flushed Away",
 "listas": 29
 },
 {
 "id": "GLZE69",
-"nome": "From Russia With Love",
+"nome": "007: From Russia with Love",
 "listas": 42
 },
 {
 "id": "GNREDA",
-"nome": "NARUTO CLASH OF NINJA",
+"nome": "Naruto: Clash of Ninja",
 "listas": 47
 },
 {
 "id": "GZWE01",
-"nome": "WarioWare, Inc. Mega Party Games",
+"nome": "WarioWare, Inc.: Mega Party Games!",
 "listas": 55
 },
 {
 "id": "GMXE70",
-"nome": "Enter The Matrix",
+"nome": "Enter the Matrix",
 "listas": 45
 },
 {
@@ -4507,7 +4497,7 @@
 },
 {
 "id": "GYFEA4",
-"nome": "Yu-Gi-Oh! The Faksebound Kingdom",
+"nome": "Yu-Gi-Oh! The Falsebound Kingdom",
 "listas": 41
 },
 {
@@ -4517,22 +4507,22 @@
 },
 {
 "id": "GEDE01",
-"nome": "Eternal Darkness",
+"nome": "Eternal Darkness: Sanity's Requiem",
 "listas": 44
 },
 {
 "id": "GB4E51",
-"nome": "Burnout 2",
+"nome": "Burnout 2: Point of Impact",
 "listas": 47
 },
 {
 "id": "GCCE01",
-"nome": "FINAL FANTASY Crystal Chronicles",
+"nome": "Final Fantasy: Crystal Chronicles",
 "listas": 44
 },
 {
 "id": "G4ZE69",
-"nome": "The Sims 2 GameCube",
+"nome": "The Sims 2",
 "listas": 34
 },
 {
@@ -4547,12 +4537,12 @@
 },
 {
 "id": "G4NJDA",
-"nome": "NARUTO4 - (JA)",
+"nome": "Naruto: Gekitou Ninja Taisen 4",
 "listas": 40
 },
 {
 "id": "GCEE41",
-"nome": "Tom Clancy's Splinter Cell",
+"nome": "Splinter Cell",
 "listas": 37
 },
 {
@@ -4562,7 +4552,7 @@
 },
 {
 "id": "GPZJ01",
-"nome": "NINTENDO PUZZLE COLLECTION",
+"nome": "Nintendo Puzzle Collection",
 "listas": 40
 },
 {
@@ -4572,7 +4562,7 @@
 },
 {
 "id": "GPKE41",
-"nome": "DISNEY'S PK: OUT OF THE SHADOWS",
+"nome": "Disney's PK: Out of the Shadows",
 "listas": 37
 },
 {
@@ -4587,12 +4577,12 @@
 },
 {
 "id": "GBLE52",
-"nome": "BLOODY ROAR(R): PRIMAL FURY",
+"nome": "Bloody Roar: Primal Fury",
 "listas": 27
 },
 {
 "id": "G3NJDA",
-"nome": "NARUTO3",
+"nome": "Naruto: Gekitou Ninja Taisen 3",
 "listas": 39
 },
 {
@@ -4602,12 +4592,12 @@
 },
 {
 "id": "GNUEDA",
-"nome": "NARUTO2",
+"nome": "Naruto: Clash of Ninja 2",
 "listas": 39
 },
 {
 "id": "GPVE01",
-"nome": "PIKMIN2 for GAMECUBE",
+"nome": "Pikmin 2",
 "listas": 39
 },
 {
@@ -4652,22 +4642,22 @@
 },
 {
 "id": "GTEE01",
-"nome": "1080: Avalanche",
+"nome": "1080° Avalanche",
 "listas": 32
 },
 {
 "id": "GVLE69",
-"nome": "Marvel Nemesis: Rise of the Imperfects",
+"nome": "Marvel Nemesis",
 "listas": 38
 },
 {
 "id": "GOQEAF",
-"nome": "ONE PIECE: GRAND ADVENTURE",
+"nome": "One Piece: Grand Adventure",
 "listas": 36
 },
 {
 "id": "GM2E8P",
-"nome": "SUPER MONKEY BALL 2",
+"nome": "Super Monkey Ball 2",
 "listas": 37
 },
 {
@@ -4682,12 +4672,12 @@
 },
 {
 "id": "GIKE70",
-"nome": "IKARUGA",
+"nome": "Ikaruga",
 "listas": 35
 },
 {
 "id": "GSXE64",
-"nome": "Star Wars : The Clone Wars",
+"nome": "Star Wars: The Clone Wars",
 "listas": 35
 },
 {
@@ -4697,12 +4687,12 @@
 },
 {
 "id": "GH5E52",
-"nome": "Over The Hedge",
+"nome": "Over the Hedge",
 "listas": 30
 },
 {
 "id": "GFEE01",
-"nome": "FIRE EMBLEM GC US",
+"nome": "Fire Emblem: Path of Radiance",
 "listas": 32
 },
 {
@@ -4717,12 +4707,12 @@
 },
 {
 "id": "G3VE69",
-"nome": "NBA STREET V3",
+"nome": "NBA Street V3",
 "listas": 31
 },
 {
 "id": "G4CE54",
-"nome": "Charlie and The Chocolate Factory",
+"nome": "Charlie and the Chocolate Factory",
 "listas": 21
 },
 {
@@ -4732,22 +4722,22 @@
 },
 {
 "id": "GQSEAF",
-"nome": "TALES OF SYMPHONIA",
+"nome": "Tales of Symphonia",
 "listas": 31
 },
 {
 "id": "G3FE69",
-"nome": "Timesplitters Future Perfect",
+"nome": "TimeSplitters: Future Perfect",
 "listas": 28
 },
 {
 "id": "GNZE69",
-"nome": "NBA STREET Vol.2",
+"nome": "NBA Street Vol. 2",
 "listas": 26
 },
 {
 "id": "GPOE8P",
-"nome": "PHANTASY STAR ONLINE EPISODE I and II",
+"nome": "Phantasy Star Online I & II",
 "listas": 23
 },
 {
@@ -4762,12 +4752,12 @@
 },
 {
 "id": "GK7E08",
-"nome": "Killer7 Disk1",
+"nome": "Killer7",
 "listas": 25
 },
 {
 "id": "GKBEAF",
-"nome": "Baten Kaitos - Eternal Wings and the Lost Ocean",
+"nome": "Baten Kaitos: Eternal Wings",
 "listas": 25
 },
 {
@@ -4777,7 +4767,7 @@
 },
 {
 "id": "GRNE52",
-"nome": "LOST KINGDOMS",
+"nome": "Lost Kingdoms",
 "listas": 24
 },
 {
@@ -4792,7 +4782,7 @@
 },
 {
 "id": "GOOE01",
-"nome": "Odama US ver",
+"nome": "Odama",
 "listas": 17
 }
 ]

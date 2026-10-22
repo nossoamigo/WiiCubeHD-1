@@ -39,6 +39,33 @@
         text2.value = listaOrganizada;
       }
 
+      // Descobre quais jogos são de GameCube. Usa a lista do SEU site (dados/gamecube.json);
+      // a lista antiga do site original só entra como último recurso, e avisa.
+      async function carregarIdsGamecube() {
+        const fontes = [
+          { url: 'dados/gamecube.json', atual: true },
+          { url: 'https://nossoamigo.github.io/WiiCubeHD-1/Selecao%20de%20jogos/dados/gamecube.json', atual: true },
+          { url: 'https://viniciustixu.github.io/WiiCubeHD/Selecao%20de%20jogos/gamecube.json', atual: false },
+        ];
+        for (const fonte of fontes) {
+          try {
+            const resposta = await fetch(fonte.url, { cache: 'no-store' });
+            if (!resposta.ok) continue;
+            const json = await resposta.json();
+            const jogos = Array.isArray(json) ? json : json.itens; // formato novo (lista) ou antigo ({ itens })
+            if (!Array.isArray(jogos)) continue;
+            if (!fonte.atual) {
+              alert('ATENÇÃO: usei a lista antiga de GameCube. Jogos de GameCube novos vão aparecer misturados com os do Wii. Abra este conversor pelo seu site (ou pelo Live Server) para usar a lista atual.');
+            }
+            return new Set(jogos.map((jogo) => jogo.id));
+          } catch (erro) {
+            // tenta a próxima fonte
+          }
+        }
+        alert('ATENÇÃO: não consegui carregar a lista de GameCube. Todos os jogos vão aparecer como se fossem do Wii.');
+        return new Set();
+      }
+
       async function organizarLista(lista) {
         const hd = lista.shift(); // Extrai o primeiro item da lista (HD de 1TB)
 
@@ -51,10 +78,7 @@
           return nomeA.localeCompare(nomeB);
         });
 
-        const response = await fetch(
-          'https://viniciustixu.github.io/WiiCubeHD/Selecao%20de%20jogos/gamecube.json',
-        );
-        const json = await response.json();
+        const idsGamecube = await carregarIdsGamecube();
 
         const listaEncontrados = [];
         const listaNaoEncontrados = [];
@@ -62,10 +86,8 @@
         for (const item of lista) {
           const id = item.substring(item.indexOf('(') + 1, item.indexOf(','));
 
-          // Verifica se o ID do jogo existe no JSON
-          const jogoEncontrado = json.itens.find((jogo) => jogo.id === id);
-
-          if (jogoEncontrado) {
+          // Verifica se o ID do jogo é de GameCube
+          if (idsGamecube.has(id)) {
             // Move o jogo para a lista de encontrados
             listaEncontrados.push(item);
           } else {

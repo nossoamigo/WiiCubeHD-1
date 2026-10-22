@@ -66,6 +66,16 @@ function montarCatalogo(lista, container, console_) {
     });
 }
 
+// Quadrinho "Sem capa": aparece no lugar do ícone de imagem quebrada quando o arquivo da capa
+// ainda não foi colocado na pasta (imagens/<console>/cache/<região>/<ID>.png).
+const SEM_CAPA =
+  'data:image/svg+xml,' +
+  encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140"><rect width="100" height="140" rx="8" fill="#cfe1fb"/>' +
+      '<rect x="6" y="6" width="88" height="128" rx="6" fill="none" stroke="#5b7aa3" stroke-width="2" stroke-dasharray="6 4"/>' +
+      '<text x="50" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#5b7aa3">Sem capa</text></svg>'
+  );
+
 function criarCard(j) {
   const div = document.createElement('div');
   div.className = 'jogo';
@@ -78,8 +88,8 @@ function criarCard(j) {
     grande.style.top = e.pageY + 15 + 'px';
   };
   div.onmouseenter = (e) => {
-    if (window.matchMedia('(max-width: 480px)').matches) return;
-    grande.src = j.imagem;
+    if (window.matchMedia('(max-width: 480px)').matches || img.src === SEM_CAPA) return; // sem capa, não há o que ampliar
+    grande.src = img.src;
     grande.style.display = 'block';
     mover(e);
   };
@@ -87,6 +97,10 @@ function criarCard(j) {
   div.onmouseleave = () => (grande.style.display = 'none');
 
   const img = document.createElement('img');
+  img.onerror = () => {
+    img.onerror = null; // evita laço caso o próprio quadrinho falhe
+    img.src = SEM_CAPA;
+  };
   img.src = j.imagem;
   img.alt = j.nome;
   const nome = document.createElement('p');

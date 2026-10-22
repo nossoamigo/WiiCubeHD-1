@@ -7,13 +7,13 @@
 },
 {
 "id": "GTEE01",
-"nome": "1080: Avalanche",
+"nome": "1080° Avalanche",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GTEE01.png"
 },
 {
 "id": "GAUE08",
-"nome": "auto modellista",
+"nome": "Auto Modellista",
 "tamanho": 821.77,
 "imagem": "../imagens/gamecube/cache/US/3d/GAUE08.png"
 },
@@ -25,7 +25,7 @@
 },
 {
 "id": "GKBEAF",
-"nome": "Baten Kaitos - Eternal Wings and the Lost Ocean",
+"nome": "Baten Kaitos: Eternal Wings",
 "tamanho": 2720,
 "imagem": "../imagens/gamecube/cache/US/3d/GKBEAF.png"
 },
@@ -49,7 +49,7 @@
 },
 {
 "id": "GBLE52",
-"nome": "BLOODY ROAR(R): PRIMAL FURY",
+"nome": "Bloody Roar: Primal Fury",
 "tamanho": 602.11,
 "imagem": "../imagens/gamecube/cache/US/3d/GBLE52.png"
 },
@@ -67,19 +67,19 @@
 },
 {
 "id": "GB2J18",
-"nome": "Bomberman Land 2 (JA)",
+"nome": "Bomberman Land 2",
 "tamanho": 301.1,
 "imagem": "../imagens/gamecube/cache/US/3d/GB2J18.png"
 },
 {
 "id": "GB4E51",
-"nome": "Burnout 2",
+"nome": "Burnout 2: Point of Impact",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GB4E51.png"
 },
 {
 "id": "GEOE08",
-"nome": "CAPCOM VS. SNK 2  EO",
+"nome": "Capcom vs. SNK 2 EO",
 "tamanho": 281.28,
 "imagem": "../imagens/gamecube/cache/US/3d/GEOE08.png"
 },
@@ -91,7 +91,7 @@
 },
 {
 "id": "G4CE54",
-"nome": "Charlie and The Chocolate Factory",
+"nome": "Charlie and the Chocolate Factory",
 "tamanho": 1195,
 "imagem": "../imagens/gamecube/cache/US/3d/G4CE54.png"
 },
@@ -109,7 +109,7 @@
 },
 {
 "id": "GWZE01",
-"nome": "Dance Dance Revolution: Mario Mix for US",
+"nome": "Dance Dance Revolution: Mario Mix",
 "tamanho": 265,
 "imagem": "../imagens/gamecube/cache/US/3d/GWZE01.png"
 },
@@ -127,7 +127,7 @@
 },
 {
 "id": "GPKE41",
-"nome": "DISNEY'S PK: OUT OF THE SHADOWS",
+"nome": "Disney's PK: Out of the Shadows",
 "tamanho": 1080,
 "imagem": "../imagens/gamecube/cache/US/3d/GPKE41.png"
 },
@@ -139,13 +139,13 @@
 },
 {
 "id": "GMXE70",
-"nome": "Enter The Matrix",
+"nome": "Enter the Matrix",
 "tamanho": 2720,
 "imagem": "../imagens/gamecube/cache/US/3d/GMXE70.png"
 },
 {
 "id": "GEDE01",
-"nome": "Eternal Darkness",
+"nome": "Eternal Darkness: Sanity's Requiem",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GEDE01.png"
 },
@@ -169,31 +169,31 @@
 },
 {
 "id": "GCCE01",
-"nome": "FINAL FANTASY Crystal Chronicles",
+"nome": "Final Fantasy: Crystal Chronicles",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GCCE01.png"
 },
 {
 "id": "GFEE01",
-"nome": "FIRE EMBLEM GC US",
+"nome": "Fire Emblem: Path of Radiance",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GFEE01.png"
 },
 {
 "id": "GLHEG9",
-"nome": "FlushedAway",
+"nome": "Flushed Away",
 "tamanho": 1393,
 "imagem": "../imagens/gamecube/cache/US/3d/GLHEG9.png"
 },
 {
 "id": "GLZE69",
-"nome": "From Russia With Love",
+"nome": "007: From Russia with Love",
 "tamanho": 1339.88,
 "imagem": "../imagens/gamecube/cache/US/3d/GLZE69.png"
 },
 {
 "id": "GFZE01",
-"nome": "F-ZERO GX (US Version)",
+"nome": "F-Zero GX",
 "tamanho": 1340,
 "imagem": "../imagens/gamecube/cache/US/3d/GFZE01.png"
 },
@@ -205,7 +205,7 @@
 },
 {
 "id": "GHSE69",
-"nome": "Harry Potter and the Chamber of Secrets",
+"nome": "Harry Potter: Chamber of Secrets",
 "tamanho": 1392.34,
 "imagem": "../imagens/gamecube/cache/US/3d/GHSE69.png"
 },
@@ -223,13 +223,13 @@
 },
 {
 "id": "GIKE70",
-"nome": "IKARUGA",
+"nome": "Ikaruga",
 "tamanho": 204.18,
 "imagem": "../imagens/gamecube/cache/US/3d/GIKE70.png"
 },
 {
 "id": "GK7E08",
-"nome": "Killer7 Disk1",
+"nome": "Killer7",
 "tamanho": 1200,
 "imagem": "../imagens/gamecube/cache/US/3d/GK7E08.png"
 },
@@ -241,19 +241,19 @@
 },
 {
 "id": "GRNE52",
-"nome": "LOST KINGDOMS",
+"nome": "Lost Kingdoms",
 "tamanho": 583.85,
 "imagem": "../imagens/gamecube/cache/US/3d/GRNE52.png"
 },
 {
 "id": "GLNE69",
-"nome": "Looney Tunes - Back in Action",
+"nome": "Looney Tunes: Back in Action",
 "tamanho": 1020,
 "imagem": "../imagens/gamecube/cache/US/3d/GLNE69.png"
 },
 {
 "id": "GLME01",
-"nome": "LUIGI'S MANSION",
+"nome": "Luigi's Mansion",
 "tamanho": 1392.34,
 "imagem": "../imagens/gamecube/cache/US/3d/GLME01.png"
 },
@@ -271,13 +271,13 @@
 },
 {
 "id": "GM4E01",
-"nome": "Mario Kart Double Dash!",
+"nome": "Mario Kart: Double Dash!!",
 "tamanho": 468,
 "imagem": "../imagens/gamecube/cache/US/3d/GM4E01.png"
 },
 {
 "id": "GMPE01",
-"nome": "MarioParty4",
+"nome": "Mario Party 4",
 "tamanho": 570.66,
 "imagem": "../imagens/gamecube/cache/US/3d/GMPE01.png"
 },
@@ -301,7 +301,7 @@
 },
 {
 "id": "GOME01",
-"nome": "MarioPowerTennis",
+"nome": "Mario Power Tennis",
 "tamanho": 601.25,
 "imagem": "../imagens/gamecube/cache/US/3d/GOME01.png"
 },
@@ -313,19 +313,19 @@
 },
 {
 "id": "GVLE69",
-"nome": "Marvel Nemesis: Rise of the Imperfects",
+"nome": "Marvel Nemesis",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GVLE69.png"
 },
 {
 "id": "GXGE08",
-"nome": "MEGAMAN X COLLECTION",
+"nome": "Mega Man X Collection",
 "tamanho": 794.77,
 "imagem": "../imagens/gamecube/cache/US/3d/GXGE08.png"
 },
 {
 "id": "GGSEA4",
-"nome": "METAL GEAR SOLID THE TWIN SNAKES",
+"nome": "Metal Gear Solid: The Twin Snakes",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GGSEA4.png"
 },
@@ -333,83 +333,83 @@
 "id": "GM8P01",
 "nome": "Metroid Prime",
 "tamanho": 1392.34,
-"imagem": "../imagens/gamecube/cache/US/3d/GM8P01.png"
+"imagem": "../imagens/gamecube/cache/EN/3d/GM8P01.png"
 },
 {
 "id": "G2MP01",
-"nome": "Metroid Prime 2 Echoes",
+"nome": "Metroid Prime 2: Echoes",
 "tamanho": 1392.34,
 "imagem": "../imagens/gamecube/cache/US/3d/G2MP01.png"
 },
 {
 "id": "GMKE5D",
-"nome": "Mortal Kombat Deadly Alliance",
+"nome": "Mortal Kombat: Deadly Alliance",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GMKE5D.png"
 },
 {
 "id": "GQNE5D",
-"nome": "Mortal Kombat Deception",
+"nome": "Mortal Kombat: Deception",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GQNE5D.png"
 },
 {
 "id": "GNREDA",
-"nome": "NARUTO CLASH OF NINJA",
+"nome": "Naruto: Clash of Ninja",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GNREDA.png"
 },
 {
 "id": "GNUEDA",
-"nome": "NARUTO2",
+"nome": "Naruto: Clash of Ninja 2",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GNUEDA.png"
 },
 {
 "id": "G3NJDA",
-"nome": "NARUTO3",
+"nome": "Naruto: Gekitou Ninja Taisen 3",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/JA/3d/G3NJDA.png"
 },
 {
 "id": "G4NJDA",
-"nome": "NARUTO4 - (JA)",
+"nome": "Naruto: Gekitou Ninja Taisen 4",
 "tamanho": 1198,
 "imagem": "../imagens/gamecube/cache/US/3d/G4NJDA.png"
 },
 {
 "id": "G3VE69",
-"nome": "NBA STREET V3",
+"nome": "NBA Street V3",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/G3VE69.png"
 },
 {
 "id": "GNZE69",
-"nome": "NBA STREET Vol.2",
+"nome": "NBA Street Vol. 2",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GNZE69.png"
 },
 {
 "id": "GUGE69",
-"nome": "Need for Speed(TM) Underground 2",
+"nome": "Need for Speed: Underground 2",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GUGE69.png"
 },
 {
 "id": "GPZJ01",
-"nome": "NINTENDO PUZZLE COLLECTION",
+"nome": "Nintendo Puzzle Collection",
 "tamanho": 138,
 "imagem": "../imagens/gamecube/cache/JA/3d/GPZJ01.png"
 },
 {
 "id": "GOOE01",
-"nome": "Odama US ver",
+"nome": "Odama",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GOOE01.png"
 },
 {
 "id": "GOQEAF",
-"nome": "ONE PIECE: GRAND ADVENTURE",
+"nome": "One Piece: Grand Adventure",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GOQEAF.png"
 },
@@ -421,7 +421,7 @@
 },
 {
 "id": "GH5E52",
-"nome": "Over The Hedge",
+"nome": "Over the Hedge",
 "tamanho": 1393,
 "imagem": "../imagens/gamecube/cache/US/3d/GH5E52.png"
 },
@@ -433,13 +433,13 @@
 },
 {
 "id": "G8ME01",
-"nome": "Paper Mario-The Thousand-Year Door",
+"nome": "Paper Mario: The Thousand-Year Door",
 "tamanho": 577,
 "imagem": "../imagens/gamecube/cache/US/3d/G8ME01.png"
 },
 {
 "id": "GPOE8P",
-"nome": "PHANTASY STAR ONLINE EPISODE I and II",
+"nome": "Phantasy Star Online I & II",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GPOE8P.png"
 },
@@ -451,7 +451,7 @@
 },
 {
 "id": "GPVE01",
-"nome": "PIKMIN2 for GAMECUBE",
+"nome": "Pikmin 2",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GPVE01.png"
 },
@@ -463,13 +463,13 @@
 },
 {
 "id": "GXXE01",
-"nome": "POKeMON XD",
+"nome": "Pokemon XD: Gale of Darkness",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GXXE01.png"
 },
 {
 "id": "GPTE41",
-"nome": "Prince of Persia : The Sands of Time",
+"nome": "Prince of Persia: The Sands of Time",
 "tamanho": 1330,
 "imagem": "../imagens/gamecube/cache/US/3d/GPTE41.png"
 },
@@ -487,7 +487,7 @@
 },
 {
 "id": "GRHE41",
-"nome": "RAYMAN 3 HOODLUM HAVOC",
+"nome": "Rayman 3: Hoodlum Havoc",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GRHE41.png"
 },
@@ -505,7 +505,7 @@
 },
 {
 "id": "GLEE08",
-"nome": "Resident Evil 3",
+"nome": "Resident Evil 3: Nemesis",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GLEE08.png"
 },
@@ -517,13 +517,13 @@
 },
 {
 "id": "GCDE08",
-"nome": "RESIDENT EVIL CVX",
+"nome": "Resident Evil Code: Veronica X",
 "tamanho": 2720,
 "imagem": "../imagens/gamecube/cache/US/3d/GCDE08.png"
 },
 {
 "id": "GHAE08",
-"nome": "RESIDENT EVIL2",
+"nome": "Resident Evil 2",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GHAE08.png"
 },
@@ -541,7 +541,7 @@
 },
 {
 "id": "GUPE8P",
-"nome": "SHADOW THE HEDGEHOG",
+"nome": "Shadow the Hedgehog",
 "tamanho": 1270,
 "imagem": "../imagens/gamecube/cache/US/3d/GUPE8P.png"
 },
@@ -559,25 +559,25 @@
 },
 {
 "id": "GSNE8P",
-"nome": "Sonic Adventure 2 Battle",
+"nome": "Sonic Adventure 2: Battle",
 "tamanho": 1167.2,
 "imagem": "../imagens/gamecube/cache/US/3d/GSNE8P.png"
 },
 {
 "id": "G9SE8P",
-"nome": "SONIC HEROES",
+"nome": "Sonic Heroes",
 "tamanho": 1160,
 "imagem": "../imagens/gamecube/cache/US/3d/G9SE8P.png"
 },
 {
 "id": "GXEE8P",
-"nome": "SonicRiders",
+"nome": "Sonic Riders",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GXEE8P.png"
 },
 {
 "id": "GRSEAF",
-"nome": "SOULCALIBUR2",
+"nome": "Soulcalibur II",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GRSEAF.png"
 },
@@ -589,7 +589,7 @@
 },
 {
 "id": "GSXE64",
-"nome": "Star Wars : The Clone Wars",
+"nome": "Star Wars: The Clone Wars",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GSXE64.png"
 },
@@ -601,7 +601,7 @@
 },
 {
 "id": "GF7E01",
-"nome": "STARFOX ASSAULT",
+"nome": "Star Fox Assault",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GF7E01.png"
 },
@@ -619,49 +619,49 @@
 },
 {
 "id": "GM2E8P",
-"nome": "SUPER MONKEY BALL 2",
+"nome": "Super Monkey Ball 2",
 "tamanho": 990.18,
 "imagem": "../imagens/gamecube/cache/US/3d/GM2E8P.png"
 },
 {
 "id": "GALE01",
-"nome": "Super Smash Bros Melee",
+"nome": "Super Smash Bros. Melee",
 "tamanho": 1330,
 "imagem": "../imagens/gamecube/cache/US/3d/GALE01.png"
 },
 {
 "id": "GQSEAF",
-"nome": "TALES OF SYMPHONIA",
+"nome": "Tales of Symphonia",
 "tamanho": 2720,
 "imagem": "../imagens/gamecube/cache/US/3d/GQSEAF.png"
 },
 {
 "id": "GZLE01",
-"nome": "THE LEGEND OF ZELDA The Wind Waker for USA",
+"nome": "Zelda: The Wind Waker",
 "tamanho": 1010,
 "imagem": "../imagens/gamecube/cache/US/3d/GZLE01.png"
 },
 {
 "id": "GZ2E01",
-"nome": "The Legend of Zelda Twilight Princess",
+"nome": "Zelda: Twilight Princess",
 "tamanho": 1000.12,
 "imagem": "../imagens/gamecube/cache/US/3d/GZ2E01.png"
 },
 {
 "id": "PZLE01",
-"nome": "The Legend of Zelda: Collector's Edition",
+"nome": "Zelda: Collector's Edition",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/PZLE01.png"
 },
 {
 "id": "G4SE01",
-"nome": "The Legend of Zelda: Four Swords FOR NINTENDO GAMECUBE",
+"nome": "Zelda: Four Swords Adventures",
 "tamanho": 254.43,
 "imagem": "../imagens/gamecube/cache/US/3d/G4SE01.png"
 },
 {
 "id": "GHQE7D",
-"nome": "The Simpsons Hit and Run",
+"nome": "The Simpsons: Hit & Run",
 "tamanho": 909.41,
 "imagem": "../imagens/gamecube/cache/US/3d/GHQE7D.png"
 },
@@ -673,7 +673,7 @@
 },
 {
 "id": "G4ZE69",
-"nome": "The Sims 2 GameCube",
+"nome": "The Sims 2",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/G4ZE69.png"
 },
@@ -691,13 +691,13 @@
 },
 {
 "id": "G3FE69",
-"nome": "Timesplitters Future Perfect",
+"nome": "TimeSplitters: Future Perfect",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/G3FE69.png"
 },
 {
 "id": "GCEE41",
-"nome": "Tom Clancy's Splinter Cell",
+"nome": "Splinter Cell",
 "tamanho": 1360,
 "imagem": "../imagens/gamecube/cache/US/3d/GCEE41.png"
 },
@@ -745,13 +745,13 @@
 },
 {
 "id": "GZWE01",
-"nome": "WarioWare, Inc. Mega Party Games",
+"nome": "WarioWare, Inc.: Mega Party Games!",
 "tamanho": 847,
 "imagem": "../imagens/gamecube/cache/US/3d/GZWE01.png"
 },
 {
 "id": "GYFEA4",
-"nome": "Yu-Gi-Oh! The Faksebound Kingdom",
+"nome": "Yu-Gi-Oh! The Falsebound Kingdom",
 "tamanho": 1393,
 "imagem": "../imagens/gamecube/cache/US/3d/GYFEA4.png"
 },
@@ -768,9 +768,1119 @@
 "imagem": "../imagens/gamecube/cache/US/3d/GABEAF.png"
 },
 {
-"id": "G43E01",
-"nome": "Zelda Ocarina Multi Pack",
+"id": "D43E01",
+"nome": "Zelda: Ocarina Multi Pack",
 "tamanho": 1050,
 "imagem": "../imagens/gamecube/cache/US/3d/D43E01.png"
+},
+{
+"id": "GW7E69",
+"nome": "007: Agent Under Fire",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GW7E69.png"
+},
+{
+"id": "GWEP8P",
+"nome": "18 Wheeler: American Pro Trucker",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/EN/3d/GWEP8P.png"
+},
+{
+"id": "GAHEGG",
+"nome": "Alien Hominid",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GAHEGG.png"
+},
+{
+"id": "GKAE8P",
+"nome": "Amazing Island",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GKAE8P.png"
+},
+{
+"id": "GACE5H",
+"nome": "Army Men: Air Combat",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GACE5H.png"
+},
+{
+"id": "GAME5H",
+"nome": "Army Men: Sarge's War",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GAME5H.png"
+},
+{
+"id": "GAGP70",
+"nome": "Asterix & Obelix XXL",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/EN/3d/GAGP70.png"
+},
+{
+"id": "GOBE4Z",
+"nome": "Bad Boys: Miami Takedown",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GOBE4Z.png"
+},
+{
+"id": "GBME7F",
+"nome": "Batman: Dark Tomorrow",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GBME7F.png"
+},
+{
+"id": "GBVE41",
+"nome": "Batman: Vengeance",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GBVE41.png"
+},
+{
+"id": "G8WE01",
+"nome": "Battalion Wars",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/G8WE01.png"
+},
+{
+"id": "G8SJAF",
+"nome": "Battle Stadium D.O.N",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/JA/3d/G8SJAF.png"
+},
+{
+"id": "GBSE8P",
+"nome": "Beach Spikers",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GBSE8P.png"
+},
+{
+"id": "GEZE8P",
+"nome": "Billy Hatcher and the Giant Egg",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GEZE8P.png"
+},
+{
+"id": "GVOE69",
+"nome": "Bionicle",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GVOE69.png"
+},
+{
+"id": "GTHJD9",
+"nome": "Charinko Hero",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/JA/3d/GTHJD9.png"
+},
+{
+"id": "GOUPNK",
+"nome": "Cocoto Funfair",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/EN/3d/GOUPNK.png"
+},
+{
+"id": "GC7PNK",
+"nome": "Cocoto Platform Jumper",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/EN/3d/GC7PNK.png"
+},
+{
+"id": "GKZE9G",
+"nome": "Codename: Kids Next Door",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GKZE9G.png"
+},
+{
+"id": "GCFE9G",
+"nome": "Conflict: Desert Storm",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GCFE9G.png"
+},
+{
+"id": "GC2E9G",
+"nome": "Conflict: Desert Storm II",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GC2E9G.png"
+},
+{
+"id": "GPDE51",
+"nome": "Dakar 2",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GPDE51.png"
+},
+{
+"id": "GDIE7D",
+"nome": "Die Hard: Vendetta",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GDIE7D.png"
+},
+{
+"id": "GDKEA4",
+"nome": "Disney Sports: Soccer",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GDKEA4.png"
+},
+{
+"id": "GDME01",
+"nome": "Disney's Magical Mirror",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GDME01.png"
+},
+{
+"id": "GMTE69",
+"nome": "Disney's Party",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GMTE69.png"
+},
+{
+"id": "GKGE01",
+"nome": "Donkey Konga",
+"tamanho": 256.47,
+"imagem": "../imagens/gamecube/cache/US/3d/GKGE01.png"
+},
+{
+"id": "GMUE5D",
+"nome": "Dr. Muto",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GMUE5D.png"
+},
+{
+"id": "G9TE52",
+"nome": "Shark Tale",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/G9TE52.png"
+},
+{
+"id": "GFDE69",
+"nome": "Freedom Fighters",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GFDE69.png"
+},
+{
+"id": "GFPEA4",
+"nome": "Frogger: Ancient Shadow",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GFPEA4.png"
+},
+{
+"id": "GFQEA4",
+"nome": "Frogger's Adventures: The Rescue",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GFQEA4.png"
+},
+{
+"id": "GG4E08",
+"nome": "Gotcha Force",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GG4E08.png"
+},
+{
+"id": "GH6EAF",
+"nome": "Hello Kitty: Roller Rescue",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GH6EAF.png"
+},
+{
+"id": "GP4J18",
+"nome": "Hudson Selection Vol. 3: PC Genjin",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/JA/3d/GP4J18.png"
+},
+{
+"id": "GHKE7D",
+"nome": "The Hulk",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GHKE7D.png"
+},
+{
+"id": "GHNE71",
+"nome": "Hunter: The Reckoning",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GHNE71.png"
+},
+{
+"id": "GJ2PA4",
+"nome": "International Superstar Soccer 2",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/EN/3d/GJ2PA4.png"
+},
+{
+"id": "GJDE5S",
+"nome": "Judge Dredd: Dredd vs. Death",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GJDE5S.png"
+},
+{
+"id": "GKOE70",
+"nome": "Kao the Kangaroo: Round 2",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GKOE70.png"
+},
+{
+"id": "GKQJ01",
+"nome": "Kururin Squash",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/JA/3d/GKQJ01.png"
+},
+{
+"id": "GLUE7U",
+"nome": "Lotus Challenge",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GLUE7U.png"
+},
+{
+"id": "GMAE51",
+"nome": "Mary-Kate and Ashley: Sweet 16",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GMAE51.png"
+},
+{
+"id": "GM6EE9",
+"nome": "Medabots Infinity",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GM6EE9.png"
+},
+{
+"id": "GMEE70",
+"nome": "Men in Black II: Alien Escape",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GMEE70.png"
+},
+{
+"id": "GK5E78",
+"nome": "Monster House",
+"tamanho": 588.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GK5E78.png"
+},
+{
+"id": "GCMJA4",
+"nome": "Muscle Champion",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/JA/3d/GCMJA4.png"
+},
+{
+"id": "GBHEC8",
+"nome": "Mystic Heroes",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GBHEC8.png"
+},
+{
+"id": "GFHP6V",
+"nome": "Neighbors from Hell",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/EN/3d/GFHP6V.png"
+},
+{
+"id": "GJYE78",
+"nome": "Jimmy Neutron: Attack of the Twonkies",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GJYE78.png"
+},
+{
+"id": "GPNE08",
+"nome": "P.N.03",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GPNE08.png"
+},
+{
+"id": "GPMEAF",
+"nome": "Pac-Man Fever",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GPMEAF.png"
+},
+{
+"id": "GRFE78",
+"nome": "Red Faction II",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GRFE78.png"
+},
+{
+"id": "GR9E6L",
+"nome": "Reign of Fire",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GR9E6L.png"
+},
+{
+"id": "GKREB2",
+"nome": "Ribbit King",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GKREB2.png"
+},
+{
+"id": "GROE5Z",
+"nome": "Road Trip: The Arcade Edition",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GROE5Z.png"
+},
+{
+"id": "GR5J1K",
+"nome": "RoboCop: Aratanaru Kiki",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/JA/3d/GR5J1K.png"
+},
+{
+"id": "GC4JBN",
+"nome": "Shinseiki GPX Cyber Formula",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/JA/3d/GC4JBN.png"
+},
+{
+"id": "GSYE6S",
+"nome": "Shrek Super Party",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GSYE6S.png"
+},
+{
+"id": "GSDEAF",
+"nome": "Smashing Drive",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GSDEAF.png"
+},
+{
+"id": "GIJEFP",
+"nome": "Space Raiders",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GIJEFP.png"
+},
+{
+"id": "GDCE51",
+"nome": "Speed Kings",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GDCE51.png"
+},
+{
+"id": "GXPE78",
+"nome": "Sphinx and the Cursed Mummy",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GXPE78.png"
+},
+{
+"id": "GJKE52",
+"nome": "Star Wars: Jedi Outcast",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GJKE52.png"
+},
+{
+"id": "GT5E7N",
+"nome": "Starsky & Hutch",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GT5E7N.png"
+},
+{
+"id": "GTJE5L",
+"nome": "Tom and Jerry: War of the Whiskers",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GTJE5L.png"
+},
+{
+"id": "GTQE6S",
+"nome": "Tonka: Rescue Patrol",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GTQE6S.png"
+},
+{
+"id": "GTLE52",
+"nome": "True Crime: Streets of LA",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/US/3d/GTLE52.png"
+},
+{
+"id": "GW6JEM",
+"nome": "Winning Eleven 6: Final Evolution",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/JA/3d/GW6JEM.png"
+},
+{
+"id": "GO7E69",
+"nome": "James Bond 007: NightFire",
+"tamanho": 1316.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GO7E69.png"
+},
+{
+"id": "GAFE01",
+"nome": "Animal Crossing",
+"tamanho": 30.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GAFE01.png"
+},
+{
+"id": "GANE7U",
+"nome": "Animaniacs: The Great Edgar Hunt",
+"tamanho": 1288.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GANE7U.png"
+},
+{
+"id": "GATE51",
+"nome": "ATV: Quad Power Racing 2",
+"tamanho": 468.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GATE51.png"
+},
+{
+"id": "GUZE41",
+"nome": "Batman: Rise of Sin Tzu",
+"tamanho": 1366.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GUZE41.png"
+},
+{
+"id": "GZMP7D",
+"nome": "Butt-Ugly Martians: Zoom or Doom!",
+"tamanho": 1268.03,
+"imagem": "../imagens/gamecube/cache/EN/3d/GZMP7D.png"
+},
+{
+"id": "GCOE52",
+"nome": "Call of Duty: Finest Hour",
+"tamanho": 1342.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GCOE52.png"
+},
+{
+"id": "GQCE52",
+"nome": "Call of Duty 2: Big Red One",
+"tamanho": 1382.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GQCE52.png"
+},
+{
+"id": "GGTE01",
+"nome": "Chibi-Robo!",
+"tamanho": 412.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GGTE01.png"
+},
+{
+"id": "GLVE4Q",
+"nome": "The Chronicles of Narnia",
+"tamanho": 1258.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GLVE4Q.png"
+},
+{
+"id": "GCBE7D",
+"nome": "Crash Bandicoot: Wrath of Cortex",
+"tamanho": 896.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GCBE7D.png"
+},
+{
+"id": "GK6JA4",
+"nome": "Croket! Ban-King no Kiki o Sukue",
+"tamanho": 396.03,
+"imagem": "../imagens/gamecube/cache/JA/3d/GK6JA4.png"
+},
+{
+"id": "GCVEEB",
+"nome": "Cubivore: Survival of the Fittest",
+"tamanho": 98.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GCVEEB.png"
+},
+{
+"id": "G3JEAF",
+"nome": "Curious George",
+"tamanho": 1310.03,
+"imagem": "../imagens/gamecube/cache/US/3d/G3JEAF.png"
+},
+{
+"id": "GDREAF",
+"nome": "Dead to Rights",
+"tamanho": 1234.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GDREAF.png"
+},
+{
+"id": "GNWE69",
+"nome": "Def Jam: Fight for NY",
+"tamanho": 1250.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GNWE69.png"
+},
+{
+"id": "GDLEA4",
+"nome": "Disney Sports: Basketball",
+"tamanho": 384.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GDLEA4.png"
+},
+{
+"id": "GDWEA4",
+"nome": "Disney Sports: Football",
+"tamanho": 454.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GDWEA4.png"
+},
+{
+"id": "GDXEA4",
+"nome": "Disney Sports: Skateboarding",
+"tamanho": 456.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GDXEA4.png"
+},
+{
+"id": "GHCE4Q",
+"nome": "Disney's Chicken Little",
+"tamanho": 1348.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GHCE4Q.png"
+},
+{
+"id": "GDDE41",
+"nome": "Disney's Donald Duck: Goin' Quackers",
+"tamanho": 922.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GDDE41.png"
+},
+{
+"id": "GEXE52",
+"nome": "Disney's Extreme Skate Adventure",
+"tamanho": 1274.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GEXE52.png"
+},
+{
+"id": "GHVE08",
+"nome": "Disney's Hide & Sneak",
+"tamanho": 420.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GHVE08.png"
+},
+{
+"id": "GPLE9G",
+"nome": "Disney's Piglet's Big Game",
+"tamanho": 1352.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GPLE9G.png"
+},
+{
+"id": "GTZE41",
+"nome": "Disney's Tarzan: Untamed",
+"tamanho": 728.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GTZE41.png"
+},
+{
+"id": "GNEE78",
+"nome": "Finding Nemo",
+"tamanho": 992.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GNEE78.png"
+},
+{
+"id": "GMNE78",
+"nome": "Monsters, Inc.: Scream Arena",
+"tamanho": 678.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GMNE78.png"
+},
+{
+"id": "GICE78",
+"nome": "The Incredibles",
+"tamanho": 1218.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GICE78.png"
+},
+{
+"id": "GDNJE8",
+"nome": "Dokapon DX",
+"tamanho": 434.03,
+"imagem": "../imagens/gamecube/cache/JA/3d/GDNJE8.png"
+},
+{
+"id": "GDAJE5",
+"nome": "Doraemon: Minna de Asobou! Miniland",
+"tamanho": 480.03,
+"imagem": "../imagens/gamecube/cache/JA/3d/GDAJE5.png"
+},
+{
+"id": "GD5JB2",
+"nome": "Dragon Drive: D-Masters Shot",
+"tamanho": 1240.03,
+"imagem": "../imagens/gamecube/cache/JA/3d/GD5JB2.png"
+},
+{
+"id": "GKWJ18",
+"nome": "Dream Mix TV: World Fighters",
+"tamanho": 392.03,
+"imagem": "../imagens/gamecube/cache/JA/3d/GKWJ18.png"
+},
+{
+"id": "G2RE52",
+"nome": "Shrek: SuperSlam",
+"tamanho": 802.03,
+"imagem": "../imagens/gamecube/cache/US/3d/G2RE52.png"
+},
+{
+"id": "GE9E5D",
+"nome": "Ed, Edd n Eddy: The Mis-Edventures",
+"tamanho": 602.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GE9E5D.png"
+},
+{
+"id": "GF2E69",
+"nome": "F1 2002",
+"tamanho": 346.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GF2E69.png"
+},
+{
+"id": "GFCP69",
+"nome": "F1 Career Challenge",
+"tamanho": 804.03,
+"imagem": "../imagens/gamecube/cache/EN/3d/GFCP69.png"
+},
+{
+"id": "GFWE78",
+"nome": "Fairly OddParents: Breakin' da Rules",
+"tamanho": 1300.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GFWE78.png"
+},
+{
+"id": "GGFJ01",
+"nome": "Giftpia",
+"tamanho": 1014.03,
+"imagem": "../imagens/gamecube/cache/JA/3d/GGFJ01.png"
+},
+{
+"id": "GZDE70",
+"nome": "Godzilla: Destroy All Monsters",
+"tamanho": 844.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GZDE70.png"
+},
+{
+"id": "GOYE69",
+"nome": "GoldenEye: Rogue Agent",
+"tamanho": 1154.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GOYE69.png"
+},
+{
+"id": "GAZE69",
+"nome": "Harry Potter: Prisoner of Azkaban",
+"tamanho": 1288.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GAZE69.png"
+},
+{
+"id": "GHLE69",
+"nome": "Harry Potter: Sorcerer's Stone",
+"tamanho": 1208.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GHLE69.png"
+},
+{
+"id": "GHWE78",
+"nome": "Hot Wheels: Velocity X",
+"tamanho": 816.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GHWE78.png"
+},
+{
+"id": "GHRE78",
+"nome": "Hot Wheels: World Race",
+"tamanho": 330.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GHRE78.png"
+},
+{
+"id": "GNJEAF",
+"nome": "I-Ninja",
+"tamanho": 864.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GNJEAF.png"
+},
+{
+"id": "GIAE7D",
+"nome": "Ice Age 2: The Meltdown",
+"tamanho": 1002.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GIAE7D.png"
+},
+{
+"id": "GIVE4Z",
+"nome": "Intellivision Lives!",
+"tamanho": 808.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GIVE4Z.png"
+},
+{
+"id": "GJ3PA4",
+"nome": "International Superstar Soccer 3",
+"tamanho": 1350.03,
+"imagem": "../imagens/gamecube/cache/EN/3d/GJ3PA4.png"
+},
+{
+"id": "GKLE69",
+"nome": "Lord of the Rings: Return of the King",
+"tamanho": 1368.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GKLE69.png"
+},
+{
+"id": "GONE69",
+"nome": "Medal of Honor: European Assault",
+"tamanho": 1200.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GONE69.png"
+},
+{
+"id": "GMFE69",
+"nome": "Medal of Honor: Frontline",
+"tamanho": 1388.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GMFE69.png"
+},
+{
+"id": "GR8E69",
+"nome": "Medal of Honor: Rising Sun",
+"tamanho": 2274.06,
+"imagem": "../imagens/gamecube/cache/US/3d/GR8E69.png"
+},
+{
+"id": "GMOP70",
+"nome": "Micro Machines",
+"tamanho": 584.03,
+"imagem": "../imagens/gamecube/cache/EN/3d/GMOP70.png"
+},
+{
+"id": "GNMEAF",
+"nome": "Namco Museum",
+"tamanho": 632.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GNMEAF.png"
+},
+{
+"id": "GW5E69",
+"nome": "Need for Speed: Carbon",
+"tamanho": 1386.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GW5E69.png"
+},
+{
+"id": "GH2E69",
+"nome": "Need for Speed: Hot Pursuit 2",
+"tamanho": 988.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GH2E69.png"
+},
+{
+"id": "GOWE69",
+"nome": "Need for Speed: Most Wanted",
+"tamanho": 1280.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GOWE69.png"
+},
+{
+"id": "GNDE69",
+"nome": "Need for Speed: Underground",
+"tamanho": 1054.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GNDE69.png"
+},
+{
+"id": "GQLE9G",
+"nome": "Dora the Explorer: Purple Planet",
+"tamanho": 1390.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GQLE9G.png"
+},
+{
+"id": "GN9E70",
+"nome": "Party Blast",
+"tamanho": 926.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GN9E70.png"
+},
+{
+"id": "GSQE78",
+"nome": "SpongeBob: Flying Dutchman",
+"tamanho": 578.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GSQE78.png"
+},
+{
+"id": "GJWE78",
+"nome": "Tak: The Great Juju Challenge",
+"tamanho": 1380.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GJWE78.png"
+},
+{
+"id": "G2FE78",
+"nome": "Tak 2: The Staff of Dreams",
+"tamanho": 1394.03,
+"imagem": "../imagens/gamecube/cache/US/3d/G2FE78.png"
+},
+{
+"id": "GU6E78",
+"nome": "Nicktoons: Volcano Island",
+"tamanho": 916.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GU6E78.png"
+},
+{
+"id": "GNOE78",
+"nome": "Nicktoons Unite!",
+"tamanho": 578.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GNOE78.png"
+},
+{
+"id": "GP2EAF",
+"nome": "Pac-Man World 2",
+"tamanho": 854.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GP2EAF.png"
+},
+{
+"id": "G89EAF",
+"nome": "Pac-Man World Rally",
+"tamanho": 540.03,
+"imagem": "../imagens/gamecube/cache/US/3d/G89EAF.png"
+},
+{
+"id": "GWKE41",
+"nome": "Peter Jackson's King Kong",
+"tamanho": 1386.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GWKE41.png"
+},
+{
+"id": "GHFE4Z",
+"nome": "Pinball Hall of Fame",
+"tamanho": 390.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GHFE4Z.png"
+},
+{
+"id": "GPXE01",
+"nome": "Pokemon Box: Ruby & Sapphire",
+"tamanho": 90.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GPXE01.png"
+},
+{
+"id": "GPAE01",
+"nome": "Pokemon Channel",
+"tamanho": 1022.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GPAE01.png"
+},
+{
+"id": "GRUE78",
+"nome": "Power Rangers: Dino Thunder",
+"tamanho": 512.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GRUE78.png"
+},
+{
+"id": "GPQE6L",
+"nome": "The Powerpuff Girls: Relish Rampage",
+"tamanho": 1224.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GPQE6L.png"
+},
+{
+"id": "GKME41",
+"nome": "Prince of Persia: The Two Thrones",
+"tamanho": 1096.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GKME41.png"
+},
+{
+"id": "G2OE41",
+"nome": "Prince of Persia: Warrior Within",
+"tamanho": 1366.03,
+"imagem": "../imagens/gamecube/cache/US/3d/G2OE41.png"
+},
+{
+"id": "GRJEAF",
+"nome": "R: Racing Evolution",
+"tamanho": 1214.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GRJEAF.png"
+},
+{
+"id": "GR3E5D",
+"nome": "RedCard 20-03",
+"tamanho": 1344.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GR3E5D.png"
+},
+{
+"id": "GC3E78",
+"nome": "Scooby-Doo! Mystery Mayhem",
+"tamanho": 1234.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GC3E78.png"
+},
+{
+"id": "GIHE78",
+"nome": "Scooby-Doo! Night of 100 Frights",
+"tamanho": 1044.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GIHE78.png"
+},
+{
+"id": "GSKE7D",
+"nome": "The Scorpion King",
+"tamanho": 740.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GSKE7D.png"
+},
+{
+"id": "GJZE52",
+"nome": "Shamu's Deep Sea Adventures",
+"tamanho": 830.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GJZE52.png"
+},
+{
+"id": "GSSE8P",
+"nome": "Sega Soccer Slam",
+"tamanho": 580.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GSSE8P.png"
+},
+{
+"id": "GSPE69",
+"nome": "The Simpsons: Road Rage",
+"tamanho": 710.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GSPE69.png"
+},
+{
+"id": "GXSE8P",
+"nome": "Sonic Adventure DX: Director's Cut",
+"tamanho": 1346.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GXSE8P.png"
+},
+{
+"id": "GPWEAF",
+"nome": "Spawn: Armageddon",
+"tamanho": 910.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GPWEAF.png"
+},
+{
+"id": "GSZP41",
+"nome": "Speed Challenge",
+"tamanho": 502.03,
+"imagem": "../imagens/gamecube/cache/EN/3d/GSZP41.png"
+},
+{
+"id": "G2PE6U",
+"nome": "Spirits & Spells",
+"tamanho": 602.03,
+"imagem": "../imagens/gamecube/cache/US/3d/G2PE6U.png"
+},
+{
+"id": "GCSEAF",
+"nome": "Street Racing Syndicate",
+"tamanho": 1308.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GCSEAF.png"
+},
+{
+"id": "GXOE69",
+"nome": "SSX on Tour",
+"tamanho": 1056.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GXOE69.png"
+},
+{
+"id": "GLRE64",
+"nome": "Star Wars: Rebel Strike",
+"tamanho": 1382.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GLRE64.png"
+},
+{
+"id": "G3LE8P",
+"nome": "Super Monkey Ball Adventure",
+"tamanho": 764.03,
+"imagem": "../imagens/gamecube/cache/US/3d/G3LE8P.png"
+},
+{
+"id": "GJUE78",
+"nome": "Tak and the Power of Juju",
+"tamanho": 1388.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GJUE78.png"
+},
+{
+"id": "GTWE70",
+"nome": "Taz: Wanted",
+"tamanho": 1238.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GTWE70.png"
+},
+{
+"id": "GTFEA4",
+"nome": "Ninja Turtles",
+"tamanho": 1356.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GTFEA4.png"
+},
+{
+"id": "GNIEA4",
+"nome": "Ninja Turtles 2: Battle Nexus",
+"tamanho": 1986.06,
+"imagem": "../imagens/gamecube/cache/US/3d/GNIEA4.png"
+},
+{
+"id": "GLQE41",
+"nome": "Rainbow Six: Lockdown",
+"tamanho": 1362.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GLQE41.png"
+},
+{
+"id": "GCJE41",
+"nome": "Splinter Cell: Chaos Theory",
+"tamanho": 2324.06,
+"imagem": "../imagens/gamecube/cache/US/3d/GCJE41.png"
+},
+{
+"id": "GWYE41",
+"nome": "Splinter Cell: Double Agent",
+"tamanho": 2512.06,
+"imagem": "../imagens/gamecube/cache/US/3d/GWYE41.png"
+},
+{
+"id": "GT7E41",
+"nome": "Splinter Cell: Pandora Tomorrow",
+"tamanho": 1260.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GT7E41.png"
+},
+{
+"id": "GTUE8G",
+"nome": "Tube Slider",
+"tamanho": 634.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GTUE8G.png"
+},
+{
+"id": "GTYE69",
+"nome": "TY the Tasmanian Tiger",
+"tamanho": 1270.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GTYE69.png"
+},
+{
+"id": "GYTE69",
+"nome": "TY the Tasmanian Tiger 2",
+"tamanho": 1322.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GYTE69.png"
+},
+{
+"id": "GUSE7F",
+"nome": "Universal Studios Theme Parks",
+"tamanho": 814.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GUSE7F.png"
+},
+{
+"id": "GVCE08",
+"nome": "Viewtiful Joe: Red Hot Rumble",
+"tamanho": 840.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GVCE08.png"
+},
+{
+"id": "GVSE8P",
+"nome": "Virtua Striker 2002",
+"tamanho": 656.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GVSE8P.png"
+},
+{
+"id": "GQTE4Q",
+"nome": "Meet the Robinsons",
+"tamanho": 1284.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GQTE4Q.png"
+},
+{
+"id": "GWWE01",
+"nome": "Wario World",
+"tamanho": 262.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GWWE01.png"
+},
+{
+"id": "GBNJC0",
+"nome": "Warrior Blade: Rastan vs. Barbarian",
+"tamanho": 458.03,
+"imagem": "../imagens/gamecube/cache/JA/3d/GBNJC0.png"
+},
+{
+"id": "GWQE52",
+"nome": "Wreckless: The Yakuza Missions",
+"tamanho": 714.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GWQE52.png"
+},
+{
+"id": "GCHE78",
+"nome": "WWE Crush Hour",
+"tamanho": 988.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GCHE78.png"
+},
+{
+"id": "G3EE51",
+"nome": "XGIII: Extreme G Racing",
+"tamanho": 374.03,
+"imagem": "../imagens/gamecube/cache/US/3d/G3EE51.png"
+},
+{
+"id": "GXAE51",
+"nome": "XGRA: Extreme G Racing Association",
+"tamanho": 1152.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GXAE51.png"
+},
+{
+"id": "GX3E41",
+"nome": "XIII",
+"tamanho": 1250.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GX3E41.png"
+},
+{
+"id": "GZSE70",
+"nome": "Zoids: Battle Legends",
+"tamanho": 768.03,
+"imagem": "../imagens/gamecube/cache/US/3d/GZSE70.png"
+},
+{
+"id": "GZHJDA",
+"nome": "Zoids: Full Metal Crash",
+"tamanho": 428.03,
+"imagem": "../imagens/gamecube/cache/JA/3d/GZHJDA.png"
+},
+{
+"id": "GZSJDA",
+"nome": "Zoids Vs. II",
+"tamanho": 940.03,
+"imagem": "../imagens/gamecube/cache/JA/3d/GZSJDA.png"
 }
 ]
