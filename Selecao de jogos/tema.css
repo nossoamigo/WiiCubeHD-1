@@ -671,9 +671,16 @@ form {
 /* =====================================================================
    CHAVE DO YOSHI (liga/desliga o modo escuro)
    ===================================================================== */
+/* "casinha" da chave na grade do formulário (3ª coluna da linha do Nome). No computador a chave
+   sai do fluxo (fica fixa), mas a casinha continua ali, mantendo as linhas do formulário no lugar. */
+.chaveCelula {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .chaveTema {
   position: relative; /* celular/tablet: dentro do formulário, no espaço à direita do campo Nome */
-  justify-self: end;
   width: 64px;
   height: 36px;
   padding: 0;
