@@ -1,0 +1,13 @@
+{
+ "_leia-me": "jp = jogos cujo ID tem a letra J na 4a posicao (regiao japonesa). 'exceto' = IDs com J que NAO sao em japones; 'alem' = IDs para incluir mesmo sem J. br = IDs dos jogos traduzidos para portugues.",
+ "jp": {
+  "regiaoDoId": "J",
+  "exceto": [
+   "RNVJ5Z"
+  ],
+  "alem": []
+ },
+ "br": {
+  "ids": []
+ }
+}

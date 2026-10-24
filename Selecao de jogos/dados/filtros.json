@@ -165,6 +165,12 @@
   ]
  },
  {
+  "id": "japones",
+  "titulo": "Todos em JAPONÊS",
+  "imagem": "../imagens/fundosfiltros/japones.png",
+  "selo": "jp"
+ },
+ {
   "id": "maisescolhidos",
   "titulo": "Mais escolhidos",
   "imagem": "../imagens/fundosfiltros/wiiLogo.jpg",

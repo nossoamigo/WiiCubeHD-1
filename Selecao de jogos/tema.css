@@ -362,6 +362,68 @@ form {
   box-shadow: var(--sombra-suave);
 }
 
+/* ---------- Capa com selo (bandeirinha no canto) ---------- */
+.capa {
+  position: relative;
+  display: flex;
+  flex: none;
+}
+
+.capa img {
+  max-height: 90px; /* antes era .jogo > img; a capa agora fica dentro de .capa */
+}
+
+.selo {
+  position: absolute;
+  right: -7px;
+  bottom: -5px;
+  width: 26px;
+  height: 18px;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  pointer-events: none; /* o clique passa para o card */
+}
+
+.selo ~ .selo {
+  bottom: 17px; /* se o jogo tiver duas bandeiras, a segunda fica empilhada em cima */
+}
+
+.selo svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* legenda embaixo da busca */
+#legendaSelos {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 10px 0 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 40, 100, 0.65);
+}
+
+#legendaSelos:empty {
+  display: none;
+}
+
+.legendaItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.selo-legenda {
+  position: static;
+  flex: none;
+}
+
 /* ---------- Indicador de capacidade, música, voltar ao topo, imagem grande ---------- */
 .res {
   font-family: var(--fonte-titulo);
@@ -571,6 +633,10 @@ form {
 
   .jogo p {
     font-size: 0.85rem;
+  }
+
+  .capa img {
+    max-height: 75px;
   }
 
   .segundoContainerFiltro {

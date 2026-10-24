@@ -32,15 +32,18 @@ document.addEventListener('contextmenu', (e) => e.preventDefault());
 // ---------------------------------------------------------------------
 async function iniciar() {
   try {
-    const [config, wii, gamecube, filtros, maisEscolhidos] = await Promise.all([
+    const [config, wii, gamecube, filtros, maisEscolhidos, selos] = await Promise.all([
       ...['config', 'wii', 'gamecube', 'filtros'].map((n) => fetch(`dados/${n}.json`).then((r) => r.json())),
       fetch('dados/mais-escolhidos.json').then((r) => r.json()).catch(() => ({})), // opcional: sem ele, só some o filtro
+      fetch('dados/selos.json').then((r) => r.json()).catch(() => ({})), // opcional: sem ele, só não há bandeirinhas
     ]);
     estado.config = config;
+    estado.selosCfg = selos;
     montarCatalogo(wii, $('container-jogo'), 'wii');
     montarCatalogo(gamecube, $('container-jogo-gamecube'), 'gamecube');
     montarCapacidades(config.capacidades);
     montarFiltros(filtros, maisEscolhidos);
+    montarLegendaSelos();
     montarNavegacaoAZ();
     iniciarMusica(config.musica);
     carregarRecados();
@@ -60,6 +63,7 @@ function montarCatalogo(lista, container, console_) {
       if (estado.jogos.has(j.id)) return console.warn('ID repetido ignorado:', j.id);
       j.console = console_;
       j.nomeBusca = normalizar(j.nome);
+      j.selos = calcularSelos(j, estado.selosCfg || {});
       j.el = criarCard(j);
       estado.jogos.set(j.id, j);
       container.appendChild(j.el);
@@ -71,10 +75,59 @@ function montarCatalogo(lista, container, console_) {
 const SEM_CAPA =
   'data:image/svg+xml,' +
   encodeURIComponent(
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140"><rect width="100" height="140" rx="8" fill="#cfe1fb"/>' +
+    '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="140" viewBox="0 0 100 140"><rect width="100" height="140" rx="8" fill="#cfe1fb"/>' +
       '<rect x="6" y="6" width="88" height="128" rx="6" fill="none" stroke="#5b7aa3" stroke-width="2" stroke-dasharray="6 4"/>' +
       '<text x="50" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#5b7aa3">Sem capa</text></svg>'
   );
+
+// ---------------------------------------------------------------------
+// Selos (bandeirinhas no canto da capa) — regras em dados/selos.json
+//   jp: jogos com a letra J na 4ª posição do ID (região japonesa), menos os de "exceto" (mais os de "alem")
+//   br: jogos listados em "ids" (traduzidos para português)
+// As bandeiras são desenhadas aqui mesmo (SVG), então não precisam de imagem.
+// ---------------------------------------------------------------------
+const SELOS = {
+  jp: {
+    titulo: 'Em japonês',
+    svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 20"><rect width="30" height="20" fill="#fff"/><circle cx="15" cy="10" r="6" fill="#bc002d"/></svg>',
+  },
+  br: {
+    titulo: 'Traduzido para português',
+    svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 20"><rect width="30" height="20" fill="#009b3a"/><path d="M15 2.2 27.2 10 15 17.8 2.8 10Z" fill="#ffdf00"/><circle cx="15" cy="10" r="4.6" fill="#002776"/><path d="M10.6 9.1c3.2-.9 6.2-.5 8.9 1.2" stroke="#fff" stroke-width=".9" fill="none"/></svg>',
+  },
+};
+
+function calcularSelos(j, cfg) {
+  const s = [];
+  const jp = cfg.jp || {};
+  const ehJp = jp.regiaoDoId && j.id[3] === jp.regiaoDoId && !(jp.exceto || []).includes(j.id);
+  if (ehJp || (jp.alem || []).includes(j.id)) s.push('jp');
+  if (((cfg.br || {}).ids || []).includes(j.id)) s.push('br');
+  return s;
+}
+
+function criarSelo(chave) {
+  const s = document.createElement('span');
+  s.className = `selo selo-${chave}`;
+  s.title = SELOS[chave].titulo;
+  s.innerHTML = SELOS[chave].svg; // texto fixo definido acima, nunca vem de fora
+  return s;
+}
+
+// Legenda embaixo da busca: só mostra as bandeiras que existem de fato no catálogo
+function montarLegendaSelos() {
+  const usados = new Set([...estado.jogos.values()].flatMap((j) => j.selos));
+  Object.keys(SELOS)
+    .filter((k) => usados.has(k))
+    .forEach((k) => {
+      const item = document.createElement('span');
+      item.className = 'legendaItem';
+      const bandeira = criarSelo(k);
+      bandeira.classList.add('selo-legenda');
+      item.append(bandeira, document.createTextNode(SELOS[k].titulo));
+      $('legendaSelos').appendChild(item);
+    });
+}
 
 function criarCard(j) {
   const div = document.createElement('div');
@@ -109,7 +162,11 @@ function criarCard(j) {
   tam.className = 'tamanhoDoJogo';
   tam.textContent = j.tamanho + ' mb';
   nome.appendChild(tam);
-  div.append(img, nome);
+  const capa = document.createElement('span');
+  capa.className = 'capa';
+  capa.appendChild(img);
+  j.selos.forEach((chave) => capa.appendChild(criarSelo(chave))); // bandeirinhas no canto da capa
+  div.append(capa, nome);
   return div;
 }
 
@@ -242,6 +299,7 @@ function montarFiltros(lista, maisEscolhidos = {}) {
       if (f.ordem.length === 0) return console.warn(`Filtro "${f.id}" sem dados de ranking: não será exibido.`);
     }
     (f.jogos || []).forEach((id) => estado.jogos.has(id) || console.warn(`Filtro "${f.id}": jogo não existe no catálogo:`, id));
+    if (f.selo && jogosDoFiltro(f).length === 0) return console.warn(`Filtro "${f.id}": nenhum jogo com o selo "${f.selo}", não será exibido.`);
     const bloco = document.createElement('div');
     bloco.className = 'segundoContainerFiltro';
     bloco.innerHTML = `<h3>${f.titulo}</h3><div class="itensFiltro"><div class="checkBoxDoFiltro"></div></div>`;
@@ -262,7 +320,9 @@ function jogosDoFiltro(f) {
   const porNome = (f.busca || []).flatMap((t) =>
     [...estado.jogos.values()].filter((j) => j.console === 'wii' && j.nome.toLowerCase().includes(t.toLowerCase()))
   );
-  return [...new Set([...porId, ...porNome])];
+  // por selo (ex.: "jp"): todos os jogos do Wii que têm essa bandeirinha
+  const porSelo = f.selo ? [...estado.jogos.values()].filter((j) => j.console === 'wii' && j.selos.includes(f.selo)) : [];
+  return [...new Set([...porId, ...porNome, ...porSelo])];
 }
 
 // Filtro "ligado" = é dono dos jogos dele (todos, nos filtros comuns; algum, no "Mais escolhidos").
