@@ -545,4 +545,25 @@ $('meu-formulario').addEventListener('submit', async (e) => {
   }
 });
 
+// ---------------------------------------------------------------------
+// Modo escuro (chave do Yoshi). A escolha fica salva neste navegador.
+// ---------------------------------------------------------------------
+function iniciarTema() {
+  const raiz = document.documentElement;
+  const botao = $('chaveTema');
+  const aplicar = (escuro, salvar) => {
+    raiz.setAttribute('data-tema', escuro ? 'escuro' : 'claro');
+    botao.setAttribute('aria-checked', escuro);
+    botao.title = escuro ? 'Voltar ao modo claro' : 'Ativar modo escuro';
+    if (salvar) {
+      try {
+        localStorage.setItem('tema', escuro ? 'escuro' : 'claro');
+      } catch (e) {} // navegador sem armazenamento: o tema só vale nesta visita
+    }
+  };
+  aplicar(raiz.getAttribute('data-tema') === 'escuro', false); // o <head> já aplicou o tema salvo
+  botao.onclick = () => aplicar(raiz.getAttribute('data-tema') !== 'escuro', true);
+}
+
+iniciarTema();
 iniciar();

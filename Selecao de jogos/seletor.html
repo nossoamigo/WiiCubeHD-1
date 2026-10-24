@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- aplica o modo escuro salvo ANTES da página aparecer (evita o "piscar" claro) -->
+    <script>
+      try {
+        if (localStorage.getItem('tema') === 'escuro') document.documentElement.setAttribute('data-tema', 'escuro');
+      } catch (e) {}
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet" />
@@ -19,7 +25,14 @@
       <div class="campos">
         <label for="input-nome-id">Nome:</label>
         <input type="text" name="name" id="input-nome-id" required />
-        <span></span>
+        <!-- Chave do modo escuro: Yoshi verde (claro) / Yoshi preto (escuro). No computador fica fixa ao lado do botão de música. -->
+        <button type="button" id="chaveTema" class="chaveTema" role="switch" aria-checked="false" aria-label="Modo escuro" title="Ativar modo escuro">
+          <span class="chaveTrilho"></span>
+          <span class="chaveBotao">
+            <img class="yoshi yoshi-claro" src="../imagens/yoshi/yoshi-verde.png" alt="" />
+            <img class="yoshi yoshi-escuro" src="../imagens/yoshi/yoshi-preto.png" alt="" />
+          </span>
+        </button>
         <label for="input-telefone-id">Telefone:</label>
         <input type="tel" name="phone" id="input-telefone-id" inputmode="tel" autocomplete="tel" placeholder="(41) 99999-9999" maxlength="15" />
         <small class="opcional">(opcional)</small>

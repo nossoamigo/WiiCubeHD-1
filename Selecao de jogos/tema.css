@@ -666,3 +666,242 @@ form {
     display: inline;
   }
 }
+
+
+/* =====================================================================
+   CHAVE DO YOSHI (liga/desliga o modo escuro)
+   ===================================================================== */
+.chaveTema {
+  position: relative; /* celular/tablet: dentro do formulário, no espaço à direita do campo Nome */
+  justify-self: end;
+  width: 64px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* computador: fixa ao lado do botão de música */
+@media (min-width: 760px) {
+  .chaveTema {
+    position: fixed;
+    top: 21px;
+    left: 76px;
+    z-index: 6;
+  }
+}
+
+.chaveTrilho {
+  position: absolute;
+  inset: 5px 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: var(--sombra-suave), inset 0 0 0 2px rgba(11, 136, 255, 0.28);
+  transition: background 0.3s;
+}
+
+.chaveBotao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 40, 100, 0.35);
+  transition: transform 0.3s cubic-bezier(0.4, 1.3, 0.5, 1), background 0.3s;
+}
+
+.chaveBotao .yoshi {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  transition: opacity 0.25s;
+}
+
+.yoshi-escuro {
+  opacity: 0;
+}
+
+.chaveTema:focus-visible {
+  outline: 3px solid #ffd400;
+  outline-offset: 2px;
+  border-radius: 999px;
+}
+
+/* =====================================================================
+   MODO ESCURO — vale quando <html data-tema="escuro">.
+   As cores principais vêm das variáveis; o resto são ajustes pontuais.
+   ===================================================================== */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: rgba(5, 12, 32, var(--noite, 0.78)); /* "noite" por cima do céu */
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+
+html[data-tema='escuro'] {
+  color-scheme: dark;
+  --texto: #e8eefb;
+  --texto-suave: #9db3d8;
+  --painel: rgba(14, 24, 46, 0.9);
+  --card: #17233f;
+  --selecionado: #34d399;
+  --selecionado-fundo: #103a2f;
+  --sombra: 0 6px 18px rgba(0, 0, 0, 0.5);
+  --sombra-suave: 0 2px 8px rgba(0, 0, 0, 0.5);
+  --noite: 0.78; /* quanto o céu escurece: 0 = nada, 1 = preto */
+}
+
+html[data-tema='escuro'] body::before {
+  opacity: 1;
+}
+
+html[data-tema='escuro'] .chaveTrilho {
+  background: #1b2a4d;
+  box-shadow: var(--sombra-suave), inset 0 0 0 2px rgba(120, 160, 230, 0.4);
+}
+
+html[data-tema='escuro'] .chaveBotao {
+  background: #e9eef8; /* botão claro: o Yoshi preto precisa de fundo claro para aparecer */
+  transform: translateX(28px);
+}
+
+html[data-tema='escuro'] .yoshi-claro {
+  opacity: 0;
+}
+
+html[data-tema='escuro'] .yoshi-escuro {
+  opacity: 1;
+}
+
+html[data-tema='escuro'] #input-nome-id,
+html[data-tema='escuro'] #input-telefone-id {
+  background: #0d1830;
+  border-color: #2d4573;
+}
+
+html[data-tema='escuro'] #campoBusca {
+  background: #14213d;
+}
+
+html[data-tema='escuro'] input::placeholder {
+  color: #7f93b8;
+}
+
+html[data-tema='escuro'] .tamanhoHd label {
+  background: rgba(22, 36, 68, 0.92);
+}
+
+html[data-tema='escuro'] .tamanhoHd label:hover {
+  background: rgba(36, 58, 104, 0.97);
+}
+
+html[data-tema='escuro'] .radioIdHds:checked + label {
+  background: #1f3260;
+  border-color: rgba(255, 100, 100, 0.55);
+  box-shadow: 0 0 16px 3px rgba(224, 20, 26, 0.42);
+}
+
+html[data-tema='escuro'] .seletorConsoleItem {
+  background: rgba(20, 34, 64, 0.78);
+  border-color: rgba(120, 160, 230, 0.35);
+}
+
+html[data-tema='escuro'] .seletorConsoleItem:hover {
+  background: rgba(36, 58, 104, 0.92);
+}
+
+html[data-tema='escuro'] .seletorConsoleItem.ativo {
+  background: #1b2c52;
+  border-color: #ffb020;
+  color: #ffb020;
+}
+
+html[data-tema='escuro'] .itensFiltro {
+  border-color: #2f4a7d;
+}
+
+html[data-tema='escuro'] .itensFiltro.ligado {
+  border-color: var(--selecionado);
+}
+
+html[data-tema='escuro'] .checkBoxDoFiltro,
+html[data-tema='escuro'] .jogo.selecionado::after {
+  color: #06281f; /* ✓ escuro sobre o verde-claro do modo escuro */
+}
+
+html[data-tema='escuro'] .container-navegacao a:hover {
+  background: #22365f;
+  color: #8cc4ff;
+}
+
+html[data-tema='escuro'] .jogo:hover {
+  background-color: #1d2c4e;
+}
+
+html[data-tema='escuro'] .jogo.selecionado:hover {
+  background-color: var(--selecionado-fundo);
+}
+
+html[data-tema='escuro'] .capa img[src^='data:image/svg'] {
+  filter: brightness(0.55); /* o quadrinho "Sem capa" não ofusca no escuro */
+}
+
+html[data-tema='escuro'] .res {
+  background: rgba(232, 238, 248, 0.95); /* o texto do medidor é sempre preto */
+}
+
+html[data-tema='escuro'] #audio,
+html[data-tema='escuro'] .container-botao-voltar-ao-inicio {
+  background: rgba(23, 35, 63, 0.96);
+}
+
+html[data-tema='escuro'] #idDoBotaoDeVoltarAoTopo:hover {
+  color: #8cc4ff;
+}
+
+html[data-tema='escuro'] #quadroRecados {
+  background: #2d2a17;
+  border-color: #8a7a2a;
+}
+
+html[data-tema='escuro'] .recado {
+  border-top-color: rgba(220, 190, 80, 0.4);
+}
+
+
+/* telas muito estreitas (até 340px): margens menores para a chave caber dentro do cartão */
+@media (max-width: 340px) {
+  form {
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .campos {
+    column-gap: 4px;
+  }
+
+  .chaveTema {
+    width: 56px;
+  }
+
+  #input-nome-id,
+  #input-telefone-id {
+    width: 14ch; /* ainda comporta um telefone completo, (41) 99999-9999 */
+  }
+
+  html[data-tema='escuro'] .chaveBotao {
+    transform: translateX(20px);
+  }
+}
