@@ -57,13 +57,19 @@ async function iniciar() {
 // Catálogo
 // ---------------------------------------------------------------------
 function montarCatalogo(lista, container, console_) {
+  const cfg = estado.selosCfg || {};
   [...lista]
-    .sort((a, b) => a.nome.localeCompare(b.nome, 'pt', { sensitivity: 'base' }))
+    .map((j) => {
+      j.selos = calcularSelos(j, cfg);
+      // nome mostrado = nome + sufixo de cada selo (ex.: "Mario Kart Wii BR", "Bleach Wii JAP"); os sufixos ficam em selos.json
+      j.nomeExibido = [j.nome, ...j.selos.map((s) => (cfg[s] || {}).sufixo)].filter(Boolean).join(' ');
+      return j;
+    })
+    .sort((a, b) => a.nomeExibido.localeCompare(b.nomeExibido, 'pt', { sensitivity: 'base' }))
     .forEach((j) => {
       if (estado.jogos.has(j.id)) return console.warn('ID repetido ignorado:', j.id);
       j.console = console_;
-      j.nomeBusca = normalizar(j.nome);
-      j.selos = calcularSelos(j, estado.selosCfg || {});
+      j.nomeBusca = normalizar(j.nomeExibido);
       j.el = criarCard(j);
       estado.jogos.set(j.id, j);
       container.appendChild(j.el);
@@ -155,9 +161,9 @@ function criarCard(j) {
     img.src = SEM_CAPA;
   };
   img.src = j.imagem;
-  img.alt = j.nome;
+  img.alt = j.nomeExibido;
   const nome = document.createElement('p');
-  nome.textContent = j.nome;
+  nome.textContent = j.nomeExibido;
   const tam = document.createElement('span');
   tam.className = 'tamanhoDoJogo';
   tam.textContent = j.tamanho + ' mb';
@@ -267,7 +273,7 @@ function atualizar() {
 
   // Texto enviado ao vendedor (mesmo formato de antes)
   $('text-area-id').value =
-    `** ${cap.etiquetaPedido} **, ` + [...estado.selecionados.values()].map((j) => `(${j.id}, ${j.nome}), `).join('');
+    `** ${cap.etiquetaPedido} **, ` + [...estado.selecionados.values()].map((j) => `(${j.id}, ${j.nomeExibido}), `).join('');
 
   // Medidor: a barra enche proporcionalmente e a cor muda aos poucos (verde -> laranja -> vermelho)
   const p = Math.min(usado / cap.MB, 1);
@@ -293,15 +299,17 @@ function corDoNivel(p) {
 function montarFiltros(lista, maisEscolhidos = {}) {
   lista.forEach((f) => {
     if (f.ativo === false) return; // filtro desativado em filtros.json ("ativo": false)
+    f.consoles = f.consoles || ['wii']; // em quais abas o filtro aparece (padrão: só Wii)
     if (f.ranking) {
       // filtro que "completa" a lista: segue a ordem de dados/mais-escolhidos.json (chave "wii" ou "gamecube")
       f.ordem = (maisEscolhidos[f.ranking] || []).map((x) => x.id).filter((id) => estado.jogos.has(id));
       if (f.ordem.length === 0) return console.warn(`Filtro "${f.id}" sem dados de ranking: não será exibido.`);
     }
     (f.jogos || []).forEach((id) => estado.jogos.has(id) || console.warn(`Filtro "${f.id}": jogo não existe no catálogo:`, id));
-    if (f.selo && jogosDoFiltro(f).length === 0) return console.warn(`Filtro "${f.id}": nenhum jogo com o selo "${f.selo}", não será exibido.`);
+    if (f.selo && !f.consoles.some((c) => jogosDoFiltro(f, c).length > 0)) return console.warn(`Filtro "${f.id}": nenhum jogo com o selo "${f.selo}", não será exibido.`);
     const bloco = document.createElement('div');
     bloco.className = 'segundoContainerFiltro';
+    bloco.dataset.consoles = f.consoles.join(',');
     bloco.innerHTML = `<h3>${f.titulo}</h3><div class="itensFiltro"><div class="checkBoxDoFiltro"></div></div>`;
     f.botao = bloco.querySelector('.itensFiltro');
     f.caixa = bloco.querySelector('.checkBoxDoFiltro');
@@ -313,15 +321,15 @@ function montarFiltros(lista, maisEscolhidos = {}) {
   });
 }
 
-function jogosDoFiltro(f) {
+function jogosDoFiltro(f, aba = estado.console) {
   // "Mais escolhidos": os jogos que ELE colocou na lista
   if (f.ordem) return f.ordem.map((id) => estado.jogos.get(id)).filter((j) => estado.selecionados.has(j.id) && donosDe(j.id).has(f.id));
   const porId = (f.jogos || []).map((id) => estado.jogos.get(id)).filter(Boolean);
   const porNome = (f.busca || []).flatMap((t) =>
     [...estado.jogos.values()].filter((j) => j.console === 'wii' && j.nome.toLowerCase().includes(t.toLowerCase()))
   );
-  // por selo (ex.: "jp"): todos os jogos do Wii que têm essa bandeirinha
-  const porSelo = f.selo ? [...estado.jogos.values()].filter((j) => j.console === 'wii' && j.selos.includes(f.selo)) : [];
+  // por selo (ex.: "jp", "br"): os jogos DA ABA ATUAL que têm essa bandeirinha
+  const porSelo = f.selo ? [...estado.jogos.values()].filter((j) => j.console === aba && j.selos.includes(f.selo)) : [];
   return [...new Set([...porId, ...porNome, ...porSelo])];
 }
 
@@ -369,10 +377,19 @@ function mostrarConsole(qual) {
   estado.console = qual;
   document.querySelectorAll('.seletorConsoleItem').forEach((b) => b.classList.toggle('ativo', b.dataset.console === qual));
   const wii = qual === 'wii';
-  $('filtrosContainer').style.display = wii ? '' : 'none'; // '' devolve o layout definido no CSS
+  // cada filtro aparece só nas abas listadas em "consoles" (filtros.json); sem nenhum filtro na aba, o painel some
+  let visiveis = 0;
+  document.querySelectorAll('#filtrosContainer .segundoContainerFiltro').forEach((b) => {
+    const mostra = b.dataset.consoles.split(',').includes(qual);
+    b.style.display = mostra ? '' : 'none';
+    if (mostra) visiveis++;
+  });
+  $('filtrosContainer').style.display = visiveis ? '' : 'none'; // '' devolve o layout definido no CSS
+  $('filtrosContainer').classList.toggle('soUm', visiveis === 1); // um filtro só: fica centralizado
   $('container-jogo').style.display = wii ? 'flex' : 'none';
   $('container-jogo-gamecube').style.display = wii ? 'none' : 'flex';
   aplicarBusca();
+  atualizar(); // refaz o estado dos botões de filtro para a aba nova
 }
 
 // ---------------------------------------------------------------------

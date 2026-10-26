@@ -654,6 +654,11 @@ form {
   .itensFiltro {
     margin: 0 auto 10px;
   }
+
+  /* aba com um filtro só (ex.: GameCube): ele ocupa a linha inteira e fica centralizado */
+  #filtrosContainer.soUm {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* telas muito estreitas (320-340px): o botão de recados mostra só o ícone e o número */

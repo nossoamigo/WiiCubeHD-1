@@ -80,7 +80,7 @@
 {
 "id": "RRKE70",
 "nome": "Alone in the Dark",
-"tamanho": 4020,
+"tamanho": 4104,
 "imagem": "../imagens/wii/cache/US/3d/RRKE70.png"
 },
 {
@@ -265,7 +265,7 @@
 },
 {
 "id": "SB9E78",
-"nome": "Barbie Groom and Glam Pups",
+"nome": "Barbie: Groom and Glam Pups",
 "tamanho": 444,
 "imagem": "../imagens/wii/cache/US/3d/SB9E78.png"
 },
@@ -320,7 +320,7 @@
 {
 "id": "RBEE52",
 "nome": "Bee Movie Game",
-"tamanho": 2804,
+"tamanho": 2972,
 "imagem": "../imagens/wii/cache/US/3d/RBEE52.png"
 },
 {
@@ -421,8 +421,8 @@
 },
 {
 "id": "RB6J18",
-"nome": "Bomberman Uploaded By BazMkt",
-"tamanho": 142,
+"nome": "Bomberman",
+"tamanho": 140,
 "imagem": "../imagens/wii/cache/JA/3d/RB6J18.png"
 },
 {
@@ -445,7 +445,7 @@
 },
 {
 "id": "RWXES5",
-"nome": "Brave",
+"nome": "Brave: A Warrior's Tale",
 "tamanho": 1880,
 "imagem": "../imagens/wii/cache/US/3d/RWXES5.png"
 },
@@ -500,7 +500,7 @@
 {
 "id": "RB7E54",
 "nome": "Bully: Scholarship Edition",
-"tamanho": 3372,
+"tamanho": 3336,
 "imagem": "../imagens/wii/cache/US/3d/RB7E54.png"
 },
 {
@@ -541,8 +541,8 @@
 },
 {
 "id": "RVYE52",
-"nome": "Call of Duty: World At War",
-"tamanho": 2760,
+"nome": "Call of Duty: World at War",
+"tamanho": 2592,
 "imagem": "../imagens/wii/cache/US/3d/RVYE52.png"
 },
 {
@@ -812,7 +812,7 @@
 {
 "id": "RKLEG9",
 "nome": "Coraline",
-"tamanho": 2494,
+"tamanho": 2500,
 "imagem": "../imagens/wii/cache/US/3d/RKLEG9.png"
 },
 {
@@ -961,8 +961,8 @@
 },
 {
 "id": "RZJE69",
-"nome": "DeadSpace",
-"tamanho": 4222,
+"nome": "Dead Space: Extraction",
+"tamanho": 4226,
 "imagem": "../imagens/wii/cache/US/3d/RZJE69.png"
 },
 {
@@ -973,7 +973,7 @@
 },
 {
 "id": "R2SE18",
-"nome": "DECA SPORTS 2",
+"nome": "Deca Sports 2",
 "tamanho": 268,
 "imagem": "../imagens/wii/cache/US/3d/R2SE18.png"
 },
@@ -1063,8 +1063,8 @@
 },
 {
 "id": "SERE4Q",
-"nome": "Disney Epic Mickey 2: The Power of 2",
-"tamanho": 4148,
+"nome": "Epic Mickey 2: The Power of Two",
+"tamanho": 4212,
 "imagem": "../imagens/wii/cache/US/3d/SERE4Q.png"
 },
 {
@@ -1148,7 +1148,7 @@
 {
 "id": "SF8E01",
 "nome": "Donkey Kong Country Returns",
-"tamanho": 3412,
+"tamanho": 3594,
 "imagem": "../imagens/wii/cache/US/3d/SF8E01.png"
 },
 {
@@ -1202,7 +1202,7 @@
 {
 "id": "R7GEAF",
 "nome": "Dragon Ball: Revenge of King Piccolo",
-"tamanho": 2396,
+"tamanho": 2516,
 "imagem": "../imagens/wii/cache/US/3d/R7GEAF.png"
 },
 {
@@ -1267,7 +1267,7 @@
 },
 {
 "id": "RDVE41",
-"nome": "Driver Parallel Lines",
+"nome": "Driver: Parallel Lines",
 "tamanho": 3904,
 "imagem": "../imagens/wii/cache/US/3d/RDVE41.png"
 },
@@ -1568,7 +1568,7 @@
 {
 "id": "RUEE4Q",
 "nome": "G-Force",
-"tamanho": 2154,
+"tamanho": 2162,
 "imagem": "../imagens/wii/cache/US/3d/RUEE4Q.png"
 },
 {
@@ -1766,7 +1766,7 @@
 {
 "id": "SGUE4Q",
 "nome": "Guilty Party",
-"tamanho": 2630,
+"tamanho": 1588,
 "imagem": "../imagens/wii/cache/US/3d/SGUE4Q.png"
 },
 {
@@ -2017,15 +2017,15 @@
 },
 {
 "id": "S5SJHF",
-"nome": "Inazuma Eleven GO Strikers 2013",
-"tamanho": 3674,
+"nome": "Inazuma Eleven GO: Strikers 2013",
+"tamanho": 3104,
 "imagem": "../imagens/wii/cache/JA/3d/S5SJHF.png"
 },
 {
 "id": "STQP01",
 "nome": "Inazuma Eleven Strikers",
 "tamanho": 4006,
-"imagem": "../imagens/wii/cache/EN/3d/STQP01.png"
+"imagem": "../imagens/wii/cache/US/EN/STQP01.png"
 },
 {
 "id": "SEZJHF",
@@ -2089,7 +2089,7 @@
 },
 {
 "id": "SJBE52",
-"nome": "James Bond: Golden Eye",
+"nome": "GoldenEye 007",
 "tamanho": 3944,
 "imagem": "../imagens/wii/cache/US/3d/SJBE52.png"
 },
@@ -2113,8 +2113,8 @@
 },
 {
 "id": "RJMERS",
-"nome": "Jumper",
-"tamanho": 1338,
+"nome": "Jumper: Griffin's Story",
+"tamanho": 1504,
 "imagem": "../imagens/wii/cache/US/3d/RJMERS.png"
 },
 {
@@ -2239,13 +2239,13 @@
 },
 {
 "id": "SD2J01",
-"nome": "Just Dance Wii JAP",
+"nome": "Just Dance Wii",
 "tamanho": 2258,
 "imagem": "../imagens/wii/cache/JA/3d/SD2J01.png"
 },
 {
 "id": "SJDJ01",
-"nome": "Just Dance Wii 2 JAP",
+"nome": "Just Dance Wii 2",
 "tamanho": 3848,
 "imagem": "../imagens/wii/cache/JA/3d/SJDJ01.png"
 },
@@ -2318,12 +2318,12 @@
 {
 "id": "RK5E01",
 "nome": "Kirby's Epic Yarn",
-"tamanho": 3832,
+"tamanho": 3656,
 "imagem": "../imagens/wii/cache/US/3d/RK5E01.png"
 },
 {
 "id": "SUKE01",
-"nome": "Kirby's Return to Dream Land Pt-Br",
+"nome": "Kirby's Return to Dream Land",
 "tamanho": 1194,
 "imagem": "../imagens/wii/cache/US/3d/SUKE01.png"
 },
@@ -2402,7 +2402,7 @@
 {
 "id": "R25EWR",
 "nome": "LEGO Harry Potter",
-"tamanho": 3282,
+"tamanho": 3084,
 "imagem": "../imagens/wii/cache/US/3d/R25EWR.png"
 },
 {
@@ -2648,7 +2648,7 @@
 {
 "id": "RMCE01",
 "nome": "Mario Kart Wii",
-"tamanho": 2646,
+"tamanho": 2846,
 "imagem": "../imagens/wii/cache/US/3d/RMCE01.png"
 },
 {
@@ -2690,7 +2690,7 @@
 {
 "id": "RM2E69",
 "nome": "Medal of Honor: Heroes 2",
-"tamanho": 1652,
+"tamanho": 1648,
 "imagem": "../imagens/wii/cache/US/3d/RM2E69.png"
 },
 {
@@ -2929,7 +2929,7 @@
 },
 {
 "id": "RSFE7U",
-"nome": "MURAMASA: THE DEMON BLADE",
+"nome": "Muramasa: The Demon Blade",
 "tamanho": 630,
 "imagem": "../imagens/wii/cache/US/3d/RSFE7U.png"
 },
@@ -3217,7 +3217,7 @@
 },
 {
 "id": "ROUPAF",
-"nome": "ONEPIECE: Unlimited Cruise 1",
+"nome": "ONEPIECE UNLIMITED CRUISE EPISODE 2",
 "tamanho": 3804,
 "imagem": "../imagens/wii/cache/EN/3d/ROUPAF.png"
 },
@@ -3271,7 +3271,7 @@
 },
 {
 "id": "RHAE01",
-"nome": "PARTY PACK for REVOLUTION",
+"nome": "Wii Play",
 "tamanho": 94,
 "imagem": "../imagens/wii/cache/US/3d/RHAE01.png"
 },
@@ -3415,8 +3415,8 @@
 },
 {
 "id": "RNNE4Q",
-"nome": "Prince Caspian",
-"tamanho": 3912,
+"nome": "The Chronicles of Narnia: Prince Caspian",
+"tamanho": 4084,
 "imagem": "../imagens/wii/cache/US/3d/RNNE4Q.png"
 },
 {
@@ -3427,8 +3427,8 @@
 },
 {
 "id": "RPPE41",
-"nome": "PRINCE OF PERSIA RIVAL SWORDS",
-"tamanho": 1462,
+"nome": "Prince of Persia: Rival Swords",
+"tamanho": 1176,
 "imagem": "../imagens/wii/cache/US/3d/RPPE41.png"
 },
 {
@@ -3542,7 +3542,7 @@
 {
 "id": "RLWE78",
 "nome": "Ratatouille",
-"tamanho": 1290,
+"tamanho": 1280,
 "imagem": "../imagens/wii/cache/US/3d/RLWE78.png"
 },
 {
@@ -3631,20 +3631,20 @@
 },
 {
 "id": "RE4E08",
-"nome": "Resident Evil",
+"nome": "Resident Evil Archives: Resident Evil",
 "tamanho": 3810,
 "imagem": "../imagens/wii/cache/US/3d/RE4E08.png"
 },
 {
 "id": "RB4E08",
-"nome": "Resident Evil 4 Wii Edition",
+"nome": "Resident Evil 4: Wii Edition",
 "tamanho": 4064,
 "imagem": "../imagens/wii/cache/US/3d/RB4E08.png"
 },
 {
 "id": "SBDE08",
-"nome": "Resident Evil The Darkside Chronicles",
-"tamanho": 3816,
+"nome": "Resident Evil: The Darkside Chronicles",
+"tamanho": 3982,
 "imagem": "../imagens/wii/cache/US/3d/SBDE08.png"
 },
 {
@@ -3817,8 +3817,8 @@
 },
 {
 "id": "RSCE7D",
-"nome": "Scarface: The World is Yours",
-"tamanho": 3972,
+"nome": "Scarface: The World Is Yours",
+"tamanho": 3968,
 "imagem": "../imagens/wii/cache/US/3d/RSCE7D.png"
 },
 {
@@ -3896,7 +3896,7 @@
 {
 "id": "SK4E52",
 "nome": "Shrek Forever After",
-"tamanho": 2488,
+"tamanho": 2380,
 "imagem": "../imagens/wii/cache/US/3d/SK4E52.png"
 },
 {
@@ -3914,7 +3914,7 @@
 {
 "id": "R5WEA4",
 "nome": "Silent Hill: Shattered Memories",
-"tamanho": 3842,
+"tamanho": 3682,
 "imagem": "../imagens/wii/cache/US/3d/R5WEA4.png"
 },
 {
@@ -3986,7 +3986,7 @@
 {
 "id": "RS9E8P",
 "nome": "Sonic Riders: Zero Gravity",
-"tamanho": 3648,
+"tamanho": 3650,
 "imagem": "../imagens/wii/cache/US/3d/RS9E8P.png"
 },
 {
@@ -3997,8 +3997,8 @@
 },
 {
 "id": "RSLPAF",
-"nome": "SOULCALIBUR Legends",
-"tamanho": 1652,
+"nome": "Soulcalibur Legends",
+"tamanho": 1654,
 "imagem": "../imagens/wii/cache/EN/3d/RSLPAF.png"
 },
 {
@@ -4040,7 +4040,7 @@
 {
 "id": "RFOE52",
 "nome": "Spider-Man: Friend or Foe",
-"tamanho": 3324,
+"tamanho": 3256,
 "imagem": "../imagens/wii/cache/US/3d/RFOE52.png"
 },
 {
@@ -4099,7 +4099,7 @@
 },
 {
 "id": "RSPE01",
-"nome": "SPORTS PACK for REVOLUTION",
+"nome": "Wii Sports",
 "tamanho": 320,
 "imagem": "../imagens/wii/cache/US/3d/RSPE01.png"
 },
@@ -4171,19 +4171,19 @@
 },
 {
 "id": "SVME01",
-"nome": "super mario collection",
-"tamanho": 196,
+"nome": "New Super Mario All-Stars",
+"tamanho": 1308,
 "imagem": "../imagens/wii/cache/US/3d/SVME01.png"
 },
 {
 "id": "RMGE01",
-"nome": "SUPER MARIO GALAXY",
+"nome": "Super Mario Galaxy",
 "tamanho": 3504,
 "imagem": "../imagens/wii/cache/US/3d/RMGE01.png"
 },
 {
 "id": "SB4E01",
-"nome": "SUPER MARIO GALAXY MORE",
+"nome": "Super Mario Galaxy 2",
 "tamanho": 1322,
 "imagem": "../imagens/wii/cache/US/3d/SB4E01.png"
 },
@@ -4202,7 +4202,7 @@
 {
 "id": "R8PE01",
 "nome": "Super Paper Mario",
-"tamanho": 406,
+"tamanho": 414,
 "imagem": "../imagens/wii/cache/US/3d/R8PE01.png"
 },
 {
@@ -4405,19 +4405,19 @@
 },
 {
 "id": "SLSEXJ",
-"nome": "THE LAST STORY",
-"tamanho": 5162,
+"nome": "The Last Story",
+"tamanho": 4974,
 "imagem": "../imagens/wii/cache/US/3d/SLSEXJ.png"
 },
 {
 "id": "SOUE01",
-"nome": "The Legend of Zelda Skyward Sword",
-"tamanho": 4214,
+"nome": "The Legend of Zelda: Skyward Sword",
+"tamanho": 4222,
 "imagem": "../imagens/wii/cache/US/3d/SOUE01.png"
 },
 {
 "id": "RZDE01",
-"nome": "The Legend of Zelda Twilight Princess",
+"nome": "The Legend of Zelda: Twilight Princess",
 "tamanho": 1100,
 "imagem": "../imagens/wii/cache/US/3d/RZDE01.png"
 },
@@ -4513,7 +4513,7 @@
 },
 {
 "id": "STNE41",
-"nome": "TINTIN",
+"nome": "Tintin",
 "tamanho": 3378,
 "imagem": "../imagens/wii/cache/US/3d/STNE41.png"
 },
@@ -4790,7 +4790,7 @@
 {
 "id": "SUPE01",
 "nome": "Wii Party",
-"tamanho": 854,
+"tamanho": 914,
 "imagem": "../imagens/wii/cache/US/3d/SUPE01.png"
 },
 {
@@ -4960,5 +4960,149 @@
 "nome": "Zumba Fitness 2",
 "tamanho": 1526,
 "imagem": "../imagens/wii/cache/US/3d/SZ2E5G.png"
+},
+{
+"id": "RNVE5Z",
+"nome": "Anubis",
+"tamanho": 152,
+"imagem": "../imagens/wii/cache/US/3d/RNVE5Z.png"
+},
+{
+"id": "RYWE01",
+"nome": "Big Brain Academy: Wii Degree",
+"tamanho": 1082,
+"imagem": "../imagens/wii/cache/US/3d/RYWE01.png"
+},
+{
+"id": "ST7E01",
+"nome": "Fortune Street",
+"tamanho": 748,
+"imagem": "../imagens/wii/cache/US/3d/ST7E01.png"
+},
+{
+"id": "RQ5E5G",
+"nome": "Mad Dog McCree Gunslinger Pack",
+"tamanho": 4076,
+"imagem": "../imagens/wii/cache/US/3d/RQ5E5G.png"
+},
+{
+"id": "NMK64R",
+"nome": "Mario Kart 64 Remade",
+"tamanho": 1502,
+"imagem": "../imagens/wii/cache/EN/3d/NMK64R.png"
+},
+{
+"id": "RM3P01",
+"nome": "Metroid Prime 3: Corruption",
+"tamanho": 4270,
+"imagem": "../imagens/wii/cache/EN/3d/RM3P01.png"
+},
+{
+"id": "R52E08",
+"nome": "Neopets Puzzle Adventure",
+"tamanho": 656,
+"imagem": "../imagens/wii/cache/US/3d/R52E08.png"
+},
+{
+"id": "SVMEBR",
+"nome": "New Super Mario All-Stars HD",
+"tamanho": 1308,
+"imagem": "../imagens/wii/cache/US/3d/SVMEBR.png"
+},
+{
+"id": "SKYY52",
+"nome": "Skylanders Giants",
+"tamanho": 4132,
+"imagem": "../imagens/wii/cache/EN/3d/SKYY52.png"
+},
+{
+"id": "SSPY52",
+"nome": "Skylanders: Spyro's Adventure",
+"tamanho": 4188,
+"imagem": "../imagens/wii/cache/EN/3d/SSPY52.png"
+},
+{
+"id": "SNCP8P",
+"nome": "Sonic Colors",
+"tamanho": 3740,
+"imagem": "../imagens/wii/cache/EN/3d/SNCP8P.png"
+},
+{
+"id": "SLNE01",
+"nome": "Super Luigi Land Wii",
+"tamanho": 724,
+"imagem": "../imagens/wii/cache/US/3d/SLNE01.png"
+},
+{
+"id": "SMME02",
+"nome": "Super Mario Aventuras Cogumelo",
+"tamanho": 368,
+"imagem": "../imagens/wii/cache/US/3d/SMME02.png"
+},
+{
+"id": "R8PP01",
+"nome": "Super Paper Mario",
+"tamanho": 430,
+"imagem": "../imagens/wii/cache/EN/3d/R8PP01.png"
+},
+{
+"id": "RKYE20",
+"nome": "Army Men: Soldiers of Misfortune",
+"tamanho": 438,
+"imagem": "../imagens/wii/cache/US/3d/RKYE20.png"
+},
+{
+"id": "SVQEVZ",
+"nome": "Barbie & Her Sisters: Puppy Rescue",
+"tamanho": 932,
+"imagem": "../imagens/wii/cache/US/3d/SVQEVZ.png"
+},
+{
+"id": "SB9X78",
+"nome": "Barbie: Groom and Glam Pups",
+"tamanho": 660,
+"imagem": "../imagens/wii/cache/EN/3d/SB9X78.png"
+},
+{
+"id": "BRLEXJ",
+"nome": "Fragile Dreams: Farewell Ruins of the Moon",
+"tamanho": 3612,
+"imagem": "../imagens/wii/cache/US/3d/BRLEXJ.png"
+},
+{
+"id": "SJBP52",
+"nome": "GoldenEye 007",
+"tamanho": 4078,
+"imagem": "../imagens/wii/cache/EN/3d/SJBP52.png"
+},
+{
+"id": "RJVEGN",
+"nome": "Hysteria Hospital: Emergency Ward",
+"tamanho": 260,
+"imagem": "../imagens/wii/cache/US/3d/RJVEGN.png"
+},
+{
+"id": "RMVE69",
+"nome": "Medal of Honor: Vanguard",
+"tamanho": 1224,
+"imagem": "../imagens/wii/cache/US/3d/RMVE69.png"
+},
+{
+"id": "RB4P08",
+"nome": "Resident Evil 4: Wii Edition",
+"tamanho": 4060,
+"imagem": "../imagens/wii/cache/EN/3d/RB4P08.png"
+},
+{
+"id": "RE4P08",
+"nome": "Resident Evil Archives: Resident Evil",
+"tamanho": 2622,
+"imagem": "../imagens/wii/cache/EN/3d/RE4P08.png"
+},
+{
+"id": "RSPP01",
+"nome": "Wii Sports",
+"tamanho": 636,
+"imagem": "../imagens/wii/cache/EN/3d/RSPP01.png"
 }
 ]

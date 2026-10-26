@@ -168,7 +168,20 @@
   "id": "japones",
   "titulo": "Todos em JAPONÊS",
   "imagem": "../imagens/fundosfiltros/japones.png",
-  "selo": "jp"
+  "selo": "jp",
+  "consoles": [
+   "wii"
+  ]
+ },
+ {
+  "id": "traduzidos",
+  "titulo": "Jogos TRADUZIDOS BR",
+  "imagem": "../imagens/fundosfiltros/brasil.png",
+  "selo": "br",
+  "consoles": [
+   "wii",
+   "gamecube"
+  ]
  },
  {
   "id": "maisescolhidos",
