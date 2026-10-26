@@ -120,6 +120,12 @@
 "imagem": "../imagens/wii/cache/US/3d/PDUE01.png"
 },
 {
+"id": "RNVJ5Z",
+"nome": "Anubis 2",
+"tamanho": 92,
+"imagem": "../imagens/wii/cache/JA/3d/RNVJ5Z.png"
+},
+{
 "id": "RMFE68",
 "nome": "AMF Bowling Pinbusters!",
 "tamanho": 132,
@@ -387,7 +393,7 @@
 "id": "RBLJ8P",
 "nome": "Bleach Wii",
 "tamanho": 1402,
-"imagem": "../imagens/wii/cache/JA/3d/RBLJ8P.png"
+"imagem": "../imagens/wii/cache/US/3d/RBLJ8P.png"
 },
 {
 "id": "R6BE78",
@@ -2019,13 +2025,13 @@
 "id": "STQP01",
 "nome": "Inazuma Eleven Strikers",
 "tamanho": 4006,
-"imagem": "../imagens/wii/cache/US/EN/STQP01.png"
+"imagem": "../imagens/wii/cache/US/3d/STQP01.png"
 },
 {
 "id": "SEZJHF",
 "nome": "Inazuma ElevenStrikers 2012 Xtreme",
 "tamanho": 2576,
-"imagem": "../imagens/wii/cache/JA/3d/SEZJHF.png"
+"imagem": "../imagens/wii/cache/US/3d/SEZJHF.png"
 },
 {
 "id": "RJ8E64",
@@ -2241,7 +2247,7 @@
 "id": "SJDJ01",
 "nome": "Just Dance Wii 2",
 "tamanho": 3848,
-"imagem": "../imagens/wii/cache/JA/3d/SJDJ01.png"
+"imagem": "../imagens/wii/cache/US/3d/SJDJ01.png"
 },
 {
 "id": "SCMJAF",
@@ -2979,7 +2985,7 @@
 "id": "SNXJDA",
 "nome": "NARUTO SHIPPUDEN (J)",
 "tamanho": 2016,
-"imagem": "../imagens/wii/cache/JA/3d/SNXJDA.png"
+"imagem": "../imagens/wii/cache/US/3d/SNXJDA.png"
 },
 {
 "id": "R2NE69",
@@ -3213,7 +3219,7 @@
 "id": "ROUPAF",
 "nome": "ONEPIECE UNLIMITED CRUISE EPISODE 2",
 "tamanho": 3804,
-"imagem": "../imagens/wii/cache/EN/3d/ROUPAF.png"
+"imagem": "../imagens/wii/cache/US/3d/ROUPAF.png"
 },
 {
 "id": "ROPE41",
@@ -3999,7 +4005,7 @@
 "id": "RSEJGD",
 "nome": "SoulEater Monotone Princess (J)",
 "tamanho": 2996,
-"imagem": "../imagens/wii/cache/JA/3d/RSEJGD.png"
+"imagem": "../imagens/wii/cache/US/3d/RSEJGD.png"
 },
 {
 "id": "RXXE4Q",
@@ -4192,6 +4198,12 @@
 "nome": "SUPER MONKEY BALL STEP AND ROLL",
 "tamanho": 844,
 "imagem": "../imagens/wii/cache/US/3d/SMBE8P.png"
+},
+{
+"id": "R8PE01",
+"nome": "Super Paper Mario",
+"tamanho": 414,
+"imagem": "../imagens/wii/cache/US/3d/R8PE01.png"
 },
 {
 "id": "RSBE01",
@@ -4974,12 +4986,6 @@
 "imagem": "../imagens/wii/cache/US/3d/RQ5E5G.png"
 },
 {
-"id": "NMK64R",
-"nome": "Mario Kart 64 Remade",
-"tamanho": 1502,
-"imagem": "../imagens/wii/cache/EN/3d/NMK64R.png"
-},
-{
 "id": "RM3P01",
 "nome": "Metroid Prime 3: Corruption",
 "tamanho": 4270,
@@ -4990,12 +4996,6 @@
 "nome": "Neopets Puzzle Adventure",
 "tamanho": 656,
 "imagem": "../imagens/wii/cache/US/3d/R52E08.png"
-},
-{
-"id": "SVMEBR",
-"nome": "New Super Mario All-Stars HD",
-"tamanho": 1308,
-"imagem": "../imagens/wii/cache/US/3d/SVMEBR.png"
 },
 {
 "id": "SKYY52",
