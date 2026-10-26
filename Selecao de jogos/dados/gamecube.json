@@ -768,10 +768,10 @@
 "imagem": "../imagens/gamecube/cache/US/3d/GABEAF.png"
 },
 {
-"id": "D43E01",
+"id": "G43E01",
 "nome": "Zelda: Ocarina Multi Pack",
 "tamanho": 1050,
-"imagem": "../imagens/gamecube/cache/US/3d/D43E01.png"
+"imagem": "../imagens/gamecube/cache/US/3d/G43E01.png"
 },
 {
 "id": "GW7E69",
@@ -1882,5 +1882,23 @@
 "nome": "Zoids Vs. II",
 "tamanho": 940.03,
 "imagem": "../imagens/gamecube/cache/JA/3d/GZSJDA.png"
+},
+{
+"id": "GHSX69",
+"nome": "Harry Potter: Chamber of Secrets",
+"tamanho": 1290.24,
+"imagem": "../imagens/gamecube/cache/EN/3d/GHSX69.png"
+},
+{
+"id": "G8MP01",
+"nome": "Paper Mario: The Thousand-Year Door",
+"tamanho": 577.29,
+"imagem": "../imagens/gamecube/cache/EN/3d/G8MP01.png"
+},
+{
+"id": "GMSP01",
+"nome": "Super Mario Sunshine",
+"tamanho": 1392.34,
+"imagem": "../imagens/gamecube/cache/EN/3d/GMSP01.png"
 }
 ]
