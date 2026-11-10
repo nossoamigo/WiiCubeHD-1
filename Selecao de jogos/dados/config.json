@@ -19,11 +19,20 @@
    "ajusteMB": 0
   },
   {
+  "id": "hd160",
+  "rotulo": "HD 160 GB",
+  "etiquetaPedido": "HD 160 GB",
+  "utilizavelGB": 147.5,
+  "mensagem": "O HD de 160GB tem 147.5GB utilizáveis",
+  "ajusteMB": 0
+  }
+
+  {
    "id": "hd320",
    "rotulo": "HD 320 GB",
    "etiquetaPedido": "HD320GB",
    "utilizavelGB": 295,
-   "mensagem": "O HD de 320gb tem por padrão 295GB utilizáveis",
+   "mensagem": "O HD de 320GB tem por padrão 295GB utilizáveis",
    "ajusteMB": 0
   },
   {
