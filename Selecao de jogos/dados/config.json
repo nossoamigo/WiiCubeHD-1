@@ -11,14 +11,6 @@
    "ajusteMB": 0
   },
   {
-   "id": "hd250",
-   "rotulo": "HD 250 GB",
-   "etiquetaPedido": "HD250GB",
-   "utilizavelGB": 229,
-   "mensagem": "O HD de 250GB tem por padrão 229GB utilizáveis",
-   "ajusteMB": 0
-  },
-  {
   "id": "hd160",
   "rotulo": "HD 160 GB",
   "etiquetaPedido": "HD 160 GB",
@@ -26,7 +18,14 @@
   "mensagem": "O HD de 160GB tem 147.5GB utilizáveis",
   "ajusteMB": 0
   },
-
+  {
+   "id": "hd250",
+   "rotulo": "HD 250 GB",
+   "etiquetaPedido": "HD250GB",
+   "utilizavelGB": 229,
+   "mensagem": "O HD de 250GB tem por padrão 229GB utilizáveis",
+   "ajusteMB": 0
+  },
   {
    "id": "hd320",
    "rotulo": "HD 320 GB",
@@ -56,7 +55,7 @@
    "rotulo": "HD 1 TB",
    "etiquetaPedido": "HD 1TB",
    "utilizavelGB": 926.5,
-   "mensagem": "O HD de 1 TB tem por padrão 926.5GB utilizáveis",
+   "mensagem": "O HD de 1TB tem por padrão 926.5GB utilizáveis",
    "ajusteMB": 0
   }
  ],
